@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 12",
+                "🇻🇳VN | vmess | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -167,7 +167,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -238,7 +237,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 12",
+                "🇻🇳VN | vmess | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -249,7 +248,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 9",
-                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1559,11 +1557,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 12",
+            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "104.21.20.16",
-            "server_port": 443,
-            "uuid": "802c1068-ee2b-4c87-b49d-e7f3043e75d2",
+            "server": "skyht2.vpndata.vn",
+            "server_port": 80,
+            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1574,21 +1572,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "se2-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/VPNDATA.VPN",
                 "headers": {
-                    "Host": "se2-vmess.sshmax.xyz"
+                    "Host": "skyht2.vpndata.vn"
                 }
             }
         },
@@ -1829,30 +1817,6 @@
                 "path": "\/path\/@FreakConfig",
                 "headers": {
                     "Host": "172.67.73.163"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "128.199.128.214",
-            "server_port": 42338,
-            "uuid": "13e5d814-834b-473a-a87a-15459987f181",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
