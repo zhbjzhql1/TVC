@@ -108,10 +108,13 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -121,10 +124,13 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -182,6 +188,23 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "162.251.62.115",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "us-west-anycast.lnaspiring.com",
@@ -202,6 +225,40 @@
                 "path": "\/geg\/44",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "104.21.20.16",
+            "server_port": 443,
+            "uuid": "802c1068-ee2b-4c87-b49d-e7f3043e75d2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "se2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "se2-vmess.sshmax.xyz"
                 }
             }
         },
@@ -277,6 +334,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "128.199.128.214",
+            "server_port": 42338,
+            "uuid": "13e5d814-834b-473a-a87a-15459987f181",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
