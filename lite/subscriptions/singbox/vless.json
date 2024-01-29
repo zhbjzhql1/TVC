@@ -117,8 +117,8 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
-                "🇺🇸US | vless | @lightning6 | 31",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇨🇷CR | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -156,6 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇺🇸US | vless | @flyv2ray | 15",
+                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -184,8 +185,8 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
-                "🇺🇸US | vless | @lightning6 | 31",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇨🇷CR | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -223,6 +224,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇺🇸US | vless | @flyv2ray | 15",
+                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -562,7 +564,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "upload.ir",
             "server_port": 80,
@@ -583,7 +585,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 31",
+            "tag": "🇨🇷CR | vless | @lightning6 | 31",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1562,6 +1564,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "37.27.28.65",
+            "server_port": 443,
+            "uuid": "dbf9a864-95a3-415d-9d41-6a5cc25278f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hv8rmIqgK13FnthDgzEgwcdzN0R8QEd49OqvPgXg-WQ",
+                    "short_id": "775ee92c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
