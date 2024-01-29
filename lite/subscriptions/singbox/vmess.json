@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -122,8 +123,9 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -184,6 +186,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "47.254.16.114",
+            "server_port": 80,
+            "uuid": "f3464642-f113-4575-aa33-f68aef56b5c0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/mePGXW6SFZZw2QyAqaYK",
+                "headers": {
+                    "Host": "47.254.16.114"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "104.17.25.2",
@@ -208,11 +234,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "94.182.129.164",
-            "server_port": 11993,
-            "uuid": "e6787d40-c02d-411d-a492-7cf53a0481b7",
+            "server": "49.13.202.98",
+            "server_port": 8081,
+            "uuid": "24f03c37-0cc6-471a-82f4-059ecb280f40",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
