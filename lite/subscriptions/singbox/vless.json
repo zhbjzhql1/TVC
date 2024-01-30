@@ -145,13 +145,13 @@
                 "🇨🇷CR | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 15",
+                "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
-                "🇨🇦CA | vless | @Capoit | 4",
+                "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
@@ -211,13 +211,13 @@
                 "🇨🇷CR | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 15",
+                "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
-                "🇨🇦CA | vless | @Capoit | 4",
+                "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
@@ -1299,27 +1299,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "104.21.59.51",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.59.51"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "172.67.19.244",
@@ -1338,6 +1317,37 @@
                 "headers": {
                     "Host": "172.67.19.244"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @fnet00 | 10",
+            "type": "vless",
+            "server": "104.22.51.162",
+            "server_port": 443,
+            "uuid": "bd4711d3-961f-4421-a4c6-75818c708b30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kamy.CaModa.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Fnet00",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1440,11 +1450,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 4",
+            "tag": "🇺🇸US | vless | @Capoit | 4",
             "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 443,
-            "uuid": "0a253927-0f8b-425b-b40f-5ebaa739974a",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8443,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1454,7 +1464,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dm.ipV2Ray2.shop",
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1464,7 +1474,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ipV2Ray",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
