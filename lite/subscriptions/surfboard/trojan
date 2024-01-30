@@ -14,10 +14,11 @@ DIRECT = direct
 🇨🇦CA | trojan | @V2rayCollectorDonate | 19 = trojan, alman.germaanpro.ir, 2053, password = mJR8UynY3kqfQYg_ps1lhw, udp-delay = true, skip-cert-verify = false, sni = alman.germaanpro.ir, ws = false
 🇬🇧GB | trojan | @PrivateVPNs | 14 = trojan, 35.178.24.245, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇮🇪IE | trojan | @DirectVPN | 14 = trojan, 52.49.211.21, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇸🇪SE | trojan | @ConfigsHUB | 19 = trojan, 51.21.31.79, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | trojan | @V2rayCollectorDonate | 19,🇬🇧GB | trojan | @PrivateVPNs | 14,🇮🇪IE | trojan | @DirectVPN | 14
-URL-TEST = url-test,🇨🇦CA | trojan | @V2rayCollectorDonate | 19,🇬🇧GB | trojan | @PrivateVPNs | 14,🇮🇪IE | trojan | @DirectVPN | 14
-FALLBACK = fallback,🇨🇦CA | trojan | @V2rayCollectorDonate | 19,🇬🇧GB | trojan | @PrivateVPNs | 14,🇮🇪IE | trojan | @DirectVPN | 14
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | trojan | @V2rayCollectorDonate | 19,🇬🇧GB | trojan | @PrivateVPNs | 14,🇮🇪IE | trojan | @DirectVPN | 14,🇸🇪SE | trojan | @ConfigsHUB | 19
+URL-TEST = url-test,🇨🇦CA | trojan | @V2rayCollectorDonate | 19,🇬🇧GB | trojan | @PrivateVPNs | 14,🇮🇪IE | trojan | @DirectVPN | 14,🇸🇪SE | trojan | @ConfigsHUB | 19
+FALLBACK = fallback,🇨🇦CA | trojan | @V2rayCollectorDonate | 19,🇬🇧GB | trojan | @PrivateVPNs | 14,🇮🇪IE | trojan | @DirectVPN | 14,🇸🇪SE | trojan | @ConfigsHUB | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

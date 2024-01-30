@@ -144,11 +144,10 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 10",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇨🇷CR | vless | @DailyV2RY | 161",
+                "🇺🇸US | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -156,7 +155,6 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -212,11 +210,10 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 10",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇨🇷CR | vless | @DailyV2RY | 161",
+                "🇺🇸US | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -224,7 +221,6 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1294,7 +1290,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 161",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 161",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1405,27 +1401,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "190.93.245.101",
-            "server_port": 80,
-            "uuid": "0163d4ca-7f61-4d1b-9bb7-df8ade020df6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.245.101"
-                }
             }
         },
         {
@@ -1601,37 +1576,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "UPLOAD.IR",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
-                "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
-                }
             }
         },
         {
