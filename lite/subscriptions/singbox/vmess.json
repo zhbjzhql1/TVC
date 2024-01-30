@@ -110,10 +110,11 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
+                "🇸🇬SG | vmess | @ConfigsHUB | 17",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
         },
         {
@@ -124,10 +125,11 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
+                "🇸🇬SG | vmess | @ConfigsHUB | 17",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -225,6 +227,30 @@
             }
         },
         {
+            "tag": "🇸🇬SG | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "128.199.128.214",
+            "server_port": 42338,
+            "uuid": "13e5d814-834b-473a-a87a-15459987f181",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vmess | @yaney_01 | 9",
             "type": "vmess",
             "server": null,
@@ -283,7 +309,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 3",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 4",
             "type": "vmess",
             "server": "104.21.4.6",
             "server_port": 443,
