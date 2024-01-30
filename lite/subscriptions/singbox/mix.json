@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -167,7 +167,7 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
-                "🇬🇧GB | trojan | @forwardv2ray | 13",
+                "🏳️XX | ss | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -239,7 +239,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -248,7 +248,7 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
-                "🇬🇧GB | trojan | @forwardv2ray | 13",
+                "🏳️XX | ss | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1609,11 +1609,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 9",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.67.188.196",
+            "server": "edgu.pureboy.eu.org",
             "server_port": 443,
-            "uuid": "030ff4cf-6194-4177-90da-a49f46f9afce",
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1623,7 +1623,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "WoRKeR-WINTeR-BreEzE-4702.C6A6c6.wORkers.DeV",
+                "server_name": "edgu.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1633,9 +1633,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/AgjOkU51bJ1hNmHL",
+                "path": "\/",
                 "headers": {
-                    "Host": "WoRKeR-WINTeR-BreEzE-4702.C6A6c6.wORkers.DeV"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
@@ -1828,26 +1828,14 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @forwardv2ray | 13",
-            "type": "trojan",
-            "server": "18.171.67.246",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🏳️XX | ss | @forwardv2ray | 14",
+            "type": "shadowsocks",
+            "server": "[0000:0000:0000:0000:0000:ffff:12af:06b1]",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 14",
