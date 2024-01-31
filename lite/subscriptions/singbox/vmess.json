@@ -109,11 +109,10 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
-                "🇯🇵JP | vmess | @yaney_01 | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇳CN | vmess | @yaney_01 | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -124,11 +123,10 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
-                "🇯🇵JP | vmess | @yaney_01 | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇳CN | vmess | @yaney_01 | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -210,7 +208,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "172.67.212.114",
             "server_port": 8080,
@@ -234,11 +232,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @yaney_01 | 8",
+            "tag": "🇨🇳CN | vmess | @yaney_01 | 8",
             "type": "vmess",
-            "server": "jp4.36routes.online",
-            "server_port": 80,
-            "uuid": "d0c51cab-acfd-4c86-a37e-04a6677847f4",
+            "server": "shdx.pmxu.link",
+            "server_port": 15109,
+            "uuid": "63bafe05-a231-34bc-a8dd-4b9cc65d57d8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -248,13 +246,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "jp4.36routes.online"
-                }
             }
         },
         {
@@ -295,40 +286,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "172.67.196.112",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kellie.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kellie.makeup"
                 }
             }
         },
