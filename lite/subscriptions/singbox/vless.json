@@ -158,7 +158,8 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇬🇧GB | vless | @FAKEOFTVC | 2",
+                "🇰🇷KR | vless | @forwardv2ray | 19",
+                "🇬🇧GB | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 18",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -228,7 +229,8 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇬🇧GB | vless | @FAKEOFTVC | 2",
+                "🇰🇷KR | vless | @forwardv2ray | 19",
+                "🇬🇧GB | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 18",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -357,7 +359,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "15.236.147.55",
+            "server": "35.181.209.59",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1657,7 +1659,36 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @FAKEOFTVC | 2",
+            "tag": "🇰🇷KR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "kr-seoul-oracle-86a6ed.ip1.shop",
+            "server_port": 20050,
+            "uuid": "99e3d5d9-6e55-4a04-b2bc-3a90edc85490",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aws.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-DzfQh5pVlGmJpvr-fluZkzTGXsZ-ok15raVKxCSf2M",
+                    "short_id": "7f125185"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "87.236.208.38",
             "server_port": 8880,
