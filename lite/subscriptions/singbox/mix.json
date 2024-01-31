@@ -163,13 +163,13 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇷CR | vless | @nofiltering2 | 18",
-                "🏳️XX | vless | @vpn_go67 | 23",
+                "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -242,13 +242,13 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇷CR | vless | @nofiltering2 | 18",
-                "🏳️XX | vless | @vpn_go67 | 23",
+                "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -1723,14 +1723,25 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "port80--join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "port80--join.outline-vpn.cloud"
+                }
+            }
         },
         {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 4",
@@ -1866,7 +1877,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vpn_go67 | 23",
+            "tag": "🇹🇷TR | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
