@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 10",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 14",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 13",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -139,12 +139,13 @@
                 "🇫🇮FI | vless | @v2ray_swhil | 22",
                 "🇨🇦CA | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 17",
-                "🇮🇷IR | vless | @v2ray1_ng | 6",
+                "🇮🇷IR | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 151",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇳🇱NL | vless | @proxystore11 | 15",
@@ -177,7 +178,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 10",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 14",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 13",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -208,12 +209,13 @@
                 "🇫🇮FI | vless | @v2ray_swhil | 22",
                 "🇨🇦CA | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 17",
-                "🇮🇷IR | vless | @v2ray1_ng | 6",
+                "🇮🇷IR | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 151",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇳🇱NL | vless | @proxystore11 | 15",
@@ -312,7 +314,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 14",
+            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 13",
             "type": "vless",
             "server": "speedtest.org",
             "server_port": 80,
@@ -1133,7 +1135,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2ray1_ng | 6",
+            "tag": "🇮🇷IR | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "1vvv.fastv2.com",
             "server_port": 23531,
@@ -1278,6 +1280,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.21.32.9"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
+            "type": "vless",
+            "server": "104.19.241.126",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "104.19.241.126"
                 }
             }
         },
@@ -1580,9 +1603,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "ws-rwziljhawhx.v2ng.ir",
-            "server_port": 80,
-            "uuid": "32a2c364-a814-4285-b1ac-ae34de5b0fda",
+            "server": "iranserver.com",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1590,11 +1613,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnct.arvancode.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/|v2ry_bx|",
+                "path": "\/bShq2qgG8GnX8zqm\/",
                 "headers": {
-                    "Host": "ws-rwziljhawhx.v2ng.ir"
+                    "Host": "vpnct.arvancode.eu.org"
                 }
             }
         },
