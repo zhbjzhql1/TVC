@@ -154,7 +154,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -222,7 +222,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -1545,31 +1545,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "45.147.7.37",
-            "server_port": 8443,
-            "uuid": "f1f45277-b3d2-47d3-af25-e9adc6c4721e",
-            "flow": "xtls-rprx-vision",
+            "server": "190.93.246.241",
+            "server_port": 2086,
+            "uuid": "104dced7-a3b5-407d-9437-bfa98a5fe75a",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OPlajrHBqpFR1y7xG98-XLLU16an6m_Udo_dayCrDS0",
-                    "short_id": "3ee3bcf8"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "190.93.246.241"
                 }
             }
         },
