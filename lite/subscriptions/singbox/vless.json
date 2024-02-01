@@ -128,7 +128,7 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 20",
                 "🇺🇸US | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
-                "🇨🇦CA | vless | @vmessorg | 6",
+                "🇨🇦CA | vless | @vmessorg | 8",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
@@ -152,8 +152,9 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🏳️XX | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
-                "🇨🇦CA | vless | @https_config_injector | 13",
+                "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -191,7 +192,7 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 20",
                 "🇺🇸US | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
-                "🇨🇦CA | vless | @vmessorg | 6",
+                "🇨🇦CA | vless | @vmessorg | 8",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
@@ -215,8 +216,9 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🏳️XX | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
-                "🇨🇦CA | vless | @https_config_injector | 13",
+                "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -840,7 +842,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 6",
+            "tag": "🇨🇦CA | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1487,6 +1489,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "join_bede_be.vmessorg.site",
+            "server_port": 8880,
+            "uuid": "203c6b5f-c34c-42c9-83b4-a4d16d7f3b13",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg",
+                "headers": {
+                    "Host": "join_bede_be.vmessorg.site"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "49.13.135.58",
@@ -1516,11 +1539,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 13",
+            "tag": "🇨🇦CA | vless | @https_config_injector | 14",
             "type": "vless",
-            "server": "104.21.80.134",
+            "server": "104.17.66.67",
             "server_port": 443,
-            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
+            "uuid": "config-injectorV2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1530,7 +1553,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w2.sylarsun.eu.org",
+                "server_name": "GinV2rayK.snaapppfree.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1539,11 +1562,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w2.sylarsun.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@https_config_injector",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
