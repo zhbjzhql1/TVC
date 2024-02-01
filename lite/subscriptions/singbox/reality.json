@@ -109,7 +109,8 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇫🇮FI | vless | @v2ray_swhil | 25",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🏳️XX | vless | @FreakConfig | 4",
+                "🏳️XX | vless | @FreakConfig | 5",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -123,7 +124,8 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇫🇮FI | vless | @v2ray_swhil | 25",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🏳️XX | vless | @FreakConfig | 4",
+                "🏳️XX | vless | @FreakConfig | 5",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -258,7 +260,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FreakConfig | 4",
+            "tag": "🏳️XX | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "[2a01:4f9:c010:6fb9::1f]",
             "server_port": 443,
@@ -288,6 +290,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Everyday_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "free.mmdtitaniom.com",
+            "server_port": 2053,
+            "uuid": "a1607b53-08c9-4f77-cc45-850e16f9e6c7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-FArfVyUNqBnbsHtWC4MvDcUpW6MjplITOJjVoGhRCA",
+                    "short_id": "888746"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
