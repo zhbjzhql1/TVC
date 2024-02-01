@@ -106,22 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | tuic | @FAKEOFTVC | 2",
-                "🇺🇸US | tuic | @TUICity | 47",
-                "🇳🇱NL | tuic | @TUICity | 58",
-                "🇩🇪DE | tuic | @TUICity | 59",
-                "🇺🇸US | tuic | @TUICity | 61"
+                "🇺🇸US | tuic | @TUICity | 76"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | tuic | @FAKEOFTVC | 2",
-                "🇺🇸US | tuic | @TUICity | 47",
-                "🇳🇱NL | tuic | @TUICity | 58",
-                "🇩🇪DE | tuic | @TUICity | 59",
-                "🇺🇸US | tuic | @TUICity | 61"
+                "🇺🇸US | tuic | @TUICity | 76"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -144,30 +136,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | tuic | @FAKEOFTVC | 2",
-            "type": "tuic",
-            "server": "107.173.15.52",
-            "server_port": 14758,
-            "uuid": "81d527fd-5bbf-40fc-b2b0-be1956133aa6",
-            "password": "81d527fd-5bbf-40fc-b2b0-be1956133aa6",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇺🇸US | tuic | @TUICity | 47",
+            "tag": "🇺🇸US | tuic | @TUICity | 76",
             "type": "tuic",
             "server": "64.110.25.10",
             "server_port": 11227,
@@ -182,75 +151,6 @@
                 "enabled": true,
                 "disable_sni": false,
                 "server_name": "bing.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇳🇱NL | tuic | @TUICity | 58",
-            "type": "tuic",
-            "server": "209.250.254.198",
-            "server_port": 443,
-            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-            "password": "e7b1c11f0d40cc95",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇩🇪DE | tuic | @TUICity | 59",
-            "type": "tuic",
-            "server": "136.244.88.153",
-            "server_port": 443,
-            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-            "password": "e7b1c11f0d40cc95",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇺🇸US | tuic | @TUICity | 61",
-            "type": "tuic",
-            "server": "108.181.22.239",
-            "server_port": 45600,
-            "uuid": "4576f920-975b-4ab4-b53a-bdcfa623124d",
-            "password": "dongtaiwang.com",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.virustotal.com",
                 "insecure": true,
                 "alpn": [
                     "h3",
