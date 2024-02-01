@@ -142,7 +142,7 @@
                 "🇮🇷IR | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇨🇷CR | vless | @V2RayTz | 18",
+                "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @MehradLearn | 12",
@@ -211,7 +211,7 @@
                 "🇮🇷IR | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇨🇷CR | vless | @V2RayTz | 18",
+                "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @MehradLearn | 12",
@@ -335,7 +335,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.39.53.19",
+            "server": "15.188.0.109",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -398,8 +398,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "check-host.net",
-            "server_port": 443,
-            "uuid": "97b04aed-6e52-414c-902e-ffccdc86e076",
+            "server_port": 80,
+            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -407,22 +407,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "tl.ArV2ray.host",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
+                "headers": {
+                    "Host": "check-host.net"
+                }
             }
         },
         {
@@ -698,9 +688,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "sourceforge.net",
-            "server_port": 2086,
-            "uuid": "1c6049e2-83af-4df6-a75b-92970160ae8d",
+            "server": "free.pandavpn.tech",
+            "server_port": 80,
+            "uuid": "0b0ea135-e971-456e-bbb9-4c03dcdeb55e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -710,9 +700,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram channel : @pandavpntc",
                 "headers": {
-                    "Host": "sourceforge.net"
+                    "Host": "free.pandavpn.tech"
                 }
             }
         },
@@ -1209,11 +1199,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 18",
+            "tag": "🇳🇱NL | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "e7ad3d03-bfb7-49d5-af53-81ef34ed1faa",
+            "server": "188.114.96.0",
+            "server_port": 443,
+            "uuid": "97b04aed-6e52-414c-902e-ffccdc86e076",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1221,12 +1211,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.247.155"
+            "tls": {
+                "enabled": true,
+                "server_name": "tl.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1559,9 +1559,9 @@
         {
             "tag": "🇨🇷CR | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "iris.gtexnodes.site",
-            "server_port": 443,
-            "uuid": "582f4ee2-0309-4d37-a3b0-899c59e9ad53",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 80,
+            "uuid": "0d722410-171f-4c42-9c72-1daf3cc05993",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1569,30 +1569,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gw.archnodes.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "gw.archnodes.site"
+                    "Host": "shhproxy.varzesh3-cnd.site"
                 }
             }
         },
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "mci-----join.outline-vpn.cloud",
-            "server_port": 2052,
-            "uuid": "d3c705f1-d7e6-49cc-b792-6c714ff45e1c",
+            "server": "ws-rwziljhawhx.v2ng.ir",
+            "server_port": 80,
+            "uuid": "32a2c364-a814-4285-b1ac-ae34de5b0fda",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1602,9 +1592,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/|v2ry_bx|",
                 "headers": {
-                    "Host": "mci-----join.outline-vpn.cloud"
+                    "Host": "ws-rwziljhawhx.v2ng.ir"
                 }
             }
         },
