@@ -127,7 +127,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
-                "🇨🇷CR | vless | @ShadowSocks_s | 20",
                 "🇺🇸US | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -155,6 +154,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -193,7 +193,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
-                "🇨🇷CR | vless | @ShadowSocks_s | 20",
                 "🇺🇸US | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -221,6 +220,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -841,37 +841,6 @@
                 "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 20",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "51f37887-6d44-40e5-b325-4f91641fb825",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
                 }
             }
         },
@@ -1566,6 +1535,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "type": "vless",
+            "server": "sourceforge.net",
+            "server_port": 2086,
+            "uuid": "1c6049e2-83af-4df6-a75b-92970160ae8d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sourceforge.net"
+                }
             }
         },
         {
