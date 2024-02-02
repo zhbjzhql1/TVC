@@ -114,7 +114,7 @@
                 "🇺🇸US | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇨🇦CA | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇷CR | vless | @lightning6 | 28",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇷🇴RO | vless | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -179,7 +179,7 @@
                 "🇺🇸US | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇨🇦CA | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇷CR | vless | @lightning6 | 28",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇷🇴RO | vless | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -490,9 +490,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 11",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
             "type": "vless",
-            "server": "104.21.59.125",
+            "server": "173.245.58.31",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -506,7 +506,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.125"
+                    "Host": "173.245.58.31"
                 }
             }
         },
@@ -1159,7 +1159,7 @@
             "type": "vless",
             "server": "78.47.198.99",
             "server_port": 443,
-            "uuid": "717dc04f-b838-4999-a006-2199eab5c714",
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1178,8 +1178,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "oQC3BbnZ1yNgRHXF1z3B_zEwv1tIClsHDVzDXOHY5xw",
-                    "short_id": "c2bd6f04"
+                    "public_key": "msTPLgzvYs8r_Nww-HHQG5Cbj8VEwYjwsFVCuwdSZk8",
+                    "short_id": "9d2b63ad"
                 }
             },
             "transport": {
@@ -1548,31 +1548,23 @@
             }
         },
         {
-            "tag": "🇷🇴RO | vless | @forwardv2ray | 10",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "nodes.mrzb.artydev.ru",
-            "server_port": 8443,
-            "uuid": "964736c9-abc2-400d-b7de-378d9de2e4c0",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.59.144",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.59.144"
                 }
             }
         },
