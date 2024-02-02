@@ -150,12 +150,12 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🏳️XX | vless | @proxy_mtm | 15",
+                "🇨🇷CR | vless | @proxy_mtm | 10",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -213,12 +213,12 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🏳️XX | vless | @proxy_mtm | 15",
+                "🇨🇷CR | vless | @proxy_mtm | 10",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -366,7 +366,7 @@
             "type": "vless",
             "server": "104.22.51.162",
             "server_port": 443,
-            "uuid": "67b8f25c-e7ff-46b5-8072-e37e1ce49a57",
+            "uuid": "b27072df-282f-4bed-92f8-ba58e209a6a9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1415,11 +1415,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "cdn.networknim.lol",
-            "server_port": 443,
-            "uuid": "d42ad3c1-9548-40dd-87ef-2dd0a9fb6660",
+            "server": "www.greendam.site",
+            "server_port": 80,
+            "uuid": "-----WS-ipV2Ray-----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1427,22 +1427,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.networknim.lol",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "f364ef69-794f-489a-95c6-d50e7df46b05___c7f9f114d6f12b54f8ddcc4d3750680c",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.greendam.site"
+                }
             }
         },
         {
@@ -1566,17 +1556,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxy_mtm | 15",
+            "tag": "🇨🇷CR | vless | @proxy_mtm | 10",
             "type": "vless",
-            "server": "%54%45%4c%2d%56%50%4e%43%55%53%54&amp;type=grpc&amp;alpn=TELEGRAM",
-            "server_port": 0,
-            "uuid": "",
+            "server": "190.93.247.247",
+            "server_port": 80,
+            "uuid": "-----WS-%69%70%56%32%52%61%79-----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "190.93.247.247"
+                }
             }
         },
         {
