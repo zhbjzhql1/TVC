@@ -114,7 +114,9 @@
                 "🇧🇭BH | vmess | @yaney_01 | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 10"
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 10",
+                "🏳️XX | vmess | @SINABIGO | 6"
             ]
         },
         {
@@ -129,7 +131,9 @@
                 "🇧🇭BH | vmess | @yaney_01 | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 10"
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 10",
+                "🏳️XX | vmess | @SINABIGO | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -333,6 +337,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "for-irancell.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 10",
             "type": "vmess",
             "server": "104.18.36.100",
@@ -364,6 +392,23 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @SINABIGO | 6",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
