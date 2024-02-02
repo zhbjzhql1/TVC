@@ -18,11 +18,12 @@ DIRECT = direct
 🏳️XX | ss | @proxyymeliii | 19 = ss, [0:0:0:0:0:ffff:1010:4a42], 8080, encrypt-method = chacha20-ietf-poly1305, password = SD/MYCUQGXCC9TEnlz66Tdu4JDCH36LMMiV4a4VsJiI=
 🇦🇹AT | ss | @OutlineVpnOfficial | 15 = ss, 212.113.106.243, 12949, encrypt-method = chacha20-ietf-poly1305, password = P2zxXPewlV3BlfqqYiSthvtLc
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
+🏳️XX | vmess | @forwardv2ray | 15 = vmess, mci.mosi.mosipro.ml, 443, username = f05516e7-7cd2-4731-86f4-9297bd11aa8a, ws = true, tls = 1, vmess-aead = true, ws-path = /speedtest, ws-headers = Host:"Dusseldorf.kotick.site", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @eliya_chiter0 | 9 = vmess, 172.67.220.64, 443, username = f24bba0f-8656-44f8-b21e-a0e3a190c4c5, ws = true, tls = 1, vmess-aead = true, ws-path = /df97b21e-3943-4865-af18-b5ea9676b037, ws-headers = Host:"www.31000oooowe2.bf", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇭🇰HK | vmess | @oneclickvpnkeys | 6,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @eliya_chiter0 | 9
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇭🇰HK | vmess | @oneclickvpnkeys | 6,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @eliya_chiter0 | 9
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇭🇰HK | vmess | @oneclickvpnkeys | 6,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @eliya_chiter0 | 9
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇭🇰HK | vmess | @oneclickvpnkeys | 6,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🏳️XX | vmess | @forwardv2ray | 15,🇨🇦CA | vmess | @eliya_chiter0 | 9
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇭🇰HK | vmess | @oneclickvpnkeys | 6,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🏳️XX | vmess | @forwardv2ray | 15,🇨🇦CA | vmess | @eliya_chiter0 | 9
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇭🇰HK | vmess | @oneclickvpnkeys | 6,🏳️XX | ss | @proxyymeliii | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🏳️XX | vmess | @forwardv2ray | 15,🇨🇦CA | vmess | @eliya_chiter0 | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
