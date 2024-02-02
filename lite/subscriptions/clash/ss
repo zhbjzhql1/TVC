@@ -119,7 +119,6 @@ dns:
 
 proxies:
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇷🇺RU | ss | @forwardv2ray | 18","type":"ss","server":"vpn-ru.wwp.im","port":15174,"password":"Abb0PalDb5A0TGsJRl7bT0","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @proxy_mtm | 31","type":"ss","server":"[0:0:0:0:0:ffff:0d30:2cc1]","port":8080,"password":"CdlZIHkPi6PW7w8LE5JcHINBG8KeGYtxvoJpUCTU7tk=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 10","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -129,7 +128,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇷🇺RU | ss | @forwardv2ray | 18'
       - '🏳️XX | ss | @proxy_mtm | 31'
       - '🇬🇧GB | ss | @ROMAX_VPN | 10'
   - name: URL-TEST
@@ -139,7 +137,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇷🇺RU | ss | @forwardv2ray | 18'
       - '🏳️XX | ss | @proxy_mtm | 31'
       - '🇬🇧GB | ss | @ROMAX_VPN | 10'
   - name: FALLBACK
@@ -148,7 +145,6 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇷🇺RU | ss | @forwardv2ray | 18'
       - '🏳️XX | ss | @proxy_mtm | 31'
       - '🇬🇧GB | ss | @ROMAX_VPN | 10'
 rules:
