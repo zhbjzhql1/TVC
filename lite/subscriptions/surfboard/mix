@@ -11,17 +11,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 16 = trojan, 3.65.165.230, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 16 = trojan, 13.53.233.16, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 15.188.38.136, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇩🇪DE | trojan | @DirectVPN | 15 = trojan, 18.153.248.57, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
 🇨🇦CA | vmess | @mftizi | 19 = vmess, cfcdn1.sanfencdn9.com, 8880, username = ae16d5a4-9a22-4177-8884-77aa3b309d30, ws = true, tls = , vmess-aead = true, ws-path = /video/bYdJ7Vc2We, ws-headers = Host:"us6gzxQRrE4.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
 🇦🇹AT | ss | @OutlineVpnOfficial | 15 = ss, 212.113.106.243, 12949, encrypt-method = chacha20-ietf-poly1305, password = P2zxXPewlV3BlfqqYiSthvtLc
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
-🇬🇧GB | ss | @forwardv2ray | 17 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇨🇦CA | vmess | @forwardv2ray | 13 = vmess, server13.beheshtbaneh.com, 8880, username = 0c0db4fe-6133-4837-9f57-0ce75fb59692, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @eliya_chiter0 | 10 = vmess, 172.67.220.64, 443, username = f24bba0f-8656-44f8-b21e-a0e3a190c4c5, ws = true, tls = 1, vmess-aead = true, ws-path = /df97b21e-3943-4865-af18-b5ea9676b037, ws-headers = Host:"www.31000oooowe2.bf", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 17,🇨🇦CA | vmess | @eliya_chiter0 | 10
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 17,🇨🇦CA | vmess | @eliya_chiter0 | 10
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 17,🇨🇦CA | vmess | @eliya_chiter0 | 10
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇩🇪DE | trojan | @DirectVPN | 15,🇨🇦CA | vmess | @mftizi | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 13,🇨🇦CA | vmess | @eliya_chiter0 | 10
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇩🇪DE | trojan | @DirectVPN | 15,🇨🇦CA | vmess | @mftizi | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 13,🇨🇦CA | vmess | @eliya_chiter0 | 10
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇩🇪DE | trojan | @DirectVPN | 15,🇨🇦CA | vmess | @mftizi | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 13,🇨🇦CA | vmess | @eliya_chiter0 | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
