@@ -128,6 +128,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @prrofile_purple | 186",
                 "🇨🇷CR | vless | @customv2ray | 13",
@@ -161,7 +162,7 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -205,6 +206,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @prrofile_purple | 186",
                 "🇨🇷CR | vless | @customv2ray | 13",
@@ -238,7 +240,7 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -823,6 +825,30 @@
                 "path": "\/video\/bYdJ7Vc2We",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "47.89.211.175",
+            "server_port": 80,
+            "uuid": "6cc722d0-f6b5-4179-be13-c15cb9e75dd9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/84BxD2shFYFpsiRGXACUPqWt",
+                "headers": {
+                    "Host": "47.89.211.175"
                 }
             }
         },
@@ -1636,26 +1662,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "server13.beheshtbaneh.com",
-            "server_port": 8880,
-            "uuid": "0c0db4fe-6133-4837-9f57-0ce75fb59692",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "b0ca4f16-94a0-45d3-8c9d-492a3d62858a",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
-                    "Host": ""
+                    "Host": "join20.maznet.cfd"
                 }
             }
         },
