@@ -106,20 +106,22 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | hy2 | @TUICity | 70",
-                "🇬🇧GB | hy2 | @TUICity | 71",
-                "🇫🇮FI | hy2 | @TUICity | 72",
-                "🇳🇱NL | hy2 | @TUICity | 74"
+                "🇳🇱NL | hy2 | @TUICity | 76",
+                "🇨🇦CA | hy2 | @TUICity | 77",
+                "🇸🇪SE | hy2 | @TUICity | 84",
+                "🇬🇧GB | hy2 | @TUICity | 85",
+                "🇫🇮FI | hy2 | @TUICity | 86"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | hy2 | @TUICity | 70",
-                "🇬🇧GB | hy2 | @TUICity | 71",
-                "🇫🇮FI | hy2 | @TUICity | 72",
-                "🇳🇱NL | hy2 | @TUICity | 74"
+                "🇳🇱NL | hy2 | @TUICity | 76",
+                "🇨🇦CA | hy2 | @TUICity | 77",
+                "🇸🇪SE | hy2 | @TUICity | 84",
+                "🇬🇧GB | hy2 | @TUICity | 85",
+                "🇫🇮FI | hy2 | @TUICity | 86"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,7 +144,53 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | hy2 | @TUICity | 70",
+            "tag": "🇳🇱NL | hy2 | @TUICity | 76",
+            "type": "hysteria2",
+            "server": "45.32.234.211",
+            "server_port": 443,
+            "up_mbps": 0,
+            "down_mbps": 0,
+            "password": "y0qochAspE+u-HLfrip-",
+            "network": "tcp",
+            "obfs": {
+                "type": "salamander",
+                "password": "2pU!&Brls!0exuP+!4so"
+            },
+            "tls": {
+                "enabled": true,
+                "disable_sni": false,
+                "server_name": "Google.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇨🇦CA | hy2 | @TUICity | 77",
+            "type": "hysteria2",
+            "server": "51.222.12.75",
+            "server_port": 443,
+            "up_mbps": 0,
+            "down_mbps": 0,
+            "password": "2f1b122607f533dc",
+            "network": "tcp",
+            "obfs": {
+                "type": "salamander",
+                "password": "7925a5b3071cb35f"
+            },
+            "tls": {
+                "enabled": true,
+                "disable_sni": false,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇸🇪SE | hy2 | @TUICity | 84",
             "type": "hysteria2",
             "server": "70.34.213.123",
             "server_port": 443,
@@ -165,7 +213,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | hy2 | @TUICity | 71",
+            "tag": "🇬🇧GB | hy2 | @TUICity | 85",
             "type": "hysteria2",
             "server": "66.245.192.15",
             "server_port": 443,
@@ -188,7 +236,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | hy2 | @TUICity | 72",
+            "tag": "🇫🇮FI | hy2 | @TUICity | 86",
             "type": "hysteria2",
             "server": "95.217.211.216",
             "server_port": 443,
@@ -204,29 +252,6 @@
                 "enabled": true,
                 "disable_sni": false,
                 "server_name": "www.google.com",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
-        {
-            "tag": "🇳🇱NL | hy2 | @TUICity | 74",
-            "type": "hysteria2",
-            "server": "45.32.234.211",
-            "server_port": 443,
-            "up_mbps": 0,
-            "down_mbps": 0,
-            "password": "y0qochAspE+u-HLfrip-",
-            "network": "tcp",
-            "obfs": {
-                "type": "salamander",
-                "password": "2pU!&Brls!0exuP+!4so"
-            },
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "Google.com",
                 "insecure": true,
                 "alpn": [
                     "h3"
