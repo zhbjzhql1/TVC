@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -118,7 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -180,11 +180,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 19",
             "type": "vless",
-            "server": "brownrat.uk",
-            "server_port": 35316,
-            "uuid": "c84da340-47b6-4405-8ad5-279b79e0c292",
+            "server": "german.mmdtitaniom.com",
+            "server_port": 443,
+            "uuid": "c6446acb-5a26-4b24-bc82-812baff26c3a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -194,7 +194,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "discord.com",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -203,9 +203,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4edg5SSew4CT4Za8p47eA46C6RyIopiBAz7TN4fp-EM",
-                    "short_id": "5dbd6d11"
+                    "public_key": "xtsHef5EMKqwwpP3cJTyrMKM9SyaPb19ORaZQ_GMmSA",
+                    "short_id": "fd7bb3af"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@TITANIOM_OFFICIAL,@TITANIOM_OFFICIlAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
