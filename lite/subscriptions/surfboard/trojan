@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇪IE | trojan | @PrivateVPNs | 16 = trojan, 54.229.147.183, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-TVChjvynnfhfl = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
-🇫🇷FR | trojan | @forwardv2ray | 0 = trojan, 35.181.241.205, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+TVCoatxoxyhij = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,TVChjvynnfhfl,🇫🇷FR | trojan | @forwardv2ray | 0
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,TVChjvynnfhfl,🇫🇷FR | trojan | @forwardv2ray | 0
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,TVChjvynnfhfl,🇫🇷FR | trojan | @forwardv2ray | 0
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCoatxoxyhij
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCoatxoxyhij
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,TVCoatxoxyhij
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

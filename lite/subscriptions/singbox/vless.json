@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @ARv2ray | 14",
-                "🇺🇸US | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 114",
+                "🇨🇦CA | vless | @DailyV2RY | 113",
                 "🇺🇸US | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -152,6 +152,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
@@ -179,7 +180,7 @@
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @ARv2ray | 14",
-                "🇺🇸US | vless | @Lockey_vpn | 11",
+                "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -205,7 +206,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 114",
+                "🇨🇦CA | vless | @DailyV2RY | 113",
                 "🇺🇸US | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -217,6 +218,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
@@ -480,7 +482,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Lockey_vpn | 11",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
             "type": "vless",
             "server": "173.245.58.31",
             "server_port": 80,
@@ -1164,11 +1166,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 114",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 113",
             "type": "vless",
-            "server": "mobileshopmci.mahanmrz.top",
-            "server_port": 2087,
-            "uuid": "0e411407-6e1b-478e-bac7-c570cb3f9d6f",
+            "server": "tanjiro.viipnetwork.xyz",
+            "server_port": 8443,
+            "uuid": "35133ef7-9bfc-4bcf-9dd8-109e8a0b7d5d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1178,7 +1180,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mobileshop.mahanmrz.top",
+                "server_name": "news.viipnetwork.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1187,11 +1189,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "mobileshop.mahanmrz.top",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@MikasaVPN\/",
+                "headers": {
+                    "Host": "news.viipnetwork.xyz"
+                }
             }
         },
         {
@@ -1465,6 +1467,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.22.48.253"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "port80--join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "port80--join.outline-vpn.cloud"
                 }
             }
         },
