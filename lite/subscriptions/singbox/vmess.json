@@ -113,7 +113,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🏳️XX | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 10",
                 "🏳️XX | vmess | @SINABIGO | 6"
@@ -130,7 +130,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🏳️XX | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 10",
                 "🏳️XX | vmess | @SINABIGO | 6"
@@ -296,11 +296,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "98.159.236.54",
-            "server_port": 31095,
-            "uuid": "32c28e7d-e7a2-4713-8e36-c29533af0355",
+            "server": "server10.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "66d4af1c-fcc3-479b-847c-3260253e1faa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,6 +310,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
