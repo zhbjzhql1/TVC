@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇷CR | vless | @shh_proxy | 23",
-                "🇺🇸US | vless | @Lockey_vpn | 10",
+                "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
                 "🇨🇷CR | vless | @lightning6 | 28",
@@ -156,6 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -181,7 +182,7 @@
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇷CR | vless | @shh_proxy | 23",
-                "🇺🇸US | vless | @Lockey_vpn | 10",
+                "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
                 "🇨🇷CR | vless | @lightning6 | 28",
@@ -221,6 +222,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -552,9 +554,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 11",
             "type": "vless",
-            "server": "173.245.58.31",
+            "server": "104.21.59.125",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -568,7 +570,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "173.245.58.31"
+                    "Host": "104.21.59.125"
                 }
             }
         },
@@ -1614,6 +1616,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "gmV2raybo.shhproxyfree.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "k---join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "k---join.outline-vpn.cloud"
                 }
             }
         },
