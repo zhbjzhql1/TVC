@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -160,7 +160,6 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇷🇺RU | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -168,6 +167,7 @@
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @kingofilter | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 9",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -198,7 +198,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -235,7 +235,6 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇷🇺RU | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -243,6 +242,7 @@
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @kingofilter | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 9",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -717,7 +717,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1594,16 +1594,6 @@
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "37.140.241.40",
-            "server_port": 55223,
-            "method": "aes-256-gcm",
-            "password": "1NKp5UR0YRE28mdf",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "my.lamashop.site",
@@ -1814,6 +1804,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @kingofilter | 8",
+            "type": "vless",
+            "server": "104.19.174.72",
+            "server_port": 443,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pages.20230619.love"
+                }
             }
         },
         {
