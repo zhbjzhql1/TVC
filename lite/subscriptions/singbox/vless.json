@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 16",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -144,6 +144,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -180,7 +181,7 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 16",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -201,6 +202,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -708,7 +710,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 16",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 16",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1210,6 +1212,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "bia-to5.unlimiteddev.site",
+            "server_port": 8880,
+            "uuid": "b8bc34b3-cfd4-4a68-954d-67a8e38b6d49",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "bia-to5.unlimiteddev.site"
+                }
             }
         },
         {
