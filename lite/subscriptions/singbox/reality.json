@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | vless | @v2ray1_ng | 5",
+                "🇫🇮FI | vless | @proxyymeliii | 15",
+                "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇸🇪SE | vless | @kiava | 6",
-                "🇩🇪DE | vless | @proxy_mtm | 8",
+                "🇩🇪DE | vless | @proxy_mtm | 9",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
@@ -121,9 +122,10 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | vless | @v2ray1_ng | 5",
+                "🇫🇮FI | vless | @proxyymeliii | 15",
+                "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇸🇪SE | vless | @kiava | 6",
-                "🇩🇪DE | vless | @proxy_mtm | 8",
+                "🇩🇪DE | vless | @proxy_mtm | 9",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
@@ -213,7 +215,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 5",
+            "tag": "🇫🇮FI | vless | @proxyymeliii | 15",
+            "type": "vless",
+            "server": "37.27.44.176",
+            "server_port": 443,
+            "uuid": "26d9ff4d-5fdb-43d8-8ed4-44b4d1d167ea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7Z43zHWUVIR0N-vR-yF6h9exfw03q5Lj-ajN3_FxVRA",
+                    "short_id": "214c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "23.88.47.9",
             "server_port": 443,
@@ -278,7 +309,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxy_mtm | 8",
+            "tag": "🇩🇪DE | vless | @proxy_mtm | 9",
             "type": "vless",
             "server": "128.140.36.96",
             "server_port": 443,
