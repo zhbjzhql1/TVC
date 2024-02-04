@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
@@ -154,13 +154,13 @@
                 "🏳️XX | vmess | @Hope_Net | 10",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
@@ -230,13 +230,13 @@
                 "🏳️XX | vmess | @Hope_Net | 10",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -497,7 +497,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 28",
+            "tag": "🇺🇸US | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1389,7 +1389,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "caaacbb-abac-acba-adcb-cbcabaabcacb",
+            "uuid": "abcacab-acab-aabc-acdb-baabcccbabac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1464,11 +1464,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "---Parsashonam--10-",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1478,9 +1478,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "104.31.16.160"
                 }
             }
         },
@@ -1596,28 +1596,14 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "s1.trustvpn.top",
-            "server_port": 666,
-            "uuid": "dd632311-97a9-4fc6-a4d7-a074ff27848f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip.trustvpn.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
