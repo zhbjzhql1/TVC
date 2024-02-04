@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 24",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
-                "🇨🇦CA | vless | @FreakConfig | 7",
+                "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @flyv2ray | 14",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 15",
@@ -176,7 +176,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 24",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
-                "🇨🇦CA | vless | @FreakConfig | 7",
+                "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @flyv2ray | 14",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 15",
@@ -479,7 +479,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 28",
+            "tag": "🇺🇸US | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1287,11 +1287,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 7",
+            "tag": "🇨🇷CR | vless | @Capoit | 7",
             "type": "vless",
-            "server": "lol.ps",
-            "server_port": 443,
-            "uuid": "bfba705b-78ec-424b-e3b7-eca97332b1de",
+            "server": "190.93.247.155",
+            "server_port": 8080,
+            "uuid": "config-injectorV2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1299,22 +1299,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "maxwdhix02dy62g.drapico.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@FreakConfig@FreakConfig@FreakConfig@FreakConfig@FreakConfig",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "190.93.247.155"
+                }
             }
         },
         {
