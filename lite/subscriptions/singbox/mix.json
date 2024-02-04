@@ -123,12 +123,11 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @prrofile_purple | 186",
                 "🇨🇷CR | vless | @customv2ray | 13",
@@ -162,7 +161,7 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -201,12 +200,11 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @prrofile_purple | 186",
                 "🇨🇷CR | vless | @customv2ray | 13",
@@ -240,7 +238,7 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -723,7 +721,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -827,16 +825,6 @@
                     "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
@@ -1641,14 +1629,25 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
