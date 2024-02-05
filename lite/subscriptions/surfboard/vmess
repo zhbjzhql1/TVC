@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 15 = vmess, www.wto.org, 2086, username = 8a4617ec-395d-463b-8c7d-11dd8b1dbaa0, ws = true, tls = , vmess-aead = true, ws-path = /?ed=1024, ws-headers = Host:"bdcdn.yunjisuan.cf", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 15
-URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 15
-FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 15
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 6
+URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 6
+FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
