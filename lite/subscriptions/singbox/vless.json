@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 8",
-                "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇫🇷FR | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🏳️XX | vless | @ipV2Ray | 13",
@@ -124,10 +124,10 @@
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 17",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇩🇪DE | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 10",
-                "🇨🇦CA | vless | @vmessorg | 7",
+                "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇬🇧GB | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
@@ -146,8 +146,9 @@
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 8",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
-                "🇨🇦CA | vless | @Capoit | 5",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -167,7 +168,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 8",
-                "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇫🇷FR | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🏳️XX | vless | @ipV2Ray | 13",
@@ -184,10 +185,10 @@
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 17",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇩🇪DE | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 10",
-                "🇨🇦CA | vless | @vmessorg | 7",
+                "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇬🇧GB | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
@@ -206,8 +207,9 @@
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 8",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
-                "🇨🇦CA | vless | @Capoit | 5",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -263,12 +265,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 9",
             "type": "vless",
-            "server": "167.235.194.0",
-            "server_port": 20832,
-            "uuid": "3709d9c3-0287-498a-8663-c476db86a6a3",
-            "flow": "xtls-rprx-vision",
+            "server": "104.24.176.7",
+            "server_port": 8443,
+            "uuid": "2155c682-f6f1-4ba9-8a89-5c97f2cb0f37",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -277,18 +279,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "ihxth.cheetahmh45.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ng6XQkeYA7Omk3Gbsj2famKYasixtk8mFpifFBRv8Qo",
-                    "short_id": "914deebd"
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -738,7 +742,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 17",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 16",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8443,
@@ -811,7 +815,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 7",
+            "tag": "🇨🇦CA | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.be.vmessorg.online",
             "server_port": 8880,
@@ -1272,7 +1276,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 5",
+            "tag": "🇨🇦CA | vless | @Capoit | 7",
             "type": "vless",
             "server": "bia-to2.unlimiteddev.site",
             "server_port": 8880,
@@ -1321,6 +1325,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgu.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "edgu.pureboy.eu.org"
+                }
             }
         },
         {
