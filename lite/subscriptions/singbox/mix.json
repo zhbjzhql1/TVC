@@ -130,7 +130,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -171,7 +170,7 @@
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇺🇸US | vmess | @eliya_chiter0 | 7",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 2",
                 "🇺🇸US | tuic | @TUICity | 82",
@@ -208,7 +207,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇮🇹IT | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -249,7 +247,7 @@
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇺🇸US | vmess | @eliya_chiter0 | 7",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 2",
                 "🇺🇸US | tuic | @TUICity | 82",
@@ -877,40 +875,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "ming2.kiwireich.com",
-            "server_port": 443,
-            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ming2.kiwireich.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ray",
-                "headers": {
-                    "Host": "ming2.kiwireich.com"
-                }
             }
         },
         {
@@ -1902,11 +1866,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 7",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 8",
             "type": "vmess",
-            "server": "108.181.5.18",
-            "server_port": 18657,
-            "uuid": "636ba072-493e-4235-b7a8-822bd4e340d5",
+            "server": "kellie.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1916,6 +1880,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
             }
         },
         {
