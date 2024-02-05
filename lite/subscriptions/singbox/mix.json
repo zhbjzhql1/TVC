@@ -157,7 +157,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -229,7 +229,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -1523,11 +1523,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "173.245.58.133",
-            "server_port": 80,
-            "uuid": "1d665618-d8e2-4992-9ad1-0968c0d16abc",
+            "server": "3k.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1535,11 +1535,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "173.245.58.133"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
