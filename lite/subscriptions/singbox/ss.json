@@ -107,10 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
                 "🇺🇸US | ss | @DeamNet_Proxy | 17",
                 "🇬🇧GB | ss | @VmessProtocol | 19",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 19"
             ]
         },
         {
@@ -118,10 +118,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
                 "🇺🇸US | ss | @DeamNet_Proxy | 17",
                 "🇬🇧GB | ss | @VmessProtocol | 19",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,16 +154,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
-            "type": "shadowsocks",
-            "server": "masting.xyz",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XlUFgoOqDlVqlZFD3Js0YA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @DeamNet_Proxy | 17",
             "type": "shadowsocks",
             "server": "167.88.61.175",
@@ -190,6 +180,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         }

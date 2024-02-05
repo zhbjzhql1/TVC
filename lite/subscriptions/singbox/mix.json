@@ -123,9 +123,9 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 14",
                 "🇬🇧GB | ss | @VmessProtocol | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 137",
+                "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -156,12 +156,12 @@
                 "🇬🇧GB | vmess | @Hope_Net | 6",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🏳️XX | vless | @Outlinev2rayNG | 10",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇩🇪DE | vless | @forwardv2ray | 12",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -200,9 +200,9 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇩🇪DE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 14",
                 "🇬🇧GB | ss | @VmessProtocol | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 137",
+                "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -233,12 +233,12 @@
                 "🇬🇧GB | vmess | @Hope_Net | 6",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🏳️XX | vless | @Outlinev2rayNG | 10",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇩🇪DE | vless | @forwardv2ray | 12",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -737,14 +737,33 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
-            "type": "shadowsocks",
-            "server": "masting.xyz",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XlUFgoOqDlVqlZFD3Js0YA",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "49.12.1.201",
+            "server_port": 443,
+            "uuid": "7249fb55-bcb6-4527-832e-0d55d118ae51",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "github.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8xZnlUGc9S8Y7N9VIIA4watibDxTX0hNVLGjvXtrSVQ",
+                    "short_id": "93329681be8b7872"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -768,7 +787,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1311,11 +1330,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 137",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 132",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "join_bede.vmessorg.site",
+            "server_port": 8880,
+            "uuid": "203c6b5f-c34c-42c9-83b4-a4d16d7f3b13",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1325,9 +1344,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "join_bede.vmessorg.site"
                 }
             }
         },
@@ -1484,7 +1503,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Outlinev2rayNG | 10",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "oskbsl.ps4lavazemjanebi.ir",
             "server_port": 8443,
@@ -1598,40 +1617,14 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 12",
-            "type": "vless",
-            "server": "168.119.229.200",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
             "server_port": 443,
-            "uuid": "9cfc941b-d243-4dc4-8989-40716165027a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ET5QqxGsxGR8g4LDn1nXb6NOMrjndaaQa5CE4Rs9mw0",
-                    "short_id": "cf6c26b3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
