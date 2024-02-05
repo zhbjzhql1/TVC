@@ -157,7 +157,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | trojan | @forwardv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -229,7 +229,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | trojan | @forwardv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -1533,11 +1533,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @forwardv2ray | 15",
-            "type": "trojan",
-            "server": "104.16.126.175",
-            "server_port": 2083,
-            "password": "qG9K8AGnn9XH5jUqeFu96g",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "fd364ee2-9881-4cfa-a2f5-21399a1001f7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1545,7 +1547,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn13.cdn2cdn.com",
+                "server_name": "gmV2raybo.shhproxyfree.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1557,7 +1559,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "cdn13.cdn2cdn.com"
+                    "Host": "gmV2raybo.shhproxyfree.com"
                 }
             }
         },
