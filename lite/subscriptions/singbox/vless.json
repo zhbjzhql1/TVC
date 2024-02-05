@@ -135,6 +135,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 14",
+                "🇨🇦CA | vless | @DailyV2RY | 137",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇨🇷CR | vless | @proxystore11 | 15",
@@ -144,7 +145,6 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -193,6 +193,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 14",
+                "🇨🇦CA | vless | @DailyV2RY | 137",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇨🇷CR | vless | @proxystore11 | 15",
@@ -202,7 +203,6 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -1000,6 +1000,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 137",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @sinabigo | 4",
             "type": "vless",
             "server": "tunelserver.myelf.me",
@@ -1212,27 +1233,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "cdn.nvclud.ir",
-            "server_port": 8880,
-            "uuid": "98efa803-d07a-4e2b-b13d-998e17e64c6c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cdn.nvclud.ir"
-                }
             }
         },
         {
