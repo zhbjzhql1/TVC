@@ -108,17 +108,18 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇸🇬SG | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇷CR | vless | @DigiV2ray | 24",
+                "🇨🇷CR | vless | @DigiV2ray | 27",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
@@ -131,7 +132,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 63",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇷CR | vless | @proxyymeliii | 17",
+                "🇫🇮FI | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -169,17 +170,18 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇸🇬SG | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
-                "🇨🇷CR | vless | @lightning6 | 28",
+                "🇺🇸US | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇷CR | vless | @DigiV2ray | 24",
+                "🇨🇷CR | vless | @DigiV2ray | 27",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
@@ -192,7 +194,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 63",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇷CR | vless | @proxyymeliii | 17",
+                "🇫🇮FI | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -296,9 +298,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.198.57.203",
+            "server": "15.188.157.139",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -487,6 +489,37 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @shh_proxy | 23",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "3b64c59e-a312-4980-bbaa-9f84617ee054",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "gmV2raybo.shhproxyfree.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @Lockey_vpn | 12",
             "type": "vless",
             "server": "173.245.58.31",
@@ -539,7 +572,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 28",
+            "tag": "🇺🇸US | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -601,7 +634,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DigiV2ray | 24",
+            "tag": "🇨🇷CR | vless | @DigiV2ray | 27",
             "type": "vless",
             "server": "all.digiv2.online",
             "server_port": 443,
@@ -904,12 +937,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 17",
+            "tag": "🇫🇮FI | vless | @proxyymeliii | 17",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "fea8b790-5677-4a92-a7fd-62cc141d8fb9",
-            "flow": "",
+            "server": "37.27.44.176",
+            "server_port": 443,
+            "uuid": "26d9ff4d-5fdb-43d8-8ed4-44b4d1d167ea",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -918,19 +951,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
+                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7Z43zHWUVIR0N-vR-yF6h9exfw03q5Lj-ajN3_FxVRA",
+                    "short_id": "214c"
                 }
             }
         },
