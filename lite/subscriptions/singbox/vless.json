@@ -126,7 +126,8 @@
                 "🇵🇱PL | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
-                "🇳🇱NL | vless | @prrofile_purple | 182",
+                "🇳🇱NL | vless | @prrofile_purple | 172",
+                "🇨🇷CR | vless | @ShadowSocks_s | 11",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
@@ -150,7 +151,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -190,7 +191,8 @@
                 "🇵🇱PL | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
-                "🇳🇱NL | vless | @prrofile_purple | 182",
+                "🇳🇱NL | vless | @prrofile_purple | 172",
+                "🇨🇷CR | vless | @ShadowSocks_s | 11",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
@@ -214,7 +216,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -791,11 +793,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @prrofile_purple | 182",
+            "tag": "🇳🇱NL | vless | @prrofile_purple | 172",
             "type": "vless",
-            "server": "188.166.135.26",
-            "server_port": 8080,
-            "uuid": "Telegram---V2ray_vpn_ir",
+            "server": "188.114.96.18",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -807,8 +809,39 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "188.166.135.26"
+                    "Host": "188.114.96.18"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 11",
+            "type": "vless",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8443,
+            "uuid": "7340f9b3-0907-445f-aaf9-304437af3153",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1376,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "lol.ps",
+            "server": "104.21.28.62",
             "server_port": 443,
-            "uuid": "For-Freedom",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1390,7 +1423,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apps.x4azadi.com",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1400,9 +1433,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/X4azadi?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "apps.x4azadi.com"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
