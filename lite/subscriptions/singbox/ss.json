@@ -106,18 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇸🇬SG | ss | @forwardv2ray | 19"
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇸🇬SG | ss | @forwardv2ray | 19"
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,12 +138,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | ss | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
-            "server": "134.195.196.178",
-            "server_port": 808,
-            "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
+            "server": "38.121.43.97",
+            "server_port": 5500,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -156,16 +154,6 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇬SG | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "216.39.248.133",
-            "server_port": 7001,
-            "method": "aes-256-gcm",
-            "password": "RexnBgU7EV5ADxG",
             "plugin": "",
             "plugin_opts": ""
         }
