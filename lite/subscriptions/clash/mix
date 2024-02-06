@@ -128,7 +128,6 @@ proxies:
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 7","type":"vmess","server":"server4.beheshtbaneh.com","port":"8880","cipher":"auto","uuid":"b7e04f2a-2a6a-4b74-a11e-06f658c36391","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"server4.beheshtbaneh.com"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 17","type":"vmess","server":"104.21.82.183","port":"8880","cipher":"auto","uuid":"7ee41eb4-0594-4e2d-92a7-5dd3ee513692","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"server20.beheshtbaneh.com"}}}
   - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 5","type":"vmess","server":"server13.beheshtbaneh.com","port":"8880","cipher":"auto","uuid":"0c0db4fe-6133-4837-9f57-0ce75fb59692","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
 proxy-groups:
   - name: MANUAL
@@ -146,7 +145,6 @@ proxy-groups:
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 17'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 5'
   - name: URL-TEST
     type: url-test
@@ -164,7 +162,6 @@ proxy-groups:
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 17'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 5'
   - name: FALLBACK
     type: fallback
@@ -181,7 +178,6 @@ proxy-groups:
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 17'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
