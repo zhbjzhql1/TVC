@@ -109,10 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -123,10 +124,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -218,6 +220,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "type": "vmess",
+            "server": "205.185.125.200",
+            "server_port": 11451,
+            "uuid": "165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
             "server": "81.12.27.108",
@@ -293,11 +319,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "zxgold.saatbazar.com",
-            "server_port": 46023,
-            "uuid": "a6d2798c-45ff-4a1d-d82f-929b7bf1707b",
+            "server": "server32.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "044ba8ed-7285-472a-bc14-fb91dc6be4c9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,6 +333,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
