@@ -150,7 +150,6 @@
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
@@ -213,7 +212,6 @@
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
@@ -491,7 +489,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
-            "uuid": "5364318f-3578-4b6b-9b17-a732543ab0ba",
+            "uuid": "2cba4f1f-135e-45e9-f754-d71e41401ef9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -501,7 +499,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "liV2raya.xn--mgbg0fka44dhgc.com",
+                "server_name": "liV2raye.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1054,9 +1052,9 @@
         {
             "tag": "🇨🇷CR | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "190.93.246.137",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
+            "server": "190.93.246.225",
+            "server_port": 8880,
+            "uuid": "1c5dff7c-bfe8-45c1-be13-db011fb5bd44",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1066,9 +1064,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "190.93.246.137"
+                    "Host": "190.93.246.225"
                 }
             }
         },
@@ -1355,42 +1353,6 @@
                 "headers": {
                     "Host": "shhproxy.varzesh3-cnd.site"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "Finland.v2rayngz.com",
-            "server_port": 2087,
-            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
