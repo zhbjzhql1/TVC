@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | vless | @NIM_VPN_ir | 8","type":"vless","server":"167.235.194.0","port":20832,"udp":true,"uuid":"3709d9c3-0287-498a-8663-c476db86a6a3","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"sourceforge.net","reality-opts":{"public-key":"ng6XQkeYA7Omk3Gbsj2famKYasixtk8mFpifFBRv8Qo","short-id":"914deebd"}}
   - {"name":"🇫🇮FI | vless | @Capoit | 5","type":"vless","server":"95.217.208.245","port":443,"udp":true,"uuid":"2b2e85fd-fb5f-4050-8af3-dc5b168fdf4e","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.gsmarena.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"ghLIwaKG9GWJLEV7PxdHKkW4a37QBfa30A0tufmJ6zw","short-id":"849f8532"}}
+  - {"name":"🇫🇮FI | vless | @forwardv2ray | 18","type":"vless","server":"65.109.203.49","port":40578,"udp":true,"uuid":"50c8842b-5984-4ed7-93d8-991d5d87e8e1","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"Chir","flow":"xtls-rprx-vision","reality-opts":{"public-key":"PNOrtFOkqSk4nhiahy12wmYQUWgf334impsmet_d3E4","short-id":"f1d3c6a0"}}
   - {"name":"🏳️XX | vless | @FAKEOFTVC | 5","type":"vless","server":"uim-98com.bezanimikhori.shop","port":8080,"udp":true,"uuid":"c63c592e-cc01-443c-8993-9dd1b8225193","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"DISCORD.COM","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TLeFrY6G_LSZy8wcsppX2CgJntiaiT-AjB7iRTbvBEw","short-id":"da70e9a6"}}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +132,7 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | vless | @NIM_VPN_ir | 8'
       - '🇫🇮FI | vless | @Capoit | 5'
+      - '🇫🇮FI | vless | @forwardv2ray | 18'
       - '🏳️XX | vless | @FAKEOFTVC | 5'
   - name: URL-TEST
     type: url-test
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | vless | @NIM_VPN_ir | 8'
       - '🇫🇮FI | vless | @Capoit | 5'
+      - '🇫🇮FI | vless | @forwardv2ray | 18'
       - '🏳️XX | vless | @FAKEOFTVC | 5'
   - name: FALLBACK
     type: fallback
@@ -148,6 +151,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | vless | @NIM_VPN_ir | 8'
       - '🇫🇮FI | vless | @Capoit | 5'
+      - '🇫🇮FI | vless | @forwardv2ray | 18'
       - '🏳️XX | vless | @FAKEOFTVC | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
