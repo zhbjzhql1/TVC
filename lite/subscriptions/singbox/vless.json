@@ -110,6 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇺🇸US | vless | @VlessConfig | 18",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -149,11 +150,12 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
+                "🇨🇷CR | vless | @mehrosaboran | 18",
                 "🇸🇪SE | vless | @kiava | 7",
-                "🇨🇷CR | vless | @proxy_mtm | 1",
+                "🇨🇷CR | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -171,6 +173,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇺🇸US | vless | @VlessConfig | 18",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -210,11 +213,12 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
+                "🇨🇷CR | vless | @mehrosaboran | 18",
                 "🇸🇪SE | vless | @kiava | 7",
-                "🇨🇷CR | vless | @proxy_mtm | 1",
+                "🇨🇷CR | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -319,7 +323,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.233.229.192",
+            "server": "34.231.213.238",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -345,6 +349,37 @@
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
+            "type": "vless",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8443,
+            "uuid": "Tel-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1388,11 +1423,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "All.punisher-shop-v2.site",
-            "server_port": 443,
-            "uuid": "5c6c5660-5ef7-4cbc-93b2-c3cae9b57926",
+            "server": "104.17.45.62",
+            "server_port": 8880,
+            "uuid": "1c5dff7c-bfe8-45c1-be13-db011fb5bd44",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1400,22 +1435,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Reza.Punisher-shop-v2.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@puni_shop_v2rayNG،@puni_shop_v2rayNG،@puni_shop_v2rayNG،@puni_shop_v2rayNG",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "104.17.45.62"
+                }
             }
         },
         {
@@ -1469,6 +1494,27 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 18",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 8080,
+            "uuid": "-VPNCUSTOMIZE-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "190.93.247.155"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @kiava | 7",
             "type": "vless",
             "server": "13.50.17.155",
@@ -1498,7 +1544,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_mtm | 1",
+            "tag": "🇨🇷CR | vless | @proxy_mtm | 5",
             "type": "vless",
             "server": "190.93.247.247",
             "server_port": 8080,
