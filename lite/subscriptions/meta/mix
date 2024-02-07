@@ -141,6 +141,7 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 15","type":"trojan","server":"16.16.180.228","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵JP | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"152.69.197.60","port":"1069","cipher":"auto","uuid":"ac8e26fe-8150-4b60-ae64-82fc77eba2cf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇷CR | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"mci.mordad.shop","port":"2096","cipher":"auto","uuid":"12009e57-6fd8-46d6-94af-539514a7e7c7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1.shargh.shop"}}}
   - {"name":"🇨🇷CR | vless | @prrofile_purple | 180","type":"vless","server":"shhproxy.varzesh3-cnd.site","port":80,"udp":false,"uuid":"39cafa46-bbb8-441c-a1b0-b74793597061","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"SHHPROXY-V2ray.斯涅過濾器69.website"}}}
   - {"name":"🇨🇦CA | vless | @UnlimitedDev | 8","type":"vless","server":"bia-to2.unlimiteddev.site","port":8880,"udp":false,"uuid":"6c0135ef-ced8-49ea-8e87-d62aad8bb550","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@UnlimitedDev","headers":{"host":"UnlimitedDev.xn--oor01rm8hfr4c.site"}}}
@@ -168,7 +169,6 @@ proxies:
   - {"name":"🇨🇦CA | vless | @flyv2ray | 9","type":"vless","server":"panel5.obsernet.top","port":2053,"udp":false,"uuid":"fc7a9548-fd36-41f1-8c32-bb6bbba84e90","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"panel5.obsernet.top","ws-opts":{"path":"/","headers":{"host":"panel5.obsernet.top"}}}
   - {"name":"🏳️XX | vless | @FAKEOFTVC | 5","type":"vless","server":"uim-98com.bezanimikhori.shop","port":8080,"udp":true,"uuid":"c63c592e-cc01-443c-8993-9dd1b8225193","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"DISCORD.COM","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TLeFrY6G_LSZy8wcsppX2CgJntiaiT-AjB7iRTbvBEw","short-id":"da70e9a6"}}
   - {"name":"🇨🇦CA | vless | @https_config_injector | 14","type":"vless","server":"104.31.16.165","port":80,"udp":false,"uuid":"e4a52f75-474e-449e-bcd2-05ea177f1403","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"68.动列员球8.tech"}}}
-  - {"name":"🇨🇦CA | vless | @mehrosaboran | 12","type":"vless","server":"iranserver.com","port":2083,"udp":false,"uuid":"946c6b42-9c09-4f6e-be4f-5d84b83b7803","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mehrosaboran.joinbede.sbs","grpc-opts":{"grpc-service-name":""}}
   - {"name":"🇨🇷CR | vless | @nofiltering2 | 1","type":"vless","server":"shhproxy.varzesh3-cnd.site","port":2087,"udp":false,"uuid":"4b5cbbc4-d388-4dc1-aec9-0f63169ad60b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"gmV2raybo.shhproxyfree.com","ws-opts":{"path":"/","headers":{"host":"gmV2raybo.shhproxyfree.com"}}}
   - {"name":"🇨🇦CA | vless | @proxy_mtm | 0","type":"vless","server":"104.31.16.160","port":80,"udp":false,"uuid":"30bacb3e-a515-42bc-9e0b-5241f32e8080","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"85.足球足子子足5.tech"}}}
   - {"name":"🇬🇧GB | vless | @freeconfigv2 | 14","type":"vless","server":"51.89.156.132","port":42440,"udp":false,"uuid":"ee1a886f-05ba-4407-bdd1-efdb4daac2f6","tls":false,"network":"tcp","client-fingerprint":"chrome","flow":"xtls-rprx-vision"}
@@ -203,6 +203,7 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇯🇵JP | vmess | @DeamNet_Proxy | 19'
       - '🇨🇷CR | vmess | @oneclickvpnkeys | 9'
       - '🇨🇷CR | vless | @prrofile_purple | 180'
       - '🇨🇦CA | vless | @UnlimitedDev | 8'
@@ -230,7 +231,6 @@ proxy-groups:
       - '🇨🇦CA | vless | @flyv2ray | 9'
       - '🏳️XX | vless | @FAKEOFTVC | 5'
       - '🇨🇦CA | vless | @https_config_injector | 14'
-      - '🇨🇦CA | vless | @mehrosaboran | 12'
       - '🇨🇷CR | vless | @nofiltering2 | 1'
       - '🇨🇦CA | vless | @proxy_mtm | 0'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
@@ -265,6 +265,7 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇯🇵JP | vmess | @DeamNet_Proxy | 19'
       - '🇨🇷CR | vmess | @oneclickvpnkeys | 9'
       - '🇨🇷CR | vless | @prrofile_purple | 180'
       - '🇨🇦CA | vless | @UnlimitedDev | 8'
@@ -292,7 +293,6 @@ proxy-groups:
       - '🇨🇦CA | vless | @flyv2ray | 9'
       - '🏳️XX | vless | @FAKEOFTVC | 5'
       - '🇨🇦CA | vless | @https_config_injector | 14'
-      - '🇨🇦CA | vless | @mehrosaboran | 12'
       - '🇨🇷CR | vless | @nofiltering2 | 1'
       - '🇨🇦CA | vless | @proxy_mtm | 0'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
@@ -326,6 +326,7 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇯🇵JP | vmess | @DeamNet_Proxy | 19'
       - '🇨🇷CR | vmess | @oneclickvpnkeys | 9'
       - '🇨🇷CR | vless | @prrofile_purple | 180'
       - '🇨🇦CA | vless | @UnlimitedDev | 8'
@@ -353,7 +354,6 @@ proxy-groups:
       - '🇨🇦CA | vless | @flyv2ray | 9'
       - '🏳️XX | vless | @FAKEOFTVC | 5'
       - '🇨🇦CA | vless | @https_config_injector | 14'
-      - '🇨🇦CA | vless | @mehrosaboran | 12'
       - '🇨🇷CR | vless | @nofiltering2 | 1'
       - '🇨🇦CA | vless | @proxy_mtm | 0'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
