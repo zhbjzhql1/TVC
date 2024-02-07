@@ -109,9 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🇨🇷CR | vmess | @Hope_Net | 16",
+                "🏳️XX | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ]
         },
@@ -122,9 +121,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🇨🇷CR | vmess | @Hope_Net | 16",
+                "🏳️XX | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -199,11 +197,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @Hope_Net | 16",
+            "tag": "🏳️XX | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "190.93.246.137",
-            "server_port": 2096,
-            "uuid": "12009e57-6fd8-46d6-94af-539514a7e7c7",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "babacca-aacb-baac-bcad-babbbcccacaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -213,23 +211,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s1.shargh.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "s1.shargh.shop"
-                }
             }
         },
         {
@@ -254,23 +235,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 14",
-            "type": "vmess",
-            "server": "135.148.67.129",
-            "server_port": 35063,
-            "uuid": "2f1c9600-706e-4a0d-93da-53bb42a27487",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
