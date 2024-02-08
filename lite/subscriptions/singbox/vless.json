@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1326,11 +1326,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "173.245.59.16",
+            "server_port": 80,
+            "uuid": "792145b6-bbcd-41b2-bf80-1a17958ce0b7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1338,21 +1338,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
+                    "Host": "173.245.59.16"
                 }
             }
         },
