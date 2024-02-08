@@ -120,8 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.74.39.155","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.50.72.147","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 15","type":"trojan","server":"35.180.94.11","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @DirectVPN | 14","type":"trojan","server":"15.237.163.97","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇸🇪SE | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"16.171.12.59","port":80,"udp":false,"password":"o233Smkn1m","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
 proxy-groups:
@@ -130,8 +130,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | trojan | @PrivateVPNs | 16'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 15'
+      - '🇫🇷FR | trojan | @DirectVPN | 14'
       - '🇸🇪SE | trojan | @oneclickvpnkeys | 10'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
   - name: URL-TEST
@@ -140,8 +140,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | trojan | @PrivateVPNs | 16'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 15'
+      - '🇫🇷FR | trojan | @DirectVPN | 14'
       - '🇸🇪SE | trojan | @oneclickvpnkeys | 10'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
   - name: FALLBACK
@@ -149,8 +149,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | trojan | @PrivateVPNs | 16'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 15'
+      - '🇫🇷FR | trojan | @DirectVPN | 14'
       - '🇸🇪SE | trojan | @oneclickvpnkeys | 10'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
 rule-providers:
