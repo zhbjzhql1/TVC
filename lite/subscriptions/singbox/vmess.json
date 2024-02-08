@@ -109,8 +109,10 @@
                 "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇻🇳VN | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 7"
@@ -123,8 +125,10 @@
                 "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇻🇳VN | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 7"
@@ -201,6 +205,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "47.89.192.94",
+            "server_port": 80,
+            "uuid": "301d815f-a02a-4c2c-a424-b16cf0a241ae",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/4a5yXsGODBM1cvl9TzyF0SHR3v",
+                "headers": {
+                    "Host": "47.89.192.94"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
             "server": "62.60.132.187",
@@ -236,6 +264,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "bs2.loadingip.com",
+            "server_port": 80,
+            "uuid": "5278f5d3-f001-4459-94b6-7e0915238998",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bs",
                 "headers": {
                     "Host": ""
                 }
