@@ -121,7 +121,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
@@ -152,6 +152,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
+                "🇩🇪DE | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -185,7 +186,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
@@ -216,6 +217,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
+                "🇩🇪DE | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -683,11 +685,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "pars.ezilax.net",
-            "server_port": 22789,
-            "uuid": "ed0514ef-2178-4a6e-a6ee-0e9e0c739e4e",
+            "server": "lol.ps",
+            "server_port": 443,
+            "uuid": "For-Freedom",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -695,11 +697,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "apps.x4azadi.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/X4azadi?ed",
                 "headers": {
-                    "Host": "pars.ezilax.net"
+                    "Host": "apps.x4azadi.com"
                 }
             }
         },
@@ -1443,6 +1455,42 @@
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "64.227.117.48",
+            "server_port": 443,
+            "uuid": "1a43202e-c14a-4f5b-8b06-f752ffb6d12e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vindu.agency",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8s2_n7pYiHwWJ_ZAB0RgPUaqO0_rCe3RykFPJtIC6UI",
+                    "short_id": "c77cf6ff"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
