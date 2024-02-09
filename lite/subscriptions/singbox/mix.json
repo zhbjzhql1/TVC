@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 9",
@@ -161,7 +161,7 @@
                 "🇮🇷IR | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -169,7 +169,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 11",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇮🇹IT | vmess | @eliya_chiter0 | 8",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 3",
                 "🇺🇸US | tuic | @TUICity | 69",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 9",
@@ -238,7 +238,7 @@
                 "🇮🇷IR | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -246,7 +246,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 11",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇮🇹IT | vmess | @eliya_chiter0 | 8",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 3",
                 "🇺🇸US | tuic | @TUICity | 69",
@@ -1391,17 +1391,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "195.201.238.126",
+            "server": "parspack.com",
             "server_port": 443,
-            "uuid": "cce2f72e-a166-4563-be4f-59392881c9d8",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
             }
         },
         {
@@ -1649,11 +1666,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "ic.gimalorpa.cloud",
-            "server_port": 2083,
-            "uuid": "6ee6380f-32ca-4916-a001-77478550179b",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 2096,
+            "uuid": "de62901e-81e2-4a60-b29f-facac7d9b4b7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1663,7 +1680,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ELX.gimalorpa.cloud",
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1673,7 +1690,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "2083vless",
+                "service_name": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1846,11 +1863,11 @@
             }
         },
         {
-            "tag": "🇮🇹IT | vmess | @eliya_chiter0 | 8",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 8",
             "type": "vmess",
-            "server": "95.164.46.154",
-            "server_port": 80,
-            "uuid": "431fda16-e0f8-4884-b4fd-965f03f86471",
+            "server": "104.16.4.103",
+            "server_port": 443,
+            "uuid": "1f6d762e-b32e-4028-8291-4b81af1cd52c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1861,11 +1878,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.free-best-ray.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/FSSSJJaPXI0ATHQ2RoRM",
                 "headers": {
-                    "Host": ""
+                    "Host": "cdn.free-best-ray.space"
                 }
             }
         },
