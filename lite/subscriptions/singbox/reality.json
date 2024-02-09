@@ -110,8 +110,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
+                "🏳️XX | vless | @v2ray_swhil | 29",
                 "🇷🇴RO | vless | @proxyymeliii | 18",
-                "🇩🇪DE | vless | @V2RayTz | 9",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -126,8 +126,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
+                "🏳️XX | vless | @v2ray_swhil | 29",
                 "🇷🇴RO | vless | @proxyymeliii | 18",
-                "🇩🇪DE | vless | @V2RayTz | 9",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -291,6 +291,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @v2ray_swhil | 29",
+            "type": "vless",
+            "server": "free.mmdtitaniom.com",
+            "server_port": 2053,
+            "uuid": "a1607b53-08c9-4f77-cc45-850e16f9e6c7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-FArfVyUNqBnbsHtWC4MvDcUpW6MjplITOJjVoGhRCA",
+                    "short_id": "888746"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇷🇴RO | vless | @proxyymeliii | 18",
             "type": "vless",
             "server": "188.241.240.230",
@@ -321,42 +357,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "www.speedtest.org",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 9",
-            "type": "vless",
-            "server": "49.13.45.110",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dnschecker.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6iuyIVtM48HTcI_TB1aS3WEVAiWItqoJplB8ecu5DE0",
-                    "short_id": "6909866b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
