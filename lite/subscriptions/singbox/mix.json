@@ -148,7 +148,6 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -161,7 +160,7 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
@@ -224,7 +223,6 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -237,7 +235,7 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
@@ -1329,37 +1327,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "172.67.182.110",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/TELEGRAM-PROXY_MTM",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "104.17.45.62",
@@ -1625,12 +1592,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "ip.persiancalendar.monster",
-            "server_port": 2096,
-            "uuid": "6eab8941-b67d-4d27-bb55-d707d79727c3",
-            "flow": "",
+            "server": "91.107.244.26",
+            "server_port": 22710,
+            "uuid": "52bd5ea2-dcfb-4f96-a54a-8c8c0f682d75",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1639,19 +1606,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yekta.persiancalendar.monster",
+                "server_name": "discord.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/w2",
-                "headers": {
-                    "Host": "yekta.persiancalendar.monster"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U7eH8h4h2edWICi90a2570pInOrQNo7pVGu0w6dHPkU",
+                    "short_id": "7e69c512"
                 }
             }
         },
