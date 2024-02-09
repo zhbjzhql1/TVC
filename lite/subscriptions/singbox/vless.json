@@ -128,7 +128,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
@@ -141,7 +141,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 96",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -152,7 +152,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇸🇬SG | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -194,7 +193,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
@@ -207,7 +206,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 96",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -218,7 +217,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇸🇬SG | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -864,7 +862,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 8",
+            "tag": "🏳️XX | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1196,24 +1194,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "104.21.64.117",
-            "server_port": 8080,
-            "uuid": "b00b62d3-80a2-40f4-92f2-f93f6cbbc96e",
+            "server": "195.201.238.126",
+            "server_port": 443,
+            "uuid": "cce2f72e-a166-4563-be4f-59392881c9d8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@x2rayn_vpnCDN?ed=2090",
-                "headers": {
-                    "Host": "104.21.64.117"
-                }
             }
         },
         {
@@ -1447,42 +1438,6 @@
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "15.235.143.146",
-            "server_port": 443,
-            "uuid": "392203cd-27c0-426d-88be-5a5ec1cf7b78",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bugarbahagia.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vb5EKWNuql1-jsROMRQaAfhqNOeY2ajFPJJUz15yNHo",
-                    "short_id": "97713807"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
