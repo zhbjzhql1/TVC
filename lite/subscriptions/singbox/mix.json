@@ -137,6 +137,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
+                "🇨🇦CA | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 31",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | trojan | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 16",
@@ -165,7 +166,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇨🇦CA | trojan | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -219,6 +219,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
+                "🇨🇦CA | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 31",
@@ -233,7 +234,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | trojan | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 16",
@@ -247,7 +248,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇨🇦CA | trojan | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -1076,6 +1076,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ServerNett | 8",
+            "type": "vless",
+            "server": "join344.numalla.top",
+            "server_port": 2096,
+            "uuid": "3d1457e2-265a-4aea-9ece-31a2db70bd40",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join344.numalla.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 5",
             "type": "vless",
             "server": "104.18.13.60",
@@ -1379,31 +1410,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 15",
-            "type": "trojan",
-            "server": "spaescalesante.com",
-            "server_port": 443,
-            "password": "17f4087c-d014-491e-b89c-c54391fda9cd",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "server2.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "8420ee38-4cf6-4d79-a9ec-2731207cf83a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "2jp2.pqjc.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/pq\/jp1",
+                "path": "\/",
                 "headers": {
-                    "Host": "2jp2.pqjc.buzz"
+                    "Host": ""
                 }
             }
         },
@@ -1690,35 +1716,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "shhproxy.varzesh3-cnd.site"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "spaescalesante.com",
-            "server_port": 443,
-            "password": "89edf49e-e625-4902-a94b-d1acc926b96d",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "psg4.pqjc.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pq\/sg2",
-                "headers": {
-                    "Host": "psg4.pqjc.buzz"
                 }
             }
         },
