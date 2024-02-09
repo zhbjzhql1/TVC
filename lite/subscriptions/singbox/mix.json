@@ -133,7 +133,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 16",
@@ -166,6 +166,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -215,7 +216,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
@@ -234,7 +235,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 16",
@@ -248,6 +249,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -721,9 +723,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "Ctwct.arvaNcode.EU.ORG",
-            "server_port": 80,
-            "uuid": "67ecd200-817c-4b78-9a78-9c6edc5f8901",
+            "server": "discord.com",
+            "server_port": 443,
+            "uuid": "Venom-Servers",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -731,12 +733,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
-                "headers": {
-                    "Host": "Ctwct.arvaNcode.EU.ORG"
+            "tls": {
+                "enabled": true,
+                "server_name": "VENOM4.chvrsi.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_serversTelegram-Channel@Venom_servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -984,7 +996,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1420,11 +1432,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
+            "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "SVNTEAMx",
+            "uuid": "---Telegram-Parsashonam--3-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1436,7 +1448,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1724,6 +1736,37 @@
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "caca.pubgji.eu.org",
+            "server_port": 443,
+            "uuid": "2491b9f0-fd22-4d44-a615-bc7fa456339d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "go-to-hell.savarkaraan.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
