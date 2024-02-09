@@ -112,7 +112,7 @@
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @frev2ray | 2",
-                "🇨🇷CR | vless | @shh_proxy | 27",
+                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇷CR | vless | @lightning6 | 29",
@@ -137,17 +137,19 @@
                 "🇨🇦CA | vless | @DailyV2RY | 116",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🏳️XX | vless | @Capoit | 5",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🇮🇷IR | vless | @proxy_mtm | 16",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -170,7 +172,7 @@
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @frev2ray | 2",
-                "🇨🇷CR | vless | @shh_proxy | 27",
+                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇷CR | vless | @lightning6 | 29",
@@ -195,17 +197,19 @@
                 "🇨🇦CA | vless | @DailyV2RY | 116",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🏳️XX | vless | @Capoit | 5",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🇮🇷IR | vless | @proxy_mtm | 16",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -311,7 +315,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "52.45.100.17",
+            "server": "34.238.102.206",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -392,12 +396,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @shh_proxy | 27",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 11",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "9c4d7fb2-88a5-4e28-976a-654d9a80b338",
-            "flow": "",
+            "server": "v2ti.fun",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -406,20 +410,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
+                "server_name": "asemooni.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xH7abqCI9aYGthLZjbpkGuznvYb0BANH8hDMNgdiVxk",
+                    "short_id": "c98b4712"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
-                }
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1070,6 +1079,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "join-zedmodeon.servehalflife.com",
+            "server_port": 2095,
+            "uuid": "0bdb1407-0554-4834-97cd-ba3487af59b5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "join-zedmodeon.servehalflife.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "104.17.45.62",
@@ -1209,6 +1239,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "type": "vless",
+            "server": "lol.ps",
+            "server_port": 8880,
+            "uuid": "X4azadi-mci",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/X4azadi",
+                "headers": {
+                    "Host": "lol.ps"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @IRN_VPN | 2",
             "type": "vless",
             "server": "account.zula.ir",
@@ -1303,11 +1354,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
             "type": "vless",
-            "server": "63.141.128.21",
-            "server_port": 443,
-            "uuid": "a6d25389-0c1b-4775-8d7f-1df362d0c6cf",
+            "server": "160.153.0.179",
+            "server_port": 2096,
+            "uuid": "39e45469-36a5-4644-9bdb-681b28a7369d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1317,7 +1368,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.khanoomi.online",
+                "server_name": "vpncustomizeV2ray.XN--4oq36ed28d.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1326,11 +1377,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "vpncustomizeV2ray.XN--4oq36ed28d.org"
+                }
             }
         },
         {
