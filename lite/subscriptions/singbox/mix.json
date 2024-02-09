@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🏳️XX | vless | @v2ray_swhil | 27",
-                "🇺🇸US | vmess | @proxyymeliii | 20",
+                "🇷🇴RO | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇸🇬SG | trojan | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 17",
@@ -161,7 +161,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | trojan | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 9",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🏳️XX | vless | @v2ray_swhil | 27",
-                "🇺🇸US | vmess | @proxyymeliii | 20",
+                "🇷🇴RO | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇸🇬SG | trojan | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 17",
@@ -239,7 +239,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | trojan | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 9",
@@ -880,7 +880,7 @@
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
-            "uuid": "50e4251a-95d4-456d-bfbf-ef946c765aac",
+            "uuid": "c41b4dce-c507-48d1-84d1-448d3f902705",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1095,20 +1095,39 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @proxyymeliii | 20",
-            "type": "vmess",
-            "server": "51.81.149.151",
-            "server_port": 27978,
-            "uuid": "9fd11110-625d-4a96-9e3a-09062613a098",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇷🇴RO | vless | @proxyymeliii | 19",
+            "type": "vless",
+            "server": "188.241.240.230",
+            "server_port": 20044,
+            "uuid": "a598099f-5032-475d-8826-3bfac5e042b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "www.speedtest.org",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1314,13 +1333,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "join-zedmodeon.servehalflife.com",
-            "server_port": 2095,
-            "uuid": "0bdb1407-0554-4834-97cd-ba3487af59b5",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "server32.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "044ba8ed-7285-472a-bc14-fb91dc6be4c9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1328,9 +1350,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
+                "path": "\/",
                 "headers": {
-                    "Host": "join-zedmodeon.servehalflife.com"
+                    "Host": ""
                 }
             }
         },
@@ -1600,11 +1622,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @forwardv2ray | 19",
-            "type": "trojan",
-            "server": "discord.com",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "type": "vless",
+            "server": "172.64.80.150",
             "server_port": 443,
-            "password": "89edf49e-e625-4902-a94b-d1acc926b96d",
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1612,7 +1636,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "2jp4.pqjc.buzz",
+                "server_name": "always-online1.lp-airdrop.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1622,9 +1646,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/pq\/jp2",
+                "path": "\/",
                 "headers": {
-                    "Host": "2jp4.pqjc.buzz"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
