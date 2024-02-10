@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 12",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
@@ -162,8 +162,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @FAKEOFTVC | 8",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 12",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
@@ -240,8 +240,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @FAKEOFTVC | 8",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -572,7 +572,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1357,11 +1357,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 8",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "server": "parspack.com",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1369,11 +1369,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
@@ -1691,21 +1701,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2LVVFxxHJSBMdGdl",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 8",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "server": "medium.com",
+            "server_port": 443,
+            "uuid": "49ac899d-76ac-4189-fbd1-5880ef54dfe1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1713,12 +1713,39 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nns.bestmoonlive.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "nns.bestmoonlive.com"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 8",
+            "type": "vmess",
+            "server": "51.81.168.65",
+            "server_port": 45298,
+            "uuid": "40485c36-5d00-4651-bcca-0ddc49d221a7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
