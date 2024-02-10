@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 12",
@@ -139,6 +139,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -175,7 +176,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 12",
@@ -198,6 +199,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -513,7 +515,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 26",
+            "tag": "🇺🇸US | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1131,6 +1133,37 @@
                 "headers": {
                     "Host": "donald.pydri.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 2083,
+            "uuid": "3c110307-dcf0-4002-b944-6d2c9530dd23",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.zedmodeon.lat",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
