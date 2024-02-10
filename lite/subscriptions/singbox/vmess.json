@@ -109,12 +109,13 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇮🇱IL | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇦🇺AU | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
+                "🇺🇸US | vmess | @eliya_chiter0 | 8"
             ]
         },
         {
@@ -124,12 +125,13 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇮🇱IL | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇦🇺AU | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
+                "🇺🇸US | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -220,11 +222,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇮🇱IL | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "18arcims.ir",
+            "server": "il1.xv2ray.net",
             "server_port": 80,
-            "uuid": "c64545ef-b0f9-4e9d-aef6-df0d58f9e29c",
+            "uuid": "14665d49-17ee-4fd7-b1de-19d98e4b8e27",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,7 +241,7 @@
                 "type": "ws",
                 "path": "\/vmess",
                 "headers": {
-                    "Host": "18arcims.ir"
+                    "Host": "il1.xv2ray.net"
                 }
             }
         },
@@ -292,6 +294,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "amir.greenblue.top.greenblue.top",
+            "server_port": 8443,
+            "uuid": "express_v2ray",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api39.animationkidsart.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "api39.animationkidsart.ir"
+                }
+            }
+        },
+        {
             "tag": "🇦🇺AU | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "103.73.64.180",
@@ -333,7 +369,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 8",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 8",
             "type": "vmess",
             "server": "104.16.4.103",
             "server_port": 443,
