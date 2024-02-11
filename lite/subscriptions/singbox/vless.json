@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 14",
@@ -136,10 +136,12 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 28",
                 "🇨🇦CA | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
+                "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 5",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
@@ -167,7 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 14",
@@ -197,10 +199,12 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 28",
                 "🇨🇦CA | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
+                "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 5",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
@@ -244,7 +248,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
             "type": "vless",
             "server": "104.18.200.200",
             "server_port": 2086,
@@ -1030,6 +1034,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 8",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "a4faf5d8-b9a8-433e-9518-2d2e21d76f78",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nginx.nirevil.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2RAY1_NG--V2RAY1_NG--V2RAY1_NG-- V2RAY1_NG--V2RAY1_NG--V2RAY1_NG--",
+                "headers": {
+                    "Host": "nginx.nirevil.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @vless_vmess | 7",
             "type": "vless",
             "server": "l16.darklord.life",
@@ -1075,7 +1110,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 139",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 147",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 2087,
@@ -1133,6 +1168,27 @@
                 "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "cdn.user.com",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdn.user.com"
                 }
             }
         },
