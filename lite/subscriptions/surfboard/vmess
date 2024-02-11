@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇩🇪DE | vmess | @ConfigsHUB | 10 = vmess, channel.iran-mehr14.ir, 8080, username = c4bb3b21-81b7-4a0c-8f0d-36d6b865c926, ws = true, tls = , vmess-aead = true, ws-path = /RL842FfWrFLaTjhd, ws-headers = Host:"aeza3.iran-mehr-vip.ir", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 6
-URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 6
-FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 6
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @ConfigsHUB | 10,🇺🇸US | vmess | @v2Line | 6
+URL-TEST = url-test,🇩🇪DE | vmess | @ConfigsHUB | 10,🇺🇸US | vmess | @v2Line | 6
+FALLBACK = fallback,🇩🇪DE | vmess | @ConfigsHUB | 10,🇺🇸US | vmess | @v2Line | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -13,11 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇳🇱NL | ss | @V2rayCollectorDonate | 19 = ss, shadoct.kingarvan.eu.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = XlUFgoOqDlVqlZFD3Js0YA
 🇦🇹AT | ss | @OutlineVpnOfficial | 15 = ss, 212.113.106.243, 12949, encrypt-method = chacha20-ietf-poly1305, password = P2zxXPewlV3BlfqqYiSthvtLc
-🇬🇧GB | ss | @forwardv2ray | 10 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇬🇧GB | ss | @forwardv2ray | 10
-URL-TEST = url-test,🇳🇱NL | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇬🇧GB | ss | @forwardv2ray | 10
-FALLBACK = fallback,🇳🇱NL | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇬🇧GB | ss | @forwardv2ray | 10
+MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15
+URL-TEST = url-test,🇳🇱NL | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15
+FALLBACK = fallback,🇳🇱NL | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
