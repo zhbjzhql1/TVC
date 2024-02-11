@@ -109,7 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | vmess | @Cov2ray | 0",
+                "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇻🇳VN | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @v2Line | 6"
             ]
         },
@@ -120,7 +121,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | vmess | @Cov2ray | 0",
+                "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇻🇳VN | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @v2Line | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -202,7 +204,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Cov2ray | 0",
+            "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
             "type": "vmess",
             "server": "188.114.96.11",
             "server_port": 80,
@@ -222,6 +224,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "skyht2.vpndata.vn",
+            "server_port": 80,
+            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNDATA.VPN",
+                "headers": {
+                    "Host": "skyht2.vpndata.vn"
                 }
             }
         },
