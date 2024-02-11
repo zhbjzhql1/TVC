@@ -117,7 +117,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 7",
@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 5",
+                "🇸🇬SG | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
@@ -149,12 +149,11 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 8",
-                "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇺🇸US | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
-                "🇨🇦CA | vless | @proxy_mtm | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -180,7 +179,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 7",
@@ -204,7 +203,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 5",
+                "🇸🇬SG | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
@@ -212,12 +211,11 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🏳️XX | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 8",
-                "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇺🇸US | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
-                "🇨🇦CA | vless | @proxy_mtm | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -557,7 +555,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 26",
+            "tag": "🇺🇸US | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1172,24 +1170,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 5",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "cdn.user.com",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
-            "flow": "",
+            "server": "15.235.203.5",
+            "server_port": 443,
+            "uuid": "d04363b7-306d-4f68-9ff3-46fed9eb693f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cdn.user.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "kohchangartstudio.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rl3b7Kvk25jVW05W6bVTgwxKEflNPU2SnPYT6r6anCg",
+                    "short_id": "d9f06ec4"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1333,7 +1346,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @IRN_VPN | 2",
+            "tag": "🇺🇸US | vless | @IRN_VPN | 2",
             "type": "vless",
             "server": "account.zula.ir",
             "server_port": 8443,
@@ -1467,37 +1480,6 @@
                     "enabled": true,
                     "public_key": "_17kLFyducsplbxxPwuldsiIg35fdtKDwRUib3fUE18",
                     "short_id": "36465b56"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 3",
-            "type": "vless",
-            "server": "parspack.com",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
