@@ -129,6 +129,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
@@ -146,9 +147,10 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
+                "🏳️XX | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
                 "🏳️XX | vless | @v2rayng_vpnrog | 10",
@@ -201,6 +203,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
@@ -218,9 +221,10 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
+                "🏳️XX | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 5",
                 "🏳️XX | vless | @v2rayng_vpnrog | 10",
@@ -871,6 +875,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "47.88.87.39",
+            "server_port": 80,
+            "uuid": "18351862-d953-4ab9-afae-4998dcd56f8b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wRDYyXAgH6oASzMKs65VUYw",
+                "headers": {
+                    "Host": "47.88.87.39"
+                }
+            }
+        },
+        {
             "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "118.167.68.3",
@@ -1257,31 +1285,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "128.140.97.199",
-            "server_port": 52606,
-            "uuid": "bbcac1db-e11c-4e8e-8421-442b910d2231",
-            "flow": "xtls-rprx-vision",
+            "server": "XvProxy.savagev2ray.site",
+            "server_port": 80,
+            "uuid": "93757283-96f9-4fed-96f6-7aaf18a34e46",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oC_KW2uWbqYBPZ33Ywhkr0N-n2rYDecWwQj87asCl2Y",
-                    "short_id": "f6159ff1"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "XvProxy.savagev2ray.site"
                 }
             }
         },
@@ -1312,6 +1332,23 @@
             "server": "xibaozi.19890604.day",
             "server_port": 10847,
             "password": "c1dc3493-2298-44ab-98c1-4abccbc350d1",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "cabbaca-aacb-abac-dbac-bccabaababcc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1531,30 +1568,15 @@
         {
             "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "91.107.244.26",
-            "server_port": 22710,
-            "uuid": "52bd5ea2-dcfb-4f96-a54a-8c8c0f682d75",
-            "flow": "xtls-rprx-vision",
+            "server": "217.114.217.120",
+            "server_port": 18947,
+            "uuid": "dfa903d0-5477-4f37-99a7-e833ab5ce1c9",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "U7eH8h4h2edWICi90a2570pInOrQNo7pVGu0w6dHPkU",
-                    "short_id": "7e69c512"
-                }
             }
         },
         {
