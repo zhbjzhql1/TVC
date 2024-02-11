@@ -123,6 +123,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 6","type":"vmess","server":"submehti.karaj68.shop","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":""}}
   - {"name":"🇨🇦CA | vmess | @customv2ray | 11","type":"vmess","server":"submehti.karaj68.shop","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 19","type":"vmess","server":"51.222.9.70","port":"443","cipher":"auto","uuid":"c853ad44-f1b5-4b19-9c0f-ca202955845b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"vmess-grpc","grpc-mode":"gun"}}
   - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 7","type":"vmess","server":"submehti.karaj68.shop","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
 proxy-groups:
   - name: MANUAL
@@ -135,6 +136,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
       - '🇨🇦CA | vmess | @customv2ray | 11'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 7'
   - name: URL-TEST
     type: url-test
@@ -147,6 +149,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
       - '🇨🇦CA | vmess | @customv2ray | 11'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 7'
   - name: FALLBACK
     type: fallback
@@ -158,6 +161,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
       - '🇨🇦CA | vmess | @customv2ray | 11'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
