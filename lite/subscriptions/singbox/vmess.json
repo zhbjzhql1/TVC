@@ -110,9 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 10",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
@@ -124,9 +124,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 10",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -225,30 +225,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "channel.iran-mehr14.ir",
-            "server_port": 8080,
-            "uuid": "c4bb3b21-81b7-4a0c-8f0d-36d6b865c926",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RL842FfWrFLaTjhd",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "127.0.0.1",
@@ -286,6 +262,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.196.112",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
