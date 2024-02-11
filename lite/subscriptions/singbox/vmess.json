@@ -110,7 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇳🇱NL | vmess | @ConfigsHUB | 16",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
@@ -124,7 +124,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇳🇱NL | vmess | @ConfigsHUB | 16",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
@@ -225,11 +225,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "nelly.homes",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "mci--join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -240,21 +240,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": ""
                 }
             }
         },
