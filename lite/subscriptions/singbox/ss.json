@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 19",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇬🇧GB | ss | @forwardv2ray | 16"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 19",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇬🇧GB | ss | @forwardv2ray | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,12 +140,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
+            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 19",
             "type": "shadowsocks",
-            "server": "77.246.105.137",
-            "server_port": 26137,
+            "server": "cdn.servemp3.com",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "KecHQPVlYFJGmU4LEk5Zza",
+            "password": "Hu\/3IhqlBkJjoTD9TH2fs\/nk3aPa8L1vKtyydPcNit4=",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -154,6 +156,16 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         }

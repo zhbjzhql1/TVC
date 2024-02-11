@@ -118,31 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇳🇱NL | ss | @V2rayCollectorDonate | 19","type":"ss","server":"77.246.105.137","port":26137,"password":"KecHQPVlYFJGmU4LEk5Zza","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @V2rayCollectorDonate | 19","type":"ss","server":"cdn.servemp3.com","port":443,"password":"Hu/3IhqlBkJjoTD9TH2fs/nk3aPa8L1vKtyydPcNit4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 16","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇳🇱NL | ss | @V2rayCollectorDonate | 19'
+      - '🇩🇪DE | ss | @V2rayCollectorDonate | 19'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
+      - '🇬🇧GB | ss | @forwardv2ray | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇳🇱NL | ss | @V2rayCollectorDonate | 19'
+      - '🇩🇪DE | ss | @V2rayCollectorDonate | 19'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
+      - '🇬🇧GB | ss | @forwardv2ray | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇳🇱NL | ss | @V2rayCollectorDonate | 19'
+      - '🇩🇪DE | ss | @V2rayCollectorDonate | 19'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
+      - '🇬🇧GB | ss | @forwardv2ray | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
