@@ -111,9 +111,10 @@
                 "🏳️XX | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇳🇱NL | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇧🇬BG | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 15",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -126,9 +127,10 @@
                 "🏳️XX | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇳🇱NL | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇧🇬BG | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 15",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -251,11 +253,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "188.114.96.113",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "zula.ir",
+            "server_port": 2087,
+            "uuid": "afe2fe35-b6c9-4a9d-a8bd-94b4e2167868",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -266,11 +268,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "arv.aticloud.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "arv.aticloud.ir"
                 }
             }
         },
@@ -330,6 +342,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "holo.web.e1osux.adress.eyb30.com",
+            "server_port": 8880,
+            "uuid": "2780b4b0-088b-4bc2-a7aa-ab3d5d8ccc3c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
