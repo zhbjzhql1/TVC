@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayngvpn | 10",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
@@ -153,6 +153,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -195,7 +196,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayngvpn | 10",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
@@ -210,7 +211,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
@@ -219,6 +220,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -892,7 +894,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1275,11 +1277,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "bia-to2.unlimiteddev.site",
-            "server_port": 2096,
-            "uuid": "1dffb8be-40e8-4411-852e-2adef88c12d2",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 80,
+            "uuid": "dd417757-bd15-4c9c-88e1-42424cdcf8dc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1287,22 +1289,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "shhproxy.varzesh3-cnd.site"
+                }
             }
         },
         {
@@ -1506,6 +1498,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.22.48.253",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "104.22.48.253"
+                }
             }
         },
         {
