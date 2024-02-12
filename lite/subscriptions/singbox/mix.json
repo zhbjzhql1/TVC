@@ -119,7 +119,7 @@
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 11",
-                "🇨🇷CR | vless | @proxy_kafee | 1",
+                "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 4",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -128,6 +128,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇫🇮FI | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
@@ -147,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇸🇬SG | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇧🇬BG | vmess | @Hope_Net | 4",
@@ -159,7 +160,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇸🇬SG | vless | @flyv2ray | 14",
-                "🇳🇱NL | ss | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
@@ -194,7 +195,7 @@
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 11",
-                "🇨🇷CR | vless | @proxy_kafee | 1",
+                "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 4",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -203,6 +204,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇫🇮FI | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
@@ -222,7 +224,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇸🇬SG | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇧🇬BG | vmess | @Hope_Net | 4",
@@ -234,7 +236,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇸🇬SG | vless | @flyv2ray | 14",
-                "🇳🇱NL | ss | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
@@ -645,7 +647,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_kafee | 1",
+            "tag": "🇺🇸US | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -865,6 +867,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "fi1.xv2ray.net",
+            "server_port": 80,
+            "uuid": "f826fcf6-0a31-4652-9246-66ea0d8dea22",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "fi1.xv2ray.net"
+                }
             }
         },
         {
@@ -1305,11 +1331,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "104.25.16.212",
-            "server_port": 8880,
-            "uuid": "304dee8f-dc7d-48e1-ab61-e7a48ede691f",
+            "server": "udizzzpaid.duckdns.org",
+            "server_port": 37789,
+            "uuid": "330ede11-f33e-4685-b1c7-c6ff0b974106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1319,9 +1345,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev",
+                "path": "\/boon_free_server",
                 "headers": {
-                    "Host": "104.25.16.212"
+                    "Host": "udizzzpaid.duckdns.org"
                 }
             }
         },
@@ -1619,14 +1645,35 @@
             }
         },
         {
-            "tag": "🇳🇱NL | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "172.233.51.96",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XlUFgoOqDlVqlZFD3Js0YA",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "parspack.com",
+            "server_port": 443,
+            "uuid": "97e54600-c205-4903-a228-b35f074f1f4e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "german-adsl.allhub.ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cdn",
+                "headers": {
+                    "Host": "german-adsl.allhub.ltd"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
