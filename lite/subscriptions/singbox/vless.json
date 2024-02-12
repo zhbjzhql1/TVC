@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
@@ -142,6 +143,7 @@
                 "🏳️XX | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇳🇱NL | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 6",
@@ -158,7 +160,6 @@
                 "🇸🇪SE | vless | @IBv2ray | 2",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 13",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
             ]
         },
@@ -166,6 +167,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
@@ -202,6 +204,7 @@
                 "🏳️XX | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇳🇱NL | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 6",
@@ -218,7 +221,6 @@
                 "🇸🇪SE | vless | @IBv2ray | 2",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 13",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -240,6 +242,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Parsashonam | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "---Telegram-Parsashonam--0-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @XsV2ray | 17",
@@ -710,9 +733,9 @@
         {
             "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "87.107.146.242",
-            "server_port": 10768,
-            "uuid": "cec53b74-fbf2-4b6f-9652-86fb15f348a2",
+            "server": "87.107.164.151",
+            "server_port": 48599,
+            "uuid": "51e62a71-494c-484a-b442-2b9375e1ede5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -724,7 +747,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "87.107.146.242"
+                    "Host": "87.107.164.151"
                 }
             }
         },
@@ -1194,6 +1217,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "parspack.com",
+            "server_port": 443,
+            "uuid": "5cba32d1-1de5-43cc-83aa-dd6acccb5386",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "parspack.allhub.ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cdn",
+                "headers": {
+                    "Host": "parspack.allhub.ltd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "104.16.122.175",
@@ -1602,27 +1656,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 13",
-            "type": "vless",
-            "server": "104.21.66.193",
-            "server_port": 8880,
-            "uuid": "a5368290-9ce5-4fc4-9652-06221e6689fa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.66.193"
-                }
             }
         },
         {
