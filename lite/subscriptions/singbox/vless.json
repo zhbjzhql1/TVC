@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
@@ -148,11 +148,13 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇸🇬SG | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @kingofilter | 7",
                 "🇨🇷CR | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -187,7 +189,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
@@ -208,11 +210,13 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇸🇬SG | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @kingofilter | 7",
                 "🇨🇷CR | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -823,7 +827,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 8",
+            "tag": "🏳️XX | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1345,6 +1349,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.18.202.209",
+            "server_port": 2096,
+            "uuid": "555ca646-1e51-43e5-9801-2db535097c05",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "dv2rv46.daniyf.online",
@@ -1470,6 +1505,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @kingofilter | 7",
+            "type": "vless",
+            "server": "141.101.115.235",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "141.101.115.235"
+                }
             }
         },
         {
