@@ -109,7 +109,9 @@
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🏳️XX | vless | @V2rayCollector | 2",
+                "🇹🇷TR | vless | @V2rayCollectorDonate | 19",
                 "🇷🇴RO | vless | @proxyymeliii | 20",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -123,7 +125,9 @@
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🏳️XX | vless | @V2rayCollector | 2",
+                "🇹🇷TR | vless | @V2rayCollectorDonate | 19",
                 "🇷🇴RO | vless | @proxyymeliii | 20",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -258,6 +262,35 @@
             }
         },
         {
+            "tag": "🇹🇷TR | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "193.124.46.68",
+            "server_port": 443,
+            "uuid": "abce0f73-f9df-450f-8c04-bb091080bc9e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sciencedirect.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ihyTs51u6z63GEvubkvH30ySgk3Vi3hV0b6fVmZJPF0",
+                    "short_id": "27fd55f5"
+                }
+            }
+        },
+        {
             "tag": "🇷🇴RO | vless | @proxyymeliii | 20",
             "type": "vless",
             "server": "188.241.240.230",
@@ -288,6 +321,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "www.speedtest.org",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "5.78.83.110",
+            "server_port": 25365,
+            "uuid": "3bb09d54-9cf2-4f4e-a619-b2196e7568e8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3tG_6ui57nKUktmjW_BvM9OPLO0hCH8SyLlphGoLWHA",
+                    "short_id": "80af7bf6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
