@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
                 "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | ss | @ROMAX_VPN | 12"
@@ -115,6 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
                 "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | ss | @ROMAX_VPN | 12"
@@ -138,6 +140,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇳🇱NL | ss | @V2rayCollectorDonate | 19",
+            "type": "shadowsocks",
+            "server": "shadoct.kingarvan.eu.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XlUFgoOqDlVqlZFD3Js0YA",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
