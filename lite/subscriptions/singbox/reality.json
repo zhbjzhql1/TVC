@@ -112,6 +112,7 @@
                 "🇷🇴RO | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @Capital_NET | 39",
                 "🇳🇱NL | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -127,6 +128,7 @@
                 "🇷🇴RO | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @Capital_NET | 39",
                 "🇳🇱NL | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -358,6 +360,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "167.235.219.99",
+            "server_port": 443,
+            "uuid": "1dbd6492-6780-4795-9fe4-f858d5c4c660",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MEV9xoI0avI7cW_xp5oGX8K3KsffOQjJPURBQh87zng",
+                    "short_id": "343fd6bea8c0f878"
+                }
             }
         },
         {
