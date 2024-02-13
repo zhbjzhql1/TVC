@@ -118,14 +118,13 @@
                 "🇳🇱NL | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 17",
                 "🇩🇪DE | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 13",
                 "🏳️XX | vless | @V2rayCollector | 2",
-                "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 32",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
@@ -144,7 +143,8 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🏳️XX | vless | @lrnbymaa | 5",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
@@ -186,14 +186,13 @@
                 "🇳🇱NL | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 17",
                 "🇩🇪DE | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 13",
                 "🏳️XX | vless | @V2rayCollector | 2",
-                "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 32",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
@@ -212,7 +211,8 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🏳️XX | vless | @lrnbymaa | 5",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
@@ -610,7 +610,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 26",
+            "tag": "🇺🇸US | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -811,42 +811,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Everyday_VPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "135.181.249.82",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "e1l-19GevSs78VJVyhkyP95CngAEN_UNmZHgXQQRghg",
-                    "short_id": "15d8e81d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1289,7 +1253,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
+            "tag": "🏳️XX | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1306,6 +1270,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "donald.pydri.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "31.7.67.207",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1508,7 +1503,7 @@
         {
             "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "79.127.54.63",
+            "server": "94.182.170.227",
             "server_port": 443,
             "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
@@ -1530,7 +1525,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
                 }
