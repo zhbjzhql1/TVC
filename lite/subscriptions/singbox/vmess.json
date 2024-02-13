@@ -111,8 +111,7 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @ConfigsHUB | 18",
-                "🇸🇬SG | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2Line | 6"
             ]
         },
@@ -125,8 +124,7 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @ConfigsHUB | 18",
-                "🇸🇬SG | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2Line | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -266,11 +264,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "srv3.arvcloud.ir",
-            "server_port": 2087,
-            "uuid": "bfbc634f-561d-40b0-b116-db30169d0623",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "accabab-acba-abac-dabc-bacacccbbaba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -280,57 +278,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "arv2.arvcloud.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "arv2.arvcloud.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "sg2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "83e6db42-a0a4-4281-bdc6-7a6e161d1380",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sg2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "sg2-full.privateip.net"
-                }
             }
         },
         {
