@@ -152,7 +152,7 @@
                 "🇸🇬SG | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🏳️XX | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇨🇦CA | trojan | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -235,7 +235,7 @@
                 "🇸🇬SG | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🏳️XX | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇨🇦CA | trojan | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -1494,7 +1494,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
+            "tag": "🏳️XX | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1797,23 +1797,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "104.16.23.29",
-            "server_port": 2052,
-            "uuid": "fa5cdbf9-2540-4e9d-9e61-83e0a0d6a93f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | trojan | @forwardv2ray | 16",
+            "type": "trojan",
+            "server": "b2n.ir",
+            "server_port": 443,
+            "password": "hwiyBDgN65hGmiwxPcfMUA",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnttr212.reservedns.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.23.29"
+                    "Host": "cdnttr212.reservedns.com"
                 }
             }
         },
