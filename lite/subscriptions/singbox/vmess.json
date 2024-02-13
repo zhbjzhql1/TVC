@@ -111,9 +111,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @v2Line | 6",
-                "🇸🇪SE | vmess | @forwardv2ray | 18"
+                "🇺🇸US | vmess | @v2Line | 6"
             ]
         },
         {
@@ -125,9 +125,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @v2Line | 6",
-                "🇸🇪SE | vmess | @forwardv2ray | 18"
+                "🇺🇸US | vmess | @v2Line | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -266,6 +266,40 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "srv3.arvcloud.ir",
+            "server_port": 2087,
+            "uuid": "bfbc634f-561d-40b0-b116-db30169d0623",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arv2.arvcloud.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "arv2.arvcloud.ir"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬SG | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "sg2-full.privateip.net",
@@ -320,40 +354,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "srv2.arvcloud.ir",
-            "server_port": 2087,
-            "uuid": "bfbc634f-561d-40b0-b116-db30169d0623",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl3.nitrohosting.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nl3.nitrohosting.ir"
                 }
             }
         }
