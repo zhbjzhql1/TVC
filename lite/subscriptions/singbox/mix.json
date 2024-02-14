@@ -151,12 +151,12 @@
                 "🇬🇧GB | ss | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇺🇸US | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 8",
                 "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
@@ -165,8 +165,8 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @https_config_injector | 13",
+                "🇸🇪SE | ss | @forwardv2ray | 18",
+                "🇺🇸US | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇸🇪SE | ss | @proxy_mtm | 6",
@@ -234,12 +234,12 @@
                 "🇬🇧GB | ss | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇺🇸US | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 8",
                 "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
@@ -248,8 +248,8 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @https_config_injector | 13",
+                "🇸🇪SE | ss | @forwardv2ray | 18",
+                "🇺🇸US | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇸🇪SE | ss | @proxy_mtm | 6",
@@ -1436,7 +1436,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
+            "tag": "🇺🇸US | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1467,11 +1467,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 8",
             "type": "vless",
-            "server": "198.41.202.5",
-            "server_port": 2083,
-            "uuid": "909d3cb4-dd78-4545-c06e-68717d8317f1",
+            "server": "104.22.48.253",
+            "server_port": 80,
+            "uuid": "a93eacd2-2852-4d84-9355-fd1e6477dccc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1479,22 +1479,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "198.41.202.5",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "104.22.48.253"
+                }
             }
         },
         {
@@ -1531,11 +1521,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 11",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "accabab-acba-abac-dabc-bacacccbbaba",
+            "uuid": "cbbaaac-caba-bcaa-abdc-aabbcaccbcab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1757,28 +1747,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.16.123.175",
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "16.171.165.31",
             "server_port": 8080,
-            "uuid": "4dd6004c-c710-485c-a70f-3bed83e8540c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Arthas_vpn",
-                "headers": {
-                    "Host": "104.16.123.175"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "q6PHrvqAraddGuT7sLy3ELOgibt\/2VcAwe5uPNJlkKM=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 13",
+            "tag": "🇺🇸US | vless | @https_config_injector | 13",
             "type": "vless",
             "server": "104.22.48.253",
             "server_port": 80,
