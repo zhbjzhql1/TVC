@@ -116,7 +116,7 @@
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇳🇱NL | vless | @shh_proxy | 22",
-                "🇺🇸US | vless | @Lockey_vpn | 10",
+                "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇷CR | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 1",
@@ -144,7 +144,7 @@
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🏳️XX | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇷CR | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
@@ -183,7 +183,7 @@
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇳🇱NL | vless | @shh_proxy | 22",
-                "🇺🇸US | vless | @Lockey_vpn | 10",
+                "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇷CR | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 1",
@@ -211,7 +211,7 @@
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🏳️XX | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇷CR | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
@@ -539,11 +539,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Lockey_vpn | 10",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 9",
             "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 2082,
-            "uuid": "98d50790-31ec-47d5-b2ed-493fd21accc6",
+            "server": "104.16.67.38",
+            "server_port": 2086,
+            "uuid": "23ca8a29-5605-4dbe-9be3-137772c16aec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -555,7 +555,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "173.245.58.31"
+                    "Host": "104.16.67.38"
                 }
             }
         },
@@ -1260,11 +1260,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "c49edf4b-a120-4dae-9c6a-da751b5590c3",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1272,11 +1272,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "tjsre.ttvoffi.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/paradise",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "tjsre.ttvoffi.info"
                 }
             }
         },
