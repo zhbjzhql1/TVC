@@ -110,9 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 14",
+                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -124,9 +124,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 14",
+                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -232,11 +232,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 14",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "127.0.0.1",
+            "server": "channel.iran-mehr14.ir",
             "server_port": 8080,
-            "uuid": "ccababa-aacb-acab-adbc-abccccabbaba",
+            "uuid": "c4bb3b21-81b7-4a0c-8f0d-36d6b865c926",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -246,6 +246,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RL842FfWrFLaTjhd",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -273,11 +280,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 9",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.21.6.75",
+            "server": "172.67.155.82",
             "server_port": 443,
-            "uuid": "1477c801-1f2f-4db2-8683-cff2b1151ebe",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,7 +297,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "frmgrpc.mainssh.xyz",
+                "server_name": "kristin.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -299,11 +306,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "vmessgrpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kristin.makeup"
+                }
             }
         },
         {
