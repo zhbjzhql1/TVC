@@ -118,9 +118,10 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🏳️XX | trojan | @V2rayCollectorDonate | 19","type":"trojan","server":"server.cactusrobot.ir","port":8814,"udp":false,"password":"AXpad_TiGkIWp-sfixRAug","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇮🇷IR | trojan | @V2rayCollectorDonate | 19","type":"trojan","server":"server.cactusrobot.ir","port":8814,"udp":false,"password":"AXpad_TiGkIWp-sfixRAug","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"15.236.228.126","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇨🇦CA | trojan | @DirectVPN | 18","type":"trojan","server":"3.97.100.116","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🏳️XX | trojan | @v2ray1_ng | 8","type":"trojan","server":"hongkong.followerpanell.ir","port":8443,"udp":false,"password":"e40c26851093180","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
 proxy-groups:
   - name: MANUAL
@@ -128,9 +129,10 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🏳️XX | trojan | @V2rayCollectorDonate | 19'
+      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇨🇦CA | trojan | @DirectVPN | 18'
+      - '🏳️XX | trojan | @v2ray1_ng | 8'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
   - name: URL-TEST
     type: url-test
@@ -138,18 +140,20 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🏳️XX | trojan | @V2rayCollectorDonate | 19'
+      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇨🇦CA | trojan | @DirectVPN | 18'
+      - '🏳️XX | trojan | @v2ray1_ng | 8'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🏳️XX | trojan | @V2rayCollectorDonate | 19'
+      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇨🇦CA | trojan | @DirectVPN | 18'
+      - '🏳️XX | trojan | @v2ray1_ng | 8'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
