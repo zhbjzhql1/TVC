@@ -114,7 +114,8 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 17",
-                "🏳️XX | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -130,7 +131,8 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 17",
-                "🏳️XX | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -311,7 +313,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @v2Line | 6",
+            "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 80,
@@ -331,6 +333,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "warp-sub.pages.dev",
+            "server_port": 443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
