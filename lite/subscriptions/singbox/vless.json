@@ -140,8 +140,8 @@
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇸🇬SG | vless | @VmessProtocol | 14",
-                "🇳🇱NL | vless | @DailyV2RY | 95",
-                "🏳️XX | vless | @lrnbymaa | 6",
+                "🇳🇱NL | vless | @DailyV2RY | 102",
+                "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -150,6 +150,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -203,8 +204,8 @@
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇸🇬SG | vless | @VmessProtocol | 14",
-                "🇳🇱NL | vless | @DailyV2RY | 95",
-                "🏳️XX | vless | @lrnbymaa | 6",
+                "🇳🇱NL | vless | @DailyV2RY | 102",
+                "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -213,6 +214,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -1183,7 +1185,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @DailyV2RY | 95",
+            "tag": "🇳🇱NL | vless | @DailyV2RY | 102",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 8080,
@@ -1204,7 +1206,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 6",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 6",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1430,6 +1432,42 @@
                 "headers": {
                     "Host": "edge.020770.xyz"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "128.140.73.69",
+            "server_port": 443,
+            "uuid": "021e1111-e6d9-4f6c-a1b8-03a70b6e4540",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.albasir.in",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pFIXFBUWlfxKzjMQG4k7RxZrtHbbROURhe61gbKTOzM",
+                    "short_id": "23e8beee"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ASATeam_1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
