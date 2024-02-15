@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🏳️XX | vless | @forwardv2ray | 12",
+                "🇸🇬SG | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🏳️XX | vless | @forwardv2ray | 12",
+                "🇸🇬SG | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1380,9 +1380,9 @@
         {
             "tag": "🇺🇸US | vless | @V2RayTz | 7",
             "type": "vless",
-            "server": "172.64.200.255",
-            "server_port": 2087,
-            "uuid": "849ead74-8e11-4faf-aeb8-d70704c4710a",
+            "server": "190.93.244.103",
+            "server_port": 2083,
+            "uuid": "d8706c1b-83dc-456c-915a-92910e779cef",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1392,7 +1392,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
+                "server_name": "liV2rayl.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1401,11 +1401,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
-                }
+                "type": "grpc",
+                "service_name": "@LIGHTNING6, @LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1752,11 +1752,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 12",
+            "tag": "🇸🇬SG | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "[::ffff:5863:4636]",
+            "server": "proxyip.sg.fxxk.dedyn.io",
             "server_port": 443,
-            "uuid": "2cd6227b-2191-4bbe-8a13-d8cb2e931a65",
+            "uuid": "0df9a29f-a3a2-4dcd-8b48-f6546227446a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1766,7 +1766,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tn1.v-mizban.info",
+                "server_name": "cancellation-verizon-tap-mirrors.trycloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1776,9 +1776,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/fZGxEZPSny82UpUcLlZxm",
+                "path": "\/argox-vl",
                 "headers": {
-                    "Host": "tn1.v-mizban.info"
+                    "Host": "cancellation-verizon-tap-mirrors.trycloudflare.com"
                 }
             }
         },
