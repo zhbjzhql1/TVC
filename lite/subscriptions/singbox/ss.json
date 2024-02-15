@@ -106,18 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 19"
+                "🇸🇬SG | ss | @forwardv2ray | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 19"
+                "🇸🇬SG | ss | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,12 +140,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 8008,
+            "server": "38.68.134.202",
+            "server_port": 5004,
             "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
+            "password": "g5MeD6Ft3CWlJId",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -160,12 +160,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "tag": "🇸🇬SG | ss | @forwardv2ray | 19",
             "type": "shadowsocks",
-            "server": "fast_2ray_telchannelll.fast2rayy.eu.org",
-            "server_port": 443,
+            "server": "singapore.telegavpn.org",
+            "server_port": 16759,
             "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "password": "VQOlzZqM8rEmXdJFsPaFg3",
             "plugin": "",
             "plugin_opts": ""
         }
