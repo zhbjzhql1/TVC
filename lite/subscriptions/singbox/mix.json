@@ -163,9 +163,9 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇮🇷IR | vmess | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @kingofilter | 7",
@@ -239,9 +239,9 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇮🇷IR | vmess | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @kingofilter | 7",
@@ -1669,6 +1669,23 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 8",
+            "type": "vmess",
+            "server": "62.60.134.94",
+            "server_port": 58434,
+            "uuid": "6a0f2604-a6fd-4c61-ab55-66ed67910f1c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "cargeek.ir",
@@ -1701,37 +1718,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 7",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 2083,
-            "uuid": "d8706c1b-83dc-456c-915a-92910e779cef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "190.93.247.155",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
