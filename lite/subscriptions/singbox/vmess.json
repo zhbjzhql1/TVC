@@ -110,7 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @customv2ray | 7",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇫🇮FI | vmess | @Hope_Net | 16",
@@ -126,7 +126,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @customv2ray | 7",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇫🇮FI | vmess | @Hope_Net | 16",
@@ -229,11 +229,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 3",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 4",
             "type": "vmess",
-            "server": "31.14.118.236",
-            "server_port": 20880,
-            "uuid": "2fcea718-9a59-42e2-817b-cfb828486498",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "332dd81f-2f68-47e1-b8b0-b63517297816",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -243,6 +243,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpn_whal",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
