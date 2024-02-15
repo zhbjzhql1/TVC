@@ -122,9 +122,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @customv2ray | 7","type":"vmess","server":"server32.beheshtbaneh.com","port":"8880","cipher":"auto","uuid":"044ba8ed-7285-472a-bc14-fb91dc6be4c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇨🇦CA | vmess | @V2rayng_Fast | 4","type":"vmess","server":"discord.gg","port":"80","cipher":"auto","uuid":"332dd81f-2f68-47e1-b8b0-b63517297816","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@vpn_whal","headers":{"host":"fastfoodhamid.whaleproject.tech"}}}
-  - {"name":"🇨🇦CA | vmess | @v2ray_swhil | 14","type":"vmess","server":"submehti.karaj68.shop","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 18","type":"vmess","server":"172.67.229.35","port":"2086","cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
   - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 3","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -136,9 +134,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇨🇦CA | vmess | @customv2ray | 7'
       - '🇨🇦CA | vmess | @V2rayng_Fast | 4'
-      - '🇨🇦CA | vmess | @v2ray_swhil | 14'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 3'
   - name: URL-TEST
     type: url-test
@@ -150,9 +146,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇨🇦CA | vmess | @customv2ray | 7'
       - '🇨🇦CA | vmess | @V2rayng_Fast | 4'
-      - '🇨🇦CA | vmess | @v2ray_swhil | 14'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 3'
   - name: FALLBACK
     type: fallback
@@ -163,9 +157,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇨🇦CA | vmess | @customv2ray | 7'
       - '🇨🇦CA | vmess | @V2rayng_Fast | 4'
-      - '🇨🇦CA | vmess | @v2ray_swhil | 14'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
