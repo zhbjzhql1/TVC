@@ -137,6 +137,7 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🏳️XX | vless | @v2ray_swhil | 14",
                 "🇺🇸US | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 6",
@@ -144,15 +145,14 @@
                 "🏳️XX | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 86",
                 "🇨🇷CR | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🏳️XX | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🇨🇷CR | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | vless | @Outlinev2rayNG | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -200,6 +200,7 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🏳️XX | vless | @v2ray_swhil | 14",
                 "🇺🇸US | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 6",
@@ -207,15 +208,14 @@
                 "🏳️XX | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 86",
                 "🇨🇷CR | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🏳️XX | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🇨🇷CR | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | vless | @Outlinev2rayNG | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1130,6 +1130,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @v2ray_swhil | 14",
+            "type": "vless",
+            "server": "England.kamimiller.top",
+            "server_port": 8443,
+            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @proxyymeliii | 21",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
@@ -1273,7 +1309,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 6",
+            "tag": "🏳️XX | vless | @lrnbymaa | 6",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1346,7 +1382,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1471,37 +1507,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "793a4b46-b44c-485a-969f-ad9513ee539f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
-                }
             }
         },
         {
