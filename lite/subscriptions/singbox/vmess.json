@@ -110,12 +110,13 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @customv2ray | 7",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 3",
                 "🇳🇱NL | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇹🇼TW | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -127,12 +128,13 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @customv2ray | 7",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 3",
                 "🇳🇱NL | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇹🇼TW | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -231,6 +233,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+            "type": "vmess",
+            "server": "warp-sub.pages.dev",
+            "server_port": 2053,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 3",
             "type": "vmess",
             "server": "31.14.118.236",
@@ -296,11 +332,11 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @Hope_Net | 15",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "1.162.134.176",
-            "server_port": 18810,
-            "uuid": "afb1ad76-0f6f-4cb8-983a-95f5b4708321",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "abbcaac-aabc-caab-bacd-cbcccbaaaabb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,13 +346,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/9tEYTPFN\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -344,11 +373,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "server": "warp-sub.pages.dev",
+            "server_port": 8443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -359,11 +388,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
                 "headers": {
-                    "Host": "104.17.25.1"
+                    "Host": ""
                 }
             }
         },
