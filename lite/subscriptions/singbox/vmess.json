@@ -114,7 +114,8 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -130,7 +131,8 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -281,7 +283,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "baaabcc-caba-caba-bacd-bbabcacaacbc",
+            "uuid": "abccaab-caba-aacb-dbca-ccbaabbcaacb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,11 +320,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 8",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "62.60.134.94",
-            "server_port": 58434,
-            "uuid": "6a0f2604-a6fd-4c61-ab55-66ed67910f1c",
+            "server": "warp-sub.pages.dev",
+            "server_port": 2053,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -332,6 +334,47 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @kingofilter | 6",
+            "type": "vmess",
+            "server": "104.20.231.30",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
