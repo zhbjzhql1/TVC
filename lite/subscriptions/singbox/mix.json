@@ -165,7 +165,6 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇦CA | ss | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -178,7 +177,7 @@
                 "🇺🇸US | tuic | @TUICity | 34",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @TVCminer | 17"
+                "🇬🇧GB | ss | @ROMAX_VPN | 8"
             ]
         },
         {
@@ -244,7 +243,6 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇦CA | ss | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -257,7 +255,7 @@
                 "🇺🇸US | tuic | @TUICity | 34",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @TVCminer | 17"
+                "🇬🇧GB | ss | @ROMAX_VPN | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1709,16 +1707,6 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇨🇦CA | ss | @FAKEOFTVC | 4",
             "type": "shadowsocks",
             "server": "ca2.dart-vpn.com",
@@ -1963,25 +1951,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TVCminer | 17",
-            "type": "vless",
-            "server": "104.21.21.36",
-            "server_port": 2082,
-            "uuid": "dbe804b8-de3f-447a-a004-2667d3db071b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MeW1NhSmoXNZ5DnDtIYiuDZo",
-                "headers": {
-                    "Host": "104.21.21.36"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 8",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         }
     ],
     "route": {
