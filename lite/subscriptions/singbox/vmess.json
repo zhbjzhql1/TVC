@@ -115,6 +115,7 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇦UA | vmess | @forwardv2ray | 18",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -131,6 +132,7 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇦UA | vmess | @forwardv2ray | 18",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -298,7 +300,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "bcaaacb-bcaa-baac-cadb-aaabbbbcccca",
+            "uuid": "aabbcca-acab-aabc-dcab-aaccbbccabba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -331,6 +333,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇦UA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "195.137.167.100",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "range-shape-b3fuegu.bananok182.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
+                "headers": {
+                    "Host": "range-shape-b3fuegu.bananok182.workers.dev"
                 }
             }
         },
