@@ -109,11 +109,11 @@
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇩🇪DE | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 6",
+                "🇨🇦CA | vless | @ARv2ray | 5",
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
@@ -141,13 +141,13 @@
                 "🇨🇷CR | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇳🇱NL | vless | @free1_vpn | 0",
+                "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
@@ -169,11 +169,11 @@
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇩🇪DE | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 6",
+                "🇨🇦CA | vless | @ARv2ray | 5",
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
@@ -201,13 +201,13 @@
                 "🇨🇷CR | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇳🇱NL | vless | @free1_vpn | 0",
+                "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
@@ -286,7 +286,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.66.116.35",
+            "server": "52.28.205.39",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -315,7 +315,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8443,
@@ -439,7 +439,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 6",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 5",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 443,
@@ -1203,6 +1203,37 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @fnet00 | 7",
+            "type": "vless",
+            "server": "www.greendam.site",
+            "server_port": 443,
+            "uuid": "1f1dfcac-9d56-4ba3-802c-5142c188a581",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kamy.CaWads.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Fnet00",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "172.67.153.213",
@@ -1373,42 +1404,6 @@
                     "enabled": true,
                     "public_key": "jSxs7VtFMN2tQOo9dKG63UHNfjqcXt-krPDrEfer1n4",
                     "short_id": "45796768"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "49.13.54.2",
-            "server_port": 443,
-            "uuid": "e5567ed0-18f2-4892-a8cf-cdbeb974ab10",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "starcitizen.social",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pathEBPO9SPArYZjnPAVgSNrCSax2FKMwLcEyXD48UM",
-                    "short_id": "4f93aa4f"
                 }
             },
             "transport": {
