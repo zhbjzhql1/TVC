@@ -162,8 +162,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
-                "🇫🇷FR | trojan | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -239,8 +238,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
-                "🇫🇷FR | trojan | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1730,35 +1728,17 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "51.142.159.23",
-            "server_port": 32790,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5ii16fmPTms8icYnYvxUfa",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR | trojan | @FAKEOFTVC | 2",
-            "type": "trojan",
-            "server": "fr1.test3.net",
-            "server_port": 443,
-            "password": "147669c0-cbef-11ee-b2e9-1239d0255272",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "104.21.74.214",
+            "server_port": 2095,
+            "uuid": "c9ec22e7-b467-42ed-bb85-cbb2631d29b8",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "irancell.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
