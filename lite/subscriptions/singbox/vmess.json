@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
@@ -114,6 +115,7 @@
                 "🇮🇷IR | vmess | @proxyymeliii | 20",
                 "🇳🇱NL | vmess | @v2ray1_ng | 9",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇬🇧GB | vmess | @proxystore11 | 6",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
@@ -123,6 +125,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
@@ -131,6 +134,7 @@
                 "🇮🇷IR | vmess | @proxyymeliii | 20",
                 "🇳🇱NL | vmess | @v2ray1_ng | 9",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇬🇧GB | vmess | @proxystore11 | 6",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
@@ -154,6 +158,30 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "us1.socifiles.com",
+            "server_port": 80,
+            "uuid": "ed1d4150-cbf5-11ee-9e62-1239d0255272",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmws",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -310,6 +338,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vmess | @proxystore11 | 6",
+            "type": "vmess",
+            "server": "172.99.190.12",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
