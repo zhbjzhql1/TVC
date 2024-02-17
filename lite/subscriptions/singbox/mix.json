@@ -117,7 +117,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 27",
+                "🇨🇷CR | vless | @lightning6 | 27",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -195,7 +195,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 27",
+                "🇨🇷CR | vless | @lightning6 | 27",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
@@ -241,7 +241,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -579,7 +579,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 27",
+            "tag": "🇨🇷CR | vless | @lightning6 | 27",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1469,7 +1469,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "acabcba-abac-abca-dacb-cbcbabcabaac",
+            "uuid": "aaacbcb-abca-aabc-badc-aaacbbcabcbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1719,16 +1719,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "www.nexload.ir",
-            "server_port": 80,
-            "uuid": "ecdd9f8f-7ab2-4605-9b2e-363a39deea1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 8880,
+            "uuid": "c8579ab5-5d46-4c4f-a6a0-6e0c2c6f4357",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1736,9 +1733,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/Telegram:@x2raynvpn",
                 "headers": {
-                    "Host": ""
+                    "Host": "iranserver.com"
                 }
             }
         },
