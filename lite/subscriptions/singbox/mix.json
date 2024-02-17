@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 9",
+                "🇨🇦CA | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 6",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -185,7 +185,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 9",
+                "🇨🇦CA | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
@@ -242,7 +242,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 6",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -280,7 +280,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 9",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 7",
             "type": "vless",
             "server": "104.21.69.44",
             "server_port": 80,
@@ -1741,14 +1741,18 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 6",
+            "type": "vless",
+            "server": "194.5.176.63",
+            "server_port": 20101,
+            "uuid": "72d107c5-5ea9-4b82-b24b-d780ff88f8f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇮🇷IR | vless | @FAKEOFTVC | 0",
