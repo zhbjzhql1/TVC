@@ -111,6 +111,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇳🇱NL | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
@@ -124,6 +125,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇳🇱NL | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
@@ -318,6 +320,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "152.42.140.102",
+            "server_port": 443,
+            "uuid": "2af6333f-f071-4b06-bdfc-d4d54cee690c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.feat.agency",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g4XT9dWsau6T9lqs6zvwmz0FPALeWVsWcSGvrBeOA14",
+                    "short_id": "9f28192e"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
