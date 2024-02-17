@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @frev2ray | 1",
@@ -122,7 +122,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 13",
-                "🇷🇺RU | trojan | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 34",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -187,7 +187,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @frev2ray | 1",
@@ -200,7 +200,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 13",
-                "🇷🇺RU | trojan | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 34",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -241,7 +241,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -351,7 +351,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
+            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8443,
@@ -724,11 +724,13 @@
             }
         },
         {
-            "tag": "🇷🇺RU | trojan | @V2rayCollectorDonate | 19",
-            "type": "trojan",
-            "server": "ru01.bsawc.shop",
-            "server_port": 30005,
-            "password": "6a407a94-3fda-4946-a48c-2aa1ced31687",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "ip.1alphaomega.org",
+            "server_port": 2096,
+            "uuid": "0b2f5f4b-c9a1-46c5-a899-6fe04a51ae80",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -736,12 +738,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ru01.bsawc.shop",
+                "server_name": "nl.1alphaomega.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss8000",
+                "headers": {
+                    "Host": "nl.1alphaomega.org"
                 }
             }
         },
@@ -1470,7 +1479,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbacaab-acba-abac-abcd-bacccaabbabc",
+            "uuid": "cbabaac-acab-cbaa-badc-cbbcacbcbaaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1720,11 +1729,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "Alln1.Azaronline.org",
-            "server_port": 443,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "server": "104.16.23.29",
+            "server_port": 2052,
+            "uuid": "7d92eee9-fbb8-48d4-bc6d-2952903d5e1c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1732,21 +1741,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test2v2raygod.azaronline.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_God 👈:چنل تلگرام\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "test2v2raygod.azaronline.org"
+                    "Host": "104.16.23.29"
                 }
             }
         },
