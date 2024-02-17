@@ -107,11 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 9",
+                "🏳️XX | vless | @frev2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 11",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
@@ -121,11 +122,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ARv2ray | 9",
+                "🏳️XX | vless | @frev2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 11",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
@@ -186,11 +188,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @frev2ray | 1",
+            "tag": "🏳️XX | vless | @frev2ray | 0",
             "type": "vless",
             "server": "reryretjetjethe.ryeunegerwgbnwerghwrhrw.erhente.rovamask.top",
-            "server_port": 443,
-            "uuid": "bb5490a2-883d-47a6-e418-badade93ccba",
+            "server_port": 8443,
+            "uuid": "5fd0002b-8843-4c22-ba21-241c9acfcc54",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -209,8 +211,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RtItUBzRjrYg054MeFKTBv4fpsN358uECTGeNTyNex0",
-                    "short_id": "315b"
+                    "public_key": "ZZ8I2sRUo5tX7_IiYHPpFqqSP6nrUPVheiNWabW5axI",
+                    "short_id": "44d0d356"
                 }
             },
             "transport": {
@@ -222,7 +224,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 9",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 10",
             "type": "vless",
             "server": "128.140.89.49",
             "server_port": 443,
@@ -353,6 +355,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "35.159.2.162",
+            "server_port": 36799,
+            "uuid": "bc8af529-cb44-4288-baa3-c16d5409f6e7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BF_qNOCxYtj6EMgNx7rdSCcTdD3UYllc2vY-mFFB1SQ",
+                    "short_id": "08"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "https:\/\/t.me\/VmessProtocol",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
