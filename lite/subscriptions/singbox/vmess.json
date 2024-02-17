@@ -111,9 +111,9 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇳🇱NL | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | vmess | @v2ray1_ng | 10",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @kingofilter | 9",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 4"
             ]
@@ -127,9 +127,9 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇳🇱NL | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | vmess | @v2ray1_ng | 10",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @kingofilter | 9",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 4"
             ],
@@ -280,6 +280,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @v2ray1_ng | 10",
+            "type": "vmess",
+            "server": "116.203.88.130",
+            "server_port": 51263,
+            "uuid": "b1b88fe0-3839-439c-f717-3faee1f0b663",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🏳️XX | vmess | @Hope_Net | 19",
             "type": "vmess",
             "server": "127.0.0.1",
@@ -317,40 +334,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 2083,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
