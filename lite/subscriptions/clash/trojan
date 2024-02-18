@@ -120,7 +120,7 @@ dns:
 proxies:
   - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 18","type":"trojan","server":"54.194.117.19","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇮🇪IE | trojan | @DirectVPN | 18","type":"trojan","server":"52.211.97.22","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🏳️XX | trojan | @v2ray_swhil | 16","type":"trojan","server":"hongkong.followerpanell.ir","port":8443,"udp":false,"password":"e40c26851093180","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇨🇦CA | trojan | @v2ray_swhil | 16","type":"trojan","server":"hongkong.followerpanell.ir","port":8443,"udp":false,"password":"e40c26851093180","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +130,7 @@ proxy-groups:
       - FALLBACK
       - '🇮🇪IE | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🏳️XX | trojan | @v2ray_swhil | 16'
+      - '🇨🇦CA | trojan | @v2ray_swhil | 16'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
   - name: URL-TEST
     type: url-test
@@ -140,7 +140,7 @@ proxy-groups:
     proxies:
       - '🇮🇪IE | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🏳️XX | trojan | @v2ray_swhil | 16'
+      - '🇨🇦CA | trojan | @v2ray_swhil | 16'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
   - name: FALLBACK
     type: fallback
@@ -149,7 +149,7 @@ proxy-groups:
     proxies:
       - '🇮🇪IE | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🏳️XX | trojan | @v2ray_swhil | 16'
+      - '🇨🇦CA | trojan | @v2ray_swhil | 16'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
