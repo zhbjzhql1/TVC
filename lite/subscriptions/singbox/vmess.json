@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
@@ -115,13 +116,14 @@
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇳🇱NL | vmess | @kingofilter | 6",
-                "🇮🇷IR | vmess | @eliya_chiter0 | 3"
+                "🇮🇷IR | vmess | @eliya_chiter0 | 4"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
@@ -131,7 +133,7 @@
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇳🇱NL | vmess | @kingofilter | 6",
-                "🇮🇷IR | vmess | @eliya_chiter0 | 3"
+                "🇮🇷IR | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -152,6 +154,40 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "discord.com",
+            "server_port": 443,
+            "uuid": "b92a0371-737e-4083-a9d1-735a69b008f5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xxxx.moshavere.group",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/images_46553",
+                "headers": {
+                    "Host": "xxxx.moshavere.group"
+                }
+            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -298,7 +334,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "caacbba-abca-cbaa-bcda-acabcbcaacbb",
+            "uuid": "cabacba-baac-baac-adbc-abaaccbbbcac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -359,7 +395,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @eliya_chiter0 | 3",
+            "tag": "🇮🇷IR | vmess | @eliya_chiter0 | 4",
             "type": "vmess",
             "server": "62.60.147.23",
             "server_port": 5001,
