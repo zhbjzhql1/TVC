@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | ss | @forwardv2ray | 11",
                 "🇸🇪SE | ss | @proxy_mtm | 0",
                 "🇺🇸US | ss | @ROMAX_VPN | 5"
             ]
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | ss | @forwardv2ray | 11",
                 "🇸🇪SE | ss | @proxy_mtm | 0",
                 "🇺🇸US | ss | @ROMAX_VPN | 5"
             ],
@@ -146,6 +148,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @forwardv2ray | 11",
+            "type": "shadowsocks",
+            "server": "us5.dart-vpn.com",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Ms96ocgN4v7egLXx1wgw9J",
             "plugin": "",
             "plugin_opts": ""
         },
