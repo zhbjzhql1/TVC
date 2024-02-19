@@ -167,7 +167,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -252,7 +252,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1823,11 +1823,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "104.24.176.7",
-            "server_port": 443,
-            "uuid": "6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1",
+            "server": "iranserver.com",
+            "server_port": 8880,
+            "uuid": "4b843de7-efe2-40b4-994c-6ff94a00ef9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1835,21 +1835,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "public.SATOSHI.MOM",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "public.SATOSHI.MOM"
+                    "Host": "iranserver.com"
                 }
             }
         },
