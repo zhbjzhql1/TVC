@@ -119,14 +119,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 20",
+                "🇨🇷CR | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇬🇧GB | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 7",
@@ -152,6 +152,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -185,14 +186,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 20",
+                "🇨🇷CR | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇬🇧GB | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 7",
@@ -218,6 +219,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -625,7 +627,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 20",
+            "tag": "🇨🇷CR | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -810,7 +812,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1484,6 +1486,27 @@
                 "path": "\/SvnTeam",
                 "headers": {
                     "Host": "95.179.216.171"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "joinbede1.vmessorg.site",
+            "server_port": 443,
+            "uuid": "198e5282-44f2-4721-95cb-176a647b0644",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg",
+                "headers": {
+                    "Host": "vmessorg.xn--54qv00ez5ar77g.co"
                 }
             }
         },
