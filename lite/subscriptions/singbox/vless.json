@@ -128,14 +128,13 @@
                 "🏳️XX | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇩🇪DE | vless | @prrofile_purple | 169",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇹🇷TR | vless | @v2rayngvpn | 18",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
-                "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
@@ -157,7 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -199,14 +198,13 @@
                 "🏳️XX | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇩🇪DE | vless | @prrofile_purple | 169",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇹🇷TR | vless | @v2rayngvpn | 18",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
-                "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
@@ -228,7 +226,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -857,11 +855,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 2096,
-            "uuid": "32b0d32d-c208-4990-974f-514cdbfde754",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 2083,
+            "uuid": "6fe28415-8e8d-4bb1-a2e6-5a196556c7a2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -871,7 +869,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpncustomize1V2ray.XN--4oq36ed28d.org",
+                "server_name": "LIGHTNING6-joinbede.liV2ray.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -880,11 +878,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "vpncustomize1V2ray.XN--4oq36ed28d.org"
-                }
+                "type": "grpc",
+                "service_name": "@LIGHTNING6,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1022,37 +1020,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 49",
-            "type": "vless",
-            "server": "www.microfix.pp.ua",
-            "server_port": 2083,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.20230619.love",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram🇨🇳 @vpn_proxy66 \/",
-                "headers": {
-                    "Host": "pages.20230619.love"
-                }
             }
         },
         {
@@ -1596,11 +1563,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 1",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "xwm-us-v6-a.mouboss.pp.ua",
-            "server_port": 2083,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "star--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1610,7 +1577,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.20230619.love",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1620,9 +1587,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "pages.20230619.love"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
