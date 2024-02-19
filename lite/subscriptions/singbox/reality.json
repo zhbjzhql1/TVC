@@ -110,7 +110,7 @@
                 "🏳️XX | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
-                "🇫🇷FR | vless | @v2ray1_ng | 9",
+                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -124,7 +124,7 @@
                 "🏳️XX | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
-                "🇫🇷FR | vless | @v2ray1_ng | 9",
+                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -294,11 +294,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @v2ray1_ng | 9",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "a.api2.clothesonlinecenter.shop",
+            "server": "195.201.0.124",
             "server_port": 443,
-            "uuid": "17e3e215-430e-452d-a721-e1f454bebc73",
+            "uuid": "b1c1da37-726b-4db1-8139-27a7497e3186",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -308,7 +308,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eset.com",
+                "server_name": "*.dnschecker.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -317,9 +317,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mhxUzNJ_jsPSWVKpByQcgI-Woe_UXe8WGLwXGIsoYAc",
-                    "short_id": "924f5928"
+                    "public_key": "c452clIZOGrphH1pKZLlFFyN9bjhk2JxMemT2Df6C3w",
+                    "short_id": "d276874c"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
