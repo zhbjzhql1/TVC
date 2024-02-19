@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇫🇷FR | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 76",
@@ -155,6 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -187,7 +188,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -208,7 +209,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇫🇷FR | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 76",
@@ -223,6 +224,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -631,7 +633,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1154,23 +1156,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 8",
+            "tag": "🇫🇷FR | vless | @v2ray1_ng | 9",
             "type": "vless",
-            "server": "Allv8.Azaronline.org",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
-            "flow": "",
+            "server": "a.api2.clothesonlinecenter.shop",
+            "server_port": 443,
+            "uuid": "17e3e215-430e-452d-a721-e1f454bebc73",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Allv8.Azaronline.org"
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mhxUzNJ_jsPSWVKpByQcgI-Woe_UXe8WGLwXGIsoYAc",
+                    "short_id": "924f5928"
                 }
             }
         },
@@ -1536,6 +1546,37 @@
                 "path": "\/vless-ws\/",
                 "headers": {
                     "Host": "cpisub4.CPiONlInE.Us"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "slfingp.com",
+            "server_port": 2087,
+            "uuid": "ef1d268c-221e-4d7a-828e-3ade2fb26d11",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cpisub4.CPiONlInE.Us%All",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Vless-ws\/\/V2ray_Alpha\/",
+                "headers": {
+                    "Host": "cpisub4.CPiONlInE.Us%All"
                 }
             }
         },
