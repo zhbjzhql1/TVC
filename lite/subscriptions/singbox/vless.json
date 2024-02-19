@@ -109,7 +109,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 6",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇳🇱NL | vless | @XsV2ray | 17",
-                "🇫🇷FR | vless | @VlessConfig | 15",
+                "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 19",
+                "🇨🇦CA | vless | @v2rayngvpn | 18",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @ServerNett | 14",
@@ -155,7 +155,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🏳️XX | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -179,7 +179,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 6",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇳🇱NL | vless | @XsV2ray | 17",
-                "🇫🇷FR | vless | @VlessConfig | 15",
+                "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 19",
+                "🇨🇦CA | vless | @v2rayngvpn | 18",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @ServerNett | 14",
@@ -225,7 +225,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🏳️XX | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -335,9 +335,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 15",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.36.246.91",
+            "server": "13.43.52.62",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -963,11 +963,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 19",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 18",
             "type": "vless",
-            "server": "w2.sylarsun.eu.org",
-            "server_port": 443,
-            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 80,
+            "uuid": "22e4b21b-003e-4f47-bc54-8397cbe35b11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -975,21 +975,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "w2.sylarsun.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "w2.sylarsun.eu.org"
+                    "Host": "shhproxy.varzesh3-cnd.site"
                 }
             }
         },
@@ -1532,12 +1522,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🏳️XX | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "star--join.outline-vpn.cloud",
+            "server": "v2logy.ddns.net",
             "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1546,20 +1536,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
