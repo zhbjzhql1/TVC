@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @proxystore11 | 8",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
-                "🇯🇵JP | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
@@ -167,7 +167,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇷🇺RU | ss | @forwardv2ray | 19",
+                "🇨🇭CH | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -241,7 +241,7 @@
                 "🏳️XX | vless | @proxystore11 | 8",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
-                "🇯🇵JP | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
@@ -252,7 +252,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇷🇺RU | ss | @forwardv2ray | 19",
+                "🇨🇭CH | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1545,11 +1545,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "183.181.36.194",
-            "server_port": 41597,
-            "uuid": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
+            "server": "51.81.149.151",
+            "server_port": 27978,
+            "uuid": "9fd11110-625d-4a96-9e3a-09062613a098",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1559,13 +1559,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1813,14 +1806,21 @@
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "vpn-ru.wwp.im",
-            "server_port": 15174,
-            "method": "chacha20-ietf-poly1305",
-            "password": "COAE0BFCO70byPuDhfZ8V1",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇭CH | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "188.244.117.31",
+            "server_port": 28320,
+            "uuid": "236fa6e3-683b-4c3f-a07c-56061ee393c2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 12",
