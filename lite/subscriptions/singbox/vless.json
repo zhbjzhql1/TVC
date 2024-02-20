@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇨🇦CA | vless | @V2RayTz | 13",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 97",
                 "🏳️XX | vless | @lrnbymaa | 5",
@@ -151,7 +151,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
@@ -204,7 +203,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇨🇦CA | vless | @V2RayTz | 13",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 97",
                 "🏳️XX | vless | @lrnbymaa | 5",
@@ -216,7 +215,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
@@ -1132,11 +1130,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 13",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "162.159.136.234",
-            "server_port": 8080,
-            "uuid": "b0080196-b98e-4d17-ae14-86cd1693234d",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1144,11 +1142,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "path": "\/",
                 "headers": {
-                    "Host": "162.159.136.234"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1421,27 +1429,6 @@
                 "path": "\/VPNCUSTOMIZE--VPNCUSTOMIZE?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
-            "type": "vless",
-            "server": "bia-to2.unlimiteddev.site",
-            "server_port": 8880,
-            "uuid": "25e7c381-6534-460f-b59e-efb9ba1fb4e9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev?ed",
-                "headers": {
-                    "Host": "bia-to2.unlimiteddev.site"
                 }
             }
         },
