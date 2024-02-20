@@ -110,10 +110,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇳🇱NL | vmess | @v2ray_swhil | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -126,10 +126,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇳🇱NL | vmess | @v2ray_swhil | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -256,30 +256,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @v2ray_swhil | 18",
-            "type": "vmess",
-            "server": "188.114.96.11",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 7",
             "type": "vmess",
             "server": "172.67.217.144",
@@ -359,6 +335,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "185.212.194.45",
+            "server_port": 8083,
+            "uuid": "4e37a627-c739-4c03-bcdf-f70b25da30df",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
