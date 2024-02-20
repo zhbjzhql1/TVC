@@ -123,7 +123,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 41",
+                "🇨🇷CR | vless | @V2rayNGn | 40",
                 "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -161,7 +161,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🏳️XX | vless | @FreakConfig | 3",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 21",
                 "🏳️XX | vless | @kiava | 5",
@@ -204,7 +204,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 41",
+                "🇨🇷CR | vless | @V2rayNGn | 40",
                 "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -242,7 +242,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🏳️XX | vless | @FreakConfig | 3",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 21",
                 "🏳️XX | vless | @kiava | 5",
@@ -774,7 +774,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 41",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 40",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1757,37 +1757,24 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "162.159.1.94",
-            "server_port": 2053,
-            "uuid": "91b88510-b749-447a-b0b4-4666fcb8a62d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloud.hide-luod.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "2053vmess",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE--VPNCUSTOMIZE?ed=1048",
+                "headers": {
+                    "Host": "discord.gg"
+                }
             }
         },
         {
