@@ -113,7 +113,6 @@
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -129,7 +128,6 @@
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -190,9 +188,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "172.67.133.78",
-            "server_port": 2053,
-            "uuid": "0f1b29b8-0f0f-431a-b6d1-035803a95c32",
+            "server": "warp-sub.pages.dev",
+            "server_port": 443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,7 +203,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "v2ray.ibgfw.top",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -215,9 +213,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vVNUJOgb\/",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
                 "headers": {
-                    "Host": "v2ray.ibgfw.top"
+                    "Host": ""
                 }
             }
         },
@@ -335,23 +333,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "185.212.194.45",
-            "server_port": 8083,
-            "uuid": "4e37a627-c739-4c03-bcdf-f70b25da30df",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
