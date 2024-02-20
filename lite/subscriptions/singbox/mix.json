@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇬🇧GB | vless | @forwardv2ray | 14",
+                "🇰🇿KZ | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -249,7 +249,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇬🇧GB | vless | @forwardv2ray | 14",
+                "🇰🇿KZ | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1826,11 +1826,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 14",
+            "tag": "🇰🇿KZ | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "91.193.58.2",
-            "server_port": 2095,
-            "uuid": "98f86583-4d40-42cc-ab93-19d141a45560",
+            "server": "185.176.26.3",
+            "server_port": 8443,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1838,11 +1838,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xow10.oXNEtworKS.liNK",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "91.193.58.2"
+                    "Host": "xow10.oXNEtworKS.liNK"
                 }
             }
         },
