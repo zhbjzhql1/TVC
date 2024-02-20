@@ -148,7 +148,7 @@
                 "🇫🇷FR | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇬🇧GB | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 75",
+                "🏳️XX | vless | @DailyV2RY | 75",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -163,7 +163,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -230,7 +230,7 @@
                 "🇫🇷FR | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇬🇧GB | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 75",
+                "🏳️XX | vless | @DailyV2RY | 75",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -245,7 +245,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -1394,7 +1394,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 75",
+            "tag": "🏳️XX | vless | @DailyV2RY | 75",
             "type": "vless",
             "server": "cdn.dobarhost.ir",
             "server_port": 2086,
@@ -1780,11 +1780,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "39ea487b-2d8a-4da0-8798-c89cc6932e8d",
+            "server": "panel.v2shopvip.cfd",
+            "server_port": 2087,
+            "uuid": "b554d279-6ea0-4bb3-db34-289c5c8259cb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1792,11 +1792,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "panel.v2shopvip.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "path": "\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "panel.v2shopvip.cfd"
                 }
             }
         },
