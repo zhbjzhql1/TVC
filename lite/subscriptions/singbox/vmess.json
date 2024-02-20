@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -300,11 +300,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "95.179.128.114",
-            "server_port": 80,
-            "uuid": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
+            "server": "142.93.130.99",
+            "server_port": 443,
+            "uuid": "f0aec29d-9f86-4887-88d5-11a69044ec42",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -315,9 +315,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Av8czorIlYicU6D349brWUw6a",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

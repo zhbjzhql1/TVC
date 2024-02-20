@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇨🇷CR | vless | @lightning6 | 23",
+                "🇺🇸US | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -160,7 +160,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇨🇷CR | vless | @lightning6 | 23",
+                "🇺🇸US | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -238,7 +238,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
@@ -597,7 +597,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 23",
+            "tag": "🇺🇸US | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1675,11 +1675,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "95.179.128.114",
-            "server_port": 80,
-            "uuid": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
+            "server": "142.93.130.99",
+            "server_port": 443,
+            "uuid": "f0aec29d-9f86-4887-88d5-11a69044ec42",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1690,9 +1690,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Av8czorIlYicU6D349brWUw6a",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
