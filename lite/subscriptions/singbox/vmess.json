@@ -106,14 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇺🇸US | vmess | @yaney_01 | 7",
+                "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -122,14 +121,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-                "🇺🇸US | vmess | @yaney_01 | 7",
+                "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -154,7 +152,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+            "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
             "server_port": 29776,
@@ -256,7 +254,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 7",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 7",
             "type": "vmess",
             "server": "172.67.217.144",
             "server_port": 80,
@@ -334,40 +332,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "gur.gov.ua",
-            "server_port": 443,
-            "uuid": "fa2ad4c5-63ba-45f0-8926-12fcce49ded1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sxmzkfyy.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VK4yTEQZ\/",
-                "headers": {
-                    "Host": "ru.sxmzkfyy.com"
                 }
             }
         },
