@@ -136,9 +136,10 @@
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 104",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 3",
@@ -148,7 +149,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 33",
@@ -199,9 +199,10 @@
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 104",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 3",
@@ -211,7 +212,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 33",
@@ -1037,17 +1037,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2RayTz | 19",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "[2a12:5940:55ef::2]",
-            "server_port": 2087,
-            "uuid": "330e4e59-3a23-45b7-aec7-135b2bf24304",
+            "server": "190.93.246.225",
+            "server_port": 2083,
+            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2rayb.xn--mgbg0fka44dhgc.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6, @LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1104,6 +1121,37 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "91.193.58.1"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "type": "vless",
+            "server": "104.21.28.62",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1193,9 +1241,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-3",
+            "server": "104.24.0.11",
+            "server_port": 2083,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1203,11 +1251,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "guq22.oXNETWoRks.liNK",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/?ed",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "guq22.oXNETWoRks.liNK"
                 }
             }
         },
@@ -1341,37 +1399,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.64.143.61"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 2083,
-            "uuid": "99e37f83-203e-4ae4-bba4-64e9eee2d324",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "0yausj0.0mobile00iran0.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "0yausj0.0mobile00iran0.sbs"
                 }
             }
         },
