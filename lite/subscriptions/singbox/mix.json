@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -162,13 +162,13 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 34",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇷🇺RU | ss | @proxy_mtm | 6",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | ss | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -244,13 +244,13 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 34",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇷🇺RU | ss | @proxy_mtm | 6",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | ss | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -1048,9 +1048,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "104.21.28.62",
+            "server": "172.67.183.26",
             "server_port": 443,
             "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
@@ -1072,7 +1072,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/telegram@v2ray_alpha\/",
+                "path": "\/Path\/confing_Costume\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
                 }
@@ -1747,24 +1747,39 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "154.197.75.98",
-            "server_port": 80,
-            "uuid": "3b8fa18e-e245-49b9-b355-405ec86f0755",
-            "flow": "",
+            "server": "157.90.161.70",
+            "server_port": 443,
+            "uuid": "39cf82ce-290a-433a-bb42-b0bacdb3444d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "154.197.75.98"
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aWV-bNNZsIZUUrWIN2eLzN9snTl3P_KcCH-l66AfFWs",
+                    "short_id": "79872b68"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1913,14 +1928,25 @@
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @proxy_mtm | 6",
-            "type": "shadowsocks",
-            "server": "176.32.39.154",
-            "server_port": 64726,
-            "method": "chacha20-ietf-poly1305",
-            "password": "leobXyVllD7ASdCGRhX6V2",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "b6b1702a-5a9c-4255-853a-ceb6cbca6c66",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm",
+                "headers": {
+                    "Host": "discord.gg"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @vpn_go67 | 23",
