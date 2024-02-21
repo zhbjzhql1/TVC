@@ -152,7 +152,6 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
-                "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 3",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
@@ -160,9 +159,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇳🇱NL | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
-                "🇺🇸US | vless | @mehrosaboran | 22",
+                "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -230,7 +229,6 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
-                "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 3",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
@@ -238,9 +236,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇳🇱NL | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
-                "🇺🇸US | vless | @mehrosaboran | 22",
+                "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1466,37 +1464,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 7",
-            "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 443,
-            "uuid": "8b5fcc34-698b-45fe-9499-87da75257a08",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kamy.CaUmaz.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Fnet00",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @polproxy | 3",
             "type": "vless",
             "server": "104.16.32.40",
@@ -1675,16 +1642,13 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "142.93.130.99",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.24.176.7",
             "server_port": 443,
-            "uuid": "f0aec29d-9f86-4887-88d5-11a69044ec42",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1692,7 +1656,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "public.SATOSHI.MOM",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1704,7 +1668,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "public.SATOSHI.MOM"
                 }
             }
         },
@@ -1723,9 +1687,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 22",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 25",
             "type": "vless",
-            "server": "69.84.182.0",
+            "server": "190.93.246.241",
             "server_port": 2083,
             "uuid": "2ea77325-b4e3-454d-ab8d-b301c9a1ee2f",
             "flow": "",
@@ -1737,7 +1701,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "69.84.182.0",
+                "server_name": "190.93.246.241",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
