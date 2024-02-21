@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -140,7 +140,7 @@
                 "🇬🇧GB | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
+                "🇳🇱NL | vmess | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -217,7 +217,7 @@
                 "🇬🇧GB | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
+                "🇳🇱NL | vmess | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -595,7 +595,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 23",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1181,33 +1181,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 17",
-            "type": "vless",
-            "server": "172.67.219.62",
-            "server_port": 2053,
-            "uuid": "f754c706-9dde-4a14-bb39-b87a76a9bd3b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @v2ray_swhil | 18",
+            "type": "vmess",
+            "server": "188.114.96.11",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "transaction-ab16e623c3de703011ca4ec38867a5aba33039caaac980b3d25c501a86485619.mitsonic.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "transaction-ab16e623c3de703011ca4ec38867a5aba33039caaac980b3d25c501a86485619.mitsonic.com"
+                    "Host": ""
                 }
             }
         },
@@ -1644,10 +1637,10 @@
         {
             "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
             "type": "shadowsocks",
-            "server": "jseyu.arvancode.eu.org",
+            "server": "v1.arvancode.eu.org",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "password": "mps3FwmDjLrWaOVg",
             "plugin": "",
             "plugin_opts": ""
         },
