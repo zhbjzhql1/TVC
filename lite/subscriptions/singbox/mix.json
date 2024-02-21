@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -157,9 +157,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 15",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -234,9 +234,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 15",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -595,7 +595,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 23",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1590,11 +1590,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 1",
+            "tag": "🇨🇦CA | vless | @Capoit | 3",
             "type": "vless",
-            "server": "104.24.0.11",
-            "server_port": 2083,
-            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+            "server": "104.18.202.209",
+            "server_port": 443,
+            "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1604,7 +1604,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "guq22.oXNETWoRks.liNK",
+                "server_name": "cmliu-edgetunnel.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1614,9 +1614,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "guq22.oXNETWoRks.liNK"
+                    "Host": "cmliu-edgetunnel.pages.dev"
                 }
             }
         },
@@ -1642,13 +1642,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "104.24.176.7",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "c6d7a531-3330-4ce9-a5c1-b0c288389464",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1656,7 +1659,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "public.SATOSHI.MOM",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1666,9 +1669,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "public.SATOSHI.MOM"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
