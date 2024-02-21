@@ -122,6 +122,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -138,7 +139,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇷CR | vless | @V2RayTz | 19",
+                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @sinabigo | 3",
@@ -188,6 +189,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -204,7 +206,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇷CR | vless | @V2RayTz | 19",
+                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @sinabigo | 3",
@@ -676,6 +678,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
+            "type": "vless",
+            "server": "telegram-falcunargo.falcunar.uk.eu.org",
+            "server_port": 8443,
+            "uuid": "041f479a-63f5-4af1-a492-8cbff5797b8a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo.falcunar.uk.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2logy | 9",
             "type": "vless",
             "server": "172.67.170.103",
@@ -1098,11 +1131,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8880,
-            "uuid": "fddc172c-c28b-4fbd-b5e4-d163f1959b0d",
+            "server": "154.197.75.98",
+            "server_port": 80,
+            "uuid": "3bc743b6-75c1-48f7-ba0e-38ff14939251",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1112,9 +1145,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "190.93.247.155"
+                    "Host": "154.197.75.98"
                 }
             }
         },
