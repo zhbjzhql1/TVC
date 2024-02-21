@@ -126,7 +126,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -163,7 +163,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -209,7 +209,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -246,7 +246,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -822,7 +822,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1764,25 +1764,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
