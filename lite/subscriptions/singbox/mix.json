@@ -159,7 +159,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | vmess | @forwardv2ray | 15",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -236,7 +236,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | vmess | @forwardv2ray | 15",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -1642,16 +1642,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "159.223.209.183",
             "server_port": 443,
-            "uuid": "c6d7a531-3330-4ce9-a5c1-b0c288389464",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "047fc688-3374-4dca-ab3d-d90ef410dcbb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1659,20 +1656,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "*.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ziJriPZAUrxeMSdzpvkA0ZUxa_gO-RAd7miftqhbfkc",
+                    "short_id": "b4ec3caf"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
