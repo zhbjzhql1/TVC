@@ -131,6 +131,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -162,12 +163,12 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇨🇦CA | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 4",
-                "🇩🇪DE | vless | @proxy_mtm | 5",
+                "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 3",
@@ -212,6 +213,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -243,12 +245,12 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇨🇦CA | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 4",
-                "🇩🇪DE | vless | @proxy_mtm | 5",
+                "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 3",
@@ -946,6 +948,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "147.78.140.231",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "llow-disk-4b7b.bigapax481.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kellie.makeup\/linkvws",
+                "headers": {
+                    "Host": "llow-disk-4b7b.bigapax481.workers.dev"
+                }
             }
         },
         {
@@ -1724,11 +1760,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 2095,
-            "uuid": "96a87238-b52f-437f-ba38-ccd55d818c47",
+            "server": "172.67.68.191",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1736,16 +1772,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao343.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048",
+                "path": "\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "baipiao343.stunning-bassoon.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
+            "tag": "🏳️XX | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "fr.snailnetworktm.link",
             "server_port": 2053,
@@ -1857,7 +1903,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxy_mtm | 5",
+            "tag": "🇩🇪DE | vless | @proxy_mtm | 6",
             "type": "vless",
             "server": "157.90.161.70",
             "server_port": 443,
