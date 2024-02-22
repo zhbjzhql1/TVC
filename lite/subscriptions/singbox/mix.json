@@ -127,12 +127,12 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -164,7 +164,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 26",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -209,12 +209,12 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -246,7 +246,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 26",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -866,7 +866,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -975,38 +975,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "marien.motorcycles",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "marien.motorcycles"
-                }
-            }
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "145.239.1.100",
+            "server_port": 5000,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
@@ -1804,28 +1780,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "fr-01.cloudlion.me",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "18.156.193.200",
             "server_port": 8080,
-            "uuid": "70666776-4e9f-4350-b3f0-afaff6a70db0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "LV+ZBkSp6zRayAF0Q+TgXjtGgjjd7Qnv6tBcKZ9TWaA=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
