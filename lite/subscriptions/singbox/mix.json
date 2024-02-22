@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -162,9 +162,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
+                "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @FAKEOFTVC | 1",
+                "🇬🇧GB | ss | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 26",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 4",
@@ -197,7 +198,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -242,9 +243,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
+                "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @FAKEOFTVC | 1",
+                "🇬🇧GB | ss | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 26",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 4",
@@ -586,7 +588,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1752,6 +1754,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 1",
+            "type": "vless",
+            "server": "104.31.16.162",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "172.67.174.190",
@@ -1783,17 +1816,17 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 15",
             "type": "shadowsocks",
-            "server": "51.142.171.150",
-            "server_port": 49499,
+            "server": "51.142.159.50",
+            "server_port": 30291,
             "method": "chacha20-ietf-poly1305",
-            "password": "kTjlLxrncKx4i2HIjxfA3M",
+            "password": "izqxecssws9zsf0MRzyDN1",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "fr.snailnetworktm.link",
             "server_port": 2053,
