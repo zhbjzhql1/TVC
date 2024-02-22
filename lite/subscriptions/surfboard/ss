@@ -11,11 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇪🇸ES | ss | @DeamNet_Proxy | 19 = ss, 92.38.171.215, 51348, encrypt-method = chacha20-ietf-poly1305, password = pxREQjgjPGjSKoXLEnt6nyzhZUhi7So1JlsSSRWYMi4M4iXD
 🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 2443, encrypt-method = aes-256-gcm, password = hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=
+🇩🇪DE | ss | @forwardv2ray | 17 = ss, 3.73.154.173, 8080, encrypt-method = chacha20-ietf-poly1305, password = GIQnTrE+vCeqcP2wQXaeMcNkRB/sG3YQFe0YiSrz/ug=
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇺🇸US | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇺🇸US | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇪🇸ES | ss | @DeamNet_Proxy | 19,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 17
+URL-TEST = url-test,🇪🇸ES | ss | @DeamNet_Proxy | 19,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 17
+FALLBACK = fallback,🇪🇸ES | ss | @DeamNet_Proxy | 19,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
