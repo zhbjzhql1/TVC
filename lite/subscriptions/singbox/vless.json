@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -146,14 +146,14 @@
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇮🇷IR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 10",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 1",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇮🇱IL | vless | @mehrosaboran | 17",
@@ -184,7 +184,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -214,14 +214,14 @@
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇮🇷IR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 10",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 1",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇮🇱IL | vless | @mehrosaboran | 17",
@@ -523,7 +523,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1308,11 +1308,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 10",
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "198.41.202.5",
-            "server_port": 8880,
-            "uuid": "1cafbebf-2816-4811-9365-165888e90634",
+            "server": "ws2.tranfer-game.site",
+            "server_port": 80,
+            "uuid": "998fe0d5-6fde-4e0d-b611-b624c104f77d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1322,9 +1322,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/holderproxy",
                 "headers": {
-                    "Host": "198.41.202.5"
+                    "Host": "ws2.tranfer-game.site"
                 }
             }
         },
@@ -1503,12 +1503,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "MTN.Vpn-Mikey.cfd",
+            "server": "104.248.194.223",
             "server_port": 443,
-            "uuid": "ff6b34da-46c2-4cd8-8d34-282a3d1daa38",
-            "flow": "",
+            "uuid": "dc9433cf-5cf2-49de-8c9d-1b853b63c10e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1517,17 +1517,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Germany.Vpn-Mikey.cfd",
+                "server_name": "*.housepets.space",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
+                    "short_id": "189f1252"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
