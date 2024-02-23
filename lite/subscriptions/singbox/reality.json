@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @v2logy | 8",
-                "🏳️XX | vless | @azadi_az_inja_migzare | 4",
+                "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -120,8 +121,9 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @v2logy | 8",
-                "🏳️XX | vless | @azadi_az_inja_migzare | 4",
+                "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -218,7 +220,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @azadi_az_inja_migzare | 4",
+            "tag": "🏳️XX | vless | @azadi_az_inja_migzare | 5",
             "type": "vless",
             "server": "[2a01:4f9:c011:64f::33]",
             "server_port": 443,
@@ -279,6 +281,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "85.9.96.131",
+            "server_port": 2087,
+            "uuid": "352f8151-f56f-4858-a855-b338e3053e6d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
+                    "short_id": "21e8adbf"
                 }
             }
         },
