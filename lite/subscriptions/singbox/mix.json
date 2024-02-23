@@ -124,7 +124,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
-                "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -161,7 +161,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -203,7 +203,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
-                "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -779,11 +779,16 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
-            "type": "trojan",
-            "server": "callmesir.rezashopparivate.sbs",
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+            "type": "vmess",
+            "server": "104.21.44.64",
             "server_port": 443,
-            "password": "202fef2a-eff2-4815-bf05-cadcad4b7863",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -791,7 +796,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "callmesir.rezashopparivate.sbs",
+                "server_name": "kellie.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -800,11 +805,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "LCO6O6yZYFEZeti7lBHSnX",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
             }
         },
         {
@@ -1656,11 +1661,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "www.tegzitp.net",
-            "server_port": 2087,
-            "uuid": "2a00b6dc-e2d2-41b1-aac9-9a5659670c01",
+            "server": "discord.com",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1670,7 +1675,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fs.bo3kot.com",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1679,11 +1684,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                }
             }
         },
         {
