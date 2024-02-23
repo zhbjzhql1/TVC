@@ -161,7 +161,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇲🇾MY | vmess | @forwardv2ray | 15",
+                "🏳️XX | ss | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇲🇾MY | vmess | @forwardv2ray | 15",
+                "🏳️XX | ss | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -1658,28 +1658,14 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "38.54.97.205",
-            "server_port": 2612,
-            "uuid": "d6d16f50-a1a2-5833-81df-939697b6844c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "tag": "🏳️XX | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "[::ffff:346:b6a3]",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "fETZSeI5tN4W3dy8BQgrgWDQ01L2OAbQ3ljOqueEKtY=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 2",
