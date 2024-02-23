@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇬SG | ss | @forwardv2ray | 18",
                 "🏳️XX | ss | @ROMAX_VPN | 7"
             ]
         },
@@ -115,8 +115,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱NL | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇬SG | ss | @forwardv2ray | 18",
                 "🏳️XX | ss | @ROMAX_VPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,22 +140,22 @@
             "type": "dns"
         },
         {
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "masting.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XvK0ltH67Xhv9ht9RhYsFy",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇬SG | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "singapore.telegavpn.org",
-            "server_port": 16759,
-            "method": "chacha20-ietf-poly1305",
-            "password": "I4H1AnaLtDpEO0fagJHHN3",
             "plugin": "",
             "plugin_opts": ""
         },
