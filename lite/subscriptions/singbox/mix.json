@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -162,8 +162,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
-                "🇨🇦CA | vmess | @FAKEOFTVC | 2",
+                "🇫🇷FR | vless | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -196,7 +196,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -241,8 +241,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
-                "🇨🇦CA | vmess | @FAKEOFTVC | 2",
+                "🇫🇷FR | vless | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -591,7 +591,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1699,17 +1699,43 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "jseyu.arvancode.eu.org",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇫🇷FR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "217.69.6.138",
+            "server_port": 442,
+            "uuid": "db47858f-d33d-4177-a1d8-80898cf99af9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5ymESWL8fiNj53FXaFl9VoiyP775drBZ9t97Ie_luwY",
+                    "short_id": "d8c6a509"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "FOX_VPN66",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
-            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 2",
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 2",
             "type": "vmess",
             "server": "104.21.75.244",
             "server_port": 443,
