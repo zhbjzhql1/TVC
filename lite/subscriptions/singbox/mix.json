@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 5",
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 32",
+                "🇨🇷CR | vless | @V2rayNGn | 32",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -161,8 +161,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 13",
+                "🇺🇸US | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -206,7 +206,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 5",
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 32",
+                "🇨🇷CR | vless | @V2rayNGn | 32",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -240,8 +240,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 13",
+                "🇺🇸US | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -862,7 +862,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 32",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 32",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1678,7 +1678,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
+            "tag": "🇺🇸US | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
@@ -1699,14 +1699,35 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 13",
-            "type": "shadowsocks",
-            "server": "51.11.104.69",
-            "server_port": 16550,
-            "method": "chacha20-ietf-poly1305",
-            "password": "qFqqKf78FuMHnBqoxeWz4R",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@proxy_mtm\/",
+                "headers": {
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 2",
