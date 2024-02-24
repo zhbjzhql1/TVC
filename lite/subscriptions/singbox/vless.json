@@ -137,14 +137,14 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 33",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇳🇱NL | vless | @proxyymeliii | 19",
+                "🇩🇪DE | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇩🇪DE | vless | @V2RayTz | 17",
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 8",
@@ -204,14 +204,14 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 33",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇳🇱NL | vless | @proxyymeliii | 19",
+                "🇩🇪DE | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇩🇪DE | vless | @V2RayTz | 17",
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 8",
@@ -1095,17 +1095,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @proxyymeliii | 19",
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 19",
             "type": "vless",
-            "server": "95.179.158.232",
-            "server_port": 15163,
-            "uuid": "4c43ae02-8ac7-4532-967c-390908200ed0",
+            "server": "154.197.75.98",
+            "server_port": 80,
+            "uuid": "c0bc862b-77ba-4003-a875-ef4daf7b3516",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "154.197.75.98"
+                }
             }
         },
         {
@@ -1258,7 +1265,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
+            "tag": "🏳️XX | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,

@@ -130,7 +130,7 @@
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
                 "🏳️XX | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇳🇱NL | vless | @proxyymeliii | 19",
+                "🇩🇪DE | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -151,7 +151,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -210,7 +210,7 @@
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
                 "🏳️XX | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇳🇱NL | vless | @proxyymeliii | 19",
+                "🇩🇪DE | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -231,7 +231,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -907,7 +907,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1264,17 +1264,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @proxyymeliii | 19",
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 19",
             "type": "vless",
-            "server": "95.179.158.232",
-            "server_port": 15163,
-            "uuid": "4c43ae02-8ac7-4532-967c-390908200ed0",
+            "server": "154.197.75.98",
+            "server_port": 80,
+            "uuid": "c0bc862b-77ba-4003-a875-ef4daf7b3516",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "154.197.75.98"
+                }
             }
         },
         {
@@ -1461,7 +1468,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
+            "tag": "🏳️XX | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
