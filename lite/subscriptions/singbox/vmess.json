@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
-                "🇩🇪DE | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray_swhil | 19",
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -124,9 +124,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
-                "🇩🇪DE | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray_swhil | 19",
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -173,7 +173,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -214,11 +214,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @V2rayng_Fast | 3",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
-            "server": "154.197.75.98",
-            "server_port": 2095,
-            "uuid": "eaa63ca0-8fd0-40a5-9157-d5aead104fcd",
+            "server": "c1d1ntest.mshdneshat.fun",
+            "server_port": 443,
+            "uuid": "73bfcf64-8609-4606-9fc0-e8c49e3500b8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -229,11 +229,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "c1d1ntest.mshdneshat.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "c1d1ntest.mshdneshat.fun"
                 }
             }
         },
