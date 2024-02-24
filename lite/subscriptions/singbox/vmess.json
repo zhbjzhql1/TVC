@@ -327,9 +327,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "162.159.134.23",
-            "server_port": 8080,
-            "uuid": "9084653a-ee34-4293-979e-7c2b50dffb84",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -340,11 +340,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/9084653a-ee34-4293-979e-7c2b50dffb84-vm",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "162.159.134.23"
+                    "Host": "nina.bond"
                 }
             }
         },
