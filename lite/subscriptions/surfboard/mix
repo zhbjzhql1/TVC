@@ -17,13 +17,12 @@ DIRECT = direct
 🇨🇦CA | vmess | @V2rayng_Fast | 2 = vmess, c1d1ntest.mshdneshat.fun, 443, username = 73bfcf64-8609-4606-9fc0-e8c49e3500b8, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 2443, encrypt-method = aes-256-gcm, password = hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
-🇬🇧GB | ss | @forwardv2ray | 13 = ss, 52.142.190.70, 13499, encrypt-method = chacha20-ietf-poly1305, password = K227sUvoII4iLfJJ4U0LLO
 🇨🇦CA | vmess | @FoXrayIran | 1 = vmess, tl.iranray.online, 8080, username = b3c20911-126d-4c30-bd32-10152bf0b593, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tl.iranray.online", skip-cert-verify = true, tfo = false
 🏳️XX | ss | @ROMAX_VPN | 6 = ss, [::ffff:1285:d01c], 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 18,🇨🇦CA | vmess | @V2rayng_Fast | 2,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 13,🇨🇦CA | vmess | @FoXrayIran | 1,🏳️XX | ss | @ROMAX_VPN | 6
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 18,🇨🇦CA | vmess | @V2rayng_Fast | 2,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 13,🇨🇦CA | vmess | @FoXrayIran | 1,🏳️XX | ss | @ROMAX_VPN | 6
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 18,🇨🇦CA | vmess | @V2rayng_Fast | 2,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 13,🇨🇦CA | vmess | @FoXrayIran | 1,🏳️XX | ss | @ROMAX_VPN | 6
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 18,🇨🇦CA | vmess | @V2rayng_Fast | 2,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @FoXrayIran | 1,🏳️XX | ss | @ROMAX_VPN | 6
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 18,🇨🇦CA | vmess | @V2rayng_Fast | 2,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @FoXrayIran | 1,🏳️XX | ss | @ROMAX_VPN | 6
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇦CA | vmess | @mftizi | 18,🇨🇦CA | vmess | @V2rayng_Fast | 2,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @FoXrayIran | 1,🏳️XX | ss | @ROMAX_VPN | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
