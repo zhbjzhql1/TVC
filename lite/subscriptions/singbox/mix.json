@@ -124,7 +124,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 19",
                 "🇮🇪IE | vless | @DarkTeam_VPN | 0",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
@@ -134,12 +134,13 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 33",
@@ -167,7 +168,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -208,7 +208,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 19",
                 "🇮🇪IE | vless | @DarkTeam_VPN | 0",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
@@ -218,12 +218,13 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 33",
@@ -251,7 +252,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -766,7 +766,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -998,6 +998,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "fastly.com",
+            "server_port": 80,
+            "uuid": "66ccb11f-75a7-4282-8a60-31fed447401d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries",
+                "headers": {
+                    "Host": "fastly.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "104.21.225.38",
@@ -1116,11 +1140,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
             "type": "vless",
-            "server": "germany.blueberrynetwork.icu",
-            "server_port": 2087,
-            "uuid": "2f4c1431-903f-4594-bac5-6698887640cd",
+            "server": "star--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1130,7 +1154,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "germany.blueberrynetwork.icu",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1140,9 +1164,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@BlueberryNetWork | @BlueberryNetWork | @BlueberryNetWork | @BlueberryNetWork | @BlueberryNetWork",
+                "path": "\/",
                 "headers": {
-                    "Host": "germany.blueberrynetwork.icu"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1832,16 +1856,6 @@
                     "Host": "154.197.75.98"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "18.193.127.179",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ZoaeXONQwYY2\/4ksURI9Qr+YAPv5lgo3OFQw07kO1d8=",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vmess | @FAKEOFTVC | 2",
