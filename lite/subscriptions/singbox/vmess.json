@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -121,8 +121,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -167,7 +167,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -191,11 +191,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "104.21.225.153",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "199.15.76.35",
+            "server_port": 443,
+            "uuid": "0987ff95-91ef-40ef-b6cb-a44ac6b1990a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,11 +206,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "doxinjiapo.5201314.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/0987ff95",
                 "headers": {
-                    "Host": ""
+                    "Host": "doxinjiapo.5201314.cfd"
                 }
             }
         },
