@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -156,8 +156,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇺🇸US | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @mehrosaboran | 13",
+                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -224,8 +224,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇺🇸US | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @mehrosaboran | 13",
+                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -585,7 +585,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1546,7 +1546,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 8880,
@@ -1567,39 +1567,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 13",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 12",
             "type": "vless",
-            "server": "5.75.225.4",
-            "server_port": 443,
-            "uuid": "0adf38f7-4fde-426b-a114-bdfcdcb3f5e2",
-            "flow": "xtls-rprx-vision",
+            "server": "www.tozedmodeon.store",
+            "server_port": 8880,
+            "uuid": "686ef628-4f70-4cdc-8156-fae1afa81377",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVh9z3yAsgz2E7o7UOWUIRcOMKgcrXJjchCIUwaviDQ",
-                    "short_id": "3eb1d20a"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048",
+                "headers": {
+                    "Host": "www.tozedmodeon.store"
+                }
             }
         },
         {
