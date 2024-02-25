@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @v2logy | 8",
+                "🇯🇵JP | vless | @azadi_az_inja_migzare | 8",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
-                "🇩🇪DE | vless | @proxy_mtm | 9",
+                "🇩🇪DE | vless | @proxy_mtm | 14",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
         },
@@ -122,11 +123,12 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @v2logy | 8",
+                "🇯🇵JP | vless | @azadi_az_inja_migzare | 8",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
-                "🇩🇪DE | vless | @proxy_mtm | 9",
+                "🇩🇪DE | vless | @proxy_mtm | 14",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -219,6 +221,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vless | @azadi_az_inja_migzare | 8",
+            "type": "vless",
+            "server": "18.181.197.97",
+            "server_port": 10007,
+            "uuid": "A7547235-E23F-44A7-9B66-C9D72F769698",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "s0.awsstatic.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
+                    "short_id": "01fc5e98a68e5e7b"
+                }
             }
         },
         {
@@ -352,7 +383,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxy_mtm | 9",
+            "tag": "🇩🇪DE | vless | @proxy_mtm | 14",
             "type": "vless",
             "server": "49.13.124.234",
             "server_port": 443,
