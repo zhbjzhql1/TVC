@@ -145,7 +145,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -165,7 +165,6 @@
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇬🇧GB | vless | @ROMAX_VPN | 4",
                 "🇫🇮FI | vless | @TVCminer | 19"
             ]
         },
@@ -212,7 +211,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -232,7 +231,6 @@
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇬🇧GB | vless | @ROMAX_VPN | 4",
                 "🇫🇮FI | vless | @TVCminer | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1172,15 +1170,32 @@
         {
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8880,
-            "uuid": "e487eb79-cfbb-4afd-9e18-a72e6335c658",
+            "server": "190.93.246.241",
+            "server_port": 2083,
+            "uuid": "461bf02a-ecdb-49ea-ae0b-f2200565b0d8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2raye.xn--mgbg0fka44dhgc.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6, @LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1275,7 +1290,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 2",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1528,9 +1543,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "upload.ir",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "104.17.101.35",
+            "server_port": 2052,
+            "uuid": "a64f3a98-0726-4337-a838-dbb1445f076a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1538,21 +1553,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
+                    "Host": "104.17.101.35"
                 }
             }
         },
@@ -1787,27 +1792,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @ROMAX_VPN | 4",
-            "type": "vless",
-            "server": "91.193.58.1",
-            "server_port": 80,
-            "uuid": "0e0e7306-8dee-4c2a-bb2b-3825d10d553b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "91.193.58.1"
-                }
             }
         },
         {
