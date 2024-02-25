@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇫🇮FI | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -180,7 +180,7 @@
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vmess | @SINABIGO | 4",
-                "🇺🇸US | vless | @V2FETCH | 6",
+                "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | ss | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
@@ -253,7 +253,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇫🇮FI | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -265,7 +265,7 @@
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vmess | @SINABIGO | 4",
-                "🇺🇸US | vless | @V2FETCH | 6",
+                "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | ss | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
@@ -1870,33 +1870,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "23.227.60.7",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇫🇮FI | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "65.21.150.14",
+            "server_port": 36869,
+            "uuid": "c9eb3f04-e919-4024-fbe4-5579e127dc90",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test43.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "test43.pages.dev"
+                    "Host": ""
                 }
             }
         },
@@ -2173,7 +2166,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 6",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 6",
             "type": "vless",
             "server": "k---join.outline-vpn.cloud",
             "server_port": 80,
