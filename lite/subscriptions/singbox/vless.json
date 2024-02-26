@@ -139,6 +139,7 @@
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -208,6 +209,7 @@
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -1130,6 +1132,37 @@
                 "path": "\/?ed=1048",
                 "headers": {
                     "Host": "cp.ifilo.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "18d472ea-c6a3-4913-b7d7-487495d6e74c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
                 }
             }
         },

@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🏳️XX | vmess | @proxyymeliii | 14",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -168,6 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇭🇰HK | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -228,7 +229,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🏳️XX | vmess | @proxyymeliii | 14",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -251,6 +252,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇭🇰HK | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -1298,20 +1300,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @proxyymeliii | 14",
-            "type": "vmess",
-            "server": "shirt.mintstore.store",
-            "server_port": 8081,
-            "uuid": "9f1b2512-9146-4a43-b277-ee2e0a5e926b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "18d472ea-c6a3-4913-b7d7-487495d6e74c",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
+                }
             }
         },
         {
@@ -1855,6 +1871,30 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "annie50.ceoiii.com",
+            "server_port": 36801,
+            "uuid": "c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hls\/cctv5phd.m3u8",
+                "headers": {
+                    "Host": "annie50.ceoiii.com"
                 }
             }
         },

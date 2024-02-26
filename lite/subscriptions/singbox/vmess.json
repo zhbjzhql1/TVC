@@ -110,10 +110,10 @@
                 "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🏳️XX | vmess | @proxyymeliii | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇭🇰HK | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vmess | @SINABIGO | 6"
             ]
@@ -126,10 +126,10 @@
                 "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🏳️XX | vmess | @proxyymeliii | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇭🇰HK | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vmess | @SINABIGO | 6"
             ],
@@ -246,23 +246,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @proxyymeliii | 14",
-            "type": "vmess",
-            "server": "shirt.mintstore.store",
-            "server_port": 8081,
-            "uuid": "9f1b2512-9146-4a43-b277-ee2e0a5e926b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 8",
             "type": "vmess",
             "server": "www.blueberrywindow.online",
@@ -331,6 +314,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "annie50.ceoiii.com",
+            "server_port": 36801,
+            "uuid": "c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hls\/cctv5phd.m3u8",
+                "headers": {
+                    "Host": "annie50.ceoiii.com"
                 }
             }
         },
