@@ -146,19 +146,19 @@
                 "🇩🇪DE | vless | @DailyV2RY | 114",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇳🇱NL | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇫🇮FI | vless | @Outlinev2rayNG | 16",
+                "🇫🇮FI | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -216,19 +216,19 @@
                 "🇩🇪DE | vless | @DailyV2RY | 114",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇳🇱NL | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇫🇮FI | vless | @Outlinev2rayNG | 16",
+                "🇫🇮FI | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -1316,11 +1316,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "167.99.17.149",
             "server_port": 80,
-            "uuid": "cbec2cb9-ed0f-47a3-a024-fef368908ed3",
+            "uuid": "fcb1358b-3077-4a38-afa1-8278579d3035",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1330,9 +1330,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/V2darkOrg",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "167.99.17.149"
                 }
             }
         },
@@ -1444,7 +1444,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @Outlinev2rayNG | 16",
+            "tag": "🇫🇮FI | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "135.181.108.187",
             "server_port": 443,
@@ -1644,11 +1644,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "167.99.17.149",
-            "server_port": 80,
-            "uuid": "fcb1358b-3077-4a38-afa1-8278579d3035",
+            "server": "for-irancell.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1656,11 +1656,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao55.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2darkOrg",
+                "path": "\/",
                 "headers": {
-                    "Host": "167.99.17.149"
+                    "Host": "baipiao55.stunning-bassoon.pages.dev"
                 }
             }
         },
