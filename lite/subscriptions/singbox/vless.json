@@ -143,6 +143,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇳CN | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @sinabigo | 4",
+                "🇫🇮FI | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -155,7 +156,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇮🇷IR | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -165,7 +166,8 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇮🇷IR | vless | @TVCminer | 18"
             ]
         },
         {
@@ -209,6 +211,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇳CN | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @sinabigo | 4",
+                "🇫🇮FI | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -221,7 +224,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇮🇷IR | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -231,7 +234,8 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇮🇷IR | vless | @TVCminer | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1219,6 +1223,42 @@
             }
         },
         {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "65.108.52.226",
+            "server_port": 443,
+            "uuid": "587c2cd4-e2c5-4e4c-ac23-eb38192cd02f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5To2hd8dONrepW48wI6V1hbYePWOjYHgMXiR9Gq9tF4",
+                    "short_id": "ca837ff5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "104.19.101.140",
@@ -1549,24 +1589,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "Vpn-MikeyMci.myftp.org",
-            "server_port": 80,
-            "uuid": "9f503feb-e213-44cb-a397-e124469d3f1f",
+            "server": "v2.magicnetwork.info",
+            "server_port": 443,
+            "uuid": "108295f4-b0e2-6ff4-48de-1471924001a1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
-                "headers": {
-                    "Host": "Vpn-MikeyMci.myftp.org"
-                }
             }
         },
         {
@@ -1831,6 +1864,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @TVCminer | 18",
+            "type": "vless",
+            "server": "bestshopxx.channeltest.site",
+            "server_port": 2087,
+            "uuid": "v2ray_best_iran_1x",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bestshopxx.channeltest.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "v2ray_bes_iran",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],
