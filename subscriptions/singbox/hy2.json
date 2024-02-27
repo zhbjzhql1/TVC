@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | hy2 | @V2rayCollector | 0",
-                "🇳🇱NL | hy2 | @TUICity | 20"
+                "🇳🇱NL | hy2 | @TUICity | 13"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | hy2 | @V2rayCollector | 0",
-                "🇳🇱NL | hy2 | @TUICity | 20"
+                "🇳🇱NL | hy2 | @TUICity | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,30 +136,7 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | hy2 | @V2rayCollector | 0",
-            "type": "hysteria2",
-            "server": "[2001:19f0:1000:6daf:5400:4ff:feba:32c3]",
-            "server_port": 443,
-            "up_mbps": 0,
-            "down_mbps": 0,
-            "password": "f6e4b19a3110d19d",
-            "network": "tcp",
-            "obfs": {
-                "type": "salamander",
-                "password": "8c3ce17b"
-            },
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "www.apple.com\n",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
-        {
-            "tag": "🇳🇱NL | hy2 | @TUICity | 20",
+            "tag": "🇳🇱NL | hy2 | @TUICity | 13",
             "type": "hysteria2",
             "server": "45.32.234.211",
             "server_port": 443,
