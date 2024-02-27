@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
-                "🇨🇦CA | vmess | @yaney_01 | 8",
+                "🇭🇰HK | vmess | @yaney_01 | 7",
                 "🇬🇧GB | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 7",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
-                "🇨🇦CA | vmess | @yaney_01 | 8",
+                "🇭🇰HK | vmess | @yaney_01 | 7",
                 "🇬🇧GB | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 7",
@@ -275,11 +275,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 8",
+            "tag": "🇭🇰HK | vmess | @yaney_01 | 7",
             "type": "vmess",
-            "server": "www.blueberrywindow.online",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+            "server": "vivi-softbank-zz1.ddnsll.xyz",
+            "server_port": 32007,
+            "uuid": "490a4863-e004-42b8-b4ab-9a085a081fd3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,12 +290,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "vivi-softbank-zz1.ddnsll.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "dxjhk.bilibili.com",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
