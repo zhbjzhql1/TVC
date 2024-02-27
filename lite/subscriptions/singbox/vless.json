@@ -1347,9 +1347,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "162.159.8.55",
+            "server": "MTN.Vpn-Mikey.cfd",
             "server_port": 443,
-            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
+            "uuid": "2d845ff0-2393-49d9-b085-850beaac032c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1359,7 +1359,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w2.sylarsun.eu.org",
+                "server_name": "Germany.Vpn-Mikey.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1368,11 +1368,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "w2.sylarsun.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1677,9 +1677,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "Vpn-MikeyMci.myftp.org",
             "server_port": 80,
-            "uuid": "7a838346-799b-4319-b075-825e5244bdf3",
+            "uuid": "8d2b892e-3af7-4078-a079-3faa785fa1f8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1689,9 +1689,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "Vpn-MikeyMci.myftp.org"
                 }
             }
         },
