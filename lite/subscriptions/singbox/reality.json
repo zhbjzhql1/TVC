@@ -107,9 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @v2logy | 8",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -119,9 +120,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 18",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @v2logy | 8",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -182,42 +184,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
-            "type": "vless",
-            "server": "128.140.80.181",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "61ZGaPo3sQi_sOF30dKB0lQyx1b7lEIdQg670xWOgxg",
-                    "short_id": "133b0bb5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @v2logy | 8",
             "type": "vless",
             "server": "116.202.103.212",
@@ -254,6 +220,42 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "45.77.229.107",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "convertio.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "O8AYmYNPvqLF7YU38OrGEjGM6d9iv1iapMgNC54UFRk",
+                    "short_id": "fbb3ffab"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -280,6 +282,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "hol1.noooooop.top",
+            "server_port": 2926,
+            "uuid": "4389c3cb-f2b2-401e-a99b-6cdf59c1f4f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
