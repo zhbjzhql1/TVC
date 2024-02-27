@@ -146,7 +146,6 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -157,7 +156,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -216,7 +215,6 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -227,7 +225,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -1333,37 +1331,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "216.205.52.173",
-            "server_port": 2053,
-            "uuid": "ec2e8ff7-e794-4ac4-9585-7ad28f188269",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ec2e8ffV2ray7-e794-4ac4-9585-7ad28f188269btoche.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ec2e8ffV2ray7-e794-4ac4-9585-7ad28f188269btoche.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 17",
             "type": "vless",
             "server": "104.18.202.232",
@@ -1625,11 +1592,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "cxc--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "185.143.233.1",
+            "server_port": 80,
+            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1637,21 +1604,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "185.143.233.1"
                 }
             }
         },
