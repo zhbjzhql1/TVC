@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 130",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇬🇧GB | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -157,7 +157,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇮🇷IR | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -213,7 +212,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 130",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇬🇧GB | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -226,7 +225,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇮🇷IR | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1245,11 +1243,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "smvnet.xyz",
-            "server_port": 80,
-            "uuid": "3ebc00d8-feed-4120-9a42-a936bcdde273",
+            "server": "Uciran.ir-online-api1-MTN.ddns001.net",
+            "server_port": 2053,
+            "uuid": "0a0b9604-f2a9-4d73-a698-8e2641d692ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1257,11 +1255,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/connect\/de\/",
+                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
                 "headers": {
-                    "Host": "smvnet.xyz"
+                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev"
                 }
             }
         },
@@ -1583,20 +1591,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 12",
-            "type": "vless",
-            "server": "193.151.152.146",
-            "server_port": 45930,
-            "uuid": "8465fb27-9790-4c69-afa1-7ec23678a1ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
