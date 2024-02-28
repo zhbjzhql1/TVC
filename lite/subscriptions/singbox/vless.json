@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -144,7 +144,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 150",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇹🇷TR | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -153,10 +153,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 4",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇫🇮FI | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 24",
                 "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -186,7 +185,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -212,7 +211,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 150",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇹🇷TR | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -221,10 +220,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 4",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇫🇮FI | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 24",
                 "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -568,7 +566,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1254,34 +1252,17 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "95.164.116.35",
-            "server_port": 2003,
-            "uuid": "8ad85975-28e7-460c-8102-1b14b7773e63",
+            "server": "116.203.93.62",
+            "server_port": 11508,
+            "uuid": "c4b56931-230c-404b-9afc-f6ecae07005d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tr-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "GRPC",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1401,9 +1382,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 8080,
-            "uuid": "Parsashonam-9",
+            "server": "www.Speedtest.Net",
+            "server_port": 80,
+            "uuid": "V2rayCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1413,9 +1394,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "104.18.203.232"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1501,7 +1482,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "104.31.16.162",
             "server_port": 443,
@@ -1596,27 +1577,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "mtn----join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "a93eacd2-2852-4d84-9355-fd1e6477dccc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mtn----join.outline-vpn.cloud"
-                }
             }
         },
         {
