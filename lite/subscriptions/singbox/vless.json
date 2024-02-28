@@ -119,7 +119,7 @@
                 "🇬🇧GB | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ]
         },
         {
@@ -187,7 +187,7 @@
                 "🇬🇧GB | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -582,7 +582,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1246,9 +1246,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-10",
+            "server": "162.159.130.234",
+            "server_port": 80,
+            "uuid": "2aa88edb-fe41-43e6-a8e6-8a5dfd509524",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1260,7 +1260,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "162.159.130.234"
                 }
             }
         },
@@ -1859,11 +1859,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @TVCminer | 18",
+            "tag": "🇨🇦CA | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "bestshopxx.channeltest.site",
-            "server_port": 2087,
-            "uuid": "v2ray_best_iran_1x",
+            "server": "104.17.233.79",
+            "server_port": 443,
+            "uuid": "cd7db63e-4904-453b-8f93-bf56d1fd53e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1873,7 +1873,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bestshopxx.channeltest.site",
+                "server_name": "vm.webobin.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1883,7 +1883,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "v2ray_bes_iran",
+                "service_name": "@networknim",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
