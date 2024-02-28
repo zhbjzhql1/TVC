@@ -114,12 +114,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @frev2ray | 8",
-                "🇨🇦CA | vless | @ARv2ray | 12",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @shh_proxy | 27",
                 "🇬🇧GB | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 183",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -193,12 +193,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @frev2ray | 8",
-                "🇨🇦CA | vless | @ARv2ray | 12",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @shh_proxy | 27",
                 "🇬🇧GB | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 183",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -493,24 +493,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 12",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 12",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
+            "server": "128.140.80.181",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "61ZGaPo3sQi_sOF30dKB0lQyx1b7lEIdQg670xWOgxg",
+                    "short_id": "133b0bb5"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -604,7 +619,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -883,9 +898,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.72.182.100",
+            "server": "13.50.159.232",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1340,9 +1355,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.16.32.40",
+            "server": "freee.outline-vpn.cloud",
             "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1352,7 +1367,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baipiao206.stunning-bassoon.pages.dev",
+                "server_name": "w1.sylar8.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1362,9 +1377,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "baipiao206.stunning-bassoon.pages.dev"
+                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },
@@ -1757,35 +1772,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "w2.sylarsun.eu.org",
-            "server_port": 443,
-            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "w2.sylarsun.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "w2.sylarsun.eu.org"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "51.143.138.98",
+            "server_port": 47763,
+            "method": "chacha20-ietf-poly1305",
+            "password": "hzXn7UYop5msnpf3DyzcYT",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 22",
