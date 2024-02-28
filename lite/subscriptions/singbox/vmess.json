@@ -112,6 +112,7 @@
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇹🇷TR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -125,6 +126,7 @@
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇹🇷TR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -277,6 +279,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "tr2-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "250de502-dde3-4c36-a96a-ed5cfe95cb59",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
