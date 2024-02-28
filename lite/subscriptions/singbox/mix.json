@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
                 "🏳️XX | vless | @polproxy | 9",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 9",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -164,6 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 6",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -235,7 +236,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
                 "🏳️XX | vless | @polproxy | 9",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 9",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -243,6 +244,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 6",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1568,31 +1570,23 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 9",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "188.121.103.47",
-            "server_port": 2087,
-            "uuid": "352f8151-f56f-4858-a855-b338e3053e6d",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "SVNTEAMz",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
-                    "short_id": "21e8adbf"
+            "transport": {
+                "type": "ws",
+                "path": "\/SVNTEAM",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1781,6 +1775,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 6",
+            "type": "vless",
+            "server": "WoRkErT.V2ExV2.WoRkErS.DeV.",
+            "server_port": 80,
+            "uuid": "b5e5efbf-0e18-5209-8fcf-3a25eb3dc4c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "WoRkErT.V2ExV2.WoRkErS.DeV."
                 }
             }
         },
