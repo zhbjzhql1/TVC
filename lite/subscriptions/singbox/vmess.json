@@ -109,9 +109,10 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @kingofilter | 12",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -124,9 +125,10 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇮🇷IR | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @kingofilter | 12",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -210,11 +212,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 23",
             "type": "vmess",
-            "server": "172.67.211.98",
+            "server": "172.67.158.126",
             "server_port": 443,
-            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -227,7 +229,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "adenc35.fixedlfoat.top",
+                "server_name": "nelly.homes",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -237,9 +239,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "adenc35.fixedlfoat.top"
+                    "Host": "nelly.homes"
                 }
             }
         },
@@ -288,6 +290,33 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "5.34.192.28",
+            "server_port": 26000,
+            "uuid": "95ac49ac-890b-42d7-a524-cc5b2ec8cb27",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "s2sni.obitoo.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
