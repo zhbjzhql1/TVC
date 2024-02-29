@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
-                "🇺🇸US | vless | @proxyymeliii | 13",
+                "🇮🇷IR | vless | @proxyymeliii | 12",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇺🇸US | vless | @V2RayTz | 19",
@@ -153,7 +153,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 163",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -164,11 +164,10 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -229,7 +228,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
-                "🇺🇸US | vless | @proxyymeliii | 13",
+                "🇮🇷IR | vless | @proxyymeliii | 12",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇺🇸US | vless | @V2RayTz | 19",
@@ -237,7 +236,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 163",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -248,11 +247,10 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1311,11 +1309,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 13",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 12",
             "type": "vless",
-            "server": "gcore.com",
-            "server_port": 443,
-            "uuid": "76fef960-3e59-48df-955d-adaff8a11718",
+            "server": "185.143.233.1",
+            "server_port": 80,
+            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1323,21 +1321,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gcore.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "gcore.com"
+                    "Host": "185.143.233.1"
                 }
             }
         },
@@ -1477,11 +1465,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "nl24.vlessx.us",
-            "server_port": 8443,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "for-irancell.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1491,7 +1479,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.20230619.love",
+                "server_name": "baipiao55.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1501,9 +1489,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/freecodes",
+                "path": "\/",
                 "headers": {
-                    "Host": "pages.20230619.love"
+                    "Host": "baipiao55.stunning-bassoon.pages.dev"
                 }
             }
         },
@@ -1773,37 +1761,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 3",
-            "type": "vless",
-            "server": "for-irancell.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao55.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "baipiao55.stunning-bassoon.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "104.31.16.162",
@@ -1887,26 +1844,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "for-irancell.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.18.122.244",
+            "server_port": 2083,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram🇨🇳@wangcai_8\/",
                 "headers": {
-                    "Host": "for-irancell.outline-vpn.cloud"
+                    "Host": "pages.20230619.love"
                 }
             }
         },
