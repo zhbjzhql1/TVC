@@ -150,10 +150,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -234,10 +233,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -1430,11 +1428,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 163",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 166",
             "type": "vless",
-            "server": "154.197.75.98",
-            "server_port": 80,
-            "uuid": "9da9c2db-1a15-4f30-9763-3e1dffb14653",
+            "server": "1.cfco.pp.ua",
+            "server_port": 2087,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1442,11 +1440,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram@SINABIGO\/",
                 "headers": {
-                    "Host": "154.197.75.98"
+                    "Host": "pages.20230619.love"
                 }
             }
         },
@@ -1490,37 +1498,6 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "mtn--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 10",
@@ -1904,9 +1881,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "swedenhvgjeyhe5hye.may-the-force-be-with-you.sbs",
-            "server_port": 443,
-            "uuid": "4a9b1f5e-9c05-4829-954a-c50937ae2673",
+            "server": "104.18.119.102",
+            "server_port": 2083,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1916,7 +1893,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "swedenhvgjeyhe5hye.may-the-force-be-with-you.sbs",
+                "server_name": "pages.20230619.love",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1926,9 +1903,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram🇨🇳@wangcai_8\/",
                 "headers": {
-                    "Host": "swedenhvgjeyhe5hye.may-the-force-be-with-you.sbs"
+                    "Host": "pages.20230619.love"
                 }
             }
         },
