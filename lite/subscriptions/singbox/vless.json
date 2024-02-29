@@ -134,12 +134,11 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
-                "🇮🇷IR | vless | @proxyymeliii | 8",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -157,7 +156,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -203,12 +201,11 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
-                "🇮🇷IR | vless | @proxyymeliii | 8",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -226,7 +223,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1002,34 +998,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "91.247.171.198",
+            "server_port": 34484,
+            "uuid": "e8ab8617-4e82-4207-a5f5-f4da00a9a536",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
             }
         },
         {
@@ -1148,35 +1127,6 @@
                 "path": "\/VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1048",
                 "headers": {
                     "Host": "91.193.58.4"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 8",
-            "type": "vless",
-            "server": "185.213.164.162",
-            "server_port": 80,
-            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.digikala.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K4rl3rABpQbUBfL_qylcKDIvE9DuYuMfg524Pp3JCT4",
-                    "short_id": ""
                 }
             }
         },
@@ -1636,37 +1586,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.18.119.102",
-            "server_port": 2083,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.20230619.love",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram🇨🇳@wangcai_8\/",
-                "headers": {
-                    "Host": "pages.20230619.love"
                 }
             }
         },
