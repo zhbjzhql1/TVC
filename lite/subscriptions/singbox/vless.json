@@ -142,7 +142,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -154,7 +154,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🏳️XX | vless | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -207,7 +207,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -219,7 +219,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🏳️XX | vless | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -1124,11 +1124,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.40.14.215",
-            "server_port": 80,
-            "uuid": "SVNTEAMz",
+            "server": "185.146.173.2",
+            "server_port": 8880,
+            "uuid": "a8018f89-4f58-433e-8ae7-c661573ea1ca",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1138,9 +1138,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SVNTEAM?ed=1048",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "188.40.14.215"
+                    "Host": "185.146.173.2"
                 }
             }
         },
@@ -1452,17 +1452,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 10",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "[::ffff:4115:69e1]",
-            "server_port": 21778,
-            "uuid": "e9f96b8e-3790-4d80-94ea-b1c6ab7687db",
+            "server": "discord.gg",
+            "server_port": 2082,
+            "uuid": "5fd30283-078d-4ee6-873b-4ecb8fec1958",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
+                }
             }
         },
         {
