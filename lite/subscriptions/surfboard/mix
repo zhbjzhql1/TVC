@@ -11,18 +11,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 18 = trojan, 13.42.94.177, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 18 = trojan, 54.217.249.196, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 34.240.226.66, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇨🇦CA | trojan | @proxyymeliii | 15 = trojan, cdnjs.com, 443, password = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, udp-delay = true, skip-cert-verify = false, sni = hdfy4c6.freelines.net, ws = false
 🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 2443, encrypt-method = aes-256-gcm, password = hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=
+🇬🇧GB | trojan | @ConfigsHUB | 11 = trojan, 35.178.75.105, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇯🇵JP | vmess | @Hope_Net | 0 = vmess, 35.78.112.14, 46252, username = 5fcd4f74-4203-484b-8e85-faa0313cc1b1, ws = true, tls = , vmess-aead = true, ws-path = /arki?ed=2048, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
-🇬🇧GB | ss | @forwardv2ray | 18 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 🇨🇦CA | vmess | @FoXrayIran | 1 = vmess, tl.iranray.online, 8080, username = b3c20911-126d-4c30-bd32-10152bf0b593, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tl.iranray.online", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @proxyymeliii | 15,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇯🇵JP | vmess | @Hope_Net | 0,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 18,🇨🇦CA | vmess | @FoXrayIran | 1
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @proxyymeliii | 15,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇯🇵JP | vmess | @Hope_Net | 0,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 18,🇨🇦CA | vmess | @FoXrayIran | 1
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @proxyymeliii | 15,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇯🇵JP | vmess | @Hope_Net | 0,🇺🇸US | vmess | @v2Line | 6,🇬🇧GB | ss | @forwardv2ray | 18,🇨🇦CA | vmess | @FoXrayIran | 1
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @proxyymeliii | 15,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇬🇧GB | trojan | @ConfigsHUB | 11,🇯🇵JP | vmess | @Hope_Net | 0,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @FoXrayIran | 1
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @proxyymeliii | 15,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇬🇧GB | trojan | @ConfigsHUB | 11,🇯🇵JP | vmess | @Hope_Net | 0,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @FoXrayIran | 1
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @proxyymeliii | 15,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇬🇧GB | trojan | @ConfigsHUB | 11,🇯🇵JP | vmess | @Hope_Net | 0,🇺🇸US | vmess | @v2Line | 6,🇨🇦CA | vmess | @FoXrayIran | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
