@@ -109,8 +109,8 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @v2ray_swhil | 30",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -124,8 +124,8 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @v2ray_swhil | 30",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -220,6 +220,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 30",
+            "type": "vmess",
+            "server": "104.21.33.32",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "104.21.91.73",
@@ -250,40 +284,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "adenc35.fixedlfoat.top"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "104.18.203.232",
-            "server_port": 8443,
-            "uuid": "539d1c11-9395-448f-a265-ce99ebf6a977",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iranproxypro.hackers855.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@iranproxypro-Telegram:@iranproxypro-Telegram:@iranproxypro-Telegram:@iranproxypro-Telegram:@iranproxypro-Telegram:@iranproxypro-Telegram:@iranproxypro",
-                "headers": {
-                    "Host": "iranproxypro.hackers855.sbs"
                 }
             }
         },
