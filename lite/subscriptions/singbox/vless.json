@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 31",
+                "🇺🇸US | vless | @lightning6 | 31",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -139,7 +139,6 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -156,6 +155,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
@@ -186,7 +186,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 31",
+                "🇺🇸US | vless | @lightning6 | 31",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -207,7 +207,6 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -224,6 +223,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
@@ -565,7 +565,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 31",
+            "tag": "🇺🇸US | vless | @lightning6 | 31",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1085,37 +1085,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 13",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mr6wzC2rxRWBtLTlTL",
-                "headers": {
-                    "Host": "hdfy4c2.freeairlaines.com"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1537,6 +1506,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "baipiao55.stunning-bassoon.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 2052,
+            "uuid": "293d3a9b-4d5b-4d6d-a2ce-aca0791a080a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.visa.com"
                 }
             }
         },
