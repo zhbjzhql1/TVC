@@ -145,7 +145,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -158,6 +157,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -215,7 +215,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -228,6 +227,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1241,27 +1241,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2ray_God=Telegram\/",
-                "headers": {
-                    "Host": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org"
-                }
-            }
-        },
-        {
             "tag": "🇬🇧GB | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "91.193.58.20",
@@ -1583,6 +1562,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Parsashonam-10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
