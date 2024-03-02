@@ -108,8 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇹🇼TW | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @ConfigsHUB | 17",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -121,8 +121,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇹🇼TW | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @ConfigsHUB | 17",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -182,40 +182,6 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "123.58.197.70",
-            "server_port": 443,
-            "uuid": "4ca0196c-05e7-45eb-9036-692c201f45fb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "123.58.197.70",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "123.58.197.70"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "172.67.179.37",
@@ -247,6 +213,23 @@
                 "headers": {
                     "Host": "octavi.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "95.216.158.77",
+            "server_port": 17425,
+            "uuid": "3bd8b1a7-244e-40b1-8686-e262c2cb239f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
