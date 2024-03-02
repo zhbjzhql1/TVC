@@ -14,10 +14,11 @@ DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 18 = trojan, 13.37.35.120, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇨🇦CA | trojan | @DirectVPN | 18 = trojan, 15.157.141.35, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇳🇱NL | trojan | @oneclickvpnkeys | 9 = trojan, 188.114.96.3, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
+🇩🇪DE | trojan | @ConfigsHUB | 9 = trojan, 18.197.74.97, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇳🇱NL | trojan | @oneclickvpnkeys | 9
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇳🇱NL | trojan | @oneclickvpnkeys | 9
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇳🇱NL | trojan | @oneclickvpnkeys | 9
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇳🇱NL | trojan | @oneclickvpnkeys | 9,🇩🇪DE | trojan | @ConfigsHUB | 9
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇳🇱NL | trojan | @oneclickvpnkeys | 9,🇩🇪DE | trojan | @ConfigsHUB | 9
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇳🇱NL | trojan | @oneclickvpnkeys | 9,🇩🇪DE | trojan | @ConfigsHUB | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

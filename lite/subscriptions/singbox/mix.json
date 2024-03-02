@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 13",
                 "🇫🇷FR | vless | @VlessConfig | 18",
@@ -126,7 +127,7 @@
                 "🇫🇮FI | vless | @V2rayCollector | 1",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
@@ -150,7 +151,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | trojan | @ConfigsHUB | 9",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -163,6 +164,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇩🇪DE | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇬🇧GB | vless | @mehrosaboran | 11",
@@ -183,6 +185,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 13",
                 "🇫🇷FR | vless | @VlessConfig | 18",
@@ -203,7 +206,7 @@
                 "🇫🇮FI | vless | @V2rayCollector | 1",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
@@ -227,7 +230,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | trojan | @ConfigsHUB | 9",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -240,6 +243,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇩🇪DE | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇬🇧GB | vless | @mehrosaboran | 11",
@@ -274,6 +278,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @EliV2ray | 11",
+            "type": "vless",
+            "server": "45.80.111.9",
+            "server_port": 80,
+            "uuid": "3ebc00d8-feed-4120-9a42-a936bcdde273",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/connect\/de\/",
+                "headers": {
+                    "Host": "45.80.111.9"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 13",
@@ -805,11 +830,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
-            "server": "CDN.user.com",
+            "server": "edgu.pureboy.eu.org",
             "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -821,7 +846,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "CDN.user.com"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
@@ -1357,13 +1382,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "229d3bee-feae-4b36-91ed-2145ad84e4a4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 9",
+            "type": "trojan",
+            "server": "18.197.74.97",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1371,20 +1394,13 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Punisher-V2rayCnc.radiotehran.org",
+                "server_name": "trojan.miwan.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@puni_shop_v2rayNG،@puni_shop_v2rayNG",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1693,6 +1709,16 @@
                     "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "3.79.155.245",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "l6WwiMVfM2Ea9ldTXt3YWcRdg0aHh4MOVyRoVxxmJus=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
