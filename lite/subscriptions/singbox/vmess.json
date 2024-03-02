@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 12",
+                "🇹🇼TW | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -120,7 +121,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 12",
+                "🇹🇼TW | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -180,11 +182,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇹🇼TW | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "188.114.97.3",
+            "server": "123.58.197.70",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "4ca0196c-05e7-45eb-9036-692c201f45fb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -197,7 +199,41 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "odelia.autos",
+                "server_name": "123.58.197.70",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "123.58.197.70"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "type": "vmess",
+            "server": "172.67.179.37",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "octavi.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -209,7 +245,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "odelia.autos"
+                    "Host": "octavi.cfd"
                 }
             }
         },
