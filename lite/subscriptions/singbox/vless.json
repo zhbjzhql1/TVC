@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱NL | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 13",
                 "🇩🇪DE | vless | @VlessConfig | 17",
@@ -113,7 +114,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇺🇸US | vless | @melov2ray | 1",
                 "🇩🇪DE | vless | @frev2ray | 9",
-                "🇺🇸US | vless | @ARv2ray | 13",
+                "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
@@ -141,6 +142,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇳🇱NL | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -168,6 +170,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱NL | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 13",
                 "🇩🇪DE | vless | @VlessConfig | 17",
@@ -175,7 +178,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇺🇸US | vless | @melov2ray | 1",
                 "🇩🇪DE | vless | @frev2ray | 9",
-                "🇺🇸US | vless | @ARv2ray | 13",
+                "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
@@ -203,6 +206,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇳🇱NL | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -244,6 +248,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇳🇱NL | vless | @EliV2ray | 12",
+            "type": "vless",
+            "server": "77.246.99.239",
+            "server_port": 443,
+            "uuid": "95889265-c183-4b99-a4ab-648245c05c89",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.heydasip.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oIXlVQLyObtIYcvEtVGXrathqaxBQd0keGCIrP_KHk8",
+                    "short_id": "b3c1fd20"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 13",
@@ -428,7 +461,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ARv2ray | 13",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1116,6 +1149,37 @@
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "167.172.32.103",
+            "server_port": 8443,
+            "uuid": "2923ad7c-dc76-486f-d7ce-ba6f8dc48081",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "digi3.kanal-tel-nufilter.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
