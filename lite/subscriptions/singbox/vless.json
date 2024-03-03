@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
@@ -148,7 +148,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
-                "🇬🇧GB | vless | @flyv2ray | 18",
+                "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -169,7 +170,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
@@ -207,7 +208,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
-                "🇬🇧GB | vless | @flyv2ray | 18",
+                "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -359,7 +361,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1300,11 +1302,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @flyv2ray | 18",
+            "tag": "🇩🇪DE | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "91.193.58.1",
-            "server_port": 8880,
-            "uuid": "2a03d97c-1778-459b-bdec-97b0e8c26930",
+            "server": "154.197.75.80",
+            "server_port": 80,
+            "uuid": "CUSTOMIZEV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1314,9 +1316,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "path": "\/@VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "91.193.58.1"
+                    "Host": "154.197.75.80"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "Vpn-MikeyMci.myftp.org",
+            "server_port": 80,
+            "uuid": "7da99a38-990e-4a39-b63b-cd0b6bba85ed",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "headers": {
+                    "Host": "Vpn-MikeyMci.myftp.org"
                 }
             }
         },

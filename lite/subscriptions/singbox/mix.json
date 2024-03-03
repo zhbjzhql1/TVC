@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
@@ -147,7 +147,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇻🇳VN | vmess | @ConfigsHUB | 19",
+                "🇬🇧GB | vmess | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -159,8 +159,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
-                "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 13",
+                "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -183,7 +183,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
@@ -220,7 +220,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇻🇳VN | vmess | @ConfigsHUB | 19",
+                "🇬🇧GB | vmess | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -232,8 +232,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
-                "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 13",
+                "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -387,7 +387,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1253,11 +1253,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1268,11 +1268,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNDATA.VPN",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "skyht2.vpndata.vn"
+                    "Host": ""
                 }
             }
         },
@@ -1573,11 +1583,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @flyv2ray | 18",
+            "tag": "🇩🇪DE | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "91.193.58.1",
-            "server_port": 8880,
-            "uuid": "2a03d97c-1778-459b-bdec-97b0e8c26930",
+            "server": "154.197.75.80",
+            "server_port": 80,
+            "uuid": "CUSTOMIZEV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1587,23 +1597,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "path": "\/@VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "91.193.58.1"
+                    "Host": "154.197.75.80"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 13",
-            "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "Vpn-MikeyMci.myftp.org",
+            "server_port": 80,
+            "uuid": "7da99a38-990e-4a39-b63b-cd0b6bba85ed",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1611,9 +1618,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/c9efxRCi",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
-                    "Host": "cfcdn2.sanfencdn9.com"
+                    "Host": "Vpn-MikeyMci.myftp.org"
                 }
             }
         },
