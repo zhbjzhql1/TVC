@@ -106,18 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @proxyymeliii | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | ss | @forwardv2ray | 19"
+                "🇬🇧GB | ss | @forwardv2ray | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @proxyymeliii | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | ss | @forwardv2ray | 19"
+                "🇬🇧GB | ss | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,16 +138,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 15",
-            "type": "shadowsocks",
-            "server": "wxwctxxx.arvancode.eu.org",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -160,12 +148,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | ss | @forwardv2ray | 19",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
             "type": "shadowsocks",
-            "server": "all-nets.0912.org",
-            "server_port": 301,
+            "server": "51.142.173.34",
+            "server_port": 27842,
             "method": "chacha20-ietf-poly1305",
-            "password": "rXVRavlmnKtYE1jeO5NM7Q",
+            "password": "f57zVblTQs60egXUizaq4Y",
             "plugin": "",
             "plugin_opts": ""
         }
