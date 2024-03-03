@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇺🇸US | vless | @DigiV2ray | 23",
+                "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -147,7 +147,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -160,9 +160,9 @@
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
-                "🇸🇪SE | vless | @mehrosaboran | 7",
+                "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇺🇸US | vless | @DigiV2ray | 23",
+                "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -221,7 +221,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -234,9 +234,9 @@
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
-                "🇸🇪SE | vless | @mehrosaboran | 7",
+                "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -630,7 +630,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DigiV2ray | 23",
+            "tag": "🇨🇦CA | vless | @DigiV2ray | 23",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -1262,11 +1262,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "49.13.63.141",
-            "server_port": 8080,
-            "uuid": "5f2bcfcb-43a0-4de3-9306-8020b9ff0c13",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1274,11 +1274,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "w2.sylarsun.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram\/proxy_mtm\/",
                 "headers": {
-                    "Host": "49.13.63.141"
+                    "Host": "w2.sylarsun.eu.org"
                 }
             }
         },
@@ -1393,9 +1403,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "104.18.202.232",
             "server_port": 8080,
-            "uuid": "SVNTEAMu",
+            "uuid": "b0703142-bc40-41b6-a49c-c885337661c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1405,9 +1415,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SVNTEAM",
+                "path": "\/@daily_configs-@daily_configs-@daily_configs-@daily_configs-@daily_configs-@daily_configs-@daily_configs-@daily_configs",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "104.18.202.232"
                 }
             }
         },
@@ -1600,11 +1610,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "167.99.17.149",
+            "server": "discord.gg",
             "server_port": 80,
-            "uuid": "V2darkOrg",
+            "uuid": "V2rayCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1614,9 +1624,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/V2darkOrg",
+                "path": "\/@VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "167.99.17.149"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1642,7 +1652,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 7",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "185.146.173.51",
             "server_port": 8880,
