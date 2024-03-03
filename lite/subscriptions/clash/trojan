@@ -120,7 +120,6 @@ dns:
 proxies:
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.48.157.138","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇮🇪IE | trojan | @DirectVPN | 18","type":"trojan","server":"34.243.22.196","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"45.32.148.182","port":443,"udp":false,"password":"wkmY1R4EcP","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"z-v2-002805.kailib.com"}
   - {"name":"🇨🇦CA | trojan | @FAKEOFTVC | 3","type":"trojan","server":"zula.ir","port":443,"udp":false,"password":"208ef63f-f0df-4230-9e88-19fae1e25104","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cd.vipservice.website"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +129,6 @@ proxy-groups:
       - FALLBACK
       - '🇸🇪SE | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🇫🇷FR | trojan | @oneclickvpnkeys | 9'
       - '🇨🇦CA | trojan | @FAKEOFTVC | 3'
   - name: URL-TEST
     type: url-test
@@ -140,7 +138,6 @@ proxy-groups:
     proxies:
       - '🇸🇪SE | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🇫🇷FR | trojan | @oneclickvpnkeys | 9'
       - '🇨🇦CA | trojan | @FAKEOFTVC | 3'
   - name: FALLBACK
     type: fallback
@@ -149,7 +146,6 @@ proxy-groups:
     proxies:
       - '🇸🇪SE | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🇫🇷FR | trojan | @oneclickvpnkeys | 9'
       - '🇨🇦CA | trojan | @FAKEOFTVC | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

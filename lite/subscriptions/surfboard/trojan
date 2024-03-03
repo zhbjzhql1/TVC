@@ -13,12 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇸🇪SE | trojan | @PrivateVPNs | 18 = trojan, 13.48.157.138, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 34.243.22.196, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇫🇷FR | trojan | @oneclickvpnkeys | 9 = trojan, 45.32.148.182, 443, password = wkmY1R4EcP, udp-delay = true, skip-cert-verify = false, sni = z-v2-002805.kailib.com, ws = false
 🇨🇦CA | trojan | @FAKEOFTVC | 3 = trojan, zula.ir, 443, password = 208ef63f-f0df-4230-9e88-19fae1e25104, udp-delay = true, skip-cert-verify = false, sni = cd.vipservice.website, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇫🇷FR | trojan | @oneclickvpnkeys | 9,🇨🇦CA | trojan | @FAKEOFTVC | 3
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇫🇷FR | trojan | @oneclickvpnkeys | 9,🇨🇦CA | trojan | @FAKEOFTVC | 3
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇫🇷FR | trojan | @oneclickvpnkeys | 9,🇨🇦CA | trojan | @FAKEOFTVC | 3
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @FAKEOFTVC | 3
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @FAKEOFTVC | 3
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @FAKEOFTVC | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
