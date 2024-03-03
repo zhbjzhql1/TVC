@@ -106,11 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -159,7 +160,7 @@
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -178,11 +179,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
@@ -220,6 +221,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -231,7 +233,7 @@
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -266,7 +268,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 10",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 2083,
@@ -385,7 +387,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1270,6 +1272,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 8",
+            "type": "vless",
+            "server": "172.67.68.191",
+            "server_port": 8443,
+            "uuid": "8dd70557-3583-43cd-81d2-c0597037e9d2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "prx11.adminwp.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-@PROXYSTORE11-",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @free1_vpn | 2",
             "type": "vless",
             "server": "142.93.166.107",
@@ -1553,11 +1586,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "162.159.134.234",
+            "server": "162.159.136.232",
             "server_port": 2083,
-            "uuid": "cead5a7e-4a1d-4f93-8825-429969dd2fb8",
+            "uuid": "366b416c-feec-4204-b539-20cedaf6009b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1567,7 +1600,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "new.top-speed.shop",
+                "server_name": "de2.v2vless.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1576,11 +1609,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "go-ogle",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "de2.v2vless.xyz"
+                }
             }
         },
         {
