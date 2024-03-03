@@ -108,10 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -121,10 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -170,6 +174,23 @@
             "server": "38.147.191.185",
             "server_port": 10241,
             "uuid": "e820d6f7-57ef-4575-99da-bcd7d318c742",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "64.226.69.97",
+            "server_port": 8880,
+            "uuid": "7c922edc-eb50-4a26-88f9-1ff3904248fa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,6 +291,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "92.223.124.24",
+            "server_port": 80,
+            "uuid": "47a7d8c1-5710-4718-870c-ea14298483cf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
