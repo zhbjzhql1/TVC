@@ -112,12 +112,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
-                "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇨🇦CA | vless | @V2rayNGmat | 4",
+                "🇺🇸US | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -147,7 +147,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -160,7 +160,7 @@
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇫🇷FR | trojan | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -185,12 +185,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
-                "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 28",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇨🇦CA | vless | @V2rayNGmat | 4",
+                "🇺🇸US | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -220,7 +220,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -233,7 +233,7 @@
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇫🇷FR | trojan | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -429,12 +429,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 14",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "78.46.186.163",
             "server_port": 443,
-            "uuid": "bd35454c-a7ee-4e6b-9bf3-bcccbf000332",
-            "flow": "",
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -443,17 +443,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "1.agh9731.ir",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aTSvhfg0nF-ZuKgE-mzH5YYNUXRzEVhBOuyNdQG-aR8",
+                    "short_id": "55d743bf"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -481,7 +486,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -547,7 +552,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 4",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 4",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2087,
@@ -1258,16 +1263,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "172.67.152.210",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "7173507c-0c46-4b7a-a824-9e97f5c7e7ee",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1275,7 +1277,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "qfruiti.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1285,9 +1287,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/hajmi",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "qfruiti.com"
                 }
             }
         },
@@ -1609,26 +1611,14 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @forwardv2ray | 19",
-            "type": "trojan",
-            "server": "13.36.87.228",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "51.142.173.103",
+            "server_port": 51899,
+            "method": "chacha20-ietf-poly1305",
+            "password": "gcpVehVytslepmkHHRLXYx",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vless | @https_config_injector | 25",
