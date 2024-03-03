@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+                "🇹🇼TW | vmess | @ConfigsHUB | 14",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇮🇳IN | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+                "🇹🇼TW | vmess | @ConfigsHUB | 14",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇮🇳IN | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -186,11 +186,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "64.226.69.97",
-            "server_port": 8880,
-            "uuid": "7c922edc-eb50-4a26-88f9-1ff3904248fa",
+            "server": "172.67.152.210",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -200,6 +200,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "123.58.197.70",
+            "server_port": 443,
+            "uuid": "4ca0196c-05e7-45eb-9036-692c201f45fb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -295,10 +346,10 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
+            "tag": "🇮🇳IN | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "92.223.124.24",
-            "server_port": 80,
+            "server": "202.78.162.6",
+            "server_port": 443,
             "uuid": "47a7d8c1-5710-4718-870c-ea14298483cf",
             "security": "auto",
             "alter_id": 0,
@@ -310,35 +361,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop.serveminecraft.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/@forwardv2ray",
                 "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
-            "type": "vmess",
-            "server": "tl.iranray.online",
-            "server_port": 8080,
-            "uuid": "b3c20911-126d-4c30-bd32-10152bf0b593",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+                    "Host": "pop.serveminecraft.net"
                 }
             }
         }
