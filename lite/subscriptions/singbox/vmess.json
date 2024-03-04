@@ -109,8 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇮🇪IE | vmess | @ConfigsHUB | 15",
-                "🇨🇦CA | vmess | @Hope_Net | 0",
+                "🇸🇬SG | vmess | @yaney_01 | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -123,8 +123,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇮🇪IE | vmess | @ConfigsHUB | 15",
-                "🇨🇦CA | vmess | @Hope_Net | 0",
+                "🇸🇬SG | vmess | @yaney_01 | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -218,11 +218,11 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vmess | @ConfigsHUB | 15",
+            "tag": "🇸🇬SG | vmess | @yaney_01 | 6",
             "type": "vmess",
-            "server": "54.217.45.184",
-            "server_port": 10681,
-            "uuid": "5c799848-322d-42db-ab8b-a489ab3cba1c",
+            "server": "18.140.65.78",
+            "server_port": 21347,
+            "uuid": "4f64e770-e7f1-4bee-b521-6624db528d97",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -232,10 +232,17 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "18.140.65.78"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 0",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "23.26.239.147",
             "server_port": 46768,
