@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -124,10 +123,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -185,33 +183,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 12",
-            "type": "vmess",
-            "server": "CA.plsback.top",
-            "server_port": 35318,
-            "uuid": "6129eda5-99da-4c07-ddb0-0c830ee89bb3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
@@ -283,11 +254,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "104.26.8.202",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "195.201.2.27",
+            "server_port": 25761,
+            "uuid": "de746cfd-c2db-4618-83c2-9bd1d763cc25",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,23 +268,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip2323.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "vip2323.cfd"
-                }
             }
         },
         {
