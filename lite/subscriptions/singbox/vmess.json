@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
@@ -124,7 +123,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
@@ -185,40 +183,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "147.78.140.68",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "6c47-butterfly-6c47.yexoji3749.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vip2323.cfd\/linkvws",
-                "headers": {
-                    "Host": "6c47-butterfly-6c47.yexoji3749.workers.dev"
-                }
             }
         },
         {
