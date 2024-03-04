@@ -120,7 +120,8 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.77.59.105","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"16.16.250.170","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇪🇸ES | trojan | @oneclickvpnkeys | 11","type":"trojan","server":"es-full.privateip.net","port":443,"udp":false,"password":"e2486b91-71a6-421b-9d53-3c080fb0edb8","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇮🇹IT | trojan | @oneclickvpnkeys | 11","type":"trojan","server":"it-full.privateip.net","port":443,"udp":false,"password":"31583130-de1f-44ce-a433-1dbb108e1846","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇰🇿KZ | trojan | @ConfigsHUB | 15","type":"trojan","server":"95.164.114.43","port":443,"udp":false,"password":"62011b3d-2706-4a97-98b7-9986003c5fe0","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kz-full.privateip.net"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +130,8 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇪🇸ES | trojan | @oneclickvpnkeys | 11'
+      - '🇮🇹IT | trojan | @oneclickvpnkeys | 11'
+      - '🇰🇿KZ | trojan | @ConfigsHUB | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,7 +140,8 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇪🇸ES | trojan | @oneclickvpnkeys | 11'
+      - '🇮🇹IT | trojan | @oneclickvpnkeys | 11'
+      - '🇰🇿KZ | trojan | @ConfigsHUB | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,7 +149,8 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇪🇸ES | trojan | @oneclickvpnkeys | 11'
+      - '🇮🇹IT | trojan | @oneclickvpnkeys | 11'
+      - '🇰🇿KZ | trojan | @ConfigsHUB | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
