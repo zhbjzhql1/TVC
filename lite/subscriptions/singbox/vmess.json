@@ -108,11 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -125,11 +124,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -187,40 +185,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "104.21.75.142",
-            "server_port": 443,
-            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5c1.foriran.trade",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Nbs2DSTSkFW6MrrFQHeSDQ7",
-                "headers": {
-                    "Host": "hdfy5c1.foriran.trade"
-                }
             }
         },
         {
@@ -309,11 +273,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "server": "muriel.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -324,11 +288,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "muriel.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
+                    "Host": "muriel.makeup"
                 }
             }
         },
