@@ -112,18 +112,18 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 20",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 22",
+                "🇺🇸US | vless | @DigiV2ray | 22",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -153,7 +153,7 @@
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 10",
+                "🇬🇧GB | trojan | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -191,18 +191,18 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 20",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 22",
+                "🇺🇸US | vless | @DigiV2ray | 22",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -232,7 +232,7 @@
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 10",
+                "🇬🇧GB | trojan | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -451,7 +451,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -607,11 +607,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
-            "server": "forward3.maryam1700.com",
-            "server_port": 2086,
-            "uuid": "cc92cbd9-4142-4bef-9d28-ec50899fa39e",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "15137a10-4a25-4903-ad31-cc55c10cf0ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -619,12 +619,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "forward3.maryam1700.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "mmd.farzam.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@free_v2rayyy,@free_v2rayyy,@free_v2rayyy,@free_v2rayyy,@free_v2rayyy,@free_v2rayyy,@free_v2rayyy,@free_v2rayyy,@free_v2rayyy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -718,7 +728,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DigiV2ray | 22",
+            "tag": "🇺🇸US | vless | @DigiV2ray | 22",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -1457,16 +1467,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "104.21.75.244",
+            "tag": "🇬🇧GB | trojan | @ConfigsHUB | 12",
+            "type": "trojan",
+            "server": "45.76.130.173",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "password": "wkmY1R4EcP",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1474,19 +1479,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "janett.click",
+                "server_name": "z-v2-003289.kailib.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "janett.click"
                 }
             }
         },
