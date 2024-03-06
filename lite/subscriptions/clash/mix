@@ -124,12 +124,10 @@ proxies:
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"by.funhub.cc","port":"8443","cipher":"auto","uuid":"b33155f0-7429-4f1c-97c4-a9ba24a3b1cf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/by","headers":{"host":"by.funhub.cc"}}}
   - {"name":"🇩🇪DE | vmess | @ShadowProxy66 | 28","type":"vmess","server":"195.201.2.27","port":"25761","cipher":"auto","uuid":"de746cfd-c2db-4618-83c2-9bd1d763cc25","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | ss | @VmessProtocol | 15","type":"ss","server":"3.70.174.99","port":8080,"password":"ARC0u1LsngVI6YwK3Gcvl3Th7r3WxKFnlb0EXMjpH80=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺AU | ss | @OutlineVpnOfficial | 17","type":"ss","server":"au-ss.ipracevpn.com","port":2443,"password":"StRPmBQw4HLCWZPqR4DHTmImaHFPhjj0PdKCDUwyrSk=","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 17","type":"ss","server":"ca-ss.ipracevpn.com","port":2443,"password":"aSE/26C9Mjl+LrnEwXkKv6ErH9yfIlt9SffXCAEDCks=","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 6","type":"vmess","server":"18.140.65.78","port":"21347","cipher":"auto","uuid":"4f64e770-e7f1-4bee-b521-6624db528d97","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇨🇦CA | vmess | @fnet00 | 3","type":"vmess","server":"167.114.98.162","port":"8081","cipher":"auto","uuid":"67c63963-9e52-49df-a16b-8545387be5d2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇦🇺AU | vmess | @v2Line | 6","type":"vmess","server":"au-full.privateip.net","port":"443","cipher":"auto","uuid":"db373721-55aa-4ad2-9c33-855377ad289f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
-  - {"name":"🇨🇭CH | vmess | @forwardv2ray | 13","type":"vmess","server":"188.244.117.31","port":"28320","cipher":"auto","uuid":"236fa6e3-683b-4c3f-a07c-56061ee393c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇵🇱PL | vmess | @eliya_chiter0 | 3","type":"vmess","server":"pl2-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"18c6b542-e6f8-4476-872a-d3955f45d9f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl2-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
@@ -143,12 +141,10 @@ proxy-groups:
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 28'
-      - '🇩🇪DE | ss | @VmessProtocol | 15'
-      - '🇦🇺AU | ss | @OutlineVpnOfficial | 17'
+      - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 6'
       - '🇨🇦CA | vmess | @fnet00 | 3'
       - '🇦🇺AU | vmess | @v2Line | 6'
-      - '🇨🇭CH | vmess | @forwardv2ray | 13'
       - '🇵🇱PL | vmess | @eliya_chiter0 | 3'
   - name: URL-TEST
     type: url-test
@@ -162,12 +158,10 @@ proxy-groups:
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 28'
-      - '🇩🇪DE | ss | @VmessProtocol | 15'
-      - '🇦🇺AU | ss | @OutlineVpnOfficial | 17'
+      - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 6'
       - '🇨🇦CA | vmess | @fnet00 | 3'
       - '🇦🇺AU | vmess | @v2Line | 6'
-      - '🇨🇭CH | vmess | @forwardv2ray | 13'
       - '🇵🇱PL | vmess | @eliya_chiter0 | 3'
   - name: FALLBACK
     type: fallback
@@ -180,12 +174,10 @@ proxy-groups:
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 28'
-      - '🇩🇪DE | ss | @VmessProtocol | 15'
-      - '🇦🇺AU | ss | @OutlineVpnOfficial | 17'
+      - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 6'
       - '🇨🇦CA | vmess | @fnet00 | 3'
       - '🇦🇺AU | vmess | @v2Line | 6'
-      - '🇨🇭CH | vmess | @forwardv2ray | 13'
       - '🇵🇱PL | vmess | @eliya_chiter0 | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
