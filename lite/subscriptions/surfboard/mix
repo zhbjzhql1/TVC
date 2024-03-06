@@ -15,11 +15,12 @@ DIRECT = direct
 🇺🇸US | trojan | @DirectVPN | 17 = trojan, 3.141.119.222, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇨🇦CA | ss | @OutlineVpnOfficial | 17 = ss, ca-ss.ipracevpn.com, 2443, encrypt-method = aes-256-gcm, password = aSE/26C9Mjl+LrnEwXkKv6ErH9yfIlt9SffXCAEDCks=
 🇦🇺AU | vmess | @v2Line | 6 = vmess, au-full.privateip.net, 443, username = db373721-55aa-4ad2-9c33-855377ad289f, ws = true, tls = 1, vmess-aead = true, ws-path = /RACEVPN, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇧🇷BR | ss | @forwardv2ray | 18 = ss, 168.75.99.16, 7703, encrypt-method = aes-256-gcm, password = 8ceaf47f-7f2d-4f08-9bfe-563b808d6f7d
 🇵🇱PL | vmess | @eliya_chiter0 | 3 = vmess, pl2-vmess.sshmax.xyz, 80, username = 18c6b542-e6f8-4476-872a-d3955f45d9f0, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"pl2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇦🇺AU | vmess | @v2Line | 6,🇵🇱PL | vmess | @eliya_chiter0 | 3
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇦🇺AU | vmess | @v2Line | 6,🇵🇱PL | vmess | @eliya_chiter0 | 3
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇦🇺AU | vmess | @v2Line | 6,🇵🇱PL | vmess | @eliya_chiter0 | 3
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇦🇺AU | vmess | @v2Line | 6,🇧🇷BR | ss | @forwardv2ray | 18,🇵🇱PL | vmess | @eliya_chiter0 | 3
+URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇦🇺AU | vmess | @v2Line | 6,🇧🇷BR | ss | @forwardv2ray | 18,🇵🇱PL | vmess | @eliya_chiter0 | 3
+FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇦🇺AU | vmess | @v2Line | 6,🇧🇷BR | ss | @forwardv2ray | 18,🇵🇱PL | vmess | @eliya_chiter0 | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

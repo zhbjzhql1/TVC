@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 17","type":"ss","server":"ca-ss.ipracevpn.com","port":2443,"password":"aSE/26C9Mjl+LrnEwXkKv6ErH9yfIlt9SffXCAEDCks=","cipher":"aes-256-gcm"}
+  - {"name":"🇧🇷BR | ss | @forwardv2ray | 18","type":"ss","server":"168.75.99.16","port":7703,"password":"8ceaf47f-7f2d-4f08-9bfe-563b808d6f7d","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,6 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
+      - '🇧🇷BR | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -135,12 +137,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
+      - '🇧🇷BR | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
+      - '🇧🇷BR | ss | @forwardv2ray | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
