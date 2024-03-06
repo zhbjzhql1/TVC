@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
                 "🏳️XX | vless | @customv2ray | 10",
@@ -143,9 +143,9 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 4",
                 "🇩🇪DE | vless | @free1_vpn | 0",
-                "🇺🇸US | vless | @fnet00 | 2",
+                "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
                 "🏳️XX | vless | @customv2ray | 10",
@@ -208,9 +208,9 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 4",
                 "🇩🇪DE | vless | @free1_vpn | 0",
-                "🇺🇸US | vless | @fnet00 | 2",
+                "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -799,7 +799,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1223,17 +1223,39 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 4",
             "type": "vless",
-            "server": "185.88.178.167",
-            "server_port": 37187,
-            "uuid": "f552842f-02c5-4e7b-b457-6669aff5385e",
-            "flow": "",
+            "server": "168.119.117.42",
+            "server_port": 443,
+            "uuid": "b2fe22d0-2511-4116-b814-62b0e7509b8b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.boundless.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U3DxmKzqU4kZUKCGZjihhjRroSwbaSn-77_VXlq1GWU",
+                    "short_id": "be1f33fc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1273,7 +1295,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 2",
+            "tag": "🇨🇦CA | vless | @fnet00 | 2",
             "type": "vless",
             "server": "w1.sylar8.eu.org",
             "server_port": 443,
