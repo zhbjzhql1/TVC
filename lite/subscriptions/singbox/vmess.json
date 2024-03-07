@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
                 "🇫🇷FR | vmess | @proxyymeliii | 15",
+                "🇱🇹LT | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇮🇳IN | vmess | @v2Line | 6",
@@ -124,9 +124,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
                 "🇫🇷FR | vmess | @proxyymeliii | 15",
+                "🇱🇹LT | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇮🇳IN | vmess | @v2Line | 6",
@@ -188,40 +188,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "172.67.68.246",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip2323.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 32",
             "type": "vmess",
             "server": "195.201.2.27",
@@ -253,6 +219,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇱🇹LT | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "lt2-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "a23a9cde-e563-4461-9b45-7843e7c28d00",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
