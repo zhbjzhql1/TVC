@@ -111,9 +111,9 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @v2ray1_ng | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -126,9 +126,9 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @v2ray1_ng | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "us5.socifiles.com",
-            "server_port": 80,
-            "uuid": "d143ad00-dc04-11ee-907e-1239d0255272",
+            "server": "172.67.152.214",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,11 +276,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "meroiy.icu"
                 }
             }
         },
@@ -319,7 +329,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
