@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 4",
-                "🇸🇪SE | vless | @VlessConfig | 17",
+                "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @V2pedia | 19",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇹🇷TR | vless | @FAKEOFTVC | 7",
-                "🇸🇪SE | vless | @mehrosaboran | 9",
+                "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 7",
@@ -173,7 +173,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 4",
-                "🇸🇪SE | vless | @VlessConfig | 17",
+                "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @V2pedia | 19",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇹🇷TR | vless | @FAKEOFTVC | 7",
-                "🇸🇪SE | vless | @mehrosaboran | 9",
+                "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 7",
@@ -323,9 +323,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 17",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "16.171.117.32",
+            "server": "18.185.25.253",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -481,7 +481,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 14",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -490,22 +490,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3.agh9731.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1232,9 +1222,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 2087,
-            "uuid": "8054253e-4288-4ca6-916d-f40277304739",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1244,7 +1234,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mn.moienmusic.space",
+                "server_name": "s1.agh9731.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1254,7 +1244,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1586,9 +1576,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 9",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 9",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "104.31.16.85",
             "server_port": 8880,
             "uuid": "0bd92325-c889-4d87-a39e-a9e2d4968c0e",
             "flow": "",
@@ -1602,7 +1592,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "104.31.16.85"
                 }
             }
         },
