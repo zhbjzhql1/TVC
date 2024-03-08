@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇩🇪DE | vmess | @mftizi | 18",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇨🇳CN | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇮🇳IN | vmess | @v2Line | 6",
@@ -121,8 +121,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇩🇪DE | vmess | @mftizi | 18",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇨🇳CN | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇮🇳IN | vmess | @v2Line | 6",
@@ -167,7 +167,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @mftizi | 18",
+            "tag": "🇨🇳CN | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "gz.daxun.cyou",
             "server_port": 38011,
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "37.27.38.90",
-            "server_port": 21842,
-            "uuid": "aef9a73e-072e-4fe0-b86f-0788f58c47e1",
+            "server": "104.24.0.11",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,11 +199,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "vip2323.cfd"
                 }
             }
         },
