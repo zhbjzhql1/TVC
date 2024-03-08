@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
-                "🇺🇸US | vless | @fnet00 | 2",
+                "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -154,8 +154,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
-                "🇮🇷IR | vless | @forwardv2ray | 13",
-                "🇹🇷TR | vless | @FAKEOFTVC | 7",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
-                "🇺🇸US | vless | @fnet00 | 2",
+                "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -219,8 +219,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
-                "🇮🇷IR | vless | @forwardv2ray | 13",
-                "🇹🇷TR | vless | @FAKEOFTVC | 7",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -327,7 +327,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.198.240.7",
+            "server": "18.185.25.253",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1331,7 +1331,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 2",
+            "tag": "🇨🇦CA | vless | @fnet00 | 2",
             "type": "vless",
             "server": "w1.sylar8.eu.org",
             "server_port": 443,
@@ -1537,26 +1537,12 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 13",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "kinsta.sjmek.ir",
-            "server_port": 39485,
-            "uuid": "e16c902d-b975-465a-ae82-6a668f34c736",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8443,
+            "uuid": "12d2c26d-d64d-4942-88b8-c6e5a985c48e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vless | @FAKEOFTVC | 7",
-            "type": "vless",
-            "server": "abadis.ir.mmdargon.top",
-            "server_port": 80,
-            "uuid": "04219735-8453-47a4-986e-2a780a034517",
-            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1565,25 +1551,51 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "internetbrayhamh.com",
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vQHsbqgrft7IuCf9_m1Zex_Jaw9bBX7Mv-mUkNvzhGk",
-                    "short_id": "25b888a5"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@internetbrayhamh@internetbrayhamh@internetbrayhamh@internetbrayhamh",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 6",
+            "type": "vless",
+            "server": "lokonrjriroor930fjfjendjdbdiwpqp29e84.justpassinblz.eu.org",
+            "server_port": 443,
+            "uuid": "f701acc9-a7f2-4999-c96c-dce76a757015",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lokonrjriroor930fjfjendjdbdiwpqp29e84.justpassinblz.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "lokonrjriroor930fjfjendjdbdiwpqp29e84.justpassinblz.eu.org"
+                }
             }
         },
         {
