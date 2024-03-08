@@ -124,11 +124,11 @@
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇺🇸US | vless | @DigiV2ray | 23",
+                "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 6",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -155,12 +155,12 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @GozargahVPN | 7",
+                "🇺🇸US | vless | @GozargahVPN | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -190,11 +190,11 @@
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇺🇸US | vless | @DigiV2ray | 23",
+                "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 6",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -221,12 +221,12 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @GozargahVPN | 7",
+                "🇺🇸US | vless | @GozargahVPN | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -516,8 +516,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "6b23d161-43d5-45e7-b804-f4b023daf247",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -525,22 +525,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "1.agh9731.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -746,7 +736,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DigiV2ray | 23",
+            "tag": "🇨🇦CA | vless | @DigiV2ray | 23",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -860,7 +850,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1257,7 +1247,7 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "185.146.173.23",
+            "server": "185.146.173.29",
             "server_port": 8880,
             "uuid": "17a90881-cd17-4344-978b-a8c36b20c43e",
             "flow": "",
@@ -1521,11 +1511,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "172.67.84.80",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "free.drpingservice.net",
+            "server_port": 443,
+            "uuid": "82a5c738-9614-4b1e-a4ec-091a9494b659",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1533,21 +1523,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--@V2rayi_net--\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
+                    "Host": "free.drpingservice.net"
                 }
             }
         },
@@ -1661,7 +1641,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @GozargahVPN | 7",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 7",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
