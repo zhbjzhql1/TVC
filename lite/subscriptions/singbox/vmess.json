@@ -110,10 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇩🇪DE | vmess | @Hope_Net | 3",
                 "🇮🇳IN | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @FAKEOFTVC | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 8",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
@@ -126,10 +125,9 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇩🇪DE | vmess | @Hope_Net | 3",
                 "🇮🇳IN | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @FAKEOFTVC | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 8",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
@@ -246,13 +244,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "hms08.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "de3-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "4ec2f1b0-b45d-41bf-b1d1-ec6ad7206cc8",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -261,21 +259,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -314,31 +302,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 6",
-            "type": "vmess",
-            "server": "gcore.com",
-            "server_port": 80,
-            "uuid": "c366e751-ad17-4302-9768-37deab938129",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
