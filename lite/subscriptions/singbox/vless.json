@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇬🇧GB | vless | @shh_proxy | 29",
                 "🇬🇧GB | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 12",
-                "🇨🇦CA | vless | @fnet00 | 2",
+                "🇺🇸US | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
@@ -156,6 +156,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -182,7 +183,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇬🇧GB | vless | @shh_proxy | 29",
                 "🇬🇧GB | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
@@ -211,7 +212,7 @@
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 12",
-                "🇨🇦CA | vless | @fnet00 | 2",
+                "🇺🇸US | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
@@ -221,6 +222,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -561,7 +563,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1290,7 +1292,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 2",
+            "tag": "🇺🇸US | vless | @fnet00 | 2",
             "type": "vless",
             "server": "w1.sylar8.eu.org",
             "server_port": 443,
@@ -1552,6 +1554,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 1",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "c2f55102-f7cf-4537-b3e7-74381425110b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram:@v2rayargon-Telegram:@v2rayargon-Telegram:@v2rayargon-Telegram:@v2rayargon-Telegram:@v2rayargon-TelegramTelegram:@v2rayargon-Telegram:@v2rayargon-Telegram:@v2rayargon-Telegram:@v2rayargon-Telegram:@v2rayargon-Telegram",
                 "headers": {
                     "Host": "discord.gg"
                 }
