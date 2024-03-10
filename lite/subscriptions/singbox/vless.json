@@ -143,6 +143,7 @@
                 "🇮🇷IR | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 92",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
@@ -154,16 +155,16 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇬🇧GB | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 2",
-                "🇸🇪SE | vless | @mehrosaboran | 10",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 8",
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇨🇦CA | vless | @FoXrayIran | 0",
+                "🇺🇸US | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ]
@@ -209,6 +210,7 @@
                 "🇮🇷IR | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 92",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
@@ -220,16 +222,16 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇬🇧GB | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 2",
-                "🇸🇪SE | vless | @mehrosaboran | 10",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 8",
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇨🇦CA | vless | @FoXrayIran | 0",
+                "🇺🇸US | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ],
@@ -1190,7 +1192,7 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "185.146.173.29",
             "server_port": 8880,
             "uuid": "bdaef4b6-3c45-43c0-93b4-c77c43ad6cea",
             "flow": "",
@@ -1204,7 +1206,28 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "185.146.173.29"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 14",
+            "type": "vless",
+            "server": "14.102.228.218",
+            "server_port": 2095,
+            "uuid": "c75fdfb7-1ce9-47c5-8c41-d0071fc3cd49",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "14.102.228.218"
                 }
             }
         },
@@ -1498,17 +1521,24 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "104.31.16.65",
-            "server_port": 443,
-            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "83733202-8477-4bde-99d2-df7e523e6adc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
+                }
             }
         },
         {
@@ -1543,9 +1573,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 10",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
             "type": "vless",
-            "server": "185.146.173.22",
+            "server": "205.233.181.126",
             "server_port": 8880,
             "uuid": "6cfd28c8-a319-495f-8f0a-cdf41989170c",
             "flow": "",
@@ -1559,7 +1589,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.22"
+                    "Host": "205.233.181.126"
                 }
             }
         },
@@ -1708,7 +1738,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
+            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,
