@@ -113,6 +113,7 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇯🇵JP | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🇵🇱PL | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ]
@@ -128,6 +129,7 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇯🇵JP | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🇵🇱PL | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ],
@@ -320,6 +322,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "pl2-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "4af4a109-bab8-4c50-984a-b239916a64ba",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
