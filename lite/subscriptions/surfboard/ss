@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇷🇺RU | ss | @OutlineVpnOfficial | 17 = ss, 62.113.114.116, 42320, encrypt-method = chacha20-ietf-poly1305, password = dhXDSrO3HnkhOZWxNOrvII
-🇮🇪IE | ss | @forwardv2ray | 5 = ss, 52.178.196.34, 54559, encrypt-method = chacha20-ietf-poly1305, password = wP1HHo24lGRUoVTBJwv92o
 🇷🇺RU | ss | @proxy_mtm | 0 = ss, 103.113.68.27, 2352, encrypt-method = chacha20-ietf-poly1305, password = tErM3mZ22YFQspXVwX57xq
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇮🇪IE | ss | @forwardv2ray | 5,🇷🇺RU | ss | @proxy_mtm | 0
-URL-TEST = url-test,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇮🇪IE | ss | @forwardv2ray | 5,🇷🇺RU | ss | @proxy_mtm | 0
-FALLBACK = fallback,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇮🇪IE | ss | @forwardv2ray | 5,🇷🇺RU | ss | @proxy_mtm | 0
+MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇷🇺RU | ss | @proxy_mtm | 0
+URL-TEST = url-test,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇷🇺RU | ss | @proxy_mtm | 0
+FALLBACK = fallback,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇷🇺RU | ss | @proxy_mtm | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
