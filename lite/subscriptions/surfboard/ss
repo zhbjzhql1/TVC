@@ -13,12 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇬🇧GB | ss | @VmessProtocol | 10 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇸🇪SE | ss | @OutlineVpnOfficial | 18 = ss, 45.8.147.80, 5741, encrypt-method = chacha20-ietf-poly1305, password = Q5CEiebSuSl2qFkfE4ztG2
-🏳️XX | ss | @forwardv2ray | 19 = ss, [::ffff:344:4185], 2087, encrypt-method = chacha20-ietf-poly1305, password = tdpy5JnFf8JhfcoDhjlOl70Al3iT5jnEE1ESbQFxIqk=
 🇳🇱NL | ss | @ROMAX_VPN | 9 = ss, 94.131.106.6, 43743, encrypt-method = chacha20-ietf-poly1305, password = 5vPNG70j1ZqfEG5ee6aQGW
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | ss | @forwardv2ray | 19,🇳🇱NL | ss | @ROMAX_VPN | 9
-URL-TEST = url-test,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | ss | @forwardv2ray | 19,🇳🇱NL | ss | @ROMAX_VPN | 9
-FALLBACK = fallback,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | ss | @forwardv2ray | 19,🇳🇱NL | ss | @ROMAX_VPN | 9
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇳🇱NL | ss | @ROMAX_VPN | 9
+URL-TEST = url-test,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇳🇱NL | ss | @ROMAX_VPN | 9
+FALLBACK = fallback,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇳🇱NL | ss | @ROMAX_VPN | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
