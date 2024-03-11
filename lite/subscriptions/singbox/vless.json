@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 20",
                 "🇳🇱NL | vless | @prrofile_purple | 175",
@@ -146,9 +146,10 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -181,7 +182,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 20",
                 "🇳🇱NL | vless | @prrofile_purple | 175",
@@ -204,9 +205,10 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -713,7 +715,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1315,7 +1317,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 7",
+            "tag": "🇨🇦CA | vless | @Capoit | 7",
             "type": "vless",
             "server": "web.thebestvv2.xyz",
             "server_port": 2053,
@@ -1394,6 +1396,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8443,
+            "uuid": "12d2c26d-d64d-4942-88b8-c6e5a985c48e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
                 }
             }
         },

@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 20",
                 "🇬🇧GB | trojan | @PrivateVPNs | 17",
@@ -158,13 +158,13 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇺🇸US | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇫🇮FI | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
-                "🇺🇸US | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 20",
                 "🇬🇧GB | trojan | @PrivateVPNs | 17",
@@ -232,13 +232,13 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇺🇸US | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇫🇮FI | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
-                "🇺🇸US | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -745,7 +745,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1600,7 +1600,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 7",
+            "tag": "🇨🇦CA | vless | @Capoit | 7",
             "type": "vless",
             "server": "web.thebestvv2.xyz",
             "server_port": 2053,
@@ -1683,14 +1683,35 @@
             }
         },
         {
-            "tag": "🇫🇮FI | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "95.164.113.64",
-            "server_port": 7150,
-            "method": "chacha20-ietf-poly1305",
-            "password": "btzmpL7aOs7YbcLS4In6YX",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8443,
+            "uuid": "12d2c26d-d64d-4942-88b8-c6e5a985c48e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @mehrosaboran | 10",
@@ -1735,7 +1756,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
