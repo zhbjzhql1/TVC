@@ -129,9 +129,7 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 3","type":"vmess","server":"dotu-usv1.03p4fad6vd.com","port":"11028","cipher":"auto","uuid":"565aa5e6-15ff-3f58-b134-4ac80c744d48","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🏳️XX | vmess | @Hope_Net | 8","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"a32c2a94-1385-4a03-b112-cc0add76541d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"🇪🇪EE | vmess | @v2Line | 6","type":"vmess","server":"ee1.xv2ray.net","port":"80","cipher":"auto","uuid":"83018580-58ce-464f-b75c-2a1331a8f016","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee1.xv2ray.net"}}}
-  - {"name":"🇳🇱NL | vmess | @forwardv2ray | 19","type":"vmess","server":"45.14.244.133","port":"2024","cipher":"auto","uuid":"bf1dd328-a605-48fd-918f-44cca1cfe07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇫🇷FR | vmess | @FAKEOFTVC | 5","type":"vmess","server":"141.94.237.81","port":"8443","cipher":"auto","uuid":"4b994ea4-6a99-442d-9db9-06df89cca050","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱NL | ss | @ROMAX_VPN | 9","type":"ss","server":"94.131.106.6","port":43743,"password":"5vPNG70j1ZqfEG5ee6aQGW","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -149,9 +147,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🏳️XX | vmess | @Hope_Net | 8'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇳🇱NL | vmess | @forwardv2ray | 19'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
-      - '🇳🇱NL | ss | @ROMAX_VPN | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -169,9 +165,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🏳️XX | vmess | @Hope_Net | 8'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇳🇱NL | vmess | @forwardv2ray | 19'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
-      - '🇳🇱NL | ss | @ROMAX_VPN | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -188,9 +182,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🏳️XX | vmess | @Hope_Net | 8'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇳🇱NL | vmess | @forwardv2ray | 19'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
-      - '🇳🇱NL | ss | @ROMAX_VPN | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
