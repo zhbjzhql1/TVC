@@ -111,9 +111,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇩🇪DE | vmess | @prrofile_purple | 183",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 10",
+                "🇫🇷FR | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ]
@@ -127,9 +127,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇩🇪DE | vmess | @prrofile_purple | 183",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 10",
+                "🇫🇷FR | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ],
@@ -270,7 +270,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 10",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "141.94.237.81",
             "server_port": 8443,
@@ -331,11 +331,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "w3.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+            "server": "92.223.124.30",
+            "server_port": 80,
+            "uuid": "cfe523d6-1c99-418e-b3d8-691681200c95",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -346,22 +346,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "WgCmp8p80KDzo64uHE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": "kosar12.3utilities.com"
+                }
             }
         },
         {
