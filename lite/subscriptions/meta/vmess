@@ -126,6 +126,7 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 3","type":"vmess","server":"dotu-usv1.03p4fad6vd.com","port":"11028","cipher":"auto","uuid":"565aa5e6-15ff-3f58-b134-4ac80c744d48","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇮FI | vmess | @Hope_Net | 7","type":"vmess","server":"65.109.206.106","port":"8081","cipher":"auto","uuid":"e284f7b4-5c4a-4388-9e63-943763beb718","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇪🇪EE | vmess | @v2Line | 6","type":"vmess","server":"ee1.xv2ray.net","port":"80","cipher":"auto","uuid":"83018580-58ce-464f-b75c-2a1331a8f016","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee1.xv2ray.net"}}}
+  - {"name":"🇺🇦UA | vmess | @forwardv2ray | 18","type":"vmess","server":"45.137.155.195","port":"443","cipher":"auto","uuid":"49c76bcf-3a58-43df-b1d4-2bffe9ca03b5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷FR | vmess | @FAKEOFTVC | 5","type":"vmess","server":"141.94.237.81","port":"8443","cipher":"auto","uuid":"4b994ea4-6a99-442d-9db9-06df89cca050","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -139,6 +140,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇫🇮FI | vmess | @Hope_Net | 7'
       - '🇪🇪EE | vmess | @v2Line | 6'
+      - '🇺🇦UA | vmess | @forwardv2ray | 18'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
   - name: URL-TEST
     type: url-test
@@ -152,6 +154,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇫🇮FI | vmess | @Hope_Net | 7'
       - '🇪🇪EE | vmess | @v2Line | 6'
+      - '🇺🇦UA | vmess | @forwardv2ray | 18'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
   - name: FALLBACK
     type: fallback
@@ -164,6 +167,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇫🇮FI | vmess | @Hope_Net | 7'
       - '🇪🇪EE | vmess | @v2Line | 6'
+      - '🇺🇦UA | vmess | @forwardv2ray | 18'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
