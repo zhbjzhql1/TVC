@@ -19,13 +19,12 @@ DIRECT = direct
 🇸🇪SE | ss | @OutlineVpnOfficial | 18 = ss, 45.8.147.80, 5741, encrypt-method = chacha20-ietf-poly1305, password = Q5CEiebSuSl2qFkfE4ztG2
 🇺🇸US | vmess | @Hope_Net | 6 = vmess, 206.168.190.218, 8443, username = 7e348dc0-df7b-11ee-b235-205c6d5f5d78, ws = true, tls = 1, vmess-aead = true, ws-path = /@V2RayyNGvpn, ws-headers = Host:"ba24.ir", skip-cert-verify = true, tfo = false
 🇪🇪EE | vmess | @v2Line | 6 = vmess, ee1.xv2ray.net, 80, username = 83018580-58ce-464f-b75c-2a1331a8f016, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ee1.xv2ray.net", skip-cert-verify = true, tfo = false
-🇩🇪DE | ss | @forwardv2ray | 18 = ss, 94.131.111.32, 8388, encrypt-method = chacha20-ietf-poly1305, password = NGQzMzQz
 🇱🇹LT | vmess | @eliya_chiter0 | 6 = vmess, lt2-vmess.sshmax.xyz, 80, username = a23a9cde-e563-4461-9b45-7843e7c28d00, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"lt2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇳🇱NL | ss | @ROMAX_VPN | 9 = ss, 94.131.106.6, 43743, encrypt-method = chacha20-ietf-poly1305, password = 5vPNG70j1ZqfEG5ee6aQGW
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | trojan | @v2ray_swhil | 33,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 6,🇪🇪EE | vmess | @v2Line | 6,🇩🇪DE | ss | @forwardv2ray | 18,🇱🇹LT | vmess | @eliya_chiter0 | 6,🇳🇱NL | ss | @ROMAX_VPN | 9
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | trojan | @v2ray_swhil | 33,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 6,🇪🇪EE | vmess | @v2Line | 6,🇩🇪DE | ss | @forwardv2ray | 18,🇱🇹LT | vmess | @eliya_chiter0 | 6,🇳🇱NL | ss | @ROMAX_VPN | 9
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | trojan | @v2ray_swhil | 33,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 6,🇪🇪EE | vmess | @v2Line | 6,🇩🇪DE | ss | @forwardv2ray | 18,🇱🇹LT | vmess | @eliya_chiter0 | 6,🇳🇱NL | ss | @ROMAX_VPN | 9
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | trojan | @v2ray_swhil | 33,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 6,🇪🇪EE | vmess | @v2Line | 6,🇱🇹LT | vmess | @eliya_chiter0 | 6,🇳🇱NL | ss | @ROMAX_VPN | 9
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | trojan | @v2ray_swhil | 33,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 6,🇪🇪EE | vmess | @v2Line | 6,🇱🇹LT | vmess | @eliya_chiter0 | 6,🇳🇱NL | ss | @ROMAX_VPN | 9
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | trojan | @v2ray_swhil | 33,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 6,🇪🇪EE | vmess | @v2Line | 6,🇱🇹LT | vmess | @eliya_chiter0 | 6,🇳🇱NL | ss | @ROMAX_VPN | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
