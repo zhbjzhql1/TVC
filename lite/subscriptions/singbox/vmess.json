@@ -111,10 +111,10 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇳🇱NL | vmess | @v2ray1_ng | 25",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇭🇰HK | vmess | @v2Line | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
-                "🇺🇸US | vmess | @nofiltering2 | 1"
+                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ]
         },
         {
@@ -126,10 +126,10 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇳🇱NL | vmess | @v2ray1_ng | 25",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇭🇰HK | vmess | @v2Line | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
-                "🇺🇸US | vmess | @nofiltering2 | 1"
+                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -251,7 +251,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -299,40 +299,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "104.21.30.254",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.196.110",
@@ -363,6 +329,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 6",
+            "type": "vmess",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
                 }
             }
         }
