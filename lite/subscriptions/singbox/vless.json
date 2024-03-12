@@ -114,7 +114,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 11",
@@ -150,7 +150,6 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -175,7 +174,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -198,7 +197,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 11",
@@ -211,7 +210,6 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -470,7 +468,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1062,17 +1060,24 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "69d161fe-1192-4c73-826b-f2a6a6244146",
+            "server": "104.18.202.232",
+            "server_port": 8080,
+            "uuid": "Parsashonam-23",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
             }
         },
         {
@@ -1401,42 +1406,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "190.93.247.247",
-            "server_port": 443,
-            "uuid": "Parsashonam-22",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mail.offch.blog"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @mehrosaboran | 10",
             "type": "vless",
-            "server": "205.233.181.59",
+            "server": "205.233.181.61",
             "server_port": 8880,
-            "uuid": "72caf8dc-10ff-4912-aa33-4517709629e1",
+            "uuid": "69d161fe-1192-4c73-826b-f2a6a6244146",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1448,7 +1422,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "205.233.181.59"
+                    "Host": "205.233.181.61"
                 }
             }
         },
