@@ -16,13 +16,12 @@ DIRECT = direct
 🇩🇪DE | vmess | @oneclickvpnkeys | 11 = vmess, 91.107.169.215, 36201, username = a780eb73-03ad-4097-a822-1b11c3b5011f, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇬🇧GB | ss | @VmessProtocol | 11 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇹🇷TR | ss | @OutlineVpnOfficial | 18 = ss, tr-ss.ipracevpn.com, 2443, encrypt-method = aes-256-gcm, password = PqGphXWWFw
-🇨🇦CA | vmess | @Hope_Net | 2 = vmess, cfcdn1.sanfencdn9.com, 2052, username = 8e0fc6e0-1313-4767-b51c-5506680d534e, ws = true, tls = , vmess-aead = true, ws-path = /video/QXjZG5u4F2, ws-headers = Host:"us3AJ8biuQx.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @Hope_Net | 2 = vmess, cfcdn1.sanfencdn9.com, 2052, username = 8e0fc6e0-1313-4767-b51c-5506680d534e, ws = true, tls = , vmess-aead = true, ws-path = /video/QXjZG5u4F2, ws-headers = Host:"us3AJ8biuQx.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
 🇪🇪EE | vmess | @v2Line | 6 = vmess, ee1.xv2ray.net, 80, username = 83018580-58ce-464f-b75c-2a1331a8f016, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ee1.xv2ray.net", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 18 = vmess, cfcdn3.sanfencdn9.com, 80, username = d0a3e08a-d26f-45bd-ba3c-6387f9182633, ws = true, tls = , vmess-aead = false, ws-path = /video/ibCT6z55, ws-headers = Host:"agzbjszujp4.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 18
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 18
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
