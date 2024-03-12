@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
-                "🇩🇪DE | vless | @vpn_xw | 0",
+                "🇩🇪DE | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 3",
@@ -137,7 +137,8 @@
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 11",
@@ -176,7 +177,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
-                "🇩🇪DE | vless | @vpn_xw | 0",
+                "🇩🇪DE | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 3",
@@ -197,7 +198,8 @@
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 11",
@@ -310,7 +312,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "54.220.26.109",
+            "server": "18.203.63.11",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -513,7 +515,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @vpn_xw | 0",
+            "tag": "🇩🇪DE | vless | @vpn_xw | 1",
             "type": "vless",
             "server": "45.80.111.9",
             "server_port": 443,
@@ -846,9 +848,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
             "type": "vless",
-            "server": "162.159.135.79",
+            "server": "172.64.89.170",
             "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -858,7 +860,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edge.020770.xyz",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -868,9 +870,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "path": "\/Telegram@proxy_mtm",
                 "headers": {
-                    "Host": "edge.020770.xyz"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1060,11 +1062,25 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 8080,
-            "uuid": "Parsashonam-23",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "743a2c2e-d6de-4191-a3c3-89efafee9c0a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 112",
+            "type": "vless",
+            "server": "104.26.12.204",
+            "server_port": 443,
+            "uuid": "ebc9e443-4d4d-4199-80f3-7aab34bddba6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1072,11 +1088,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mega.megafair.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@MikasaVPN\/",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "mega.megafair.store"
                 }
             }
         },
