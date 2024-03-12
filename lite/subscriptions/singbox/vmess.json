@@ -112,9 +112,9 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 25",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 2",
-                "🇪🇪EE | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
+                "🇭🇰HK | vmess | @v2Line | 5",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
         {
@@ -127,9 +127,9 @@
                 "🇳🇱NL | vmess | @v2ray1_ng | 25",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 2",
-                "🇪🇪EE | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
+                "🇭🇰HK | vmess | @v2Line | 5",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -275,11 +275,11 @@
             }
         },
         {
-            "tag": "🇪🇪EE | vmess | @v2Line | 6",
+            "tag": "🇭🇰HK | vmess | @v2Line | 5",
             "type": "vmess",
-            "server": "ee1.xv2ray.net",
+            "server": "hk1.xv2ray.net",
             "server_port": 80,
-            "uuid": "83018580-58ce-464f-b75c-2a1331a8f016",
+            "uuid": "6f20c1ae-c712-4a26-a9f4-5e5b3c480b9d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -294,7 +294,41 @@
                 "type": "ws",
                 "path": "\/vmess",
                 "headers": {
-                    "Host": "ee1.xv2ray.net"
+                    "Host": "hk1.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
                 }
             }
         },
@@ -329,40 +363,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 6",
-            "type": "vmess",
-            "server": "104.21.30.254",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
                 }
             }
         }
