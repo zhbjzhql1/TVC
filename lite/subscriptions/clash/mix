@@ -128,7 +128,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 3","type":"vmess","server":"dotu-usv1.03p4fad6vd.com","port":"11028","cipher":"auto","uuid":"565aa5e6-15ff-3f58-b134-4ac80c744d48","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | vmess | @Hope_Net | 10","type":"vmess","server":"168.119.49.232","port":"47119","cipher":"auto","uuid":"a0a187ed-1dc5-49bb-be02-0ae1bcf7cc9a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇪🇪EE | vmess | @v2Line | 6","type":"vmess","server":"ee1.xv2ray.net","port":"80","cipher":"auto","uuid":"83018580-58ce-464f-b75c-2a1331a8f016","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee1.xv2ray.net"}}}
-  - {"name":"🇺🇸US | ss | @forwardv2ray | 17","type":"ss","server":"138.124.184.209","port":32955,"password":"s2S9dyaGAPRY0N3LYz838G","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | vmess | @FAKEOFTVC | 5","type":"vmess","server":"141.94.237.81","port":"8443","cipher":"auto","uuid":"4b994ea4-6a99-442d-9db9-06df89cca050","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -146,7 +145,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇩🇪DE | vmess | @Hope_Net | 10'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇺🇸US | ss | @forwardv2ray | 17'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
   - name: URL-TEST
     type: url-test
@@ -164,7 +162,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇩🇪DE | vmess | @Hope_Net | 10'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇺🇸US | ss | @forwardv2ray | 17'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
   - name: FALLBACK
     type: fallback
@@ -181,7 +178,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇩🇪DE | vmess | @Hope_Net | 10'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇺🇸US | ss | @forwardv2ray | 17'
       - '🇫🇷FR | vmess | @FAKEOFTVC | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
