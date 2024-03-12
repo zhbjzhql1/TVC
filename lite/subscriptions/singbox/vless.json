@@ -151,6 +151,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -212,6 +213,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 14",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1428,6 +1430,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 8443,
+            "uuid": "a65a7ed6-cbd3-40dd-8966-3ae386fcb149",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Punisher-V2rayCnc.radiotehran.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/P",
+                "headers": {
+                    "Host": "Punisher-V2rayCnc.radiotehran.org"
                 }
             }
         },
