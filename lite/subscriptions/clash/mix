@@ -130,7 +130,6 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @v2Line | 6","type":"vmess","server":"hk1.xv2ray.net","port":"80","cipher":"auto","uuid":"6f20c1ae-c712-4a26-a9f4-5e5b3c480b9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"hk1.xv2ray.net"}}}
   - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 4","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"dffbbc86-4360-4727-9b36-91625369f6ad","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"filimo-movie.ir"}}}
   - {"name":"🇨🇦CA | trojan | @kingofilter | 8","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
-  - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 8","type":"ss","server":"13.42.172.84","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -149,7 +148,6 @@ proxy-groups:
       - '🇭🇰HK | vmess | @v2Line | 6'
       - '🇺🇸US | vmess | @FAKEOFTVC | 4'
       - '🇨🇦CA | trojan | @kingofilter | 8'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -168,7 +166,6 @@ proxy-groups:
       - '🇭🇰HK | vmess | @v2Line | 6'
       - '🇺🇸US | vmess | @FAKEOFTVC | 4'
       - '🇨🇦CA | trojan | @kingofilter | 8'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -186,7 +183,6 @@ proxy-groups:
       - '🇭🇰HK | vmess | @v2Line | 6'
       - '🇺🇸US | vmess | @FAKEOFTVC | 4'
       - '🇨🇦CA | trojan | @kingofilter | 8'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
