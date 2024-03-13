@@ -122,8 +122,10 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 9","type":"vmess","server":"104.21.24.72","port":"80","cipher":"auto","uuid":"5120d7e0-5ba9-4164-b61b-0f8fefabab34","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"no1.xv2ray.net"}}}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰HK | vmess | @v2Line | 6","type":"vmess","server":"hk1.xv2ray.net","port":"80","cipher":"auto","uuid":"6f20c1ae-c712-4a26-a9f4-5e5b3c480b9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"hk1.xv2ray.net"}}}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 19","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 4","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"dffbbc86-4360-4727-9b36-91625369f6ad","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"filimo-movie.ir"}}}
   - {"name":"🇺🇸US | vmess | @eliya_chiter0 | 3","type":"vmess","server":"hms08.gwdef.sbs","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"1","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
 proxy-groups:
@@ -134,8 +136,10 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 9'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
       - '🇭🇰HK | vmess | @v2Line | 6'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇺🇸US | vmess | @FAKEOFTVC | 4'
       - '🇺🇸US | vmess | @eliya_chiter0 | 3'
   - name: URL-TEST
@@ -146,8 +150,10 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 9'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
       - '🇭🇰HK | vmess | @v2Line | 6'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇺🇸US | vmess | @FAKEOFTVC | 4'
       - '🇺🇸US | vmess | @eliya_chiter0 | 3'
   - name: FALLBACK
@@ -157,8 +163,10 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇨🇦CA | vmess | @ShadowProxy66 | 9'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
       - '🇭🇰HK | vmess | @v2Line | 6'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇺🇸US | vmess | @FAKEOFTVC | 4'
       - '🇺🇸US | vmess | @eliya_chiter0 | 3'
 rule-providers:
