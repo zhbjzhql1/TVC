@@ -139,7 +139,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 9",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
@@ -164,16 +164,16 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇺🇸US | vmess | @eliya_chiter0 | 3",
+                "🇺🇸US | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 6",
@@ -219,7 +219,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 9",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
@@ -244,16 +244,16 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇺🇸US | vmess | @eliya_chiter0 | 3",
+                "🇺🇸US | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 6",
@@ -1126,7 +1126,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 9",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 14",
             "type": "vmess",
             "server": "104.21.24.72",
             "server_port": 80,
@@ -1753,38 +1753,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "104.21.15.36",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | vmess | @FAKEOFTVC | 4",
@@ -1952,7 +1928,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
@@ -1997,13 +1973,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 3",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 2",
             "type": "vmess",
-            "server": "hms08.gwdef.sbs",
+            "server": "172.67.152.200",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -2014,7 +1990,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2024,9 +2000,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "meroiy.icu"
                 }
             }
         },
