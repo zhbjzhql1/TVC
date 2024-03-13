@@ -13,11 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, 206.168.190.218, 8443, username = 7e348dc0-df7b-11ee-b235-205c6d5f5d78, ws = true, tls = 1, vmess-aead = true, ws-path = /@V2RayyNGvpn, ws-headers = Host:"ba24.ir", skip-cert-verify = true, tfo = false
 🇩🇪DE | vmess | @Hope_Net | 4 = vmess, 80.71.157.105, 80, username = b656b441-2cfd-44b8-9b2e-646e9925f8f6, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"نام.کانال.تلگرام.VPNHTTPInjectorfree", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 8 = vmess, 2.namesilo123.top, 80, username = 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, ws = true, tls = , vmess-aead = true, ws-path = /?ed=2048, ws-headers = Host:"de.sanfen002.top", skip-cert-verify = true, tfo = false
+🇮🇸IS | vmess | @forwardv2ray | 17 = vmess, is1-vmess.sshmax.xyz, 80, username = 50eeadca-5798-4517-8549-1b25bdcff7bf, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"is1-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @forwardv2ray | 8
-URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @forwardv2ray | 8
-FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @forwardv2ray | 8
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @Hope_Net | 4,🇮🇸IS | vmess | @forwardv2ray | 17
+URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @Hope_Net | 4,🇮🇸IS | vmess | @forwardv2ray | 17
+FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @Hope_Net | 4,🇮🇸IS | vmess | @forwardv2ray | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
