@@ -108,11 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 14",
                 "🇺🇸US | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -124,11 +126,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 14",
                 "🇺🇸US | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -185,6 +189,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "obdii.cfd",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
@@ -300,6 +338,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
