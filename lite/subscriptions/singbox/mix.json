@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -164,17 +164,17 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🏳️XX | trojan | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 8",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vless | @FoXrayIran | 0",
+                "🇺🇸US | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -196,7 +196,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -244,17 +244,17 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🏳️XX | trojan | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 8",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vless | @FoXrayIran | 0",
+                "🇺🇸US | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -570,7 +570,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1731,16 +1731,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.21.33.32",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🏳️XX | trojan | @forwardv2ray | 18",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "password": "baccaba-baac-cbaa-bcad-bacbaabacccb",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1748,19 +1743,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
                 }
             }
         },
@@ -1930,7 +1918,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
@@ -2009,7 +1997,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
+            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,
