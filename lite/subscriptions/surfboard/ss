@@ -11,13 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | ss | @DeamNet_Proxy | 19 = ss, 149.202.82.172, 9101, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
 🇨🇦CA | ss | @OutlineVpnOfficial | 17 = ss, 134.195.196.178, 804, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇬🇧GB | ss | @forwardv2ray | 15 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | ss | @DeamNet_Proxy | 19,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @forwardv2ray | 15
-URL-TEST = url-test,🇫🇷FR | ss | @DeamNet_Proxy | 19,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @forwardv2ray | 15
-FALLBACK = fallback,🇫🇷FR | ss | @DeamNet_Proxy | 19,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇬🇧GB | ss | @forwardv2ray | 15
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | ss | @OutlineVpnOfficial | 17
+URL-TEST = url-test,🇨🇦CA | ss | @OutlineVpnOfficial | 17
+FALLBACK = fallback,🇨🇦CA | ss | @OutlineVpnOfficial | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
