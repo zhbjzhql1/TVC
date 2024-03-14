@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱NL | vmess | @DeamNet_Proxy | 18 = vmess, hdfy8d1.foriran.nl, 80, username = a6292090-afe1-4640-97a7-4f1d1d877cf1, ws = true, tls = , vmess-aead = true, ws-path = /Av8czorIlYicU6D349brWUw6a, ws-headers = Host:"hdfy8d1.foriran.nl", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @ShadowProxy66 | 14 = vmess, 104.21.24.72, 80, username = 5120d7e0-5ba9-4164-b61b-0f8fefabab34, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14
-URL-TEST = url-test,🇳🇱NL | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14
-FALLBACK = fallback,🇳🇱NL | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ShadowProxy66 | 14
+URL-TEST = url-test,🇨🇦CA | vmess | @ShadowProxy66 | 14
+FALLBACK = fallback,🇨🇦CA | vmess | @ShadowProxy66 | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
