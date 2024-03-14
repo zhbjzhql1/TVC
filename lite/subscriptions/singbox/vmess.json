@@ -113,7 +113,6 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
@@ -129,7 +128,6 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
@@ -307,40 +305,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "188.114.97.53",
-            "server_port": 443,
-            "uuid": "8c929251-406f-4b32-9173-07ccd242cb58",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr1-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "fr1-vmess.sshmax.xyz"
                 }
             }
         },
