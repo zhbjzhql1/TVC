@@ -122,11 +122,11 @@ proxies:
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 16","type":"trojan","server":"18.135.163.155","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇧🇪BE | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"be2-vmess.sshmax.xyz","port":"443","cipher":"auto","uuid":"e5c0379a-c6c4-4d59-9667-24163fee42da","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
   - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 14","type":"vmess","server":"104.21.24.72","port":"80","cipher":"auto","uuid":"5120d7e0-5ba9-4164-b61b-0f8fefabab34","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"no1.xv2ray.net"}}}
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 11","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 17","type":"ss","server":"134.195.196.178","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | ss | @forwardv2ray | 7","type":"ss","server":"3.68.87.82","port":2082,"password":"javdcO1kvmcJRWDePdjM0AUYdzmxdmGQtSKf9MgrRXM=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 3","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"dffbbc86-4360-4727-9b36-91625369f6ad","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"filimo-movie.ir"}}}
 proxy-groups:
   - name: MANUAL
@@ -138,11 +138,11 @@ proxy-groups:
       - '🇬🇧GB | trojan | @DirectVPN | 16'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇧🇪BE | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 14'
       - '🇬🇧GB | ss | @VmessProtocol | 11'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇩🇪DE | ss | @forwardv2ray | 7'
       - '🇺🇸US | vmess | @FAKEOFTVC | 3'
   - name: URL-TEST
     type: url-test
@@ -154,11 +154,11 @@ proxy-groups:
       - '🇬🇧GB | trojan | @DirectVPN | 16'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇧🇪BE | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 14'
       - '🇬🇧GB | ss | @VmessProtocol | 11'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇩🇪DE | ss | @forwardv2ray | 7'
       - '🇺🇸US | vmess | @FAKEOFTVC | 3'
   - name: FALLBACK
     type: fallback
@@ -169,11 +169,11 @@ proxy-groups:
       - '🇬🇧GB | trojan | @DirectVPN | 16'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
+      - '🇧🇪BE | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 14'
       - '🇬🇧GB | ss | @VmessProtocol | 11'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇩🇪DE | ss | @forwardv2ray | 7'
       - '🇺🇸US | vmess | @FAKEOFTVC | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
