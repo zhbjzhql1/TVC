@@ -15,13 +15,12 @@ DIRECT = direct
 🇨🇦CA | trojan | @DirectVPN | 18 = trojan, 35.183.231.97, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇨🇦CA | vmess | @ShadowProxy66 | 14 = vmess, 104.21.24.72, 80, username = 5120d7e0-5ba9-4164-b61b-0f8fefabab34, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
 🇨🇦CA | ss | @OutlineVpnOfficial | 17 = ss, 134.195.196.178, 804, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇹🇷TR | ss | @forwardv2ray | 17 = ss, 45.89.52.197, 32058, encrypt-method = chacha20-ietf-poly1305, password = Fgltbpm6cD9eHSFhKI6maC
 🇩🇪DE | ss | @FAKEOFTVC | 4 = ss, 217.182.198.219, 5000, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
 🇨🇦CA | trojan | @kingofilter | 8 = trojan, 104.16.123.175, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇹🇷TR | ss | @forwardv2ray | 17,🇩🇪DE | ss | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇹🇷TR | ss | @forwardv2ray | 17,🇩🇪DE | ss | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇹🇷TR | ss | @forwardv2ray | 17,🇩🇪DE | ss | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇨🇦CA | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @FAKEOFTVC | 4,🇨🇦CA | trojan | @kingofilter | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
