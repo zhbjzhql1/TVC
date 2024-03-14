@@ -154,7 +154,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -164,7 +164,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | trojan | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -174,7 +174,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -234,7 +234,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -244,7 +244,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | trojan | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -254,7 +254,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1469,7 +1469,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1731,11 +1731,16 @@
             }
         },
         {
-            "tag": "🏳️XX | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "password": "baccaba-baac-cbaa-bcad-bacbaabacccb",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "meroiy.icu",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1743,12 +1748,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
                 }
             }
         },
@@ -1997,7 +2009,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
+            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,
