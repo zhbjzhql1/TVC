@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 37",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
@@ -115,6 +115,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇮🇷IR | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @forwardv2ray | 9",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
@@ -123,7 +124,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 37",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
@@ -131,6 +132,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇮🇷IR | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @forwardv2ray | 9",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -171,7 +173,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -348,6 +350,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 9",
+            "type": "vmess",
+            "server": "129.146.113.254",
+            "server_port": 43121,
+            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "129.146.113.254"
                 }
             }
         },
