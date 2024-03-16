@@ -110,6 +110,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @TVCminer | 73"
             ]
@@ -122,6 +123,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @TVCminer | 73"
             ],
@@ -280,6 +282,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "[2a03:b0c0:1:d0::ca3:9001]",
+            "server_port": 2096,
+            "uuid": "5e369c5d-0e80-4ba9-98ff-b30573ba91b8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AZHRvr2sWVN5gtUQOdcj2df0lIGluZZjADcG8aOJmyY",
+                    "short_id": "ae0c3f5c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
