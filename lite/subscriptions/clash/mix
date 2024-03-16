@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇮🇷IR | vmess | @DailyV2RY | 143","type":"vmess","server":"62.60.210.59","port":"10367","cipher":"auto","uuid":"809bd50d-d8de-4d6f-a289-926baba833ec","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 19","type":"ss","server":"134.195.196.178","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪IE | trojan | @forwardv2ray | 14","type":"trojan","server":"18.203.128.22","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,6 +143,7 @@ proxy-groups:
       - '🇮🇷IR | vmess | @DailyV2RY | 143'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 19'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
+      - '🇮🇪IE | trojan | @forwardv2ray | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -157,6 +159,7 @@ proxy-groups:
       - '🇮🇷IR | vmess | @DailyV2RY | 143'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 19'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
+      - '🇮🇪IE | trojan | @forwardv2ray | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -171,6 +174,7 @@ proxy-groups:
       - '🇮🇷IR | vmess | @DailyV2RY | 143'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 19'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
+      - '🇮🇪IE | trojan | @forwardv2ray | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
