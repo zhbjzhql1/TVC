@@ -126,9 +126,10 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"103.30.76.87","port":"25469","cipher":"auto","uuid":"8691b44b-3736-4576-b2d1-b70e4bea5044","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 37","type":"vmess","server":"104.21.24.72","port":"80","cipher":"auto","uuid":"5120d7e0-5ba9-4164-b61b-0f8fefabab34","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"no1.xv2ray.net"}}}
   - {"name":"🇸🇬SG | vmess | @V2rayng_Fast | 0","type":"vmess","server":"146.190.87.238","port":"19193","cipher":"auto","uuid":"0f94fdae-5653-4314-9c92-e57e5ec55513","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ow","headers":{"host":""}}}
+  - {"name":"🇳🇱NL | vmess | @DailyV2RY | 144","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇦🇺AU | ss | @OutlineVpnOfficial | 19","type":"ss","server":"170.64.188.248","port":61073,"password":"3kgL53ljUrCdKoSH","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | trojan | @forwardv2ray | 19","type":"trojan","server":"104.17.215.2","port":443,"udp":false,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforstudent.com"}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 18","type":"vmess","server":"23.227.38.23","port":"8080","cipher":"auto","uuid":"34c0bb5e-c120-432d-9c58-bd7d82c7397b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm","headers":{"host":"uh-lawyers-instruments-kernel.trycloudflare.com"}}}
   - {"name":"🇨🇦CA | trojan | @kingofilter | 9","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
 proxy-groups:
   - name: MANUAL
@@ -144,9 +145,10 @@ proxy-groups:
       - '🇭🇰HK | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 37'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
+      - '🇳🇱NL | vmess | @DailyV2RY | 144'
       - '🇦🇺AU | ss | @OutlineVpnOfficial | 19'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | trojan | @forwardv2ray | 19'
+      - '🇨🇦CA | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | trojan | @kingofilter | 9'
   - name: URL-TEST
     type: url-test
@@ -162,9 +164,10 @@ proxy-groups:
       - '🇭🇰HK | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 37'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
+      - '🇳🇱NL | vmess | @DailyV2RY | 144'
       - '🇦🇺AU | ss | @OutlineVpnOfficial | 19'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | trojan | @forwardv2ray | 19'
+      - '🇨🇦CA | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | trojan | @kingofilter | 9'
   - name: FALLBACK
     type: fallback
@@ -179,9 +182,10 @@ proxy-groups:
       - '🇭🇰HK | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 37'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
+      - '🇳🇱NL | vmess | @DailyV2RY | 144'
       - '🇦🇺AU | ss | @OutlineVpnOfficial | 19'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | trojan | @forwardv2ray | 19'
+      - '🇨🇦CA | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | trojan | @kingofilter | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
