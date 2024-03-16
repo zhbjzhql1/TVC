@@ -123,8 +123,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 45","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇸🇬SG | vmess | @V2rayng_Fast | 0","type":"vmess","server":"146.190.87.238","port":"19193","cipher":"auto","uuid":"0f94fdae-5653-4314-9c92-e57e5ec55513","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ow","headers":{"host":""}}}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 18","type":"vmess","server":"104.17.25.1","port":80,"cipher":"aes-128-gcm","uuid":"83c19463-f966-4adb-a7d8-b127825ffab2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kr.catnipballs.gay"}}}
-  - {"name":"🇺🇸US | vmess | @eliya_chiter0 | 0","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"36ae64b0-2fe1-4915-a50e-9108fcf6d84c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be3-vmess.sshmax.xyz"}}}
+  - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 0","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"36ae64b0-2fe1-4915-a50e-9108fcf6d84c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be3-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -136,8 +135,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @ShadowProxy66 | 45'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
-      - '🇺🇸US | vmess | @eliya_chiter0 | 0'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 0'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -149,8 +147,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @ShadowProxy66 | 45'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
-      - '🇺🇸US | vmess | @eliya_chiter0 | 0'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 0'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -161,8 +158,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @ShadowProxy66 | 45'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
-      - '🇺🇸US | vmess | @eliya_chiter0 | 0'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
