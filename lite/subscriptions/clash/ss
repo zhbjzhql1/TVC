@@ -119,7 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇦🇪AE | ss | @OutlineVpnOfficial | 15","type":"ss","server":"java.ct.arvancode.eu.org","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | ss | @forwardv2ray | 17","type":"ss","server":"212.113.106.76","port":61992,"password":"jaF53EXlTwvG1DJScmTfqX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇭BH | ss | @forwardv2ray | 17","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"2LVVFxxHJSBMdGdl","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷TR | ss | @ROMAX_VPN | 9","type":"ss","server":"95.164.11.94","port":1080,"password":"6x8ogTsPzMnizbFkFndqAQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +128,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇦🇪AE | ss | @OutlineVpnOfficial | 15'
-      - '🇦🇹AT | ss | @forwardv2ray | 17'
+      - '🇧🇭BH | ss | @forwardv2ray | 17'
       - '🇹🇷TR | ss | @ROMAX_VPN | 9'
   - name: URL-TEST
     type: url-test
@@ -137,7 +137,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇦🇪AE | ss | @OutlineVpnOfficial | 15'
-      - '🇦🇹AT | ss | @forwardv2ray | 17'
+      - '🇧🇭BH | ss | @forwardv2ray | 17'
       - '🇹🇷TR | ss | @ROMAX_VPN | 9'
   - name: FALLBACK
     type: fallback
@@ -145,7 +145,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇦🇪AE | ss | @OutlineVpnOfficial | 15'
-      - '🇦🇹AT | ss | @forwardv2ray | 17'
+      - '🇧🇭BH | ss | @forwardv2ray | 17'
       - '🇹🇷TR | ss | @ROMAX_VPN | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
