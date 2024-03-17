@@ -112,7 +112,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇺🇸US | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -157,6 +157,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -180,7 +181,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇺🇸US | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -225,6 +226,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -422,7 +424,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 6",
+            "tag": "🇺🇸US | vless | @melov2ray | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1589,6 +1591,37 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "897a4f42-cc5f-4956-81b7-406fd1b956ef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all2.savagev2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Vpnmasi,@Vpnmasi,@Vpnmasi",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
