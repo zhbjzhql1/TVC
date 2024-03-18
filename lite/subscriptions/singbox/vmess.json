@@ -109,12 +109,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vmess | @customv2ray | 8",
+                "🇺🇸US | vmess | @customv2ray | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 1",
-                "🇵🇱PL | vmess | @v2Line | 8"
+                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -124,12 +125,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vmess | @customv2ray | 8",
+                "🇺🇸US | vmess | @customv2ray | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 1",
-                "🇵🇱PL | vmess | @v2Line | 8"
+                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -227,7 +229,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 8",
+            "tag": "🇺🇸US | vmess | @customv2ray | 8",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -366,6 +368,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "yh3.freeh1.xyz",
+            "server_port": 8080,
+            "uuid": "82cb93a3-65a9-4dac-a2a7-d997b6c26d6a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm",
+                "headers": {
+                    "Host": "yh3.freeh1.xyz"
                 }
             }
         }
