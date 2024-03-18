@@ -162,7 +162,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -239,7 +239,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1687,16 +1687,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.16.216.241",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "f520ae69-b8d5-457d-8e1b-251909318480",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1704,7 +1701,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "naz.savarkaraan.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1713,11 +1710,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
-                }
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
