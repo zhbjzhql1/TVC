@@ -111,7 +111,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 24",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇨🇷CR | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇬🇧GB | trojan | @PrivateVPNs | 16",
@@ -163,7 +163,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -190,7 +190,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 24",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇨🇷CR | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇬🇧GB | trojan | @PrivateVPNs | 16",
@@ -242,7 +242,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -430,7 +430,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -749,7 +749,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1737,35 +1737,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test38.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "test38.pages.dev"
-                }
-            }
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "3.65.21.22",
+            "server_port": 2082,
+            "method": "chacha20-ietf-poly1305",
+            "password": "hgc+H7PRhnwgMaeLHcRzYI6LYS0rakflblcfOkc8eHg=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 9",
