@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
@@ -138,7 +139,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
@@ -153,7 +154,7 @@
                 "🇳🇱NL | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @FAKEOFTVC | 9",
+                "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -170,6 +171,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
@@ -202,7 +204,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
@@ -217,7 +219,7 @@
                 "🇳🇱NL | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @FAKEOFTVC | 9",
+                "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -250,6 +252,37 @@
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 9",
+            "type": "vless",
+            "server": "162.159.134.234",
+            "server_port": 2083,
+            "uuid": "cead5a7e-4a1d-4f93-8825-429969dd2fb8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "new.top-speed.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "go-ogle",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @Parsashonam | 17",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -273,7 +306,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.205.202.55",
+            "server": "52.4.155.82",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -501,7 +534,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "239d9d77-d8a9-4f81-9b7a-6f154d462c36",
+            "uuid": "21f024e8-7bc7-4c99-a967-2473219f048a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1068,7 +1101,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 16",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
@@ -1476,7 +1509,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 9",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 9",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 2053,
