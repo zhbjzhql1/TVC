@@ -110,6 +110,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇧🇪BE | vmess | @DailyV2RY | 173",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -125,6 +127,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇧🇪BE | vmess | @DailyV2RY | 173",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -247,6 +251,54 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "inna.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "104.21.90.218",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇧🇪BE | vmess | @DailyV2RY | 173",
+            "type": "vmess",
+            "server": "be2-vmess.sshmax.xyz",
+            "server_port": 8080,
+            "uuid": "a12724eb-0697-466d-8560-8951989609c6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
