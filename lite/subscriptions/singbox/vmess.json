@@ -112,8 +112,10 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 4",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🏳️XX | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
         {
@@ -126,8 +128,10 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 4",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🏳️XX | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -276,7 +280,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 4",
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -323,6 +327,74 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "janett.click"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.171.91",
+            "server_port": 443,
+            "uuid": "1efed92c-bdfb-4940-a56e-541ef9cca09a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "de1-vmess.sshmax.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @SINABIGO | 2",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         }
