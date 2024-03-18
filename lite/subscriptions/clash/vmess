@@ -122,7 +122,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @mftizi | 18","type":"vmess","server":"101.89.154.94","port":"19979","cipher":"auto","uuid":"941f470e-34e8-3bb0-9b1e-b2c0b4fdb212","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"host":"cache-hk-2.cn-db.top"}}}
   - {"name":"🇫🇷FR | vmess | @proxystore11 | 9","type":"vmess","server":"46.226.166.88","port":"5042","cipher":"auto","uuid":"2525600f-c794-4517-acc7-13ac608a596e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 19","type":"vmess","server":"172.67.171.91","port":"443","cipher":"auto","uuid":"1efed92c-bdfb-4940-a56e-541ef9cca09a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"de1-vmess.sshmax.xyz"}}}
   - {"name":"🇨🇦CA | vmess | @SINABIGO | 2","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -134,7 +133,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 18'
       - '🇫🇷FR | vmess | @proxystore11 | 9'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇨🇦CA | vmess | @SINABIGO | 2'
   - name: URL-TEST
     type: url-test
@@ -146,7 +144,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 18'
       - '🇫🇷FR | vmess | @proxystore11 | 9'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇨🇦CA | vmess | @SINABIGO | 2'
   - name: FALLBACK
     type: fallback
@@ -157,7 +154,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 18'
       - '🇫🇷FR | vmess | @proxystore11 | 9'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇨🇦CA | vmess | @SINABIGO | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
