@@ -170,7 +170,7 @@
                 "🇸🇪SE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇧🇭BH | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -181,7 +181,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇮🇷IR | vless | @ROMAX_VPN | 8",
-                "🇺🇸US | vless | @TVCminer | 12",
+                "🇨🇦CA | vless | @TVCminer | 12",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -253,7 +253,7 @@
                 "🇸🇪SE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇧🇭BH | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -264,7 +264,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇮🇷IR | vless | @ROMAX_VPN | 8",
-                "🇺🇸US | vless | @TVCminer | 12",
+                "🇨🇦CA | vless | @TVCminer | 12",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1972,14 +1972,35 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "www.you.com",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "6ca8cf15-096a-445e-b4b8-6799678ea0a1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "it1.v2vless.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join-Telegram-Channel-@AstroVPN_official",
+                "headers": {
+                    "Host": "it1.v2vless.xyz"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
@@ -2189,7 +2210,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 12",
+            "tag": "🇨🇦CA | vless | @TVCminer | 12",
             "type": "vless",
             "server": "steel.footballlovernews.com",
             "server_port": 443,
