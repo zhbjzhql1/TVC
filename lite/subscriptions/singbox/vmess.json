@@ -193,9 +193,9 @@
         {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "visa.cn",
-            "server_port": 80,
-            "uuid": "9814e858-69d5-4fff-95e7-6453437ad4c8",
+            "server": "iran-011-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,11 +206,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/sba-vm",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kittiy.sbs"
                 }
             }
         },

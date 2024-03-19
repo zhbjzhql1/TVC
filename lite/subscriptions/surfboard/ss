@@ -12,11 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇭🇰HK | ss | @OutlineVpnOfficial | 17 = ss, 141.98.234.19, 44017, encrypt-method = chacha20-ietf-poly1305, password = l9uKHMJTIbIlHFy7h8VyOQ
+🇫🇮FI | ss | @forwardv2ray | 16 = ss, 65.109.14.78, 39891, encrypt-method = chacha20-ietf-poly1305, password = qDyYo4NCAVw1dVOyApoKV8
 🇹🇷TR | ss | @ROMAX_VPN | 9 = ss, 95.164.11.94, 1080, encrypt-method = chacha20-ietf-poly1305, password = 6x8ogTsPzMnizbFkFndqAQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | ss | @OutlineVpnOfficial | 17,🇹🇷TR | ss | @ROMAX_VPN | 9
-URL-TEST = url-test,🇭🇰HK | ss | @OutlineVpnOfficial | 17,🇹🇷TR | ss | @ROMAX_VPN | 9
-FALLBACK = fallback,🇭🇰HK | ss | @OutlineVpnOfficial | 17,🇹🇷TR | ss | @ROMAX_VPN | 9
+MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | ss | @OutlineVpnOfficial | 17,🇫🇮FI | ss | @forwardv2ray | 16,🇹🇷TR | ss | @ROMAX_VPN | 9
+URL-TEST = url-test,🇭🇰HK | ss | @OutlineVpnOfficial | 17,🇫🇮FI | ss | @forwardv2ray | 16,🇹🇷TR | ss | @ROMAX_VPN | 9
+FALLBACK = fallback,🇭🇰HK | ss | @OutlineVpnOfficial | 17,🇫🇮FI | ss | @forwardv2ray | 16,🇹🇷TR | ss | @ROMAX_VPN | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
