@@ -122,7 +122,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 24",
                 "🇮🇷IR | vless | @prrofile_purple | 174",
@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
-                "🇬🇧GB | vless | @proxyymeliii | 13",
+                "🇺🇸US | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇸🇪SE | vless | @V2RayTz | 12",
@@ -155,6 +155,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -188,7 +189,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 24",
                 "🇮🇷IR | vless | @prrofile_purple | 174",
@@ -202,7 +203,7 @@
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
-                "🇬🇧GB | vless | @proxyymeliii | 13",
+                "🇺🇸US | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇸🇪SE | vless | @V2RayTz | 12",
@@ -221,6 +222,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -679,7 +681,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1041,9 +1043,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @proxyymeliii | 13",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 12",
             "type": "vless",
-            "server": "91.193.58.1",
+            "server": "zula.ir",
             "server_port": 2052,
             "uuid": "17f80121-6d23-48be-90a4-ef67664ab0d6",
             "flow": "",
@@ -1057,7 +1059,7 @@
                 "type": "ws",
                 "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "91.193.58.1"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1536,6 +1538,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "854b2af4-241d-475a-94e8-011aa1405934",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.allhubb.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/asdfvasdfgsafaer",
+                "headers": {
+                    "Host": "cdn.allhubb.info"
                 }
             }
         },
