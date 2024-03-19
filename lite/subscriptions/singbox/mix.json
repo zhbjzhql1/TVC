@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
-                "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 12",
@@ -168,7 +167,7 @@
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇦UA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -189,7 +188,6 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
-                "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 12",
@@ -249,7 +247,7 @@
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇦UA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -333,37 +331,6 @@
                 "headers": {
                     "Host": "filTer-1tg.pAges.DeV"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @XsV2ray | 15",
-            "type": "vless",
-            "server": "www.tegzitp.net",
-            "server_port": 443,
-            "uuid": "7461257f-3f86-4743-a26e-3af03aee457a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fe.bo3kot.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1896,33 +1863,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇦UA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "uk1.xv2ray.net",
+            "server_port": 80,
+            "uuid": "3b871117-3a4e-4df2-a8af-08ecc7db6887",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "watashi.free.de.mnhacker.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "watashi.free.de.mnhacker.eu.org"
+                    "Host": ""
                 }
             }
         },
