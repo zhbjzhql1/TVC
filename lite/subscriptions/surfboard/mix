@@ -18,11 +18,11 @@ DIRECT = direct
 🇦🇪AE | ss | @OutlineVpnOfficial | 19 = ss, java.ct.arvancode.eu.org, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 🇨🇳CN | vmess | @yaney_01 | 1 = vmess, 221.131.165.179, 18048, username = 01b094d8-68f4-317c-99b9-ccd867603120, ws = true, tls = , vmess-aead = true, ws-path = /soda, ws-headers = Host:"cn.bing.com", skip-cert-verify = true, tfo = false
 🇵🇱PL | vmess | @v2Line | 9 = vmess, pl2-vmess.sshmax.xyz, 80, username = 18c6b542-e6f8-4476-872a-d3955f45d9f0, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"pl2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @forwardv2ray | 19 = vmess, 129.146.113.254, 43121, username = d53b39e2-925e-45b6-9389-46b9fa95878b, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇦🇪AE | ss | @forwardv2ray | 18 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DailyV2RY | 131,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 9,🇺🇸US | vmess | @forwardv2ray | 19
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DailyV2RY | 131,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 9,🇺🇸US | vmess | @forwardv2ray | 19
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DailyV2RY | 131,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 9,🇺🇸US | vmess | @forwardv2ray | 19
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DailyV2RY | 131,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 9,🇦🇪AE | ss | @forwardv2ray | 18
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DailyV2RY | 131,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 9,🇦🇪AE | ss | @forwardv2ray | 18
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 16,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DailyV2RY | 131,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 9,🇦🇪AE | ss | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
