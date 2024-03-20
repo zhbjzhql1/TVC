@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇦🇪AE | ss | @OutlineVpnOfficial | 19 = ss, java.ct.arvancode.eu.org, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🏳️XX | ss | @forwardv2ray | 17 = ss, [2a12:5940:5237::2], 7261, encrypt-method = chacha20-ietf-poly1305, password = pZvwP17Nlz2z6jsYnVgZgf
+🇧🇭BH | ss | @forwardv2ray | 10 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🏳️XX | ss | @forwardv2ray | 17
-URL-TEST = url-test,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🏳️XX | ss | @forwardv2ray | 17
-FALLBACK = fallback,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🏳️XX | ss | @forwardv2ray | 17
+MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇧🇭BH | ss | @forwardv2ray | 10
+URL-TEST = url-test,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇧🇭BH | ss | @forwardv2ray | 10
+FALLBACK = fallback,🇦🇪AE | ss | @OutlineVpnOfficial | 19,🇧🇭BH | ss | @forwardv2ray | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
