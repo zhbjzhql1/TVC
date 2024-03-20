@@ -111,12 +111,12 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 12",
-                "🇮🇷IR | vless | @frev2ray | 17",
+                "🇩🇪DE | vless | @frev2ray | 12",
                 "🇫🇮FI | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇦SA | vless | @vpn_xw | 1",
@@ -144,7 +144,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
-                "🇺🇸US | vless | @sinabigo | 0",
+                "🇨🇦CA | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 15",
@@ -178,12 +178,12 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 12",
-                "🇮🇷IR | vless | @frev2ray | 17",
+                "🇩🇪DE | vless | @frev2ray | 12",
                 "🇫🇮FI | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇦SA | vless | @vpn_xw | 1",
@@ -211,7 +211,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
-                "🇺🇸US | vless | @sinabigo | 0",
+                "🇨🇦CA | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 15",
@@ -406,17 +406,27 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @frev2ray | 17",
+            "tag": "🇩🇪DE | vless | @frev2ray | 12",
             "type": "vless",
-            "server": "185.211.59.210",
+            "server": "54.37.76.9",
             "server_port": 443,
-            "uuid": "02514d80-8007-47f7-8aaf-28c1da64f915",
-            "flow": "",
+            "uuid": "TMCUSTOMIZE-VPNCUSTOMIZE",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.kellekcollection.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -534,7 +544,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -1269,7 +1279,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @sinabigo | 0",
+            "tag": "🇨🇦CA | vless | @sinabigo | 0",
             "type": "vless",
             "server": "w2.sylarsun.eu.org",
             "server_port": 443,
