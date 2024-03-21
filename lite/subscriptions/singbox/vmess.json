@@ -113,7 +113,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇸🇪SE | vmess | @SINABIGO | 0",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -129,7 +128,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇸🇪SE | vmess | @SINABIGO | 0",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -305,40 +303,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "38.14.107.250",
-            "server_port": 38001,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/153428133302",
                 "headers": {
                     "Host": ""
                 }
