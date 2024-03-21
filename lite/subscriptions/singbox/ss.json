@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇬🇧GB | ss | @VmessProtocol | 7",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
-                "🇷🇺RU | ss | @proxy_mtm | 1"
+                "🇷🇺RU | ss | @proxy_mtm | 10"
             ]
         },
         {
@@ -117,9 +117,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @DeamNet_Proxy | 19",
+                "🇬🇧GB | ss | @VmessProtocol | 7",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
-                "🇷🇺RU | ss | @proxy_mtm | 1"
+                "🇷🇺RU | ss | @proxy_mtm | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -152,6 +152,16 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 7",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
             "server": "java.ct.arvancode.eu.org",
@@ -162,17 +172,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇷🇺RU | ss | @proxy_mtm | 1",
+            "tag": "🇷🇺RU | ss | @proxy_mtm | 10",
             "type": "shadowsocks",
             "server": "103.113.68.27",
             "server_port": 2352,
