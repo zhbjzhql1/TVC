@@ -113,7 +113,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
-                "🇨🇦CA | vless | @melov2ray | 16",
+                "🇺🇸US | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -136,12 +136,12 @@
                 "🇨🇦CA | vless | @ServerNett | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 34",
-                "🇮🇷IR | vless | @proxyymeliii | 12",
+                "🇬🇧GB | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 16",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇺🇸US | vless | @DailyV2RY | 148",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 10",
@@ -153,6 +153,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -175,7 +176,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
-                "🇨🇦CA | vless | @melov2ray | 16",
+                "🇺🇸US | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -198,12 +199,12 @@
                 "🇨🇦CA | vless | @ServerNett | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 34",
-                "🇮🇷IR | vless | @proxyymeliii | 12",
+                "🇬🇧GB | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 16",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇺🇸US | vless | @DailyV2RY | 148",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 10",
@@ -215,6 +216,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -458,7 +460,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 16",
+            "tag": "🇺🇸US | vless | @melov2ray | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1053,17 +1055,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 12",
+            "tag": "🇬🇧GB | vless | @proxyymeliii | 14",
             "type": "vless",
-            "server": "dl8.superfastvn.cloud",
-            "server_port": 443,
-            "uuid": "1fc85ca7-541a-4196-8caf-55ea08b1be22",
+            "server": "91.193.58.20",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@VPNCUSTOMIZE,@VPNCUSTOMIZE,@VPNCUSTOMIZE,@VPNCUSTOMIZE?ed=",
+                "headers": {
+                    "Host": "91.193.58.20"
+                }
             }
         },
         {
@@ -1154,7 +1163,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 148",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 148",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 2096,
@@ -1478,6 +1487,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.64.89.170",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
