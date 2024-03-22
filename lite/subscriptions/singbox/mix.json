@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇺🇸US | vless | @EliV2ray | 10",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 2",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -162,7 +162,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇩🇪DE | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -183,7 +183,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇺🇸US | vless | @EliV2ray | 10",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 2",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -239,7 +239,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇩🇪DE | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -276,7 +276,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 10",
+            "tag": "🇺🇸US | vless | @EliV2ray | 10",
             "type": "vless",
             "server": "clean2.freelines.net",
             "server_port": 443,
@@ -1406,7 +1406,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1702,14 +1702,35 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "18.199.145.153",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0IS44usf2Tg27kygU7c5TlNuRigNrbnTCm0uoITlT0s=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "b4aea9cd-f931-466b-830b-6513a16357d0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @mehrosaboran | 7",
