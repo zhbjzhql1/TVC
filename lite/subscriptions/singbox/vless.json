@@ -114,15 +114,15 @@
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇸🇪SE | vless | @ARv2ray | 13",
-                "🇷🇺RU | vless | @shh_proxy | 23",
+                "🇩🇪DE | vless | @ARv2ray | 14",
+                "🇷🇺RU | vless | @shh_proxy | 22",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇩🇪DE | vless | @prrofile_purple | 158",
@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
-                "🇫🇮FI | vless | @v2rayngvpn | 8",
+                "🇮🇷IR | vless | @v2rayngvpn | 7",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -150,7 +150,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇸🇪SE | vless | @forwardv2ray | 15",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -176,15 +176,15 @@
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇸🇪SE | vless | @ARv2ray | 13",
-                "🇷🇺RU | vless | @shh_proxy | 23",
+                "🇩🇪DE | vless | @ARv2ray | 14",
+                "🇷🇺RU | vless | @shh_proxy | 22",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇩🇪DE | vless | @prrofile_purple | 158",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
-                "🇫🇮FI | vless | @v2rayngvpn | 8",
+                "🇮🇷IR | vless | @v2rayngvpn | 7",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -212,7 +212,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇸🇪SE | vless | @forwardv2ray | 15",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -472,32 +472,47 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 13",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 14",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
+            "server": "91.107.255.251",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lvPn1RR_U4a0hcpQuH1hfVY3twxX7wdN8noVb6P37js",
+                    "short_id": "8d8b3968"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @shh_proxy | 23",
+            "tag": "🇷🇺RU | vless | @shh_proxy | 22",
             "type": "vless",
             "server": "Join.ShhProxy.Site",
             "server_port": 80,
-            "uuid": "ce0a9c0a-5a81-4b47-9b3a-5e19bf57287b",
+            "uuid": "0cd35242-6d22-431b-9b37-4337c950cebb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -673,7 +688,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -854,17 +869,24 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @v2rayngvpn | 8",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 7",
             "type": "vless",
-            "server": "65.109.161.145",
-            "server_port": 23500,
-            "uuid": "4d78ae82-ffd0-4b19-8288-eb0b705fd706",
+            "server": "62.60.147.43",
+            "server_port": 16504,
+            "uuid": "1af02b04-5727-51d3-d574-ba7ee17f1561",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "62.60.147.43"
+                }
             }
         },
         {
@@ -1408,11 +1430,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "discord.gg",
+            "server": "185.146.173.59",
             "server_port": 80,
-            "uuid": "%56%50%4e%43%55%53%54%4f%4d%49%5a%45",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1422,9 +1444,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@VPNCUSTOMIZE,@VPNCUSTOMIZE,@VPNCUSTOMIZE,@VPNCUSTOMIZE?ed=",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "185.146.173.59"
                 }
             }
         },
