@@ -118,7 +118,7 @@
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -136,7 +136,7 @@
                 "🇮🇷IR | vless | @FalconPolV2rayNG | 5",
                 "🇨🇦CA | vless | @ServerNett | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 28",
+                "🇨🇦CA | vless | @v2ray_swhil | 30",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -152,6 +152,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -182,7 +183,7 @@
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -200,7 +201,7 @@
                 "🇮🇷IR | vless | @FalconPolV2rayNG | 5",
                 "🇨🇦CA | vless | @ServerNett | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 28",
+                "🇨🇦CA | vless | @v2ray_swhil | 30",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -216,6 +217,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -587,7 +589,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -1061,17 +1063,24 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 28",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 30",
             "type": "vless",
-            "server": "LIGHTNING6-joinbede.xn--vduxm832c504a.xyz",
-            "server_port": 8880,
-            "uuid": "0c14db88-0343-4049-9779-9c2d9287f9e0",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "--DIGiV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1462,6 +1471,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.67.174.190",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-proxy_mtm\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },
