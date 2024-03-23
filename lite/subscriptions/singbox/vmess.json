@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇨🇦CA | vmess | @customv2ray | 12",
@@ -116,7 +116,8 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 8",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @forwardv2ray | 13"
             ]
         },
         {
@@ -125,7 +126,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇨🇦CA | vmess | @customv2ray | 12",
@@ -133,7 +134,8 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 8",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @forwardv2ray | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -197,7 +199,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -409,6 +411,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 13",
+            "type": "vmess",
+            "server": "192.177.171.233",
+            "server_port": 21468,
+            "uuid": "f4021ae4-6d31-4da3-d3e3-d27ae5387dbd",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
