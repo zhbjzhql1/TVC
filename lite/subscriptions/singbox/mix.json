@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vless | @prrofile_purple | 167",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
@@ -166,7 +166,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇰🇷KR | vless | @forwardv2ray | 18",
+                "🇷🇺RU | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -206,7 +206,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vless | @prrofile_purple | 167",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
@@ -247,7 +247,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇰🇷KR | vless | @forwardv2ray | 18",
+                "🇷🇺RU | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -822,7 +822,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1038,7 +1038,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "thorianite.toptechnonews.com",
             "server_port": 443,
@@ -1842,35 +1842,14 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "129.154.212.181",
-            "server_port": 44699,
-            "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cfed.tgzdyz2.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/tg@zdyz2",
-                "headers": {
-                    "Host": "cfed.tgzdyz2.top"
-                }
-            }
+            "tag": "🇷🇺RU | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "moscow.telegavpn.com",
+            "server_port": 60422,
+            "method": "chacha20-ietf-poly1305",
+            "password": "T1lF810GY8ZuHViCaCGnRR",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
