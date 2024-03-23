@@ -114,7 +114,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇸🇪SE | vmess | @SINABIGO | 2",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -131,7 +130,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇸🇪SE | vmess | @SINABIGO | 2",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -360,40 +358,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "104.21.4.6",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
                 }
             }
         },
