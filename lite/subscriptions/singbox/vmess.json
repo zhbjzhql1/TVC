@@ -111,12 +111,13 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
-                "🇨🇦CA | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 6",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇬🇧GB | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -128,12 +129,13 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
-                "🇨🇦CA | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 6",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇬🇧GB | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -282,7 +284,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
+            "tag": "🇺🇸US | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -381,11 +383,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "31.14.118.170",
-            "server_port": 20883,
-            "uuid": "ad8de935-3df8-4365-922e-1b6c3c28ef27",
+            "server": "147.135.26.48",
+            "server_port": 47212,
+            "uuid": "c46ec369-6de2-4f4c-a788-001703eefdd8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -416,6 +418,40 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
                 "headers": {
                     "Host": ""
                 }
