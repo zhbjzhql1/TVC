@@ -11,17 +11,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 19 = trojan, 3.68.143.6, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 19 = trojan, 54.155.148.60, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 19 = trojan, 35.181.37.187, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @DirectVPN | 19 = trojan, 63.33.17.49, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | vmess | @mftizi | 19 = vmess, cfcdn3.sanfencdn9.com, 80, username = 9a557d02-12ff-4da8-8669-1824cfdefe1f, ws = true, tls = , vmess-aead = true, ws-path = /video/VDXcaM7r, ws-headers = Host:"GWYp69Yujp2.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
 🇧🇭BH | ss | @VmessProtocol | 8 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇮🇪IE | ss | @OutlineVpnOfficial | 19 = ss, 52.178.209.160, 2606, encrypt-method = chacha20-ietf-poly1305, password = zh7ETDQRvHCsIIPIrSHwHa
 🇨🇳CN | vmess | @yaney_01 | 1 = vmess, 221.131.165.179, 18048, username = 01b094d8-68f4-317c-99b9-ccd867603120, ws = true, tls = , vmess-aead = true, ws-path = /soda, ws-headers = Host:"cn.bing.com", skip-cert-verify = true, tfo = false
 🇵🇱PL | vmess | @v2Line | 10 = vmess, pl2-vmess.sshmax.xyz, 80, username = 18c6b542-e6f8-4476-872a-d3955f45d9f0, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"pl2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
+🏳️XX | ss | @forwardv2ray | 18 = ss, [::ffff:239e:8727], 2087, encrypt-method = chacha20-ietf-poly1305, password = Rk+5NzbF50X9VfvtjbiiuZYgH0HN4VTvE8mMwncOVt0=
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @mftizi | 19,🇧🇭BH | ss | @VmessProtocol | 8,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 10
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @mftizi | 19,🇧🇭BH | ss | @VmessProtocol | 8,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 10
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @mftizi | 19,🇧🇭BH | ss | @VmessProtocol | 8,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @mftizi | 19,🇧🇭BH | ss | @VmessProtocol | 8,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 10,🏳️XX | ss | @forwardv2ray | 18
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @mftizi | 19,🇧🇭BH | ss | @VmessProtocol | 8,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 10,🏳️XX | ss | @forwardv2ray | 18
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @mftizi | 19,🇧🇭BH | ss | @VmessProtocol | 8,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇨🇳CN | vmess | @yaney_01 | 1,🇵🇱PL | vmess | @v2Line | 10,🏳️XX | ss | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
