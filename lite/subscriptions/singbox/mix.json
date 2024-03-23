@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -166,7 +166,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 17",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -247,7 +247,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 17",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1532,7 +1532,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1849,17 +1849,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "www.you.com",
-            "server_port": 443,
-            "uuid": "ed240502-6095-4600-afee-5798f5b6608e",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "17c67711-df86-4e61-b6d8-62dd89ceb88d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "id-ma-falcunargo-india.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "id-ma-falcunargo-india.falcunar.uk.eu.org"
+                }
             }
         },
         {
