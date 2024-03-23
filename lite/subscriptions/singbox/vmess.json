@@ -108,7 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇩🇪DE | vmess | @prrofile_purple | 159",
                 "🇺🇸US | vmess | @customv2ray | 14",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 61",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
@@ -122,7 +124,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇩🇪DE | vmess | @prrofile_purple | 159",
                 "🇺🇸US | vmess | @customv2ray | 14",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 61",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
@@ -191,6 +195,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "marien.motorcycles",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "marien.motorcycles"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "wwww.outline-vpn.cloud",
@@ -222,6 +260,23 @@
                 "headers": {
                     "Host": "janett.click"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 159",
+            "type": "vmess",
+            "server": "91.107.139.138",
+            "server_port": 8081,
+            "uuid": "3692d617-c0bb-442a-a259-ee4baea3041f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
