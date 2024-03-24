@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇺🇸US | vless | @v2rayngvpn | 11",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -149,7 +149,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -191,7 +193,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇺🇸US | vless | @v2rayngvpn | 11",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -210,7 +212,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -906,11 +910,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 9",
+            "tag": "🇺🇸US | vless | @v2rayngvpn | 11",
             "type": "vless",
-            "server": "23.227.60.186",
-            "server_port": 80,
-            "uuid": "6e8b4246-a186-4561-98c8-c397a9677752",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "e82eb692-8084-405d-81c2-ab5d10a59845",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -918,11 +922,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-1403.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "23.227.60.186"
+                    "Host": "telegram-falcunargo-1403.falcunar.uk.eu.org"
                 }
             }
         },
@@ -1421,6 +1435,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "parspack.com",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺RU | vless | @flyv2ray | 12",
             "type": "vless",
             "server": "Join.ShhProxy.Site",
@@ -1438,6 +1483,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "151.101.128.144",
+            "server_port": 443,
+            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "GOV.UK",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "GOV.UK"
                 }
             }
         },
