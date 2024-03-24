@@ -107,15 +107,16 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇿CZ | vmess | @mftizi | 19",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇳CN | vmess | @forwardv2ray | 18"
+                "🇨🇿CZ | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -123,15 +124,16 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇿CZ | vmess | @mftizi | 19",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇳CN | vmess | @forwardv2ray | 18"
+                "🇨🇿CZ | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -171,7 +173,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇿CZ | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -195,7 +197,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+            "type": "vmess",
+            "server": "104.164.11.115",
+            "server_port": 38264,
+            "uuid": "b67a0801-f298-4e1b-a80a-f538cdb32845",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -369,13 +388,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇿CZ | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -383,6 +402,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/c9efxRCi",
+                "headers": {
+                    "Host": "cfcdn2.sanfencdn9.com"
+                }
             }
         }
     ],
