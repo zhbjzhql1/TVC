@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
                 "🇺🇸US | vless | @proxyymeliii | 11",
-                "🇨🇦CA | vless | @v2ray1_ng | 21",
+                "🇸🇪SE | vless | @v2ray1_ng | 15",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
@@ -160,7 +160,7 @@
                 "🇨🇦CA | vless | @kingofilter | 2",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vless | @SvnTeam | 64",
+                "🇺🇸US | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
                 "🇺🇸US | vless | @proxyymeliii | 11",
-                "🇨🇦CA | vless | @v2ray1_ng | 21",
+                "🇸🇪SE | vless | @v2ray1_ng | 15",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @kingofilter | 2",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vless | @SvnTeam | 64",
+                "🇺🇸US | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1098,17 +1098,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 21",
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 15",
             "type": "vless",
-            "server": "172.66.47.201",
+            "server": "185.146.173.59",
             "server_port": 443,
-            "uuid": "989c4f14-a0fb-4375-ba5d-082fb7167b70",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?TEL:v2ray1_ng---TELEGRAM---v2ray1_ng--------------v2ray1_ng",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
             }
         },
         {
@@ -1647,7 +1664,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SvnTeam | 64",
+            "tag": "🇺🇸US | vless | @SvnTeam | 64",
             "type": "vless",
             "server": "clear.xn--fhq0la447aac5504dea701axr1g.com",
             "server_port": 443,

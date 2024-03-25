@@ -145,7 +145,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
                 "🇺🇸US | vless | @proxyymeliii | 11",
-                "🇨🇦CA | vless | @v2ray1_ng | 21",
+                "🇸🇪SE | vless | @v2ray1_ng | 15",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 15",
+                "🇺🇸US | vmess | @forwardv2ray | 13",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -174,7 +174,7 @@
                 "🇨🇦CA | vless | @kingofilter | 2",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vless | @SvnTeam | 64",
+                "🇺🇸US | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -224,7 +224,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
                 "🇺🇸US | vless | @proxyymeliii | 11",
-                "🇨🇦CA | vless | @v2ray1_ng | 21",
+                "🇸🇪SE | vless | @v2ray1_ng | 15",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
@@ -244,7 +244,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 15",
+                "🇺🇸US | vmess | @forwardv2ray | 13",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -253,7 +253,7 @@
                 "🇨🇦CA | vless | @kingofilter | 2",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vless | @SvnTeam | 64",
+                "🇺🇸US | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1262,17 +1262,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 21",
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 15",
             "type": "vless",
-            "server": "172.66.47.201",
+            "server": "185.146.173.59",
             "server_port": 443,
-            "uuid": "989c4f14-a0fb-4375-ba5d-082fb7167b70",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?TEL:v2ray1_ng---TELEGRAM---v2ray1_ng--------------v2ray1_ng",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
             }
         },
         {
@@ -1469,9 +1486,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.21.237.70",
-            "server_port": 80,
-            "uuid": "d31c39e0-e614-11ee-b333-205c6d5f5d78",
+            "server": "www.visa.co.jp",
+            "server_port": 8080,
+            "uuid": "e184e964-518c-4ddf-ab05-f0a2ecff2f42",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1760,9 +1777,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 15",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 13",
             "type": "vmess",
-            "server": "505.outline-vpn.cloud",
+            "server": "iran-011-join.outline-vpn.cloud",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -1777,7 +1794,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kellie.makeup",
+                "server_name": "kittiy.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1789,7 +1806,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "kellie.makeup"
+                    "Host": "kittiy.sbs"
                 }
             }
         },
@@ -1981,7 +1998,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SvnTeam | 64",
+            "tag": "🇺🇸US | vless | @SvnTeam | 64",
             "type": "vless",
             "server": "clear.xn--fhq0la447aac5504dea701axr1g.com",
             "server_port": 443,
