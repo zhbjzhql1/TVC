@@ -106,32 +106,36 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇿CZ | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 6",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 14"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇿CZ | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 6",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,6 +158,40 @@
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+            "type": "vmess",
+            "server": "inna.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "inna.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "inna.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
@@ -171,7 +209,7 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | vmess | @mftizi | 19",
+            "tag": "🇺🇸US | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -345,11 +383,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "149.28.236.44",
-            "server_port": 47507,
-            "uuid": "dd37f6da-0bed-4344-a88a-1744dcacc26b",
+            "server": "104.21.21.35",
+            "server_port": 443,
+            "uuid": "757dc1d3-c0fd-456e-9426-2e9221584d40",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -359,6 +397,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hu2.xv2ray.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hu2.xv2ray.net"
+                }
             }
         },
         {
@@ -382,6 +437,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "104.21.69.44",
+            "server_port": 2096,
+            "uuid": "98b879fc-ed38-4537-f02f-e88e4892d48c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eu4.nlist.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/liu",
+                "headers": {
+                    "Host": "eu4.nlist.eu.org"
                 }
             }
         }
