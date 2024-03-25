@@ -118,14 +118,13 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 18","type":"trojan","server":"52.56.169.0","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @DirectVPN | 18","type":"trojan","server":"3.22.244.93","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 18","type":"trojan","server":"3.11.92.154","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 18","type":"trojan","server":"3.130.228.6","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | vmess | @V2rayng_Fast | 0","type":"vmess","server":"31.14.118.164","port":"20883","cipher":"auto","uuid":"3120381d-eb39-4a5c-b4bc-4e220757d2b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇱IL | ss | @OutlineVpnOfficial | 17","type":"ss","server":"195.20.17.224","port":34282,"password":"fVdovvKBlC06pO7s","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"185.83.90.50","port":"41254","cipher":"auto","uuid":"39a94956-8a49-4f82-a3a4-93f7d17521d4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇩🇪DE | ss | @forwardv2ray | 18","type":"ss","server":"18.193.122.106","port":2087,"password":"3cood5NXMB0687jgfwnwV8ingEyvDqxp/yay/hMY5yU=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | ss | @FAKEOFTVC | 1","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | ss | @proxy_mtm | 0","type":"ss","server":"java.ct.arvancode.eu.org","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -141,7 +140,6 @@ proxy-groups:
       - '🇮🇱IL | ss | @OutlineVpnOfficial | 17'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
-      - '🇩🇪DE | ss | @forwardv2ray | 18'
       - '🇦🇪AE | ss | @FAKEOFTVC | 1'
       - '🇦🇪AE | ss | @proxy_mtm | 0'
   - name: URL-TEST
@@ -157,7 +155,6 @@ proxy-groups:
       - '🇮🇱IL | ss | @OutlineVpnOfficial | 17'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
-      - '🇩🇪DE | ss | @forwardv2ray | 18'
       - '🇦🇪AE | ss | @FAKEOFTVC | 1'
       - '🇦🇪AE | ss | @proxy_mtm | 0'
   - name: FALLBACK
@@ -172,7 +169,6 @@ proxy-groups:
       - '🇮🇱IL | ss | @OutlineVpnOfficial | 17'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
-      - '🇩🇪DE | ss | @forwardv2ray | 18'
       - '🇦🇪AE | ss | @FAKEOFTVC | 1'
       - '🇦🇪AE | ss | @proxy_mtm | 0'
 rules:
