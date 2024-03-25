@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇨🇷CR | vless | @ipV2Ray | 13",
-                "🇺🇸US | vless | @melov2ray | 18",
+                "🇨🇦CA | vless | @melov2ray | 18",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -133,7 +133,7 @@
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @prrofile_purple | 173",
                 "🇺🇸US | vmess | @customv2ray | 12",
@@ -153,7 +153,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇬🇧GB | vless | @V2RayTz | 18",
                 "🇧🇭BH | ss | @VmessProtocol | 9",
-                "🇺🇸US | vless | @DailyV2RY | 107",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19",
@@ -195,7 +195,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇨🇷CR | vless | @ipV2Ray | 13",
-                "🇺🇸US | vless | @melov2ray | 18",
+                "🇨🇦CA | vless | @melov2ray | 18",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -215,7 +215,7 @@
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @prrofile_purple | 173",
                 "🇺🇸US | vmess | @customv2ray | 12",
@@ -235,7 +235,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇬🇧GB | vless | @V2RayTz | 18",
                 "🇧🇭BH | ss | @VmessProtocol | 9",
-                "🇺🇸US | vless | @DailyV2RY | 107",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19",
@@ -493,7 +493,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 18",
+            "tag": "🇨🇦CA | vless | @melov2ray | 18",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1029,7 +1029,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -1540,7 +1540,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 107",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 107",
             "type": "vless",
             "server": "Zula.Ir.",
             "server_port": 8443,
@@ -1987,9 +1987,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "check-host.net",
-            "server_port": 80,
-            "uuid": "8f5404bb-249f-4acd-c1b2-832dadd098b2",
+            "server": "free.httpcustom.site",
+            "server_port": 443,
+            "uuid": "Free_HTTPCustom",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1997,12 +1997,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "headers": {
-                    "Host": "check-host.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "free.httpcustom.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
