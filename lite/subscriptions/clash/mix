@@ -128,7 +128,6 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"185.83.90.50","port":"41254","cipher":"auto","uuid":"39a94956-8a49-4f82-a3a4-93f7d17521d4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇭🇰HK | vmess | @v2Line | 10","type":"vmess","server":"74.119.193.64","port":"443","cipher":"auto","uuid":"faa2d852-e7a4-40b3-a011-e028b8a21f3b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇩🇪DE | ss | @forwardv2ray | 18","type":"ss","server":"3.125.122.13","port":2087,"password":"9FbLEZ6HppB83OpEoc+mo3a8jtAXtdpH5jgPaIEimiU=","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -145,7 +144,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇭🇰HK | vmess | @v2Line | 10'
-      - '🇩🇪DE | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -162,7 +160,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇭🇰HK | vmess | @v2Line | 10'
-      - '🇩🇪DE | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -178,7 +175,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇭🇰HK | vmess | @v2Line | 10'
-      - '🇩🇪DE | ss | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
