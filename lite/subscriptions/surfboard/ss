@@ -11,15 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇧🇭BH | ss | @VmessProtocol | 9 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇮🇱IL | ss | @OutlineVpnOfficial | 17 = ss, 195.20.17.224, 34282, encrypt-method = aes-256-gcm, password = fVdovvKBlC06pO7s
-🇷🇺RU | ss | @forwardv2ray | 18 = ss, moscow.telegavpn.com, 60422, encrypt-method = chacha20-ietf-poly1305, password = uaPcKaBQHOfwNwzpJu7wkR
+🇩🇪DE | ss | @forwardv2ray | 18 = ss, 18.193.122.106, 2087, encrypt-method = chacha20-ietf-poly1305, password = 3cood5NXMB0687jgfwnwV8ingEyvDqxp/yay/hMY5yU=
 🇦🇪AE | ss | @FAKEOFTVC | 1 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 🇦🇪AE | ss | @proxy_mtm | 0 = ss, java.ct.arvancode.eu.org, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇧🇭BH | ss | @VmessProtocol | 9,🇮🇱IL | ss | @OutlineVpnOfficial | 17,🇷🇺RU | ss | @forwardv2ray | 18,🇦🇪AE | ss | @FAKEOFTVC | 1,🇦🇪AE | ss | @proxy_mtm | 0
-URL-TEST = url-test,🇧🇭BH | ss | @VmessProtocol | 9,🇮🇱IL | ss | @OutlineVpnOfficial | 17,🇷🇺RU | ss | @forwardv2ray | 18,🇦🇪AE | ss | @FAKEOFTVC | 1,🇦🇪AE | ss | @proxy_mtm | 0
-FALLBACK = fallback,🇧🇭BH | ss | @VmessProtocol | 9,🇮🇱IL | ss | @OutlineVpnOfficial | 17,🇷🇺RU | ss | @forwardv2ray | 18,🇦🇪AE | ss | @FAKEOFTVC | 1,🇦🇪AE | ss | @proxy_mtm | 0
+MANUAL = select,URL-TEST,FALLBACK,🇮🇱IL | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 18,🇦🇪AE | ss | @FAKEOFTVC | 1,🇦🇪AE | ss | @proxy_mtm | 0
+URL-TEST = url-test,🇮🇱IL | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 18,🇦🇪AE | ss | @FAKEOFTVC | 1,🇦🇪AE | ss | @proxy_mtm | 0
+FALLBACK = fallback,🇮🇱IL | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 18,🇦🇪AE | ss | @FAKEOFTVC | 1,🇦🇪AE | ss | @proxy_mtm | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
