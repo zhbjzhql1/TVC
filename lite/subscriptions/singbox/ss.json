@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇦🇪AE | ss | @forwardv2ray | 18"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
-                "🇦🇪AE | ss | @forwardv2ray | 18"
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -144,16 +142,6 @@
             "server_port": 9101,
             "method": "aes-256-gcm",
             "password": "e4FCWrgpkji3QY",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "account.emofid.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "e6QAeE5R24iFZKLG",
             "plugin": "",
             "plugin_opts": ""
         }
