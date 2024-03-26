@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 15",
+                "🇺🇸US | vless | @melov2ray | 15",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇷🇺RU | vless | @shh_proxy | 24",
@@ -153,6 +153,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
@@ -177,7 +178,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 15",
+                "🇺🇸US | vless | @melov2ray | 15",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇷🇺RU | vless | @shh_proxy | 24",
@@ -218,6 +219,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
@@ -428,7 +430,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 15",
+            "tag": "🇺🇸US | vless | @melov2ray | 15",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1535,6 +1537,37 @@
                 "headers": {
                     "Host": "discord.gg"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "5d0245cd-8412-4a32-b52c-ef810651e612",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "digi--v2raycncfs.RadioTeHran.oRG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray,@Digiv2ray,@Digiv2ray,@Digiv2ray,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
