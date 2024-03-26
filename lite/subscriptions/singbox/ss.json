@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | ss | @DeamNet_Proxy | 17",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 15"
+                "🇧🇭BH | ss | @DeamNet_Proxy | 17",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
+                "🇳🇱NL | ss | @forwardv2ray | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | ss | @DeamNet_Proxy | 17",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 15"
+                "🇧🇭BH | ss | @DeamNet_Proxy | 17",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 15",
+                "🇳🇱NL | ss | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,12 +140,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | ss | @DeamNet_Proxy | 17",
+            "tag": "🇧🇭BH | ss | @DeamNet_Proxy | 17",
             "type": "shadowsocks",
-            "server": "94.228.165.234",
-            "server_port": 15214,
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "DmMQUmI7pgQDnrWqLXC00L",
+            "password": "Q3S7TeYjDW7dZ6eD",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -154,6 +156,16 @@
             "server_port": 9101,
             "method": "aes-256-gcm",
             "password": "e4FCWrgpkji3QY",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "109.107.172.30",
+            "server_port": 28190,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1f8jdOIKkxRWMUeOfXPeo8",
             "plugin": "",
             "plugin_opts": ""
         }
