@@ -114,7 +114,7 @@
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇺🇸US | vless | @melov2ray | 17",
-                "🇺🇸US | vless | @V2pedia | 26",
+                "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
@@ -167,7 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇸🇪SE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -195,7 +195,7 @@
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇺🇸US | vless | @melov2ray | 17",
-                "🇺🇸US | vless | @V2pedia | 26",
+                "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
@@ -248,7 +248,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇸🇪SE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -522,7 +522,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 26",
+            "tag": "🇨🇦CA | vless | @V2pedia | 26",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
@@ -1863,23 +1863,36 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 11",
+            "type": "vmess",
+            "server": "104.21.32.223",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "muriel.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNneL",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "muriel.makeup"
                 }
             }
         },
