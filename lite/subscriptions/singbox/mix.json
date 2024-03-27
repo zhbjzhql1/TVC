@@ -112,12 +112,12 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 15",
-                "🇨🇦CA | vless | @V2pedia | 26",
+                "🇨🇦CA | vless | @melov2ray | 15",
+                "🇺🇸US | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇧🇷BR | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -190,12 +190,12 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 15",
-                "🇨🇦CA | vless | @V2pedia | 26",
+                "🇨🇦CA | vless | @melov2ray | 15",
+                "🇺🇸US | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -243,7 +243,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇧🇷BR | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -454,7 +454,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 15",
+            "tag": "🇨🇦CA | vless | @melov2ray | 15",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -485,7 +485,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 26",
+            "tag": "🇺🇸US | vless | @V2pedia | 26",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
@@ -589,7 +589,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1823,34 +1823,20 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇧🇷BR | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "78.111.102.232",
+            "server_port": 3389,
+            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test50.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "test50.pages.dev"
-                }
             }
         },
         {
