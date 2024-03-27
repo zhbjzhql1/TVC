@@ -12,10 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | ss | @OutlineVpnOfficial | 13 = ss, 134.195.196.178, 807, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
+🇦🇪AE | ss | @forwardv2ray | 17 = ss, account.emofid.co, 443, encrypt-method = chacha20-ietf-poly1305, password = e6QAeE5R24iFZKLG
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | ss | @OutlineVpnOfficial | 13
-URL-TEST = url-test,🇨🇦CA | ss | @OutlineVpnOfficial | 13
-FALLBACK = fallback,🇨🇦CA | ss | @OutlineVpnOfficial | 13
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | ss | @OutlineVpnOfficial | 13,🇦🇪AE | ss | @forwardv2ray | 17
+URL-TEST = url-test,🇨🇦CA | ss | @OutlineVpnOfficial | 13,🇦🇪AE | ss | @forwardv2ray | 17
+FALLBACK = fallback,🇨🇦CA | ss | @OutlineVpnOfficial | 13,🇦🇪AE | ss | @forwardv2ray | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
