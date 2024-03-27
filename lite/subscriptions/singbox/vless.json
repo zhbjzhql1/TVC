@@ -144,16 +144,17 @@
                 "🇺🇸US | vless | @VmessProtocol | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇺🇸US | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 40",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 13",
                 "🇨🇷CR | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
@@ -209,16 +210,17 @@
                 "🇺🇸US | vless | @VmessProtocol | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇺🇸US | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 40",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 13",
                 "🇨🇷CR | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
@@ -1276,7 +1278,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 9",
+            "tag": "🇺🇸US | vless | @proxystore11 | 9",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1374,7 +1376,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "w3.sylarsun.eu.org",
             "server_port": 443,
@@ -1555,6 +1557,37 @@
                 "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.64.80.150",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@proxy_mtm\/",
+                "headers": {
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
