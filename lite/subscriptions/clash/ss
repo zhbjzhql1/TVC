@@ -119,7 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 13","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 17","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 19","type":"ss","server":"94.131.111.32","port":8388,"password":"NGQzMzQz","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | @proxy_mtm | 3","type":"ss","server":"185.77.217.121","port":443,"password":"X7eoEBrARWsBUiVfchVEdH","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +128,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 13'
-      - '🇧🇭BH | ss | @forwardv2ray | 17'
+      - '🇩🇪DE | ss | @forwardv2ray | 19'
       - '🇫🇮FI | ss | @proxy_mtm | 3'
   - name: URL-TEST
     type: url-test
@@ -137,7 +137,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 13'
-      - '🇧🇭BH | ss | @forwardv2ray | 17'
+      - '🇩🇪DE | ss | @forwardv2ray | 19'
       - '🇫🇮FI | ss | @proxy_mtm | 3'
   - name: FALLBACK
     type: fallback
@@ -145,7 +145,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 13'
-      - '🇧🇭BH | ss | @forwardv2ray | 17'
+      - '🇩🇪DE | ss | @forwardv2ray | 19'
       - '🇫🇮FI | ss | @proxy_mtm | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
