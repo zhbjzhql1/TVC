@@ -147,7 +147,7 @@
                 "🇺🇸US | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇺🇸US | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -163,7 +163,7 @@
                 "🇮🇷IR | vless | @kingofilter | 0",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
-                "🏳️XX | vless | @SvnTeam | 68",
+                "🇸🇪SE | vless | @SvnTeam | 68",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -214,7 +214,7 @@
                 "🇺🇸US | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇺🇸US | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -230,7 +230,7 @@
                 "🇮🇷IR | vless | @kingofilter | 0",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇩🇪DE | vless | @freeconfigv2 | 13",
-                "🏳️XX | vless | @SvnTeam | 68",
+                "🇸🇪SE | vless | @SvnTeam | 68",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -1319,7 +1319,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 9",
+            "tag": "🇺🇸US | vless | @proxystore11 | 9",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1760,17 +1760,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @SvnTeam | 68",
+            "tag": "🇸🇪SE | vless | @SvnTeam | 68",
             "type": "vless",
-            "server": "NewReatEg.xn--fhq0la447aac5504dea701axr1g.CoM.",
-            "server_port": 888,
-            "uuid": "SVNTEAM",
+            "server": "owner.XHEYKH.site",
+            "server_port": 80,
+            "uuid": "SVNTEAMs",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "owner.XHEYKH.site"
+                }
             }
         },
         {
