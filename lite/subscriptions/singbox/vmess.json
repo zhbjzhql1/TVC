@@ -114,7 +114,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17"
+                "🇬🇧GB | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17"
+                "🇬🇧GB | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -333,11 +333,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🇬🇧GB | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "backend.app-browser.org",
-            "server_port": 2087,
-            "uuid": "520a5f45-d354-42f4-a658-18dbc3754645",
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -350,7 +350,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "backend.app-browser.org",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -360,9 +360,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/fws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "backend.app-browser.org"
+                    "Host": ""
                 }
             }
         }
