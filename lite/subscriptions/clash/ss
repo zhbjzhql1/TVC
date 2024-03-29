@@ -118,31 +118,31 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇦🇪AE | ss | @proxyymeliii | 10","type":"ss","server":"account.emofid.co","port":443,"password":"e6QAeE5R24iFZKLG","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 19","type":"ss","server":"217.182.198.219","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇪AE | ss | @proxyymeliii | 10'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇪AE | ss | @proxyymeliii | 10'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇪AE | ss | @proxyymeliii | 10'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
