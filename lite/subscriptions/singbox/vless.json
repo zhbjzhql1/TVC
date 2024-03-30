@@ -107,12 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 15",
-                "🇨🇦CA | vless | @Parsashonam | 14",
+                "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇬🇧GB | vless | @NIM_VPN_ir | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇺🇸US | vless | @melov2ray | 14",
+                "🇨🇦CA | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 24",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 21",
-                "🇸🇪SE | vless | @forwardv2ray | 11",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -175,12 +175,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 15",
-                "🇨🇦CA | vless | @Parsashonam | 14",
+                "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇬🇧GB | vless | @NIM_VPN_ir | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇺🇸US | vless | @melov2ray | 14",
+                "🇨🇦CA | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 24",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 21",
-                "🇸🇪SE | vless | @forwardv2ray | 11",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -279,11 +279,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 14",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 16",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-29",
+            "uuid": "Parsashonam-28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -414,7 +414,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 14",
+            "tag": "🇨🇦CA | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1532,11 +1532,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 11",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAMm",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1544,11 +1544,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
