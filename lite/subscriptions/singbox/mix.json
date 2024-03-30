@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 9",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇸🇪SE | vless | @v2ray1_ng | 3",
                 "🇨🇷CR | vless | @vless_vmess | 12",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 8",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -206,7 +206,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 9",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇸🇪SE | vless | @v2ray1_ng | 3",
                 "🇨🇷CR | vless | @vless_vmess | 12",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇷CR | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 8",
@@ -248,7 +248,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -769,7 +769,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1348,11 +1348,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇺🇸US | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 8443,
-            "uuid": "c465f725-6d95-416f-bfdd-3f3f47230904",
+            "server": "160.153.0.179",
+            "server_port": 80,
+            "uuid": "cf30ed8e-cd33-4e24-a9fb-326690cd0d13",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1360,22 +1360,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "joinnett85.servernet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "160.153.0.179"
+                }
             }
         },
         {
@@ -1792,13 +1782,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.24.37.148",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "inna.cfd",
             "server_port": 443,
-            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1806,7 +1799,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "max-allnet.hiroman5445.ir",
+                "server_name": "inna.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1815,11 +1808,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "DvVRTw2k71qNhriZyCPvusI",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "inna.cfd"
+                }
             }
         },
         {
