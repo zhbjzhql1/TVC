@@ -109,8 +109,8 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
-                "🇸🇪SE | vless | @v2ray1_ng | 3",
+                "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 156",
@@ -178,8 +178,8 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
-                "🇸🇪SE | vless | @v2ray1_ng | 3",
+                "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 156",
@@ -333,6 +333,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @NIM_VPN_ir | 8",
+            "type": "vless",
+            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles.",
+            "server_port": 80,
+            "uuid": "ed546b55-7f31-4c43-9a75-cf8aac59f60b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles."
+                }
+            }
+        },
+        {
             "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
             "server": "54.228.21.231",
@@ -360,27 +381,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
-            "type": "vless",
-            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles.",
-            "server_port": 80,
-            "uuid": "ed546b55-7f31-4c43-9a75-cf8aac59f60b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles."
                 }
             }
         },
@@ -1143,11 +1143,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray1_ng | 3",
+            "tag": "🇨🇷CR | vless | @vless_vmess | 12",
             "type": "vless",
-            "server": "185.146.173.20",
-            "server_port": 2052,
-            "uuid": "9110e2f1-88e5-4a58-8b10-982c5b8138ff",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1155,11 +1155,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "test50.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.20"
+                    "Host": "test50.pages.dev"
                 }
             }
         },

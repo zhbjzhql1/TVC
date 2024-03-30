@@ -109,8 +109,8 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
@@ -142,12 +142,14 @@
                 "🏳️XX | vless | @v2rayNG_Matsuri | 11",
                 "🇺🇸US | vless | @v2rayngvpn | 16",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 0",
-                "🇺🇸US | vmess | @ShadowProxy66 | 65",
+                "🇺🇸US | vmess | @ShadowProxy66 | 74",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
-                "🇸🇪SE | vless | @v2ray1_ng | 3",
+                "🇨🇦CA | vmess | @v2ray1_ng | 4",
+                "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 156",
@@ -189,8 +191,8 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
@@ -222,12 +224,14 @@
                 "🏳️XX | vless | @v2rayNG_Matsuri | 11",
                 "🇺🇸US | vless | @v2rayngvpn | 16",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 0",
-                "🇺🇸US | vmess | @ShadowProxy66 | 65",
+                "🇺🇸US | vmess | @ShadowProxy66 | 74",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
-                "🇸🇪SE | vless | @v2ray1_ng | 3",
+                "🇨🇦CA | vmess | @v2ray1_ng | 4",
+                "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 156",
@@ -355,6 +359,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @NIM_VPN_ir | 8",
+            "type": "vless",
+            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles.",
+            "server_port": 80,
+            "uuid": "ed546b55-7f31-4c43-9a75-cf8aac59f60b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles."
+                }
+            }
+        },
+        {
             "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
             "server": "54.228.21.231",
@@ -382,27 +407,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
-            "type": "vless",
-            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles.",
-            "server_port": 80,
-            "uuid": "ed546b55-7f31-4c43-9a75-cf8aac59f60b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles."
                 }
             }
         },
@@ -914,7 +918,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "99.81.109.6",
+            "server": "34.251.66.1",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1197,7 +1201,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 65",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 74",
             "type": "vmess",
             "server": "140.82.4.81",
             "server_port": 45970,
@@ -1276,6 +1280,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @v2ray_swhil | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.xn--vduxm832c504a.xyz",
@@ -1311,11 +1349,45 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray1_ng | 3",
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 4",
+            "type": "vmess",
+            "server": "172.67.173.199",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jader.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "jader.fun"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @vless_vmess | 12",
             "type": "vless",
-            "server": "185.146.173.20",
-            "server_port": 2052,
-            "uuid": "9110e2f1-88e5-4a58-8b10-982c5b8138ff",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1323,11 +1395,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "test50.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.20"
+                    "Host": "test50.pages.dev"
                 }
             }
         },
