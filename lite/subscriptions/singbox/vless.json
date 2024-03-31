@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇷🇺RU | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇷🇺RU | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1519,11 +1519,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇷🇺RU | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "free.sharkv2r.com",
-            "server_port": 2087,
-            "uuid": "------Evay_vpn------",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "4dea1444-36df-4813-8611-21a5680ccd5c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1533,7 +1533,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "join20.maznet.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1542,11 +1542,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
+                }
             }
         },
         {
