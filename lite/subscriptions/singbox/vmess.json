@@ -108,8 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
+                "🇺🇸US | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10"
@@ -121,8 +123,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
+                "🇺🇸US | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10"
@@ -182,6 +186,30 @@
             }
         },
         {
+            "tag": "🇭🇰HK | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "hrgdvpn.flycdnedc55.vip",
+            "server_port": 80,
+            "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/opt\/video\/images",
+                "headers": {
+                    "Host": "hrgdvpn.flycdnedc55.vip"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "ftp-localcdn.kiava-cloud.us.to",
@@ -221,6 +249,23 @@
             "server": "146.59.17.58",
             "server_port": 12960,
             "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 30",
+            "type": "vmess",
+            "server": "23.224.33.23",
+            "server_port": 20259,
+            "uuid": "c001cb39-162c-491c-8a76-8d2e15236b6f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
