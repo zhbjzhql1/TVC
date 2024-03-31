@@ -113,8 +113,7 @@
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ]
         },
         {
@@ -128,8 +127,7 @@
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -304,7 +302,7 @@
         {
             "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
-            "server": "104.21.75.244",
+            "server": "104.16.216.241",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -319,7 +317,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "janett.click",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -331,41 +329,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "janett.click"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "ftp-localcdn.kiava-cloud.us.to",
-            "server_port": 443,
-            "uuid": "f386b1e6-a737-47fe-9046-736fb43b7eae",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp-localcdn.kiava-cloud.us.to",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkiava",
-                "headers": {
-                    "Host": "ftp-localcdn.kiava-cloud.us.to"
+                    "Host": ""
                 }
             }
         }
