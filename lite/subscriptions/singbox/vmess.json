@@ -108,12 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -122,12 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,7 +186,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 13",
             "type": "vmess",
             "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
@@ -335,6 +337,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "admin.arzonhost.ir",
+            "server_port": 2086,
+            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
