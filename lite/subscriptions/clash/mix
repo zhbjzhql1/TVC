@@ -126,7 +126,7 @@ proxies:
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.127.145.66","port":2087,"password":"ZBMv8ME+6NyoFNl1/aieDcpKb4sTaWpLaopaJ3IlKn4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 18","type":"ss","server":"217.182.198.219","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
-  - {"name":"🇫🇷FR | trojan | @forwardv2ray | 16","type":"trojan","server":"13.36.79.202","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇸IS | vmess | @forwardv2ray | 12","type":"vmess","server":"is1-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"50eeadca-5798-4517-8549-1b25bdcff7bf","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"is1-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -141,7 +141,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇫🇷FR | trojan | @forwardv2ray | 16'
+      - '🇮🇸IS | vmess | @forwardv2ray | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,7 +156,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇫🇷FR | trojan | @forwardv2ray | 16'
+      - '🇮🇸IS | vmess | @forwardv2ray | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,7 +170,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇫🇷FR | trojan | @forwardv2ray | 16'
+      - '🇮🇸IS | vmess | @forwardv2ray | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
