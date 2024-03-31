@@ -126,7 +126,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 7",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 16",
+                "🇺🇸US | vless | @v2rayngvpn | 16",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 52",
                 "🇨🇦CA | vless | @ServerNett | 8",
@@ -155,7 +155,6 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -194,7 +193,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 7",
@@ -202,7 +201,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 16",
+                "🇺🇸US | vless | @v2rayngvpn | 16",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 52",
                 "🇨🇦CA | vless | @ServerNett | 8",
@@ -223,7 +222,6 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -801,11 +799,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "9ed9cf15-bdee-4574-9147-675003f2be7d",
+            "server": "shiatv.net",
+            "server_port": 2096,
+            "uuid": "7df51963-e0a2-4539-ac79-ca225546f391",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -813,12 +811,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@daily_configs--@daily_configs--@daily_configs--@daily_configs@daily_configs",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "channel.v2bamdad.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "BBjszEZzABSQuqxj4FxIzvwxUDoX",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1009,11 +1017,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
+            "tag": "🇺🇸US | vless | @v2rayngvpn | 16",
             "type": "vless",
-            "server": "104.31.16.65",
+            "server": "162.159.152.2",
             "server_port": 443,
-            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1023,7 +1031,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "filTer-1tg.pAges.DeV",
+                "server_name": "Hagh.PaGes.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1033,9 +1041,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@VPNHUB69\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "filTer-1tg.pAges.DeV"
+                    "Host": "Hagh.PaGes.DEv"
                 }
             }
         },
@@ -1538,37 +1546,6 @@
                 "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
                     "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "172.67.141.223",
-            "server_port": 8443,
-            "uuid": "5b653b1c-dc8b-402d-ae67-f3d039d61f20",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnproxy66.v2panel.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vpnproxy66.v2panel.workers.dev"
                 }
             }
         },
