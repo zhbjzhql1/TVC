@@ -122,7 +122,7 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"156.251.217.24","port":"31464","cipher":"auto","uuid":"403af391-7108-47ef-9239-0236359f010a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"108.61.218.225","port":"55491","cipher":"auto","uuid":"bb98b924-29b0-4f46-8417-5e1262fb6f61","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 18","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":2052,"cipher":"aes-128-gcm","uuid":"d0a3e08a-d26f-45bd-ba3c-6387f9182633","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/c9efxRCi","headers":{"host":"7nAi74jJsg1.yofnhkfc.xyz"}}}
+  - {"name":"🇹🇼TW | vmess | @forwardv2ray | 18","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":"80","cipher":"auto","uuid":"ae1e5588-79c2-44a9-a2c8-a8e4b645fcce","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tw1g.xn--vhq70hxyat50h6wk.com"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -133,7 +133,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 18'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
+      - '🇹🇼TW | vmess | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,7 +144,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 18'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
+      - '🇹🇼TW | vmess | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -154,7 +154,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 18'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
+      - '🇹🇼TW | vmess | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
