@@ -127,8 +127,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 8",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @V2rayCollector | 9",
                 "🇳🇱NL | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -137,7 +137,7 @@
                 "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
-                "🇨🇦CA | vless | @v2rayngvpn | 12",
+                "🇺🇸US | vless | @v2rayngvpn | 12",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -168,7 +168,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TVCminer | 10"
+                "🇺🇸US | vless | @TVCminer | 11"
             ]
         },
         {
@@ -196,8 +196,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 8",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @V2rayCollector | 9",
                 "🇳🇱NL | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -206,7 +206,7 @@
                 "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
-                "🇨🇦CA | vless | @v2rayngvpn | 12",
+                "🇺🇸US | vless | @v2rayngvpn | 12",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -237,7 +237,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TVCminer | 10"
+                "🇺🇸US | vless | @TVCminer | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -366,7 +366,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "15.188.5.86",
+            "server": "13.38.231.61",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -800,7 +800,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -831,7 +831,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollector | 8",
+            "tag": "🇺🇸US | vless | @V2rayCollector | 9",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1046,11 +1046,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
+            "tag": "🇺🇸US | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "104.25.254.88",
-            "server_port": 2095,
-            "uuid": "57569bb2-ed01-45b2-a3e6-6acfb1b2288c",
+            "server": "172.67.220.65",
+            "server_port": 443,
+            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1058,11 +1058,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.de.mnhacker.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/eliv2ray-niceOne,eliv2ray-niceOne,eliv2ray-niceOne?ed=2095",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.25.254.88"
+                    "Host": "watashi.free.de.mnhacker.eu.org"
                 }
             }
         },
@@ -1532,9 +1542,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.21.10.94",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "free.sharkv2r.com",
+            "server_port": 2087,
+            "uuid": "------Evay_vpn------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1544,7 +1554,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "server_name": "free.sharkv2r.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1553,11 +1563,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "baipiao406.stunning-bassoon.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn-",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1863,7 +1873,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 10",
+            "tag": "🇺🇸US | vless | @TVCminer | 11",
             "type": "vless",
             "server": "45.66.249.114",
             "server_port": 443,
