@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇿CZ | vmess | @ShadowProxy66 | 23 = vmess, 94.131.97.127, 80, username = 3669d547-ee0c-477d-8e47-c4400965db74, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"cz2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @forwardv2ray | 16 = vmess, hms082.gwdef.sbs, 443, username = bc864078-dcf3-4bf4-8dbf-ca9f200b56be, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"gwdef.sbs", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 16
+URL-TEST = url-test,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 16
+FALLBACK = fallback,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
