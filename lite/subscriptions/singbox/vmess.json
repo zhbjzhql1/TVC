@@ -345,9 +345,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "nelly.homes",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "cloudflare.b4a-devs.org",
+            "server_port": 2083,
+            "uuid": "0a40bceb-6a30-4da2-b90b-2ae5ed018e98",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -360,7 +360,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "cloudflare.b4a-devs.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -370,9 +370,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/cloudflare",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": "cloudflare.b4a-devs.org"
                 }
             }
         }
