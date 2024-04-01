@@ -109,12 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
-                "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇫🇷FR | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -124,12 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
-                "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇫🇷FR | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -220,23 +220,6 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @prrofile_purple | 178",
-            "type": "vmess",
-            "server": "146.59.17.58",
-            "server_port": 12960,
-            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
             "type": "vmess",
             "server": "94.131.97.127",
@@ -319,11 +302,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.21.235.39",
-            "server_port": 80,
-            "uuid": "f4c98b50-e614-11ee-b430-205c6d5f5d78",
+            "server": "141.94.237.81",
+            "server_port": 8442,
+            "uuid": "60df4ec6-7506-407e-998e-b1539fc0630f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,13 +316,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -373,6 +349,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "172.67.68.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
                 }
             }
         }
