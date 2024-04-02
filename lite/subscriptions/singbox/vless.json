@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 9",
@@ -133,7 +133,7 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 7",
-                "🇨🇦CA | vless | @prrofile_purple | 181",
+                "🇺🇸US | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 32",
+                "🏳️XX | vless | @v2ray_swhil | 31",
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
@@ -176,7 +176,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 9",
@@ -203,7 +203,7 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 7",
-                "🇨🇦CA | vless | @prrofile_purple | 181",
+                "🇺🇸US | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 32",
+                "🏳️XX | vless | @v2ray_swhil | 31",
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
@@ -262,7 +262,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
             "type": "vless",
             "server": "104.25.254.88",
             "server_port": 2095,
@@ -975,7 +975,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 181",
             "type": "vless",
             "server": "clear.xn--fhq0la447aac5504dea701axr1g.com",
             "server_port": 443,
@@ -1203,12 +1203,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 32",
+            "tag": "🏳️XX | vless | @v2ray_swhil | 31",
             "type": "vless",
-            "server": "tataloo.mmdgogoli.top",
-            "server_port": 2096,
-            "uuid": "1bd02898-157f-4a11-8975-bc5c85efdd49",
-            "flow": "xtls-rprx-vision",
+            "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
+            "server_port": 443,
+            "uuid": "fbff132d-376f-43d8-a806-40cbbe1672a1",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1217,25 +1217,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tataloo.mmdgogoli.top",
+                "server_name": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1uusCeZdH1ll6FZk2PBdAGxsoIrq-WQ-0IePOQ3P4g4",
-                    "short_id": ""
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev"
+                }
             }
         },
         {
