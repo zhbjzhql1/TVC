@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"18.185.59.146","port":2087,"password":"/Ty5rY3O4szP4YT7kDDRa9zck7j/dpgQ1aepGq+dViQ=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"slime-rhinestone-spy.glitch.me","port":"443","cipher":"auto","uuid":"83a5c82d-a047-418e-9ad9-6ce8c5aaba59","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess","headers":{"host":"slime-rhinestone-spy.glitch.me"}}}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 18","type":"ss","server":"account-mec.emofid.co","port":443,"password":"goBk19aChEH2xXqI","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,7 +137,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇬🇧GB | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇬🇧GB | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇬🇧GB | ss | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
