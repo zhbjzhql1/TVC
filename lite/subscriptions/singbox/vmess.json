@@ -110,7 +110,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇲🇴MO | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇲🇴MO | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
@@ -234,11 +234,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇲🇴MO | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "149.28.46.252",
-            "server_port": 18118,
-            "uuid": "e223876d-ae70-4889-f6cf-15097a008888",
+            "server": "27.109.160.174",
+            "server_port": 54866,
+            "uuid": "be77618a-737e-4260-cc87-e405073f91dc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -248,6 +248,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/免费节点分享TG频道@WSBVPN",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -277,9 +284,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.21.16.62",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "admin.arzonhost.ir",
+            "server_port": 2086,
+            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,21 +297,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "irene.lat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "irene.lat"
+                    "Host": "admin.arzonhost.ir"
                 }
             }
         },
