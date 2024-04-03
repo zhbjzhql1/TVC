@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇸🇪SE | vless | @V2rayCollector | 5",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -157,7 +157,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇸🇪SE | vless | @V2rayCollector | 5",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -229,7 +229,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -813,7 +813,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1639,11 +1639,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "free.sharkv2r.com",
-            "server_port": 2087,
-            "uuid": "------EVAY_vpn------",
+            "server": "parspack.com",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1653,7 +1653,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "Bia.alLhub.Ltd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1662,11 +1662,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
             }
         },
         {
