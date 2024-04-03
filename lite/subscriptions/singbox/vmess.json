@@ -108,14 +108,15 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
-                "🇨🇦CA | vmess | @customv2ray | 12",
-                "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
-                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @yaney_01 | 1",
+                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
+                "🇺🇸US | vmess | @ROMAX_VPN | 8"
             ]
         },
         {
@@ -124,14 +125,15 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
-                "🇨🇦CA | vmess | @customv2ray | 12",
-                "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
-                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @yaney_01 | 1",
+                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
+                "🇺🇸US | vmess | @ROMAX_VPN | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -188,7 +190,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -246,7 +248,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
+            "tag": "🇺🇸US | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "s1c.v2.v001sss.xyz",
             "server_port": 2082,
@@ -270,7 +272,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 1",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -304,11 +306,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "cf.iepl.live",
-            "server_port": 2086,
-            "uuid": "3960f128-1163-40a3-8dd7-7c91176e14a5",
+            "server": "107.172.25.132",
+            "server_port": 18117,
+            "uuid": "e2cfd504-b51f-42a4-cc18-665f82f2549c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,17 +320,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.26.9.202",
             "server_port": 443,
@@ -362,6 +357,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "172.67.201.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maggiy.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "maggiy.shop"
+                }
+            }
+        },
+        {
             "tag": "🇵🇱PL | vmess | @eliya_chiter0 | 2",
             "type": "vmess",
             "server": "146.59.17.58",
@@ -379,7 +408,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 8",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 8",
             "type": "vmess",
             "server": "104.26.9.202",
             "server_port": 443,
