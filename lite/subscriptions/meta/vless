@@ -169,7 +169,7 @@ proxies:
   - {"name":"🏳️XX | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | vless | @TIKTOK_PROXY | 1","type":"vless","server":"172.67.146.100","port":443,"udp":false,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"baipiao163.stunning-bassoon.pages.dev","ws-opts":{"path":"Path/Telegram@V2ray_alpha/?ed=2048","headers":{"host":"baipiao163.stunning-bassoon.pages.dev"}}}
   - {"name":"🇺🇸US | vless | @TVCminer | 12","type":"vless","server":"45.66.249.114","port":443,"udp":false,"uuid":"09e02255-eb34-4665-979f-ee448d4446ab","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"lsa.jarviskit.com","flow":"xtls-rprx-vision"}
-  - {"name":"🇪🇸ES | vless | @raze_vpn | 9","type":"vless","server":"172.233.121.188","port":12907,"udp":false,"uuid":"496e77fd-1e59-4cc5-bf1f-4d8d3b608696","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":""}}
+  - {"name":"🇳🇱NL | vless | @raze_vpn | 7","type":"vless","server":"172.233.47.246","port":47874,"udp":false,"uuid":"bc2777aa-7791-4e0a-ad00-8afe7837ff2c","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":""}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -225,7 +225,7 @@ proxy-groups:
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇺🇸US | vless | @TIKTOK_PROXY | 1'
       - '🇺🇸US | vless | @TVCminer | 12'
-      - '🇪🇸ES | vless | @raze_vpn | 9'
+      - '🇳🇱NL | vless | @raze_vpn | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -281,7 +281,7 @@ proxy-groups:
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇺🇸US | vless | @TIKTOK_PROXY | 1'
       - '🇺🇸US | vless | @TVCminer | 12'
-      - '🇪🇸ES | vless | @raze_vpn | 9'
+      - '🇳🇱NL | vless | @raze_vpn | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -336,7 +336,7 @@ proxy-groups:
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇺🇸US | vless | @TIKTOK_PROXY | 1'
       - '🇺🇸US | vless | @TVCminer | 12'
-      - '🇪🇸ES | vless | @raze_vpn | 9'
+      - '🇳🇱NL | vless | @raze_vpn | 7'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
