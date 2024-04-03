@@ -125,8 +125,9 @@ proxies:
   - {"name":"🇮🇷IR | vmess | @prrofile_purple | 170","type":"vmess","server":"62.60.135.13","port":"8080","cipher":"auto","uuid":"4dba618a-a752-40b5-a583-8b0ed0724009","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 14","type":"ss","server":"89.19.216.18","port":8388,"password":"NC7jORVNrruV/+3+PwOJrnnOeG7n75X1","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 7","type":"vmess","server":"caretaker.com","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 7","type":"vmess","server":"caretaker.com","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
   - {"name":"🇨🇦CA | vmess | @v2Line | 9","type":"vmess","server":"104.21.30.254","port":"443","cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
+  - {"name":"🇦🇪AE | ss | @forwardv2ray | 16","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -140,8 +141,9 @@ proxy-groups:
       - '🇮🇷IR | vmess | @prrofile_purple | 170'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 14'
-      - '🇺🇸US | vmess | @Hope_Net | 7'
+      - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇦🇪AE | ss | @forwardv2ray | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -155,8 +157,9 @@ proxy-groups:
       - '🇮🇷IR | vmess | @prrofile_purple | 170'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 14'
-      - '🇺🇸US | vmess | @Hope_Net | 7'
+      - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇦🇪AE | ss | @forwardv2ray | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -169,8 +172,9 @@ proxy-groups:
       - '🇮🇷IR | vmess | @prrofile_purple | 170'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 14'
-      - '🇺🇸US | vmess | @Hope_Net | 7'
+      - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇦🇪AE | ss | @forwardv2ray | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
