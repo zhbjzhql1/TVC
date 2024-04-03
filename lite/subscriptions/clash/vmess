@@ -121,8 +121,8 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬SG | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"27.50.48.72","port":"2086","cipher":"auto","uuid":"3960f128-1163-40a3-8dd7-7c91176e14a5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"krcc1.topf6.com"}}}
-  - {"name":"🇮🇷IR | vmess | @prrofile_purple | 170","type":"vmess","server":"62.60.135.13","port":"8080","cipher":"auto","uuid":"4dba618a-a752-40b5-a583-8b0ed0724009","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🇨🇦CA | vmess | @customv2ray | 12","type":"vmess","server":"s1c.v2.v001sss.xyz","port":"2082","cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {"name":"🇮🇷IR | vmess | @prrofile_purple | 180","type":"vmess","server":"62.60.135.13","port":"8080","cipher":"auto","uuid":"4dba618a-a752-40b5-a583-8b0ed0724009","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🇺🇸US | vmess | @customv2ray | 12","type":"vmess","server":"s1c.v2.v001sss.xyz","port":"2082","cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"caretaker.com","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
 proxy-groups:
   - name: MANUAL
@@ -133,8 +133,8 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇸🇬SG | vmess | @oneclickvpnkeys | 9'
-      - '🇮🇷IR | vmess | @prrofile_purple | 170'
-      - '🇨🇦CA | vmess | @customv2ray | 12'
+      - '🇮🇷IR | vmess | @prrofile_purple | 180'
+      - '🇺🇸US | vmess | @customv2ray | 12'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
   - name: URL-TEST
     type: url-test
@@ -145,8 +145,8 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇸🇬SG | vmess | @oneclickvpnkeys | 9'
-      - '🇮🇷IR | vmess | @prrofile_purple | 170'
-      - '🇨🇦CA | vmess | @customv2ray | 12'
+      - '🇮🇷IR | vmess | @prrofile_purple | 180'
+      - '🇺🇸US | vmess | @customv2ray | 12'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
   - name: FALLBACK
     type: fallback
@@ -156,8 +156,8 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇸🇬SG | vmess | @oneclickvpnkeys | 9'
-      - '🇮🇷IR | vmess | @prrofile_purple | 170'
-      - '🇨🇦CA | vmess | @customv2ray | 12'
+      - '🇮🇷IR | vmess | @prrofile_purple | 180'
+      - '🇺🇸US | vmess | @customv2ray | 12'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
