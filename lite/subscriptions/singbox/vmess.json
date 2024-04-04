@@ -112,8 +112,8 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇯🇵JP | vmess | @forwardv2ray | 18",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
@@ -128,8 +128,8 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇯🇵JP | vmess | @forwardv2ray | 18",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
@@ -304,40 +304,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
-            "type": "vmess",
-            "server": "172.67.152.200",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "meroiy.icu"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
             "server": "104.21.30.254",
@@ -368,6 +334,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "be2-vmess.sshmax.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "47.74.6.16",
+            "server_port": 2052,
+            "uuid": "039fc4e4-92b0-489c-a7c3-d02d40eaa551",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/039fc4e4",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
