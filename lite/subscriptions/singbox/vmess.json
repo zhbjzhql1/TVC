@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @customv2ray | 11",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -123,9 +123,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @customv2ray | 11",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -183,40 +183,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "v2ray.ibgfw.top",
-            "server_port": 2053,
-            "uuid": "0f1b29b8-0f0f-431a-b6d1-035803a95c32",
-            "security": "auto",
-            "alter_id": -1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray.ibgfw.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vVNUJOgb\/",
-                "headers": {
-                    "Host": "v2ray.ibgfw.top"
-                }
             }
         },
         {
@@ -284,6 +250,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "muriel.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 23",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
                 }
             }
         },
