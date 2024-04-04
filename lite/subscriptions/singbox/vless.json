@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 16",
+                "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
@@ -128,9 +128,9 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
-                "🇦🇱AL | vless | @azadi_az_inja_migzare | 2",
+                "🇹🇷TR | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇺🇸US | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 11",
@@ -150,8 +150,8 @@
                 "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @lrnbymaa | 10",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇫🇮FI | vless | @Outlinev2rayNG | 14",
@@ -179,7 +179,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 16",
+                "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
@@ -201,9 +201,9 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
-                "🇦🇱AL | vless | @azadi_az_inja_migzare | 2",
+                "🇹🇷TR | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇺🇸US | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 11",
@@ -223,8 +223,8 @@
                 "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @lrnbymaa | 10",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇫🇮FI | vless | @Outlinev2rayNG | 14",
@@ -268,11 +268,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 16",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-30",
+            "uuid": "Parsashonam-31",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -876,11 +876,11 @@
             }
         },
         {
-            "tag": "🇦🇱AL | vless | @azadi_az_inja_migzare | 2",
+            "tag": "🇹🇷TR | vless | @azadi_az_inja_migzare | 1",
             "type": "vless",
-            "server": "zerocool.cheshmsabz.toP",
-            "server_port": 45102,
-            "uuid": "687970f6-cd47-4fc2-91a4-6f0e4d49089f",
+            "server": "tr1-vless.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "b9dd5a9e-8cc6-474c-9ae8-e7db6c2cc76d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -888,19 +888,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
-                    "short_id": "9f935adfaf516589"
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "tr1-vless.sshmax.xyz"
                 }
             }
         },
@@ -936,7 +928,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ProxyForOpeta | 3",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "edgu.pureboy.eu.org",
             "server_port": 80,
@@ -1479,7 +1471,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 10",
+            "tag": "🇺🇸US | vless | @lrnbymaa | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2052,
@@ -1500,7 +1492,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
