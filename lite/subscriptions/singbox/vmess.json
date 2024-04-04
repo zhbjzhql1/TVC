@@ -112,7 +112,7 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
@@ -128,7 +128,7 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
@@ -304,11 +304,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "ying.appleid.bf",
+            "server_port": 2082,
+            "uuid": "9972e893-335f-49d5-a7a1-d520826e58ac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,21 +319,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": ""
                 }
             }
         },

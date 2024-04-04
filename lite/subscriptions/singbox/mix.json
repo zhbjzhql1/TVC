@@ -156,7 +156,7 @@
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 5",
@@ -166,7 +166,7 @@
                 "🇬🇧GB | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 7",
+                "🇧🇭BH | ss | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -239,7 +239,7 @@
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 5",
@@ -249,7 +249,7 @@
                 "🇬🇧GB | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 7",
+                "🇧🇭BH | ss | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1581,11 +1581,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "ying.appleid.bf",
+            "server_port": 2082,
+            "uuid": "9972e893-335f-49d5-a7a1-d520826e58ac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1596,21 +1596,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -1848,35 +1838,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 7",
-            "type": "vless",
-            "server": "104.21.50.213",
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
             "server_port": 443,
-            "uuid": "db1eeace-797f-4d75-ac27-9a97acda853d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pikk.minusober.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pikk",
-                "headers": {
-                    "Host": "pikk.minusober.com"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇮🇷IR | vless | @FAKEOFTVC | 0",
