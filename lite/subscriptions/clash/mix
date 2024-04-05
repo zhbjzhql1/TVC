@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | vmess | @azadi_az_inja_migzare | 1","type":"vmess","server":"zula.ir","port":"8443","cipher":"auto","uuid":"2f2a7a62-3a15-41c4-98c3-ba062e291d24","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"VPNHOMES","grpc-mode":"gun"}}
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 19","type":"trojan","server":"18.169.63.65","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | vmess | @azadi_az_inja_migzare | 1","type":"vmess","server":"zula.ir","port":"8443","cipher":"auto","uuid":"2f2a7a62-3a15-41c4-98c3-ba062e291d24","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"VPNHOMES","grpc-mode":"gun"}}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 19","type":"trojan","server":"18.203.55.93","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 19","type":"trojan","server":"3.9.51.47","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -127,8 +127,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"localcdn-file.kiava-cloud.us.to","port":"443","cipher":"auto","uuid":"183bc5f8-68d5-4088-ab5f-4ab26a9c79f6","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkfile","headers":{"host":"localcdn-file.kiava-cloud.us.to"}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵JP | ss | @OutlineVpnOfficial | 18","type":"ss","server":"185.172.113.182","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 19","type":"trojan","server":"35.180.176.73","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"66.42.100.187","port":"50131","cipher":"auto","uuid":"5afaa575-704c-43d2-a639-dd4b87cfd28a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"172.67.229.35","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
   - {"name":"🇩🇪DE | ss | @forwardv2ray | 17","type":"ss","server":"49.13.10.50","port":1194,"password":"Uxm4ADwftKdXq5qRA4ZfHS","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 3","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @ROMAX_VPN | 7","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
@@ -139,8 +138,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | vmess | @azadi_az_inja_migzare | 1'
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇺🇸US | vmess | @azadi_az_inja_migzare | 1'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇬🇧GB | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
@@ -148,7 +147,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇩🇪DE | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @FAKEOFTVC | 3'
@@ -160,8 +158,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | vmess | @azadi_az_inja_migzare | 1'
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇺🇸US | vmess | @azadi_az_inja_migzare | 1'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇬🇧GB | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
@@ -169,7 +167,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇩🇪DE | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @FAKEOFTVC | 3'
@@ -180,8 +177,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | vmess | @azadi_az_inja_migzare | 1'
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇺🇸US | vmess | @azadi_az_inja_migzare | 1'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇬🇧GB | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
@@ -189,7 +186,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇩🇪DE | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @FAKEOFTVC | 3'
