@@ -135,14 +135,13 @@
                 "🇮🇷IR | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇺🇸US | vless | @vmessorg | 33",
+                "🇨🇦CA | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 12",
                 "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 25",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
@@ -150,7 +149,6 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -206,14 +204,13 @@
                 "🇮🇷IR | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇺🇸US | vless | @vmessorg | 33",
+                "🇨🇦CA | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 12",
                 "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 25",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
@@ -221,7 +218,6 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -1010,7 +1006,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 33",
+            "tag": "🇨🇦CA | vless | @vmessorg | 33",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1190,37 +1186,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 25",
-            "type": "vless",
-            "server": "54.37.76.9",
-            "server_port": 8080,
-            "uuid": "JOIN-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.kellekcollection.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 15",
             "type": "vless",
             "server": "185.146.173.95",
@@ -1377,37 +1342,6 @@
                 "path": "\/Path\/Telegram@sinabigo\/",
                 "headers": {
                     "Host": "w1.sylar8.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "104.17.58.44",
-            "server_port": 443,
-            "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.restia.love",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vpn.restia.love"
                 }
             }
         },

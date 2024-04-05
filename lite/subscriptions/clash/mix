@@ -125,7 +125,8 @@ proxies:
   - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵JP | ss | @OutlineVpnOfficial | 18","type":"ss","server":"185.172.113.182","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇪SE | vmess | @Hope_Net | 16","type":"vmess","server":"185.146.173.59","port":"2083","cipher":"auto","uuid":"587fe4b8-5ed8-46a1-8ae4-0a07efd35855","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"2083vmess","grpc-mode":"gun"}}
+  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 9","type":"vmess","server":"upload.ir","port":"443","cipher":"auto","uuid":"33653184-91f3-4f3f-b707-2fc21e9adeb8","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl1-vmess.sshmax.xyz"}}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 16","type":"vmess","server":"205.234.233.68","port":"445","cipher":"auto","uuid":"ff982b62-2d2e-4ebe-befc-6e3d5177857c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 5","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -140,7 +141,8 @@ proxy-groups:
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇸🇪SE | vmess | @Hope_Net | 16'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 9'
+      - '🇺🇸US | vmess | @Hope_Net | 16'
       - '🇬🇧GB | ss | @FAKEOFTVC | 5'
   - name: URL-TEST
     type: url-test
@@ -155,7 +157,8 @@ proxy-groups:
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇸🇪SE | vmess | @Hope_Net | 16'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 9'
+      - '🇺🇸US | vmess | @Hope_Net | 16'
       - '🇬🇧GB | ss | @FAKEOFTVC | 5'
   - name: FALLBACK
     type: fallback
@@ -169,7 +172,8 @@ proxy-groups:
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇸🇪SE | vmess | @Hope_Net | 16'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 9'
+      - '🇺🇸US | vmess | @Hope_Net | 16'
       - '🇬🇧GB | ss | @FAKEOFTVC | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
