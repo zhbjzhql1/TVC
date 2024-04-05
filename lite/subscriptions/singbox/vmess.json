@@ -106,15 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 1",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 1",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇳🇱NL | vmess | @OpenSSTPVpn | 4"
             ]
@@ -123,15 +123,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 1",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 1",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇳🇱NL | vmess | @OpenSSTPVpn | 4"
             ],
@@ -156,7 +156,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 1",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 8443,
@@ -292,6 +292,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "172.67.68.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -381,23 +415,6 @@
                 "headers": {
                     "Host": "vip2323.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "49.13.134.69",
-            "server_port": 5260,
-            "uuid": "06b02791-af50-46bd-8679-bc84b754f0aa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
