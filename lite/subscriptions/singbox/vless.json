@@ -109,11 +109,12 @@
                 "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇺🇸US | vless | @NIM_VPN_ir | 8",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 10",
-                "🇨🇦CA | vless | @V2pedia | 31",
+                "🇩🇪DE | vless | @V2pedia | 28",
                 "🇨🇦CA | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @shh_proxy | 14",
@@ -134,7 +135,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 12",
                 "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
@@ -149,7 +150,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -179,11 +180,12 @@
                 "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇺🇸US | vless | @NIM_VPN_ir | 8",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 10",
-                "🇨🇦CA | vless | @V2pedia | 31",
+                "🇩🇪DE | vless | @V2pedia | 28",
                 "🇨🇦CA | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @shh_proxy | 14",
@@ -204,7 +206,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 12",
                 "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
@@ -219,7 +221,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -332,6 +334,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 8",
+            "type": "vless",
+            "server": "kinghooman.vpnboy.cloud",
+            "server_port": 2087,
+            "uuid": "f6932063-d2d4-4756-a363-47b632a299c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kinghooman.vpnboy.cloud",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "kinghooman.vpnboy.cloud"
+                }
             }
         },
         {
@@ -449,11 +482,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 31",
+            "tag": "🇩🇪DE | vless | @V2pedia | 28",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2096,
-            "uuid": "91771ac1-0f05-4f35-8d81-d9eedc242958",
+            "server": "185.64.114.86",
+            "server_port": 2086,
+            "uuid": "3c4436a8-8338-4420-8392-9ddc092657b7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -461,22 +494,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zedm.zedmodeon.lat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.64.114.86"
+                }
             }
         },
         {
@@ -987,7 +1010,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 33",
+            "tag": "🇺🇸US | vless | @vmessorg | 33",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1358,11 +1381,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.31.16.65",
-            "server_port": 2053,
-            "uuid": "0a0b9604-f2a9-4d73-a698-8e2641d692ae",
+            "server": "104.17.58.44",
+            "server_port": 443,
+            "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1372,7 +1395,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev",
+                "server_name": "vpn.restia.love",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1382,9 +1405,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
+                "path": "\/",
                 "headers": {
-                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev"
+                    "Host": "vpn.restia.love"
                 }
             }
         },
