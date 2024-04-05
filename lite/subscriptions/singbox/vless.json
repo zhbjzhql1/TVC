@@ -128,14 +128,14 @@
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇳🇱NL | vless | @V2rayCollector | 2",
+                "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇺🇸US | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 32",
+                "🇺🇸US | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇮🇷IR | vless | @FalconPolV2rayNG | 2",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -172,7 +172,8 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 2"
+                "🇺🇸US | vless | @TIKTOK_PROXY | 2",
+                "🇨🇦CA | vless | @TVCminer | 10"
             ]
         },
         {
@@ -201,14 +202,14 @@
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇳🇱NL | vless | @V2rayCollector | 2",
+                "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇺🇸US | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 32",
+                "🇺🇸US | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇮🇷IR | vless | @FalconPolV2rayNG | 2",
@@ -224,7 +225,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -245,7 +246,8 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 2"
+                "🇺🇸US | vless | @TIKTOK_PROXY | 2",
+                "🇨🇦CA | vless | @TVCminer | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -876,11 +878,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @V2rayCollector | 2",
+            "tag": "🇨🇦CA | vless | @V2rayCollector | 1",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 80,
-            "uuid": "----DIGiV2RAY---",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -888,11 +890,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "188.114.97.3"
+                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
@@ -928,7 +940,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇺🇸US | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "edgu.pureboy.eu.org",
             "server_port": 80,
@@ -1036,7 +1048,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 32",
+            "tag": "🇺🇸US | vless | @vmessorg | 32",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1492,7 +1504,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -2102,6 +2114,37 @@
                 "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
                     "Host": "baipiao163.stunning-bassoon.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @TVCminer | 10",
+            "type": "vless",
+            "server": "104.24.185.137",
+            "server_port": 2053,
+            "uuid": "eec07c37-3123-478c-8222-82a7e3a96760",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/backup",
+                "headers": {
+                    "Host": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio"
                 }
             }
         }
