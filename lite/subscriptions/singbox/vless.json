@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -126,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -149,11 +150,11 @@
                 "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇺🇸US | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇫🇮FI | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -178,6 +179,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -198,7 +200,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -221,11 +223,11 @@
                 "🇳🇱NL | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇺🇸US | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @lrnbymaa | 10",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇫🇮FI | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -264,6 +266,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 12",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "ELiV2RAY-ELiV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 14",
@@ -822,7 +845,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1448,7 +1471,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lrnbymaa | 10",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2052,
@@ -1469,7 +1492,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1552,11 +1575,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "95.217.21.32",
-            "server_port": 1533,
-            "uuid": "d8945a22-6faa-4d7f-99c6-73e9bbce6e1d",
+            "server": "dnschecker.org",
+            "server_port": 443,
+            "uuid": "15f986b7-33f7-40f5-8412-f6bb15765edf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1564,12 +1587,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "95.217.21.32"
+            "tls": {
+                "enabled": true,
+                "server_name": "dm.irandtehran.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
