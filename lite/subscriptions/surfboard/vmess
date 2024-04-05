@@ -11,13 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @oneclickvpnkeys | 8 = vmess, localcdn-file.kiava-cloud.us.to, 443, username = 183bc5f8-68d5-4088-ab5f-4ab26a9c79f6, ws = true, tls = 1, vmess-aead = true, ws-path = /linkfile, ws-headers = Host:"localcdn-file.kiava-cloud.us.to", skip-cert-verify = true, tfo = false
-🇩🇪DE | vmess | @ConfigsHUB | 18 = vmess, d.v2spd.site, 443, username = 5b780720-0f3f-4940-a20d-ecbf7674b4fd, ws = true, tls = 1, vmess-aead = true, ws-path = /linkvws, ws-headers = Host:"d.v2spd.site", skip-cert-verify = true, tfo = false
-🇳🇱NL | vmess | @OpenSSTPVpn | 4 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
+🇳🇱NL | vmess | @oneclickvpnkeys | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇩🇪DE | vmess | @ConfigsHUB | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇩🇪DE | vmess | @ConfigsHUB | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇩🇪DE | vmess | @ConfigsHUB | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | vmess | @oneclickvpnkeys | 9
+URL-TEST = url-test,🇳🇱NL | vmess | @oneclickvpnkeys | 9
+FALLBACK = fallback,🇳🇱NL | vmess | @oneclickvpnkeys | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
