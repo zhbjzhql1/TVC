@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇳🇱NL | vmess | @OpenSSTPVpn | 9"
+                "🇺🇸US | vmess | @OpenSSTPVpn | 8"
             ]
         },
         {
@@ -123,13 +124,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇳🇱NL | vmess | @OpenSSTPVpn | 9"
+                "🇺🇸US | vmess | @OpenSSTPVpn | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -189,6 +191,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "47.106.112.114",
+            "server_port": 80,
+            "uuid": "7c1d9869-ecac-4ca6-b7e7-ecb60f503078",
+            "security": "auto",
+            "alter_id": -1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "47.106.112.114"
                 }
             }
         },
@@ -380,9 +406,9 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @OpenSSTPVpn | 9",
+            "tag": "🇺🇸US | vmess | @OpenSSTPVpn | 8",
             "type": "vmess",
-            "server": "188.114.97.3",
+            "server": "afrhms16v.bestxray.buzz",
             "server_port": 443,
             "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
