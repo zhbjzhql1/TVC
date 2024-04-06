@@ -126,9 +126,10 @@ proxies:
   - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵JP | ss | @OutlineVpnOfficial | 18","type":"ss","server":"185.172.113.182","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 18","type":"vmess","server":"linde06.indiavideo.sbs","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇸🇪SE | vmess | @Hope_Net | 19","type":"vmess","server":"185.146.173.59","port":"2083","cipher":"auto","uuid":"587fe4b8-5ed8-46a1-8ae4-0a07efd35855","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"2083vmess","grpc-mode":"gun"}}
   - {"name":"🇨🇦CA | vmess | @v2Line | 11","type":"vmess","server":"104.21.30.254","port":"443","cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
-  - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 5","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 6","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -143,9 +144,10 @@ proxy-groups:
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 18'
       - '🇸🇪SE | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @v2Line | 11'
-      - '🇬🇧GB | ss | @FAKEOFTVC | 5'
+      - '🇬🇧GB | ss | @FAKEOFTVC | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -160,9 +162,10 @@ proxy-groups:
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 18'
       - '🇸🇪SE | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @v2Line | 11'
-      - '🇬🇧GB | ss | @FAKEOFTVC | 5'
+      - '🇬🇧GB | ss | @FAKEOFTVC | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -176,9 +179,10 @@ proxy-groups:
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 18'
       - '🇸🇪SE | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @v2Line | 11'
-      - '🇬🇧GB | ss | @FAKEOFTVC | 5'
+      - '🇬🇧GB | ss | @FAKEOFTVC | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
