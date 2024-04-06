@@ -111,6 +111,7 @@
                 "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
                 "🇮🇷IR | vmess | @proxyymeliii | 16",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -128,6 +129,7 @@
                 "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
                 "🇮🇷IR | vmess | @proxyymeliii | 16",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -275,6 +277,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "marien.motorcycles"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "c373bd87-06ea-4eef-a33c-6b54d408abf2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fragment2.karop.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNHOMES",
+                "headers": {
+                    "Host": "fragment2.karop.homes"
                 }
             }
         },
