@@ -123,7 +123,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 11","type":"vmess","server":"104.21.94.251","port":"80","cipher":"auto","uuid":"c7421a39-020d-4a01-97ed-9eacbce0a7ca","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"de2.xv2ray.net"}}}
   - {"name":"🇮🇷IR | vmess | @proxyymeliii | 15","type":"vmess","server":"svt55.topnetvip.com","port":"12536","cipher":"auto","uuid":"ea453da1-1353-4b02-89f6-1e71ab2af4c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇩🇪DE | vmess | @Hope_Net | 19","type":"vmess","server":"185.218.126.248","port":"80","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":-1,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v1893298323Py","headers":{"host":""}}}
-  - {"name":"🇳🇱NL | vmess | @OpenSSTPVpn | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
+  - {"name":"🇺🇸US | vmess | @OpenSSTPVpn | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +135,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
       - '🇮🇷IR | vmess | @proxyymeliii | 15'
       - '🇩🇪DE | vmess | @Hope_Net | 19'
-      - '🇳🇱NL | vmess | @OpenSSTPVpn | 9'
+      - '🇺🇸US | vmess | @OpenSSTPVpn | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -147,7 +147,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
       - '🇮🇷IR | vmess | @proxyymeliii | 15'
       - '🇩🇪DE | vmess | @Hope_Net | 19'
-      - '🇳🇱NL | vmess | @OpenSSTPVpn | 9'
+      - '🇺🇸US | vmess | @OpenSSTPVpn | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -158,7 +158,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 11'
       - '🇮🇷IR | vmess | @proxyymeliii | 15'
       - '🇩🇪DE | vmess | @Hope_Net | 19'
-      - '🇳🇱NL | vmess | @OpenSSTPVpn | 9'
+      - '🇺🇸US | vmess | @OpenSSTPVpn | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
