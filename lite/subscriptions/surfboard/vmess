@@ -15,11 +15,11 @@ DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 11 = vmess, 104.21.94.251, 80, username = c7421a39-020d-4a01-97ed-9eacbce0a7ca, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"de2.xv2ray.net", skip-cert-verify = true, tfo = false
 🇮🇷IR | vmess | @proxyymeliii | 15 = vmess, svt55.topnetvip.com, 12536, username = ea453da1-1353-4b02-89f6-1e71ab2af4c2, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇩🇪DE | vmess | @Hope_Net | 19 = vmess, 185.218.126.248, 80, username = 2a8a10fb-9ca3-367e-a234-cf09f841be4f, ws = true, tls = , vmess-aead = false, ws-path = /v1893298323Py, ws-headers = Host:"", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @OpenSSTPVpn | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
+🇳🇱NL | vmess | @OpenSSTPVpn | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇸IS | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇮🇷IR | vmess | @proxyymeliii | 15,🇩🇪DE | vmess | @Hope_Net | 19,🇺🇸US | vmess | @OpenSSTPVpn | 9
-URL-TEST = url-test,🇮🇸IS | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇮🇷IR | vmess | @proxyymeliii | 15,🇩🇪DE | vmess | @Hope_Net | 19,🇺🇸US | vmess | @OpenSSTPVpn | 9
-FALLBACK = fallback,🇮🇸IS | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇮🇷IR | vmess | @proxyymeliii | 15,🇩🇪DE | vmess | @Hope_Net | 19,🇺🇸US | vmess | @OpenSSTPVpn | 9
+MANUAL = select,URL-TEST,FALLBACK,🇮🇸IS | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇮🇷IR | vmess | @proxyymeliii | 15,🇩🇪DE | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+URL-TEST = url-test,🇮🇸IS | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇮🇷IR | vmess | @proxyymeliii | 15,🇩🇪DE | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+FALLBACK = fallback,🇮🇸IS | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇮🇷IR | vmess | @proxyymeliii | 15,🇩🇪DE | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
