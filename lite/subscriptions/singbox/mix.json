@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇩🇪DE | vless | @V2pedia | 28",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 13",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -158,7 +158,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -197,7 +197,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇩🇪DE | vless | @V2pedia | 28",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 13",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -242,7 +242,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -477,7 +477,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "tag": "🇺🇸US | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -837,7 +837,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1560,34 +1560,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "---ID---EVAY_VPN----",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "108.61.84.6",
+            "server_port": 15937,
+            "uuid": "ef239c2f-9105-4cf9-c99c-b70d25982390",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "free.sharkv2r.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
