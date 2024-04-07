@@ -149,7 +149,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 110",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -219,7 +219,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 110",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -1357,39 +1357,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "91.107.135.76",
-            "server_port": 2087,
-            "uuid": "49640cba-7b63-40bb-b2ae-38d9294b0e69",
-            "flow": "xtls-rprx-vision",
+            "server": "2.189.130.78",
+            "server_port": 43675,
+            "uuid": "ace6b95a-f554-4804-867b-bcb2289c49aa",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Zs-U9bKNImrNgq-YOI1Aiil6-9gc9sCUPAxiXP0vHAw",
-                    "short_id": "ecc664bf"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "2.189.130.78"
+                }
             }
         },
         {
