@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸US | vmess | @ConfigsHUB | 15 = vmess, 162.159.1.94, 443, username = 7fff5c98-b6ae-4081-92e0-3f510e256741, ws = true, tls = 1, vmess-aead = false, ws-path = /?ed=2048, ws-headers = Host:"ARCane.RadicalizatiON.IR", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @ConfigsHUB | 15
+URL-TEST = url-test,🇺🇸US | vmess | @ConfigsHUB | 15
+FALLBACK = fallback,🇺🇸US | vmess | @ConfigsHUB | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
