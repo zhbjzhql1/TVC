@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -118,6 +119,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -144,6 +146,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "178.63.150.65",
+            "server_port": 443,
+            "uuid": "67ad1c8d-d52e-4c23-b18f-eaf686aae940",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B48aKMzJEyC-CFBhCyrlGemcy-7mW3jSX799x8p9agU",
+                    "short_id": "99452b17e087bcc0"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "cdn.discordapp.com"
+                ],
+                "path": "\/"
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
