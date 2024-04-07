@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇳🇱NL | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | vless | @ProxyForOpeta | 2",
@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 19",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇳🇱NL | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇳🇱NL | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | vless | @ProxyForOpeta | 2",
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -248,7 +248,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 19",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇳🇱NL | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -783,7 +783,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1440,39 +1440,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "178.63.150.65",
-            "server_port": 443,
-            "uuid": "67ad1c8d-d52e-4c23-b18f-eaf686aae940",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B48aKMzJEyC-CFBhCyrlGemcy-7mW3jSX799x8p9agU",
-                    "short_id": "99452b17e087bcc0"
-                }
-            },
             "transport": {
-                "type": "http",
-                "host": [
-                    "cdn.discordapp.com"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/video\/c9efxRCi",
+                "headers": {
+                    "Host": "cfcdn2.sanfencdn9.com"
+                }
             }
         },
         {
@@ -1777,7 +1765,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 16",
+            "tag": "🇳🇱NL | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "188.114.98.220",
             "server_port": 443,
