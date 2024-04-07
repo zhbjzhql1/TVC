@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @ConfigsHUB | 15 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @Hope_Net | 18 = vmess, 172.67.229.34, 2086, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = , vmess-aead = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:"ca6.tehme100.fun", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ConfigsHUB | 15,🇺🇸US | vmess | @Hope_Net | 18
-URL-TEST = url-test,🇨🇦CA | vmess | @ConfigsHUB | 15,🇺🇸US | vmess | @Hope_Net | 18
-FALLBACK = fallback,🇨🇦CA | vmess | @ConfigsHUB | 15,🇺🇸US | vmess | @Hope_Net | 18
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @Hope_Net | 18
+URL-TEST = url-test,🇺🇸US | vmess | @Hope_Net | 18
+FALLBACK = fallback,🇺🇸US | vmess | @Hope_Net | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
