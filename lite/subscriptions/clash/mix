@@ -118,51 +118,47 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 19","type":"trojan","server":"13.37.74.4","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | trojan | @DirectVPN | 19","type":"trojan","server":"52.60.59.16","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 19","type":"trojan","server":"35.177.155.123","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 19","type":"trojan","server":"3.140.100.175","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 15","type":"ss","server":"134.195.196.178","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | trojan | @ConfigsHUB | 14","type":"trojan","server":"3.73.219.201","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇮FI | vmess | @Hope_Net | 18","type":"vmess","server":"65.109.199.41","port":"2105","cipher":"auto","uuid":"79ab4609-837e-4d49-9a89-970516bcc7d8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"149.28.120.218","port":24721,"cipher":"auto","uuid":"538f45a8-cfeb-4c29-9903-f8ccec575160","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | trojan | @PrivateVPNs | 19'
-      - '🇨🇦CA | trojan | @DirectVPN | 19'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇺🇸US | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 14'
-      - '🇫🇮FI | vmess | @Hope_Net | 18'
+      - '🇺🇸US | vmess | @Hope_Net | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 19'
-      - '🇨🇦CA | trojan | @DirectVPN | 19'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇺🇸US | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 14'
-      - '🇫🇮FI | vmess | @Hope_Net | 18'
+      - '🇺🇸US | vmess | @Hope_Net | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 19'
-      - '🇨🇦CA | trojan | @DirectVPN | 19'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇺🇸US | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 14'
-      - '🇫🇮FI | vmess | @Hope_Net | 18'
+      - '🇺🇸US | vmess | @Hope_Net | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
