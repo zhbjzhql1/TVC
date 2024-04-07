@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 11",
@@ -139,7 +140,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
-                "🇺🇸US | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @vmessorg | 32",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
@@ -150,16 +151,16 @@
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇨🇦CA | vless | @V2RayTz | 16",
+                "🇺🇸US | vless | @V2RayTz | 16",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 102",
+                "🇮🇷IR | vless | @DailyV2RY | 102",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇷CR | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -190,6 +191,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 11",
@@ -223,7 +225,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
-                "🇺🇸US | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @vmessorg | 32",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
@@ -234,16 +236,16 @@
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇨🇦CA | vless | @V2RayTz | 16",
+                "🇺🇸US | vless | @V2RayTz | 16",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 102",
+                "🇮🇷IR | vless | @DailyV2RY | 102",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇷CR | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -288,6 +290,37 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "9c1b18e7-1498-4845-b961-59d36d900a74",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "EliV2ray.naziitness.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 16",
@@ -1130,7 +1163,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 32",
+            "tag": "🇨🇦CA | vless | @vmessorg | 32",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1421,11 +1454,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
+            "tag": "🇺🇸US | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "162.159.134.234",
-            "server_port": 80,
-            "uuid": "cf6238dc-85a6-4c48-b5eb-e0d81126a640",
+            "server": "162.159.153.2",
+            "server_port": 8443,
+            "uuid": "8b93a2ee-b1b0-4674-86ce-3f145e5d5ec2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1433,11 +1466,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "shah67.servernet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/join--severnett",
                 "headers": {
-                    "Host": "162.159.134.234"
+                    "Host": "shah67.servernet.cfd"
                 }
             }
         },
@@ -1452,34 +1495,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 102",
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 102",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2096,
-            "uuid": "8c9cb6e5-1be1-4e35-9ed3-d0d5280479a9",
+            "server": "gr-up.crocdilsvr.site",
+            "server_port": 6060,
+            "uuid": "ac92ee14-8657-43b1-ba4a-c51e7a1fc531",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tp6.zedmodeon.lat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1545,7 +1571,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 443,
@@ -1576,7 +1602,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1641,11 +1667,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "45.63.50.156",
+            "server_port": 31144,
+            "uuid": "462be427-720e-4379-9eb6-32671f21ce52",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1655,23 +1681,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "marien.motorcycles"
-                }
             }
         },
         {
@@ -1854,7 +1863,7 @@
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "104.22.32.78",
+            "server": "172.67.24.121",
             "server_port": 443,
             "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
