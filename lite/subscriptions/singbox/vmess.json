@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇲🇴MO | vmess | @Hope_Net | 18",
-                "🇺🇸US | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @v2Line | 11",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
+                "🏳️XX | vmess | @OpenSSTPVpn | 4"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇲🇴MO | vmess | @Hope_Net | 18",
-                "🇺🇸US | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @v2Line | 11",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
+                "🏳️XX | vmess | @OpenSSTPVpn | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -193,11 +193,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
-            "server": "64.176.201.188",
-            "server_port": 40835,
-            "uuid": "f1bb538f-a53d-45ff-d381-61499f08dfef",
+            "server": "ftp-localcdn.kiava-cloud.us.to",
+            "server_port": 443,
+            "uuid": "3bf8b347-be40-480b-c9c3-4d6e951e208f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -207,6 +207,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/app",
+                "headers": {
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
+                }
             }
         },
         {
@@ -268,7 +285,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 11",
+            "tag": "🇨🇦CA | vmess | @v2Line | 11",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -353,11 +370,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 5",
+            "tag": "🏳️XX | vmess | @OpenSSTPVpn | 4",
             "type": "vmess",
-            "server": "104.21.4.221",
-            "server_port": 443,
-            "uuid": "fa2ad4c5-63ba-45f0-8926-12fcce49ded1",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -367,23 +384,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sxmzkfyy.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VK4yTEQZ\/",
-                "headers": {
-                    "Host": "ru.sxmzkfyy.com"
-                }
             }
         }
     ],
