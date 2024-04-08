@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇳🇱NL | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -123,9 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇳🇱NL | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -193,40 +191,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 9",
-            "type": "vmess",
-            "server": "auth.speedtest.net",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -261,11 +225,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 19",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "45.14.244.133",
-            "server_port": 2024,
-            "uuid": "bf1dd328-a605-48fd-918f-44cca1cfe07f",
+            "server": "167.179.111.237",
+            "server_port": 14935,
+            "uuid": "e961894f-8e90-472f-98d3-09402e4be453",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,13 +239,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
