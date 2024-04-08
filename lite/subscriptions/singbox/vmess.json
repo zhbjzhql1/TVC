@@ -106,11 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
-                "🇮🇷IR | vmess | @v2ray1_ng | 8",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🏳️XX | vmess | @oneclickvpnkeys | 9",
+                "🇮🇷IR | vmess | @v2ray1_ng | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -122,11 +123,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
-                "🇮🇷IR | vmess | @v2ray1_ng | 8",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🏳️XX | vmess | @oneclickvpnkeys | 9",
+                "🇮🇷IR | vmess | @v2ray1_ng | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -154,7 +156,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -229,11 +231,45 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 2105,
-            "uuid": "79ab4609-837e-4d49-9a89-970516bcc7d8",
+            "server": "hms24.ivideos.sbs",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ivideos.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "ivideos.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 9",
+            "type": "vmess",
+            "server": "ftp-localcdn.kiava-cloud.us.to",
+            "server_port": 443,
+            "uuid": "3bf8b347-be40-480b-c9c3-4d6e951e208f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -243,10 +279,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/app",
+                "headers": {
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
+                }
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 8",
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 9",
             "type": "vmess",
             "server": "79.175.151.112",
             "server_port": 58271,
