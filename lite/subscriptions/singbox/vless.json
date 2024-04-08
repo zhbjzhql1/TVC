@@ -146,6 +146,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
@@ -215,6 +216,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
@@ -1281,6 +1283,37 @@
                 "path": "\/Telegram@SINABIGO@SINABIGO\/",
                 "headers": {
                     "Host": "Hagh.PaGes.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.19.7.164",
+            "server_port": 443,
+            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "REsilience.NiREvil.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl\/",
+                "headers": {
+                    "Host": "REsilience.NiREvil.IR"
                 }
             }
         },
