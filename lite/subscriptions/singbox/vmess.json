@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -125,7 +125,7 @@
             "outbounds": [
                 "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -207,7 +207,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -301,9 +301,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "207.148.22.152",
-            "server_port": 52686,
-            "uuid": "f4bbe44f-535b-4234-b9f2-5b88f7dba906",
+            "server": "23.94.104.164",
+            "server_port": 1194,
+            "uuid": "7d309a75-5d7b-409b-f3f6-6f7a45d3f3ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -313,6 +313,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
