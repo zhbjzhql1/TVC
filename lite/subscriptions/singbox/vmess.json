@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -125,12 +125,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -160,7 +160,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -276,11 +276,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "iran-011-join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "64.176.199.51",
+            "server_port": 23534,
+            "uuid": "d7da6369-ea95-4ccf-c721-85200794a62e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,23 +290,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kittiy.sbs"
-                }
             }
         },
         {
