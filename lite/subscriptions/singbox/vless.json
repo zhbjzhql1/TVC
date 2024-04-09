@@ -122,7 +122,7 @@
                 "🇺🇸US | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇺🇸US | vless | @proxy_kafee | 5",
+                "🇺🇸US | vless | @proxy_kafee | 6",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
@@ -130,7 +130,7 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
@@ -145,7 +145,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -191,7 +191,7 @@
                 "🇺🇸US | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇺🇸US | vless | @proxy_kafee | 5",
+                "🇺🇸US | vless | @proxy_kafee | 6",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇮🇷IR | vless | @V2rayCollector | 1",
@@ -199,7 +199,7 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
@@ -214,7 +214,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -682,7 +682,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 5",
+            "tag": "🇺🇸US | vless | @proxy_kafee | 6",
             "type": "vless",
             "server": "visa.com",
             "server_port": 8443,
@@ -911,7 +911,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "accolade.toptechnonews.com",
             "server_port": 443,
@@ -1319,11 +1319,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2086,
-            "uuid": "a51dcb8b-b5aa-42bc-9771-224ac25233f3",
+            "server": "fannland.roshdadcollection.lol",
+            "server_port": 2083,
+            "uuid": "9eb3f95a-616d-41ad-8c4b-314329cc7aeb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1331,12 +1331,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "fannland.roshdadcollection.lol",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@roshdadcollection",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
