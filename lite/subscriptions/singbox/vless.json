@@ -118,7 +118,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
@@ -147,7 +147,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 8",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
@@ -157,7 +157,7 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 4",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🏳️XX | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 23",
@@ -189,7 +189,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
@@ -218,7 +218,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 8",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 16",
@@ -228,7 +228,7 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 4",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🏳️XX | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 23",
@@ -339,7 +339,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "16.16.175.32",
+            "server": "13.48.217.244",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -579,7 +579,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1345,23 +1345,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "discord.org",
-            "server_port": 8080,
-            "uuid": "a08228b2-61d4-49e8-88fc-b99e330f72b0",
-            "flow": "",
+            "server": "162.159.32.35",
+            "server_port": 443,
+            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "REsilience.NiREvil.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/",
                 "headers": {
-                    "Host": "discord.org"
+                    "Host": "REsilience.NiREvil.IR"
                 }
             }
         },
@@ -1606,7 +1616,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 4",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2087,
