@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇬🇧GB | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇺🇸US | vless | @NIM_VPN_ir | 12",
                 "🇨🇦CA | vless | @VlessConfig | 19",
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
@@ -145,8 +145,8 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @proxystore11 | 12",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -173,7 +173,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇬🇧GB | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇺🇸US | vless | @NIM_VPN_ir | 12",
                 "🇨🇦CA | vless | @VlessConfig | 19",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
@@ -212,8 +212,8 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @proxystore11 | 12",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -256,11 +256,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
+            "tag": "🇬🇧GB | vless | @EliV2ray | 15",
             "type": "vless",
-            "server": "shiatv.net",
-            "server_port": 2096,
-            "uuid": "16c5c7ca-f356-4318-9e17-815fb387a9fe",
+            "server": "185.162.228.3",
+            "server_port": 80,
+            "uuid": "Telegram-id-ELiV2Ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -268,22 +268,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "channel.v2bamdad.tech",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "BBjszEZzABSQuqxj4FxIzvwxUDoX",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.162.228.3"
+                }
             }
         },
         {
@@ -331,7 +321,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "15.157.171.41",
+            "server": "35.183.252.128",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -744,7 +734,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1283,11 +1273,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "------EVAY_VPN------",
+            "server": "fanlandtu.roshdadcollection.lol",
+            "server_port": 2083,
+            "uuid": "9eb3f95a-616d-41ad-8c4b-314329cc7aeb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1297,7 +1287,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "fannland.roshdadcollection.lol",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1307,14 +1297,14 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "service_name": "@roshdadcollection",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 12",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
