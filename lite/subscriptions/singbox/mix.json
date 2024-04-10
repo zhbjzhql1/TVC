@@ -132,7 +132,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇷🇺RU | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -140,7 +139,7 @@
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇮🇷IR | vless | @v2rayngvpn | 8",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇨🇦CA | vless | @ServerNett | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -153,8 +152,8 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -218,7 +217,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇷🇺RU | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -226,7 +224,7 @@
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇮🇷IR | vless | @v2rayngvpn | 8",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇨🇦CA | vless | @ServerNett | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -239,8 +237,8 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -950,30 +948,6 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "103.113.68.233",
-            "server_port": 8080,
-            "uuid": "fddb3781-7e15-4731-a933-94db110b4bbc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "103.113.68.233"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "91.107.130.94",
@@ -1147,7 +1121,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1468,38 +1442,31 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "------EVAY_VPN------",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.17.25.1",
+            "server_port": 80,
+            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "free.sharkv2r.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.17.25.1"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
