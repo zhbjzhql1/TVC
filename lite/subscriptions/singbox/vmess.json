@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇪🇸ES | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
@@ -117,7 +118,7 @@
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
+                "🇺🇸US | vmess | @OpenSSTPVpn | 4"
             ]
         },
         {
@@ -126,6 +127,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇪🇸ES | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
@@ -135,7 +137,7 @@
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
+                "🇺🇸US | vmess | @OpenSSTPVpn | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -195,6 +197,40 @@
                 "path": "\/video\/GQ2qE5Us9g",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸ES | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "185.18.250.33",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "r-wispy-meadow-9221.fosoka9932.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nina.bond\/linkvws",
+                "headers": {
+                    "Host": "r-wispy-meadow-9221.fosoka9932.workers.dev"
                 }
             }
         },
@@ -434,11 +470,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 5",
+            "tag": "🇺🇸US | vmess | @OpenSSTPVpn | 4",
             "type": "vmess",
-            "server": "104.26.8.202",
+            "server": "obdii.cfd",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -451,7 +487,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -461,9 +497,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "obdii.cfd"
                 }
             }
         }
