@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @azadi_az_inja_migzare | 5",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇮🇷IR | vless | @v2rayngvpn | 11",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇩🇪DE | vless | @proxyymeliii | 13",
@@ -144,7 +144,7 @@
                 "🏳️XX | vless | @V2RayTz | 6",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @azadi_az_inja_migzare | 5",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇮🇷IR | vless | @v2rayngvpn | 11",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇩🇪DE | vless | @proxyymeliii | 13",
@@ -212,7 +212,7 @@
                 "🏳️XX | vless | @V2RayTz | 6",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -767,7 +767,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1037,7 +1037,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1258,17 +1258,34 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "10e206e1-3e39-4b29-87df-11826cca7d7b",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
             }
         },
         {
