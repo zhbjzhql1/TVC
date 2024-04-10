@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | vless | @EliV2ray | 18",
+                "🇬🇧GB | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 5",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -125,7 +125,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 6",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 6",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 15",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
@@ -154,9 +154,9 @@
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 9",
@@ -190,7 +190,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | vless | @EliV2ray | 18",
+                "🇬🇧GB | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 5",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -209,7 +209,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 6",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 6",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 15",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
@@ -238,9 +238,9 @@
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 9",
@@ -290,7 +290,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | vless | @EliV2ray | 18",
+            "tag": "🇬🇧GB | vless | @EliV2ray | 16",
             "type": "vless",
             "server": "185.162.228.3",
             "server_port": 80,
@@ -798,7 +798,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @azadi_az_inja_migzare | 6",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2087,
@@ -1489,9 +1489,9 @@
         {
             "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "monardas.aurorainiceland.com",
-            "server_port": 443,
-            "uuid": "ce526092-81c1-42be-8354-88e58946c1f3",
+            "server": "visa.com",
+            "server_port": 8080,
+            "uuid": "0c6d82b7-3e79-447f-97c9-8e4a7aa6e02f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1499,26 +1499,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "monardas.aurorainiceland.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/nimws",
+                "path": "\/@daily_configs-@daily_configs-@daily_configs-@daily_configs",
                 "headers": {
-                    "Host": "monardas.aurorainiceland.com"
+                    "Host": "visa.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 12",
+            "tag": "🇺🇸US | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1583,11 +1573,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.67.130.140",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "server": "104.21.82.183",
+            "server_port": 8880,
+            "uuid": "4154143c-bbba-47a4-9f79-c2ed087cbcc9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
