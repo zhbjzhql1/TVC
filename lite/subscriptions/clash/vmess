@@ -123,6 +123,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"173.245.58.5","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"cy-dew-1c7uwh.cojatoc291.workers.dev"}}}
   - {"name":"🇺🇸US | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"51.81.59.229","port":"13541","cipher":"auto","uuid":"280a2198-b720-4544-93b2-782880e74143","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | vmess | @v2ray1_ng | 11","type":"vmess","server":"79.175.151.112","port":"58271","cipher":"auto","uuid":"6e83ef0f-70a7-4be8-979a-8bc7a41f4224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/rohv2ray","headers":{"host":""}}}
+  - {"name":"🇺🇸US | vmess | @ConfigsHUB | 15","type":"vmess","server":"40.160.6.81","port":"55543","cipher":"auto","uuid":"0045ba6e-2fb5-4918-9d28-95b611f27917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 10","type":"vmess","server":"173.245.58.37","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"7wih-darkness-f0af.jivegoh116.workers.dev"}}}
 proxy-groups:
   - name: MANUAL
@@ -135,6 +136,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @oneclickvpnkeys | 9'
       - '🇮🇷IR | vmess | @v2ray1_ng | 11'
+      - '🇺🇸US | vmess | @ConfigsHUB | 15'
       - '🇺🇸US | vmess | @v2Line | 10'
   - name: URL-TEST
     type: url-test
@@ -147,6 +149,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @oneclickvpnkeys | 9'
       - '🇮🇷IR | vmess | @v2ray1_ng | 11'
+      - '🇺🇸US | vmess | @ConfigsHUB | 15'
       - '🇺🇸US | vmess | @v2Line | 10'
   - name: FALLBACK
     type: fallback
@@ -158,6 +161,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @oneclickvpnkeys | 9'
       - '🇮🇷IR | vmess | @v2ray1_ng | 11'
+      - '🇺🇸US | vmess | @ConfigsHUB | 15'
       - '🇺🇸US | vmess | @v2Line | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
