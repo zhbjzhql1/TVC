@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 68",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -126,10 +126,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 68",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -199,6 +199,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "104.21.12.173",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "91.107.130.94",
@@ -250,40 +284,6 @@
             "tag": "🇨🇷CR | vmess | @v2ray1_ng | 12",
             "type": "vmess",
             "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "marien.motorcycles"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "marien.motorcycles",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
