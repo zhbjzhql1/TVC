@@ -110,8 +110,8 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇳🇱NL | vmess | @ShadowProxy66 | 60",
-                "🇨🇷CR | vmess | @v2ray1_ng | 12",
+                "🇨🇷CR | vmess | @v2ray1_ng | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -128,8 +128,8 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇳🇱NL | vmess | @ShadowProxy66 | 60",
-                "🇨🇷CR | vmess | @v2ray1_ng | 12",
+                "🇨🇷CR | vmess | @v2ray1_ng | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -267,31 +267,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @ShadowProxy66 | 60",
-            "type": "vmess",
-            "server": "95.179.128.114",
-            "server_port": 80,
-            "uuid": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Av8czorIlYicU6D349brWUw6a",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vmess | @v2ray1_ng | 12",
+            "tag": "🇨🇷CR | vmess | @v2ray1_ng | 11",
             "type": "vmess",
             "server": "190.93.247.155",
             "server_port": 443,
@@ -321,6 +297,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "marien.motorcycles"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "198.41.202.5",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
                 }
             }
         },
@@ -361,9 +371,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "107.172.25.132",
-            "server_port": 18117,
-            "uuid": "e2cfd504-b51f-42a4-cc18-665f82f2549c",
+            "server": "107.173.71.35",
+            "server_port": 27993,
+            "uuid": "c37004bc-7a39-45db-94c8-925e6b240c93",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -373,6 +383,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/c766436b",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
