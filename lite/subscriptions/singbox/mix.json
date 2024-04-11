@@ -150,15 +150,15 @@
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇨🇼CW | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇺🇸US | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -234,15 +234,15 @@
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇨🇼CW | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇺🇸US | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1426,7 +1426,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lrnbymaa | 5",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
@@ -1457,11 +1457,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "------EVAY_VPN------",
+            "server": "172.67.24.121",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1471,7 +1471,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "Bia.alLhub.Ltd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1480,11 +1480,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/TELEGRAM_FreeVirGoolNet",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
             }
         },
         {
@@ -1584,11 +1584,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "135.148.62.165",
-            "server_port": 59988,
-            "uuid": "cfd7a05c-82cf-436d-abce-8b2245b76472",
+            "server": "91.149.236.44",
+            "server_port": 26639,
+            "uuid": "2cd01fcd-79f3-4ec4-8536-7802c6fcba08",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1598,6 +1598,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cctv13\/hd.m3u8\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1632,7 +1639,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "104.18.202.232",
             "server_port": 80,
