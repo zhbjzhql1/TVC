@@ -112,8 +112,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2"
@@ -129,8 +130,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2"
@@ -316,6 +318,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -350,11 +386,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.26.5.32",
-            "server_port": 2082,
-            "uuid": "6dc5e7b5-29bc-493d-8fd3-b274a4ee39cd",
+            "server": "107.173.71.35",
+            "server_port": 27993,
+            "uuid": "c37004bc-7a39-45db-94c8-925e6b240c93",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -367,7 +403,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/c766436b",
                 "headers": {
                     "Host": ""
                 }
