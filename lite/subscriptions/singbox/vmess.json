@@ -111,7 +111,7 @@
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇮🇷IR | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -127,7 +127,7 @@
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇮🇷IR | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -280,11 +280,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 19",
+            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "89.32.251.2",
-            "server_port": 7021,
-            "uuid": "a5e6f758-2f93-41f9-bc63-40f7efc58013",
+            "server": "103.173.254.106",
+            "server_port": 1850,
+            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -294,6 +294,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/zh-cn",
+                "headers": {
+                    "Host": "www.microsoft.com"
+                }
             }
         },
         {
