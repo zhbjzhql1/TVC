@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
+                "🇫🇮FI | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -118,6 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
+                "🇫🇮FI | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -169,6 +171,35 @@
                     "enabled": true,
                     "public_key": "g_QJhg-HmZB72GG49bcJkg0c0ZOixLMCmvZnJhFoaUA",
                     "short_id": "456d9a391ac248"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "65.109.188.83",
+            "server_port": 56888,
+            "uuid": "f6e218b3-e76c-43e5-93ca-1feb336e5c34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WsXvo3TM_RUNg529VtpsjyakG21eK65iOnvIuSvvGTA",
+                    "short_id": "bdfff48d"
                 }
             }
         },
