@@ -115,7 +115,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇵🇱PL | vmess | @eliya_chiter0 | 2"
+                "🇺🇸US | vmess | @eliya_chiter0 | 1"
             ]
         },
         {
@@ -131,7 +131,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇵🇱PL | vmess | @eliya_chiter0 | 2"
+                "🇺🇸US | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -406,11 +406,11 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @eliya_chiter0 | 2",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 1",
             "type": "vmess",
-            "server": "146.59.17.58",
-            "server_port": 12960,
-            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "server": "172.67.201.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -420,6 +420,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maggiy.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "maggiy.shop"
+                }
             }
         }
     ],
