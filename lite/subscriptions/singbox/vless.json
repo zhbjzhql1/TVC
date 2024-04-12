@@ -120,6 +120,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
+                "🇮🇷IR | vless | @DarkTeam_VPN | 1",
                 "🇨🇦CA | vless | @proxy_kafee | 14",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
@@ -145,8 +146,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -189,6 +190,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
+                "🇮🇷IR | vless | @DarkTeam_VPN | 1",
                 "🇨🇦CA | vless | @proxy_kafee | 14",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
@@ -214,8 +216,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -626,6 +628,27 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @DarkTeam_VPN | 1",
+            "type": "vless",
+            "server": "Nh.turboo-server.pro",
+            "server_port": 443,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Nh.turboo-server.pro"
                 }
             }
         },
@@ -1303,11 +1326,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray",
+            "server": "104.20.19.145",
+            "server_port": 2053,
+            "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1315,16 +1338,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 14",
+            "tag": "🇺🇸US | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
