@@ -134,12 +134,12 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vless | @prrofile_purple | 190",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 17",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -154,8 +154,8 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | trojan | @ConfigsHUB | 12",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -219,12 +219,12 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vless | @prrofile_purple | 190",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 17",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -239,8 +239,8 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | trojan | @ConfigsHUB | 12",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -1018,7 +1018,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "kitab.fun",
             "server_port": 80,
@@ -1143,7 +1143,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1512,11 +1512,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | trojan | @ConfigsHUB | 12",
-            "type": "trojan",
-            "server": "3.17.105.88",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "Www.ZULA.iR",
+            "server_port": 8443,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1524,17 +1526,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 14",
+            "tag": "🇺🇸US | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
