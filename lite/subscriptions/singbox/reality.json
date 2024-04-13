@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -118,6 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -169,6 +171,35 @@
                     "enabled": true,
                     "public_key": "g_QJhg-HmZB72GG49bcJkg0c0ZOixLMCmvZnJhFoaUA",
                     "short_id": "456d9a391ac248"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "194.116.214.187",
+            "server_port": 777,
+            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
+                    "short_id": "c5010b9e"
                 }
             }
         },
