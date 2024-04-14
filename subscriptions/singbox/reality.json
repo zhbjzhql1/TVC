@@ -122,7 +122,10 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🏳️XX | vless | @v2rayng_vpnrog | 2",
+                "🇳🇱NL | vless | @ConfigsHUB | 6",
+                "🇬🇧GB | vless | @ConfigsHUB | 12",
+                "🇳🇴NO | vless | @ConfigsHUB | 18",
+                "🏳️XX | vless | @v2rayng_vpnrog | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -182,7 +185,10 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🏳️XX | vless | @v2rayng_vpnrog | 2",
+                "🇳🇱NL | vless | @ConfigsHUB | 6",
+                "🇬🇧GB | vless | @ConfigsHUB | 12",
+                "🇳🇴NO | vless | @ConfigsHUB | 18",
+                "🏳️XX | vless | @v2rayng_vpnrog | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -748,7 +754,94 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 2",
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "193.176.190.40",
+            "server_port": 888,
+            "uuid": "ea11001c-f391-42f9-9db8-7fa3fadf33b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "brBI6hEf2HIzZjdTQsMtftQodJ3p3KVry5mzgVqvVkU",
+                    "short_id": "8cd6d3c4"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "143.47.241.46",
+            "server_port": 16097,
+            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴NO | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 3",
             "type": "vless",
             "server": "[2a01:4f8:c013:13bd:c6::1]",
             "server_port": 2083,
