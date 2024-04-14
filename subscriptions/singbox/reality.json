@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇮🇸IS | vless | @EliV2ray | 1",
                 "🇮🇸IS | vless | @EliV2ray | 7",
-                "🏳️XX | vless | @V2pedia | 27",
-                "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 11",
+                "🏳️XX | vless | @V2pedia | 29",
+                "🏳️XX | vless | @V2pedia | 32",
+                "🏳️XX | vless | @V2pedia | 40",
+                "🇫🇮FI | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -122,9 +123,6 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🇳🇱NL | vless | @ConfigsHUB | 6",
-                "🇬🇧GB | vless | @ConfigsHUB | 12",
-                "🇳🇴NO | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @v2rayng_vpnrog | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -171,9 +169,10 @@
             "outbounds": [
                 "🇮🇸IS | vless | @EliV2ray | 1",
                 "🇮🇸IS | vless | @EliV2ray | 7",
-                "🏳️XX | vless | @V2pedia | 27",
-                "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 11",
+                "🏳️XX | vless | @V2pedia | 29",
+                "🏳️XX | vless | @V2pedia | 32",
+                "🏳️XX | vless | @V2pedia | 40",
+                "🇫🇮FI | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -185,9 +184,6 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
-                "🇳🇱NL | vless | @ConfigsHUB | 6",
-                "🇬🇧GB | vless | @ConfigsHUB | 12",
-                "🇳🇴NO | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @v2rayng_vpnrog | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -320,7 +316,43 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 27",
+            "tag": "🏳️XX | vless | @V2pedia | 29",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:223e::1]",
+            "server_port": 25365,
+            "uuid": "045a48ee-04f0-49b0-b9cc-997bd6684fb1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw5Q89ViqUr1RR398Q3wwcJOqzwlYRDuOczjyFHND0s",
+                    "short_id": "44a02299"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @V2pedia | 32",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:223e::1]",
             "server_port": 25365,
@@ -356,7 +388,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 35",
+            "tag": "🏳️XX | vless | @V2pedia | 40",
             "type": "vless",
             "server": "[2a01:4f8:c2c:3a53::1]",
             "server_port": 25365,
@@ -392,7 +424,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ARv2ray | 11",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "135.181.210.55",
             "server_port": 443,
@@ -750,93 +782,6 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "193.176.190.40",
-            "server_port": 888,
-            "uuid": "ea11001c-f391-42f9-9db8-7fa3fadf33b7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fortune.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "brBI6hEf2HIzZjdTQsMtftQodJ3p3KVry5mzgVqvVkU",
-                    "short_id": "8cd6d3c4"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "143.47.241.46",
-            "server_port": 16097,
-            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇴NO | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.125.171.13",
-            "server_port": 443,
-            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "partner.g2.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
                 }
             }
         },
