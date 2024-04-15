@@ -135,8 +135,8 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vless | @prrofile_purple | 192",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇸🇪SE | vless | @prrofile_purple | 183",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -155,7 +155,7 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -220,8 +220,8 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vless | @prrofile_purple | 192",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇸🇪SE | vless | @prrofile_purple | 183",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -240,7 +240,7 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -1016,11 +1016,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "us-b.sbyt01.shop",
+            "server": "novia.makeup",
             "server_port": 443,
-            "uuid": "9c9afd21-e3cf-4e6b-a342-51e4eb52f227",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1033,7 +1033,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "novia.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1043,18 +1043,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v2ray",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "novia.makeup"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 192",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 183",
             "type": "vless",
-            "server": "23.227.60.7",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1062,21 +1062,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test43.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "test43.pages.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1522,34 +1512,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "104.21.2.84",
-            "server_port": 2096,
-            "uuid": "7fd7c15d-95cd-4f5c-bf59-f21e5eb27580",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "9fdebf0f-36cb-44d8-8e0d-71237cd84d45",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.dabee.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/freecodes",
-                "headers": {
-                    "Host": "3k.dabee.top"
-                }
             }
         },
         {
@@ -1710,8 +1683,8 @@
             "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "--DIGiV2RAY---",
+            "server_port": 2086,
+            "uuid": "8a7a4390-d816-4e86-86e1-918fc8a2f984",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1721,7 +1694,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
