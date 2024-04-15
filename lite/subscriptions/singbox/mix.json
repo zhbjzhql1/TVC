@@ -136,8 +136,8 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 11",
-                "🇨🇦CA | vless | @UnlimitedDev | 11",
-                "🇨🇦CA | vless | @vmessorg | 34",
+                "🇨🇦CA | vless | @UnlimitedDev | 13",
+                "🇨🇦CA | vless | @vmessorg | 35",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -218,8 +218,8 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 11",
-                "🇨🇦CA | vless | @UnlimitedDev | 11",
-                "🇨🇦CA | vless | @vmessorg | 34",
+                "🇨🇦CA | vless | @UnlimitedDev | 13",
+                "🇨🇦CA | vless | @vmessorg | 35",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -1056,7 +1056,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 11",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 13",
             "type": "vless",
             "server": "bia-to.unlimiteddev.motorcycles.",
             "server_port": 80,
@@ -1077,11 +1077,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 34",
+            "tag": "🇨🇦CA | vless | @vmessorg | 35",
             "type": "vless",
-            "server": "joinbede1.vmessorg.site",
+            "server": "104.17.135.108",
             "server_port": 80,
-            "uuid": "416aedde-3a3a-4fa3-b502-7bb5f722f397",
+            "uuid": "d3715563-a2a0-4410-a795-49488c3b672d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1093,7 +1093,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
-                    "Host": "joinbede1.vmessorg.site"
+                    "Host": "104.17.135.108"
                 }
             }
         },
@@ -1472,20 +1472,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "64.176.219.193",
-            "server_port": 48895,
-            "uuid": "1dd70a5f-fbbb-4e58-9d29-a40415853c80",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 2083,
+            "uuid": "9cecce32-0580-46b8-8b7d-9d5b611ba651",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all5.savagev2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@XvProxy,@XvProxy,@XvProxy,@XvProxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
