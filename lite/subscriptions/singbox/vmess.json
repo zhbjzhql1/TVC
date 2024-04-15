@@ -109,10 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇬🇧GB | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -125,10 +125,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇬🇧GB | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -219,11 +219,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "172.99.190.109",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "64.176.219.193",
+            "server_port": 48895,
+            "uuid": "1dd70a5f-fbbb-4e58-9d29-a40415853c80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -233,23 +233,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -321,11 +304,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "174.136.205.46",
-            "server_port": 39027,
-            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
+            "server": "c7.610710.xyz",
+            "server_port": 8443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -335,6 +318,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "c7.610710.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "c7.610710.xyz"
+                }
             }
         },
         {
