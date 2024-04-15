@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 19 = trojan, 13.36.90.233, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | trojan | @DirectVPN | 19 = trojan, 99.79.22.158, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @ConfigsHUB | 15 = trojan, 52.56.183.187, 443, password = your_password, udp-delay = true, skip-cert-verify = true, sni = aws-uk-london-1.f1rocketnode.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇬🇧GB | trojan | @ConfigsHUB | 15
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇬🇧GB | trojan | @ConfigsHUB | 15
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇬🇧GB | trojan | @ConfigsHUB | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

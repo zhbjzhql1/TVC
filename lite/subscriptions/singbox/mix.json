@@ -145,8 +145,8 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 2",
-                "🇩🇪DE | vless | @proxyymeliii | 16",
+                "🇨🇦CA | vless | @v2ray_swhil | 1",
+                "🇮🇷IR | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -155,7 +155,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 9",
+                "🇬🇧GB | trojan | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -230,8 +230,8 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 2",
-                "🇩🇪DE | vless | @proxyymeliii | 16",
+                "🇨🇦CA | vless | @v2ray_swhil | 1",
+                "🇮🇷IR | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -240,7 +240,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 9",
+                "🇬🇧GB | trojan | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -602,9 +602,9 @@
         {
             "tag": "🇸🇪SE | vless | @lightning6 | 23",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "185.146.173.96",
             "server_port": 8880,
-            "uuid": "019f5c9e-6542-4dd4-bcd3-9318f7efacb9",
+            "uuid": "65709a5a-1b0b-470a-b017-72880cdb061d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1284,7 +1284,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 2",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 1",
             "type": "vless",
             "server": "172.66.46.249",
             "server_port": 443,
@@ -1315,17 +1315,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxyymeliii | 16",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "217.196.101.18",
-            "server_port": 53899,
-            "uuid": "526f4724-204a-4d79-a098-bd58475cdbcd",
+            "server": "svt55.topnetvip.com",
+            "server_port": 12624,
+            "uuid": "485d6ae6-3e95-4364-87e9-2f0f52e66fa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "svt55.topnetvip.com"
+                }
             }
         },
         {
@@ -1404,9 +1411,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.169.114",
-            "server_port": 80,
-            "uuid": "e7519e3a-f12c-45ab-9cbb-ee263d5868dc",
+            "server": "104.25.138.178",
+            "server_port": 8443,
+            "uuid": "45584cf2-ae19-47c8-a3ef-50cbde1f8c04",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1414,11 +1421,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.17.169.114"
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
                 }
             }
         },
@@ -1485,16 +1502,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 9",
-            "type": "vmess",
-            "server": "jahfkjha.cfd",
+            "tag": "🇬🇧GB | trojan | @ConfigsHUB | 15",
+            "type": "trojan",
+            "server": "52.56.183.187",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "password": "your_password",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1502,19 +1514,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "aws-uk-london-1.f1rocketnode.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         },
