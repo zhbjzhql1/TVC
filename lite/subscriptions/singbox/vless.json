@@ -149,6 +149,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -221,6 +222,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -1358,6 +1360,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.16.67.38",
+            "server_port": 2053,
+            "uuid": "4045c6b7-1d53-4574-98cd-df21db40b0dc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "itcenteriran.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/p=19",
+                "headers": {
+                    "Host": "itcenteriran.blog"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @free1_vpn | 1",
             "type": "vless",
             "server": "185.146.173.59",
@@ -1412,9 +1445,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "104.17.0.11",
+            "server": "st-gb-1.brocdn.com",
             "server_port": 443,
-            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
+            "uuid": "5a23974d-d620-11ee-aaa8-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1424,7 +1457,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "confingland-nl.pages.Dev",
+                "server_name": "st-gb-1.brocdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1434,9 +1467,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/qJnQ4vhddX2WtYlf",
+                "path": "\/websocket",
                 "headers": {
-                    "Host": "confingland-nl.pages.Dev"
+                    "Host": "st-gb-1.brocdn.com"
                 }
             }
         },
