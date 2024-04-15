@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 16",
@@ -123,7 +124,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 16",
@@ -193,7 +195,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "us-b.sbyt01.shop",
             "server_port": 443,
@@ -223,6 +225,40 @@
                 "path": "\/v2ray",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 9",
+            "type": "vmess",
+            "server": "jahfkjha.cfd",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
