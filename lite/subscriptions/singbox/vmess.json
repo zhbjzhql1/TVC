@@ -109,7 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 13",
@@ -125,7 +125,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 13",
@@ -219,11 +219,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
             "type": "vmess",
-            "server": "205.234.232.191",
-            "server_port": 10512,
-            "uuid": "58781eee-baba-6666-baba-2ca0ada6568b",
+            "server": "172.67.222.164",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -233,6 +233,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "novia.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "novia.makeup"
+                }
             }
         },
         {
