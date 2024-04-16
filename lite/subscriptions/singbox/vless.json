@@ -151,7 +151,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -224,7 +224,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -1452,11 +1452,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.98.220",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "172.66.213.38",
+            "server_port": 2082,
+            "uuid": "bdab18c1-d3f9-428c-a376-ca8cce0f1710",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1464,21 +1464,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test57.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/freecodes",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "test57.pages.dev"
+                    "Host": "172.66.213.38"
                 }
             }
         },
