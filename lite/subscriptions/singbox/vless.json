@@ -149,11 +149,11 @@
                 "🇸🇪SE | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 8"
@@ -221,11 +221,11 @@
                 "🇸🇪SE | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -240,7 +240,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 8"
@@ -372,7 +372,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "52.17.219.172",
+            "server": "52.19.254.7",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1398,11 +1398,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2052,
-            "uuid": "b39d9e5a-f4ac-48c4-a311-ddaf5b5b85b9",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "eddb96e5-5175-49dd-9e8e-eeffc140b79d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1412,9 +1412,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2053",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1495,11 +1495,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "1b6fe806-0ade-44fe-9a07-19ce3287e7b1",
+            "server": "188.114.97.12",
+            "server_port": 443,
+            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1507,11 +1507,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VirgInIaVpn.PaGes.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/daily_configs",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "VirgInIaVpn.PaGes.DeV"
                 }
             }
         },
@@ -1895,7 +1905,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
