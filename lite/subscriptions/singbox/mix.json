@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 1",
+                "🇨🇦CA | vless | @v2ray_swhil | 2",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -232,7 +232,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 1",
+                "🇨🇦CA | vless | @v2ray_swhil | 2",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -1357,7 +1357,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 1",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 2",
             "type": "vless",
             "server": "172.66.46.249",
             "server_port": 443,
@@ -1610,13 +1610,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.17.0.11",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "www.ilovepdf.com",
             "server_port": 443,
-            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "AlphaOmegaFree",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1624,7 +1627,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "confingland-uae.pages.Dev",
+                "server_name": "nl-free2.alphaspeedtest.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1634,9 +1637,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/wss9000?ed=2560",
                 "headers": {
-                    "Host": "confingland-uae.pages.Dev"
+                    "Host": "nl-free2.alphaspeedtest.com"
                 }
             }
         },
@@ -1722,9 +1725,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "c2.v2raybrasil.cloud",
-            "server_port": 2082,
-            "uuid": "009d320a-5960-49e6-99c3-301966ff6fea",
+            "server": "o4.610710.xyz",
+            "server_port": 443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1735,11 +1738,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "o4.610710.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "c2.v2raybrasil.cloud"
+                    "Host": "o4.610710.xyz"
                 }
             }
         },
