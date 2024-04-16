@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -167,7 +167,7 @@
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇦🇹AT | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -237,7 +237,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -250,7 +250,7 @@
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇦🇹AT | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1505,17 +1505,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "31.47.45.107",
-            "server_port": 35912,
-            "uuid": "cab345c9-4e65-4d4c-8e02-434ab93b4fd8",
+            "server": "104.18.158.102",
+            "server_port": 80,
+            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@my_proxii",
+                "headers": {
+                    "Host": "104.18.158.102"
+                }
             }
         },
         {
@@ -1852,7 +1859,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 14",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 14",
             "type": "vless",
             "server": "kitab.fun",
             "server_port": 80,
