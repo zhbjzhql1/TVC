@@ -157,7 +157,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -1561,34 +1561,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "Parsashonam-43",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "66.225.228.113",
+            "server_port": 42208,
+            "uuid": "0185ef42-1f45-45ca-9894-c122020f95db",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mail.offch.blog"
-                }
             }
         },
         {
