@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
@@ -166,7 +166,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 3",
-                "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
@@ -247,7 +247,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 3",
-                "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -1416,7 +1416,7 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 16",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
+            "server_port": 2095,
             "uuid": "-MsV2ray-MsV2ray-MsV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1538,13 +1538,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.16.67.38",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "hms082.gwdef.sbs",
             "server_port": 443,
-            "uuid": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1552,7 +1555,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ada3.qowch.com",
+                "server_name": "gwdef.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1562,9 +1565,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/users",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "ada3.qowch.com"
+                    "Host": "gwdef.sbs"
                 }
             }
         },
@@ -1856,11 +1859,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 17",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "cLuB.gOlEsTaN-vPn.LInk.",
+            "server": "104.17.0.11",
             "server_port": 443,
-            "uuid": "321acc77-47d9-4a9b-c0c6-142ca923f2da",
+            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1870,7 +1873,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "rS.gOlEsTaN-vpn.LInk.",
+                "server_name": "confingland-uae.pages.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1882,7 +1885,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "rS.gOlEsTaN-vpn.LInk."
+                    "Host": "confingland-uae.pages.Dev"
                 }
             }
         },

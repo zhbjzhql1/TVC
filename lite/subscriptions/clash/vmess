@@ -120,6 +120,7 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"hkjcdn03.dorabbb.top","port":"44827","cipher":"auto","uuid":"40c58958-2432-4f60-9b5d-746f9cded85f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 15","type":"vmess","server":"hms082.gwdef.sbs","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 9","type":"vmess","server":"104.19.40.83","port":"8880","cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 3","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
 proxy-groups:
@@ -130,6 +131,7 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 15'
       - '🇨🇦CA | vmess | @Hope_Net | 9'
       - '🇨🇦CA | vmess | @nofiltering2 | 3'
   - name: URL-TEST
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 15'
       - '🇨🇦CA | vmess | @Hope_Net | 9'
       - '🇨🇦CA | vmess | @nofiltering2 | 3'
   - name: FALLBACK
@@ -149,6 +152,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 15'
       - '🇨🇦CA | vmess | @Hope_Net | 9'
       - '🇨🇦CA | vmess | @nofiltering2 | 3'
 rules:
