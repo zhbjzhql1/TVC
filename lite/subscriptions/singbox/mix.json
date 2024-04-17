@@ -156,10 +156,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇹🇷TR | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @v2rayng_vpnrog | 7",
@@ -239,10 +239,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇹🇷TR | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @v2rayng_vpnrog | 7",
@@ -1553,11 +1553,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "92.223.124.27",
-            "server_port": 80,
-            "uuid": "99d57dfc-57c6-4d8e-aa99-3eca0ac1faee",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "---test------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1565,11 +1565,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop.loveiran01.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@thunderv2ray , @thunderv2ray ,@thunderv2ray ,@thunderv2ray ,@thunderv2ray ,@thunderv2ray",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "cpanel.mralpha-vpn.com"
+                    "Host": "pop.loveiran01.com"
                 }
             }
         },
@@ -1639,11 +1649,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @Hope_Net | 10",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "154.53.164.40",
-            "server_port": 54503,
-            "uuid": "a3ec8a6e-bd2d-43d7-f056-97042778e4ec",
+            "server": "sy4.610710.xyz",
+            "server_port": 443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1653,6 +1663,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

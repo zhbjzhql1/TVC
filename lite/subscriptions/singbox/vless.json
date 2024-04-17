@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 168",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -222,7 +222,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 168",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -1409,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "92.223.124.27",
-            "server_port": 80,
-            "uuid": "99d57dfc-57c6-4d8e-aa99-3eca0ac1faee",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "---test------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1421,11 +1421,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop.loveiran01.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@thunderv2ray , @thunderv2ray ,@thunderv2ray ,@thunderv2ray ,@thunderv2ray ,@thunderv2ray",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "cpanel.mralpha-vpn.com"
+                    "Host": "pop.loveiran01.com"
                 }
             }
         },
