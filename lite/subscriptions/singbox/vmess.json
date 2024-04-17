@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
+                "🇫🇮FI | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 13",
                 "🇨🇦CA | vmess | @v2Line | 11",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
+                "🇫🇮FI | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 13",
                 "🇨🇦CA | vmess | @v2Line | 11",
@@ -182,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "w.outline-vpn.cloud",
-            "server_port": 2086,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "server": "65.109.199.41",
+            "server_port": 4598,
+            "uuid": "5b68925d-4bb4-4ea1-e7a0-eb8dcff28b5d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -196,13 +198,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
-                "headers": {
-                    "Host": ""
-                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "65.109.199.41",
+            "server_port": 4176,
+            "uuid": "207a228e-343a-42a7-fc9e-3decc4c70de9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
