@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 138",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -167,7 +167,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -221,7 +221,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 138",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -238,7 +238,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -1353,11 +1353,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "464dec73-cd25-4898-f111-766dd63123de",
+            "server": "1bdf3e45.mahdiserver-3kd.pages.dev",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1365,11 +1365,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
                 }
             }
         },
@@ -1819,7 +1829,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
