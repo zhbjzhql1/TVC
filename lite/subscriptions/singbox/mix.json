@@ -156,12 +156,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -239,12 +239,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1553,16 +1553,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "v2raxx1.hadiv2.shop",
-            "server_port": 2096,
-            "uuid": "V2rAXX",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "---test------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1570,7 +1567,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "v2raxx.hadiv2.SHOP.",
+                "server_name": "pop.loveiran01.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1579,11 +1576,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@V2RAXX @V2RAXX @V2RAXX @V2RAXX @V2RAXX @V2RAXX",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
+                "headers": {
+                    "Host": "pop.loveiran01.com"
+                }
             }
         },
         {
@@ -1717,11 +1714,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "5de77c11-04ac-45cd-8a6b-ae26f4cc585f",
+            "server": "162.159.135.234",
+            "server_port": 80,
+            "uuid": "66e61af5-286a-4e91-83fd-fcfae2791ccf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1731,9 +1728,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "162.159.135.234"
                 }
             }
         },
