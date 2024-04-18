@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 14",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @V2pedia | 53",
@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
-                "🇨🇦CA | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -149,8 +149,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -179,7 +180,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 14",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @V2pedia | 53",
@@ -205,7 +206,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
-                "🇨🇦CA | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -218,8 +219,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -364,9 +366,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 19",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.50.120.29",
+            "server": "3.127.10.144",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -690,7 +692,7 @@
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
-            "uuid": "DIGiV2RAY",
+            "uuid": "DIGiV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1022,11 +1024,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "server": "172.64.35.226",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1034,11 +1036,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "BpB.RaDICAlizAtIon.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@my_proxii",
+                "path": "\/47b9ebrCQpP3DA7h",
                 "headers": {
-                    "Host": "104.18.158.102"
+                    "Host": "BpB.RaDICAlizAtIon.IR"
                 }
             }
         },
@@ -1355,11 +1367,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "download.vindonews.com.tr",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "74075426-1dbb-43fc-bd60-7a7fb2151520",
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1369,7 +1381,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "download.vindonews.com.tr",
+                "server_name": "academivpn1-bo7.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1379,9 +1391,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/shKnXn0unRfyM0WOB3HI9X",
+                "path": "\/Telegram_NETMelliAnti\/",
                 "headers": {
-                    "Host": "download.vindonews.com.tr"
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
@@ -1414,6 +1426,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "type": "vless",
+            "server": "104.16.60.8",
+            "server_port": 80,
+            "uuid": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/users",
+                "headers": {
+                    "Host": "104.16.60.8"
+                }
             }
         },
         {
