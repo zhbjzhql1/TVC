@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
@@ -124,9 +125,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
@@ -195,11 +197,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 3363,
-            "uuid": "925b52b4-7fb2-48e8-9569-d1f953bdc632",
+            "server": "zula.ir",
+            "server_port": 2052,
+            "uuid": "726a2899-b33f-4116-8abd-581932352830",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,6 +211,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -276,6 +285,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "jahfkjha.cfd",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
