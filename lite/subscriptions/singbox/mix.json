@@ -119,7 +119,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
@@ -155,6 +155,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 7",
@@ -175,7 +176,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -198,7 +199,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
@@ -234,6 +235,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 7",
@@ -254,7 +256,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -616,11 +618,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 20",
             "type": "vless",
-            "server": "www.RxV2ray.sbs",
-            "server_port": 2087,
-            "uuid": "b404b4e8-9164-4c7e-acbd-ea8ec0aee464",
+            "server": "All.RxV2ray.online",
+            "server_port": 2053,
+            "uuid": "f4ac1c93-4936-4c60-bf7d-3936cb2e1b49",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -630,7 +632,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.RxV2ray.sbs",
+                "server_name": "nl.RxV2ray.space",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -639,11 +641,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nl.RxV2ray.space"
+                }
             }
         },
         {
@@ -1500,6 +1502,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8443,
+            "uuid": "758446f1-481b-47e2-a34a-685f2114fa92",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bia-falcunargo-germany.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bia-falcunargo-germany.falcunar.asso.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -2050,7 +2083,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
