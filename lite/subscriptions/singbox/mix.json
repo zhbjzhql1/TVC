@@ -157,6 +157,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 10",
@@ -167,7 +168,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇸🇪SE | vless | @Capoit | 14",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🏳️XX | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -179,7 +180,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -240,6 +241,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 10",
@@ -250,7 +252,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇸🇪SE | vless | @Capoit | 14",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🏳️XX | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -262,7 +264,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -1580,6 +1582,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "ja.vivacello.org",
+            "server_port": 443,
+            "uuid": "77a571fb-4fd2-4b37-8596-1b7d9728bb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xw.r4d.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-V2ray_Alpha\/",
+                "headers": {
+                    "Host": "xw.r4d.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1877,11 +1910,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
+            "tag": "🏳️XX | vless | @FreakConfig | 3",
             "type": "vless",
-            "server": "ja.vivacello.org",
-            "server_port": 443,
-            "uuid": "77a571fb-4fd2-4b37-8596-1b7d9728bb5c",
+            "server": "[::ffff:b992:ad3b]",
+            "server_port": 2086,
+            "uuid": "f99961e6-8fd2-4f6c-8d79-41781b9ae9e0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1889,21 +1922,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xw.r4d.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "xw.r4d.workers.dev"
+                    "Host": "[::ffff:b992:ad3b]"
                 }
             }
         },
@@ -2209,7 +2232,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
