@@ -147,7 +147,7 @@
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
@@ -158,7 +158,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇨🇼CW | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 14",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -215,7 +215,7 @@
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
@@ -226,7 +226,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇨🇼CW | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 14",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -1291,11 +1291,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "Tgju.org",
-            "server_port": 2096,
-            "uuid": "daf96ee6-7e59-480b-a320-681a6e13b654",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "3de50d34-d4d4-5157-9311-d06d693feb29",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1305,7 +1305,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Lan.protoeinpaitakht.com",
+                "server_name": "worker-bold-cherry-075e.fexal24007.WOrKErS.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1314,11 +1314,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "worker-bold-cherry-075e.fexal24007.WOrKErS.dEv"
+                }
             }
         },
         {
@@ -1588,7 +1588,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
