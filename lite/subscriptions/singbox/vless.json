@@ -149,6 +149,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 108",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🏳️XX | vless | @Outlinev2rayNG | 18",
@@ -221,6 +222,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 108",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🏳️XX | vless | @Outlinev2rayNG | 18",
@@ -1324,6 +1326,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "ja.vivacello.org",
+            "server_port": 443,
+            "uuid": "77a571fb-4fd2-4b37-8596-1b7d9728bb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xw.r4d.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-V2ray_Alpha\/",
+                "headers": {
+                    "Host": "xw.r4d.workers.dev"
                 }
             }
         },
