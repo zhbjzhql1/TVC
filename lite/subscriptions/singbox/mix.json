@@ -150,16 +150,17 @@
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇬🇧GB | vless | @DailyV2RY | 86",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -178,7 +179,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -232,16 +233,17 @@
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
                 "🇬🇧GB | vless | @DailyV2RY | 86",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -260,7 +262,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -763,9 +765,9 @@
         {
             "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
             "type": "vless",
-            "server": "104.21.192.45",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -775,7 +777,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test35.pages.dev",
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -787,7 +789,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "test35.pages.dev"
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
                 }
             }
         },
@@ -1416,6 +1418,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @vless_vmess | 12",
+            "type": "vless",
+            "server": "104.21.192.45",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test35.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test35.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2RayTz | 14",
             "type": "vless",
             "server": "185.146.173.95",
@@ -1510,16 +1543,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "martina.quest",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.21.7.27",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "0f5d860d-204e-48dc-a384-76043a34add7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1527,7 +1557,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "martina.quest",
+                "server_name": "shaft.footballlovernews.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1537,9 +1567,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/shaft",
                 "headers": {
-                    "Host": "martina.quest"
+                    "Host": "shaft.footballlovernews.com"
                 }
             }
         },
@@ -1609,11 +1639,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "104.16.47.181",
-            "server_port": 443,
-            "uuid": "1e9be421-4135-4edb-9655-804042753442",
+            "server": "152.42.171.253",
+            "server_port": 80,
+            "uuid": "408705bb-2a17-46d6-daea-2ba30b300353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1623,23 +1653,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.16.47.181",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/yorknodes-de1",
-                "headers": {
-                    "Host": "104.16.47.181"
-                }
             }
         },
         {
@@ -2125,7 +2138,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
