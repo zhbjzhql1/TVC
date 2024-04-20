@@ -136,7 +136,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 185",
+                "🇨🇦CA | vmess | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -146,7 +146,6 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🏳️XX | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 10",
@@ -158,7 +157,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 17",
@@ -223,7 +222,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 185",
+                "🇨🇦CA | vmess | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -233,7 +232,6 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🏳️XX | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 10",
@@ -245,7 +243,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 17",
@@ -1029,23 +1027,36 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 185",
-            "type": "vless",
-            "server": "188.212.97.47",
-            "server_port": 4002,
-            "uuid": "58820474-3eef-42e4-9c13-44f3efcaedd1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @prrofile_purple | 185",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "188.212.97.47"
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -1288,40 +1299,6 @@
                 "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
                 "headers": {
                     "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -1570,16 +1547,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "172.67.174.42",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "185.146.173.59",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "eefa8c1f-6904-4a0d-a2c7-b11a9459639f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1587,7 +1561,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "All.Vpn-Mikey.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1597,9 +1571,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "All.Vpn-Mikey.cfd"
                 }
             }
         },

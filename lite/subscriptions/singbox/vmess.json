@@ -109,9 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🇨🇦CA | vmess | @prrofile_purple | 185",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 17",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -125,9 +124,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🇨🇦CA | vmess | @prrofile_purple | 185",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 17",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -212,41 +210,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 30",
-            "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl1-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "nl1-vmess.sshmax.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+            "tag": "🇨🇦CA | vmess | @prrofile_purple | 185",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -280,11 +244,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 30",
             "type": "vmess",
-            "server": "172.67.174.42",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "172.67.204.84",
+            "server_port": 2096,
+            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,7 +261,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "nl1-vmess.sshmax.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -307,9 +271,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "nl1-vmess.sshmax.xyz"
                 }
             }
         },

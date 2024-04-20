@@ -131,7 +131,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -150,6 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇸🇪SE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -204,7 +204,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -223,6 +222,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇸🇪SE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -899,27 +899,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 185",
-            "type": "vless",
-            "server": "188.212.97.47",
-            "server_port": 4002,
-            "uuid": "58820474-3eef-42e4-9c13-44f3efcaedd1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.212.97.47"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @customv2ray | 9",
             "type": "vless",
             "server": "discord.gg",
@@ -1358,6 +1337,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 443,
+            "uuid": "eefa8c1f-6904-4a0d-a2c7-b11a9459639f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "All.Vpn-Mikey.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "headers": {
+                    "Host": "All.Vpn-Mikey.cfd"
                 }
             }
         },
