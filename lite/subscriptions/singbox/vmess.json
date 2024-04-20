@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @prrofile_purple | 195",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
-                "🇨🇳CN | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -124,10 +124,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @prrofile_purple | 195",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
-                "🇨🇳CN | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -185,6 +185,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "best-charm-pediatrician.glitch.me",
+            "server_port": 443,
+            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "best-charm-pediatrician.glitch.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
+                "headers": {
+                    "Host": "best-charm-pediatrician.glitch.me"
+                }
             }
         },
         {
@@ -287,23 +321,6 @@
                 "headers": {
                     "Host": "glweidf.sbs"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
