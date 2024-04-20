@@ -146,9 +146,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -218,9 +218,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -1282,6 +1282,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 98",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "-----DIGiV2RAY-----",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @sinabigo | 5",
             "type": "vless",
             "server": "46.36.100.38",
@@ -1313,37 +1334,6 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2053,
-            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "folani.iiipok.worKers.dEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "folani.iiipok.worKers.dEV"
                 }
             }
         },

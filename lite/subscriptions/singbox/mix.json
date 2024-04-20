@@ -153,9 +153,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
@@ -237,9 +238,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
@@ -1481,6 +1483,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 98",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "-----DIGiV2RAY-----",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @sinabigo | 5",
             "type": "vless",
             "server": "46.36.100.38",
@@ -1516,13 +1539,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "www.speedtest.net",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "qin12.rong1104.uk",
             "server_port": 2053,
-            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "e317a3a9-4e15-4792-d11d-b4b08df85803",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1530,7 +1556,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "folani.iiipok.worKers.dEV",
+                "server_name": "qin12.rong1104.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1540,9 +1566,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/qin12",
                 "headers": {
-                    "Host": "folani.iiipok.worKers.dEV"
+                    "Host": "qin12.rong1104.uk"
                 }
             }
         },
