@@ -129,7 +129,7 @@
                 "🇸🇪SE | vless | @V2rayCollectorDonate | 20",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 14",
-                "🇳🇱NL | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
@@ -198,7 +198,7 @@
                 "🇸🇪SE | vless | @V2rayCollectorDonate | 20",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 14",
-                "🇳🇱NL | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
@@ -819,11 +819,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Outline_Vpn | 18",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "188.114.97.12",
-            "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
+            "server": "172.66.213.38",
+            "server_port": 8080,
+            "uuid": "19f9aa50-d67b-4b9e-9802-4628a10df5fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -831,21 +831,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
+                    "Host": "172.66.213.38"
                 }
             }
         },
