@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
@@ -1122,11 +1122,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 5",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 6",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
+            "server": "visa.com",
+            "server_port": 2096,
+            "uuid": "13732170-05c7-4bd6-acd6-9ed74b4d1c1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1134,11 +1134,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kanal-falcunargo-rmarat.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "kanal-falcunargo-rmarat.falcunar.asso.eu.org"
                 }
             }
         },

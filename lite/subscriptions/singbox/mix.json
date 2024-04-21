@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
@@ -169,7 +169,6 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 5",
@@ -231,7 +230,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
@@ -252,7 +251,6 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 5",
@@ -1342,11 +1340,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 5",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 6",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
+            "server": "visa.com",
+            "server_port": 2096,
+            "uuid": "13732170-05c7-4bd6-acd6-9ed74b4d1c1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,11 +1352,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kanal-falcunargo-rmarat.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "kanal-falcunargo-rmarat.falcunar.asso.eu.org"
                 }
             }
         },
@@ -1916,40 +1924,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
-            "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
-                }
             }
         },
         {
