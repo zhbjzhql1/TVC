@@ -150,12 +150,12 @@
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇷🇺RU | vless | @Capoit | 10",
-                "🇩🇪DE | vless | @FreakConfig | 5",
+                "🇸🇬SG | vless | @Capoit | 10",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
-                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -220,12 +220,12 @@
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇷🇺RU | vless | @Capoit | 10",
-                "🇩🇪DE | vless | @FreakConfig | 5",
+                "🇸🇬SG | vless | @Capoit | 10",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
-                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -337,7 +337,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.98.72.213",
+            "server": "99.79.171.226",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1155,9 +1155,9 @@
         {
             "tag": "🇨🇦CA | vless | @vless_vmess | 13",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "104.17.42.10",
             "server_port": 443,
-            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1167,7 +1167,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "server_name": "HETZNER-D.pages.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1179,7 +1179,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },
@@ -1427,6 +1427,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 7",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -1487,7 +1518,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @Capoit | 10",
+            "tag": "🇸🇬SG | vless | @Capoit | 10",
             "type": "vless",
             "server": "194.53.53.66",
             "server_port": 8880,
@@ -1508,17 +1539,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @FreakConfig | 5",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "49.13.148.128",
-            "server_port": 24938,
-            "uuid": "5db559f8-f8c4-432f-f04a-033736ec57e9",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "academivpn1-bo7.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-proxy_mtm\/",
+                "headers": {
+                    "Host": "academivpn1-bo7.pages.dev"
+                }
             }
         },
         {
@@ -1549,37 +1597,6 @@
                 "path": "\/dns-query",
                 "headers": {
                     "Host": "212.80.19.164"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
-            "type": "vless",
-            "server": "104.17.42.10",
-            "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },
