@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 12",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @customv2ray | 10",
+                "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 24",
@@ -144,7 +144,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -178,7 +177,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 12",
@@ -197,7 +196,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @customv2ray | 10",
+                "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 24",
@@ -213,7 +212,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -333,9 +331,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.66.242.127",
+            "server": "15.236.163.134",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -808,11 +806,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 10",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 185",
             "type": "vless",
-            "server": "cafe.zhaal.ir",
-            "server_port": 2052,
-            "uuid": "b97cdd0e-bba9-4391-b265-b72f80b670db",
+            "server": "104.22.33.78",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -820,11 +818,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@SINABIGO\/",
                 "headers": {
-                    "Host": "cafe.zhaal.ir"
+                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
@@ -1250,37 +1258,6 @@
                 "path": "\/Telegram@SiNABiGO\/",
                 "headers": {
                     "Host": "worker-jolly-block-2e78.gamal32324.workers.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "ulm.minusober.com",
-            "server_port": 443,
-            "uuid": "9b55ef31-45a1-4ee7-b306-244571ac0b2e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ulm.minusober.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ulm",
-                "headers": {
-                    "Host": "ulm.minusober.com"
                 }
             }
         },
