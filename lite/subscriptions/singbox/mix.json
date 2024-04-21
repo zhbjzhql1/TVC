@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 2",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -176,7 +176,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 2",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -258,7 +258,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -1430,12 +1430,12 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "dl.snapfooding.com",
+            "server": "172.66.47.125",
             "server_port": 443,
-            "uuid": "41f84081-f7d0-5444-9b92-1edcedddc51c",
-            "flow": "xtls-rprx-vision",
+            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1444,25 +1444,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wordpress.org",
+                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "m-lsR1q8bnIMVvz6uT0uje-cOTH682rXGkIq_SxuAC0",
-                    "short_id": "6272695d"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@V2rayng_org-Telegram:@V2rayng_org-Telegram:@V2rayng_org-Telegram:@V2rayng_org-Telegram:@V2rayng_org-Telegram:@V2rayng_org-Telegram:@V2rayng_org",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
+                }
             }
         },
         {
@@ -2126,7 +2121,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
