@@ -111,6 +111,7 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -126,6 +127,7 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -274,6 +276,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "tel.hopev2ray.link",
+            "server_port": 443,
+            "uuid": "8d6abe4b-4b36-475a-8d97-f59d8e5b72af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "no2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "no2-vmess.sshmax.xyz"
                 }
             }
         },
