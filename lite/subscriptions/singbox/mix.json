@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇨🇦CA | vless | @proxy_kafee | 9",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollectorDonate | 20",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -143,6 +143,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 13",
@@ -175,7 +176,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 38",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -204,7 +205,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇨🇦CA | vless | @proxy_kafee | 9",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollectorDonate | 20",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -224,6 +225,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 13",
@@ -256,7 +258,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 38",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -687,9 +689,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 9",
             "type": "vless",
-            "server": "w3.org",
+            "server": "cdnjs.com",
             "server_port": 443,
             "uuid": "742cd304-be2a-4629-bdbc-ad87a22a5eb1",
             "flow": "",
@@ -701,7 +703,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "api2.shabazian.ir",
+                "server_name": "api339.animationkidsart.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -713,7 +715,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "api2.shabazian.ir"
+                    "Host": "api339.animationkidsart.ir"
                 }
             }
         },
@@ -1198,6 +1200,40 @@
                 "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
                 "headers": {
                     "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -2065,7 +2101,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
