@@ -109,6 +109,7 @@
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -124,6 +125,7 @@
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -206,6 +208,30 @@
                 "path": "\/video\/GQ2qE5Us9g",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "hk3.grpc.stream",
+            "server_port": 8300,
+            "uuid": "6031b5c3-d8ba-5756-b708-f61084a2b678",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/event",
+                "headers": {
+                    "Host": "hk3.grpc.stream"
                 }
             }
         },
