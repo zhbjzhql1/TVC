@@ -133,7 +133,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
@@ -213,7 +212,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
@@ -926,40 +924,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "104.27.199.39",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hyfhhg.jadovah977.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/jahfkjha.cfd\/linkws",
-                "headers": {
-                    "Host": "hyfhhg.jadovah977.workers.dev"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "75.102.51.45",
@@ -1534,9 +1498,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "64.176.216.199",
-            "server_port": 36159,
-            "uuid": "4826d728-48f9-43d1-aa1f-27b6850cd8a1",
+            "server": "92.38.145.145",
+            "server_port": 80,
+            "uuid": "0688b7c7-72e9-442e-95a0-d3b950028c39",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1546,6 +1510,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
