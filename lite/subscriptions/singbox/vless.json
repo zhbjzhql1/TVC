@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 54",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 16",
-                "🇫🇷FR | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇸🇪SE | vless | @proxyymeliii | 15",
+                "🇸🇪SE | vless | @proxyymeliii | 14",
                 "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 54",
@@ -196,7 +196,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 16",
-                "🇫🇷FR | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇸🇪SE | vless | @proxyymeliii | 15",
+                "🇸🇪SE | vless | @proxyymeliii | 14",
                 "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -331,9 +331,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 19",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.169.89.198",
+            "server": "54.170.252.130",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -821,11 +821,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @Outline_Vpn | 18",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "173.245.49.216",
-            "server_port": 2096,
-            "uuid": "2cd43f95-7f19-4a94-acae-aa5ca0825724",
+            "server": "104.17.0.11",
+            "server_port": 443,
+            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -835,7 +835,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "korosh.orewasanji.fun",
+                "server_name": "confingland-uae.pages.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -844,11 +844,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "korosh",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "confingland-uae.pages.Dev"
+                }
             }
         },
         {
@@ -1108,11 +1108,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 15",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "00a7d24f-d61a-4179-bbfb-f54346e7e416",
+            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
