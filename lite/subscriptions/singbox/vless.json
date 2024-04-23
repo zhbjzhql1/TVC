@@ -109,7 +109,8 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🏳️XX | vless | @VPNCUSTOMIZE | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 54",
@@ -135,7 +136,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 39",
-                "🇨🇦CA | vless | @ServerNett | 13",
+                "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
@@ -154,6 +155,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
+                "🇳🇱NL | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
@@ -173,7 +175,8 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🏳️XX | vless | @VPNCUSTOMIZE | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 54",
@@ -199,7 +202,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 39",
-                "🇨🇦CA | vless | @ServerNett | 13",
+                "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
@@ -218,6 +221,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
+                "🇳🇱NL | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
@@ -323,9 +327,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 19",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.10.241.19",
+            "server": "54.195.222.89",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -351,6 +355,20 @@
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @VPNCUSTOMIZE | 15",
+            "type": "vless",
+            "server": "login.kellekcollection.com",
+            "server_port": 8080,
+            "uuid": "0e39b5a8-1770-4d31-a26c-8aebb91d0b8d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -784,9 +802,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "104.17.0.11",
-            "server_port": 443,
-            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
+            "server": "www.visa.com",
+            "server_port": 8080,
+            "uuid": "Parsashonam-45",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -794,21 +812,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "confingland-uae.pages.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "confingland-uae.pages.Dev"
+                    "Host": "www.visa.com"
                 }
             }
         },
@@ -990,7 +998,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ServerNett | 13",
+            "tag": "🇨🇦CA | vless | @ServerNett | 15",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 8443,
@@ -1529,6 +1537,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @proxy_mtm | 4",
+            "type": "vless",
+            "server": "188.114.96.182",
+            "server_port": 443,
+            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eb8c0c64.888766.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "eb8c0c64.888766.pages.dev"
+                }
             }
         },
         {
