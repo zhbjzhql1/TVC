@@ -127,7 +127,7 @@
                 "🇮🇷IR | vless | @proxy_kafee | 10",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
-                "🇨🇦CA | vless | @Outline_Vpn | 18",
+                "🏳️XX | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
@@ -193,7 +193,7 @@
                 "🇮🇷IR | vless | @proxy_kafee | 10",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
-                "🇨🇦CA | vless | @Outline_Vpn | 18",
+                "🏳️XX | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
@@ -762,11 +762,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
+            "tag": "🏳️XX | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 8080,
-            "uuid": "Parsashonam-46",
+            "server": "1bdf3e45.mahdiserver-3kd.pages.dev",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -774,11 +774,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.visa.com"
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
                 }
             }
         },
@@ -974,7 +984,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "00a7d24f-d61a-4179-bbfb-f54346e7e416",
+            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
