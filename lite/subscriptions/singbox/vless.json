@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 16",
-                "🇫🇷FR | vless | @VlessConfig | 19",
+                "🇬🇧GB | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -164,7 +164,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 28",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -179,7 +179,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 16",
-                "🇫🇷FR | vless | @VlessConfig | 19",
+                "🇬🇧GB | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -233,7 +233,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 28",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -364,9 +364,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 19",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.37.10.9",
+            "server": "13.43.196.170",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1355,9 +1355,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "-----DIGIV2RAY---",
+            "server": "104.24.95.58",
+            "server_port": 2096,
+            "uuid": "7b0cd783-4d2a-4d4a-a1bb-66a98e3a85cb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1365,11 +1365,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "0a6b0c0a.expressvpnfree021-4j0.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "0a6b0c0a.expressvpnfree021-4j0.pages.dev"
                 }
             }
         },
@@ -1762,7 +1772,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
