@@ -13,13 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 16.171.93.242, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.51.59.113, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | vmess | @DeamNet_Proxy | 17 = vmess, 172.67.235.237, 443, username = f24bba0f-8656-44f8-b21e-a0e3a190c4c5, ws = true, tls = 1, vmess-aead = false, ws-path = /df97b21e-3943-4865-af18-b5ea9676b037, ws-headers = Host:"www.31000oooowe2.bf", skip-cert-verify = true, tfo = false
 🇨🇿CZ | vmess | @oneclickvpnkeys | 9 = vmess, 77.75.230.125, 8080, username = d466dd36-8b86-48b7-b0f0-67e7d128de6c, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"77.75.230.125", skip-cert-verify = true, tfo = false
 🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @oneclickvpnkeys | 9,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @oneclickvpnkeys | 9,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @oneclickvpnkeys | 9,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 9,🏳️XX | ss | @kingofilter | 6
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 9,🏳️XX | ss | @kingofilter | 6
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 9,🏳️XX | ss | @kingofilter | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
