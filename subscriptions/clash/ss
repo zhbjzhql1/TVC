@@ -118,15 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 2","type":"ss","server":"67.220.86.148","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇮🇳IN | ss | @DeamNet_Proxy | 3","type":"ss","server":"209.182.232.30","port":51348,"password":"9NJugkSe6yoPFJiS4dvLRRg07K92JEvAJSRfLr75VHxd7KM5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 4","type":"ss","server":"205.134.180.137","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 5","type":"ss","server":"23.134.94.175","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇦🇹AT | ss | @DeamNet_Proxy | 6","type":"ss","server":"212.113.106.243","port":13022,"password":"w5drAL7PfCIwQ2ycUuoDsV2Ls","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺RU | ss | @DeamNet_Proxy | 12","type":"ss","server":"45.67.32.147","port":13896,"password":"ygSXLTCrL8zeKb2n6mghK8J26GVHWmZA4pyy84Pyg6E=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | ss | @VmessProtocol | 2","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 4","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 0","type":"ss","server":"134.195.196.178","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 1","type":"ss","server":"38.68.135.18","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 2","type":"ss","server":"38.143.66.87","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 3","type":"ss","server":"142.202.48.99","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
@@ -139,6 +132,7 @@ proxies:
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 11","type":"ss","server":"54.36.174.181","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 12","type":"ss","server":"49.13.10.50","port":1194,"password":"Uxm4ADwftKdXq5qRA4ZfHS","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 13","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 14","type":"ss","server":"38.107.226.132","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🏳️XX | ss | @kingofilter | 6","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -146,15 +140,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | ss | @DeamNet_Proxy | 2'
-      - '🇮🇳IN | ss | @DeamNet_Proxy | 3'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 4'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 5'
-      - '🇦🇹AT | ss | @DeamNet_Proxy | 6'
-      - '🇷🇺RU | ss | @DeamNet_Proxy | 12'
       - '🇦🇪AE | ss | @VmessProtocol | 2'
       - '🇬🇧GB | ss | @VmessProtocol | 4'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 0'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 1'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 2'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
@@ -167,6 +154,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 11'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 12'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 13'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 14'
       - '🏳️XX | ss | @kingofilter | 6'
   - name: URL-TEST
     type: url-test
@@ -174,15 +162,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 2'
-      - '🇮🇳IN | ss | @DeamNet_Proxy | 3'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 4'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 5'
-      - '🇦🇹AT | ss | @DeamNet_Proxy | 6'
-      - '🇷🇺RU | ss | @DeamNet_Proxy | 12'
       - '🇦🇪AE | ss | @VmessProtocol | 2'
       - '🇬🇧GB | ss | @VmessProtocol | 4'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 0'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 1'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 2'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
@@ -195,21 +176,15 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 11'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 12'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 13'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 14'
       - '🏳️XX | ss | @kingofilter | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 2'
-      - '🇮🇳IN | ss | @DeamNet_Proxy | 3'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 4'
-      - '🇺🇸US | ss | @DeamNet_Proxy | 5'
-      - '🇦🇹AT | ss | @DeamNet_Proxy | 6'
-      - '🇷🇺RU | ss | @DeamNet_Proxy | 12'
       - '🇦🇪AE | ss | @VmessProtocol | 2'
       - '🇬🇧GB | ss | @VmessProtocol | 4'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 0'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 1'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 2'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
@@ -222,6 +197,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 11'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 12'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 13'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 14'
       - '🏳️XX | ss | @kingofilter | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
