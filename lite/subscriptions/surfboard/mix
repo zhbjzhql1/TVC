@@ -11,15 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 19 = trojan, 52.28.215.121, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @PrivateVPNs | 19 = trojan, 3.73.228.198, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.48.233.30, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇳🇴NO | vmess | @oneclickvpnkeys | 9 = vmess, 95.164.38.6, 80, username = 8b86eebb-4332-46ea-aa70-8a821dc8272f, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
-🇭🇰HK | vmess | @Hope_Net | 19 = vmess, 152.32.190.239, 4431, username = 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"cfhk.393930.xyz", skip-cert-verify = true, tfo = false
+🇨🇦CA | trojan | @v2ray1_ng | 14 = trojan, 198.41.220.4, 443, password = 71409d3e488548e8bb076d229778f008, udp-delay = true, skip-cert-verify = false, sni = jobscareerforlawyers.com, ws = false
+🇨🇦CA | vmess | @Hope_Net | 19 = vmess, 104.20.26.40, 8080, username = 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, ws = true, tls = , vmess-aead = true, ws-path = 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, ws-headers = Host:"fantastic-doe-bids-ended.trycloudflare.com", skip-cert-verify = true, tfo = false
 🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇭🇰HK | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇭🇰HK | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇭🇰HK | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇨🇦CA | trojan | @v2ray1_ng | 14,🇨🇦CA | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 6
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇨🇦CA | trojan | @v2ray1_ng | 14,🇨🇦CA | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 6
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇨🇦CA | trojan | @v2ray1_ng | 14,🇨🇦CA | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
