@@ -480,10 +480,10 @@
                 "🇺🇸US | vless | @VmessProtocol | 12",
                 "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇺🇸US | vless | @DailyV2RY | 142",
-                "🇺🇸US | vless | @DailyV2RY | 143",
-                "🇸🇪SE | vless | @DailyV2RY | 144",
-                "🇩🇪DE | vless | @DailyV2RY | 155",
+                "🇩🇪DE | vless | @DailyV2RY | 144",
+                "🇺🇸US | vless | @DailyV2RY | 145",
+                "🇺🇸US | vless | @DailyV2RY | 146",
+                "🇸🇪SE | vless | @DailyV2RY | 147",
                 "🇺🇸US | vless | @sinabigo | 0",
                 "🇺🇸US | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
@@ -1004,10 +1004,10 @@
                 "🇺🇸US | vless | @VmessProtocol | 12",
                 "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇺🇸US | vless | @DailyV2RY | 142",
-                "🇺🇸US | vless | @DailyV2RY | 143",
-                "🇸🇪SE | vless | @DailyV2RY | 144",
-                "🇩🇪DE | vless | @DailyV2RY | 155",
+                "🇩🇪DE | vless | @DailyV2RY | 144",
+                "🇺🇸US | vless | @DailyV2RY | 145",
+                "🇺🇸US | vless | @DailyV2RY | 146",
+                "🇸🇪SE | vless | @DailyV2RY | 147",
                 "🇺🇸US | vless | @sinabigo | 0",
                 "🇺🇸US | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
@@ -10549,7 +10549,43 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 142",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 144",
+            "type": "vless",
+            "server": "dl.snapfooding.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Rj9IU41tyY7qW9DlOOYB-lxhLGP9SxlRrnjTbNnlKgc",
+                    "short_id": "1ba897a2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @DailyV2RY | 145",
             "type": "vless",
             "server": "104.24.185.137",
             "server_port": 2053,
@@ -10580,7 +10616,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 143",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 146",
             "type": "vless",
             "server": "172.66.44.158",
             "server_port": 80,
@@ -10601,7 +10637,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 144",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 147",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8080,
@@ -10619,20 +10655,6 @@
                 "headers": {
                     "Host": "185.146.173.59"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 155",
-            "type": "vless",
-            "server": "pch-ipp.poshakbany.ir",
-            "server_port": 41674,
-            "uuid": "430f5a36-7993-4cba-adaf-68005ba3077a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
