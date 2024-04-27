@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇸🇪SE | vless | @V2rayNGn | 22",
+                "🇨🇦CA | vmess | @V2rayNGn | 21",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇮🇷IR | vless | @proxyymeliii | 18",
+                "🇸🇪SE | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 14",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -175,7 +175,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇸🇪SE | vless | @V2rayNGn | 22",
+                "🇨🇦CA | vmess | @V2rayNGn | 21",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇮🇷IR | vless | @proxyymeliii | 18",
+                "🇸🇪SE | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 14",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -255,7 +255,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -835,13 +835,16 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 22",
-            "type": "vless",
-            "server": "LIGHTNING6-joinbede.filj.top",
+            "tag": "🇨🇦CA | vmess | @V2rayNGn | 21",
+            "type": "vmess",
+            "server": "172.67.204.84",
             "server_port": 8880,
-            "uuid": "eb104332-4f8c-4850-aa6a-5df3ba0539f7",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "f9416b3e-e0d5-4876-fe97-46aac208211a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -849,9 +852,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "LIGHTNING6-joinbede.filj.top"
+                    "Host": ""
                 }
             }
         },
@@ -1252,17 +1255,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 18",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 20",
             "type": "vless",
-            "server": "217.60.252.208",
-            "server_port": 8443,
-            "uuid": "2033386f-64c0-48ad-bfea-63feabf36523",
+            "server": "LIGHTNING6-joinbede.filj.top",
+            "server_port": 8880,
+            "uuid": "be427558-0c61-42f6-ac8f-f99a7c6f56c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.filj.top"
+                }
             }
         },
         {
@@ -1999,7 +2009,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
