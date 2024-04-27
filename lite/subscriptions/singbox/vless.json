@@ -129,12 +129,12 @@
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 22",
-                "🇨🇦CA | vless | @Outline_Vpn | 17",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 28",
-                "🇳🇱NL | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @ServerNett | 17",
@@ -156,6 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇳🇱NL | vless | @flyv2ray | 27",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -196,12 +197,12 @@
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 22",
-                "🇨🇦CA | vless | @Outline_Vpn | 17",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 28",
-                "🇳🇱NL | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @ServerNett | 17",
@@ -223,6 +224,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇳🇱NL | vless | @flyv2ray | 27",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -830,7 +832,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 17",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
             "server": "104.25.221.166",
             "server_port": 443,
@@ -965,11 +967,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "188.114.96.182",
-            "server_port": 443,
-            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
+            "server": "104.18.37.228",
+            "server_port": 8080,
+            "uuid": "49715d61-c947-4e11-ae05-9848c5f2100c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -977,21 +979,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "eb8c0c64.888766.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/melov2ray",
                 "headers": {
-                    "Host": "eb8c0c64.888766.pages.dev"
+                    "Host": "104.18.37.228"
                 }
             }
         },
@@ -1547,6 +1539,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pardazesh14.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @flyv2ray | 27",
+            "type": "vless",
+            "server": "188.114.96.182",
+            "server_port": 443,
+            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eb8c0c64.888766.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "eb8c0c64.888766.pages.dev"
                 }
             }
         },
