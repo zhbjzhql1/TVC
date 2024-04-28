@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 5",
-                "🇸🇪SE | vless | @NIM_VPN_ir | 12",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🇺🇸US | vless | @proxyymeliii | 21",
+                "🇨🇦CA | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 11",
@@ -160,7 +160,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 5",
-                "🇸🇪SE | vless | @NIM_VPN_ir | 12",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🇺🇸US | vless | @proxyymeliii | 21",
+                "🇨🇦CA | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 11",
@@ -245,7 +245,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -365,11 +365,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @NIM_VPN_ir | 12",
+            "tag": "🇸🇪SE | vless | @NIM_VPN_ir | 11",
             "type": "vless",
             "server": "Back.MsV2ray.online",
             "server_port": 80,
-            "uuid": "-MsV2ray-Channel-",
+            "uuid": "MsV2ray-MsV2ray-MsV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1341,7 +1341,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 21",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 21",
             "type": "vless",
             "server": "elma.ns.cloudflare.com",
             "server_port": 2096,
@@ -1635,11 +1635,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "64.176.199.51",
-            "server_port": 23534,
-            "uuid": "d7da6369-ea95-4ccf-c721-85200794a62e",
+            "server": "146.190.86.66",
+            "server_port": 35010,
+            "uuid": "9fbd6d59-dee1-4f1a-be58-53f0ed32356a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1649,6 +1649,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
