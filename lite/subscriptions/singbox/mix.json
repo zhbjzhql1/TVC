@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 13",
-                "🇷🇺RU | ss | @azadi_az_inja_migzare | 3",
+                "🇷🇺RU | ss | @azadi_az_inja_migzare | 4",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
@@ -176,7 +176,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 13",
-                "🇷🇺RU | ss | @azadi_az_inja_migzare | 3",
+                "🇷🇺RU | ss | @azadi_az_inja_migzare | 4",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
@@ -258,7 +258,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -797,7 +797,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @azadi_az_inja_migzare | 3",
+            "tag": "🇷🇺RU | ss | @azadi_az_inja_migzare | 4",
             "type": "shadowsocks",
             "server": "moscow.telegavpn.com",
             "server_port": 60422,
@@ -1286,9 +1286,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "server": "172.66.44.169",
+            "server_port": 443,
+            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1296,11 +1296,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@my_proxii",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.18.158.102"
+                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
                 }
             }
         },
@@ -2033,7 +2043,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
