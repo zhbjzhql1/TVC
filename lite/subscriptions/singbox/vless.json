@@ -132,17 +132,17 @@
                 "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 191",
-                "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 27",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
-                "🇮🇷IR | vless | @v2rayngvpn | 14",
+                "🇸🇪SE | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 13",
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
+                "🇸🇪SE | vless | @MsV2ray | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 16",
@@ -201,17 +201,17 @@
                 "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 191",
-                "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 27",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
-                "🇮🇷IR | vless | @v2rayngvpn | 14",
+                "🇸🇪SE | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 13",
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
+                "🇸🇪SE | vless | @MsV2ray | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 16",
@@ -930,27 +930,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 7",
-            "type": "vless",
-            "server": "104.31.16.91",
-            "server_port": 80,
-            "uuid": "44429467-1ddb-4461-887e-69f2fdcfebcb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/backup",
-                "headers": {
-                    "Host": "104.31.16.91"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @UnlimitedDev | 15",
             "type": "vless",
             "server": "bia-to.unlimiteddev.motorcycles.",
@@ -1029,17 +1008,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 14",
+            "tag": "🇸🇪SE | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "212.80.10.33",
-            "server_port": 53201,
-            "uuid": "7665257b-baa3-496e-dfad-65efc5727fd7",
+            "server": "185.146.173.59",
+            "server_port": 2095,
+            "uuid": "0870314f-9920-4223-aaf4-7211857d78ac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
@@ -1192,7 +1178,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "429137ec-527d-4e99-80e7-a2705192a1e2",
+            "uuid": "be427558-0c61-42f6-ac8f-f99a7c6f56c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1205,6 +1191,27 @@
                 "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
                 "headers": {
                     "Host": "LIGHTNING6-joinbede.filj.top"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @MsV2ray | 12",
+            "type": "vless",
+            "server": "Back.MsV2ray.online",
+            "server_port": 80,
+            "uuid": "-MsV2ray-MsV2ray-MsV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray",
+                "headers": {
+                    "Host": "Back.MsV2ray.online"
                 }
             }
         },
