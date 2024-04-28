@@ -113,7 +113,7 @@
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 10",
-                "🇨🇦CA | vless | @V2pedia | 55",
+                "🇨🇦CA | vless | @V2pedia | 56",
                 "🇨🇦CA | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 28",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
-                "🇺🇸US | vless | @fnet00 | 1",
+                "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -166,7 +166,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
@@ -184,7 +184,7 @@
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 10",
-                "🇨🇦CA | vless | @V2pedia | 55",
+                "🇨🇦CA | vless | @V2pedia | 56",
                 "🇨🇦CA | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 28",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
-                "🇺🇸US | vless | @fnet00 | 1",
+                "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -237,7 +237,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
@@ -441,7 +441,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 55",
+            "tag": "🇨🇦CA | vless | @V2pedia | 56",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 2096,
@@ -1004,9 +1004,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "172.66.213.0",
-            "server_port": 80,
-            "uuid": "e6adc035-2391-42ba-b650-725f14095b4c",
+            "server": "172.66.47.18",
+            "server_port": 443,
+            "uuid": "661e4131-514a-457e-bbc7-748cbb92253d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,11 +1014,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh14.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/More_links:@holderproxy",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.66.213.0"
+                    "Host": "pardazesh14.pages.dev"
                 }
             }
         },
@@ -1404,7 +1414,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 1",
+            "tag": "🇨🇦CA | vless | @fnet00 | 1",
             "type": "vless",
             "server": "104.25.221.166",
             "server_port": 443,
@@ -1808,7 +1818,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
