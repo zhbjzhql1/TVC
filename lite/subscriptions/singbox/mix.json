@@ -141,14 +141,13 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 27",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
-                "🇮🇷IR | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 13",
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
-                "🇸🇪SE | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇨🇳CN | ss | @VmessProtocol | 17",
@@ -176,7 +175,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -223,14 +222,13 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 27",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
-                "🇮🇷IR | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 13",
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
-                "🇸🇪SE | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇨🇳CN | ss | @VmessProtocol | 17",
@@ -258,7 +256,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -1136,17 +1134,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "212.80.10.33",
-            "server_port": 53201,
-            "uuid": "7665257b-baa3-496e-dfad-65efc5727fd7",
+            "server": "172.66.44.159",
+            "server_port": 443,
+            "uuid": "9c4d80a9-bade-4e4d-a14a-dcc1649d57af",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh10.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazesh10.pages.dev"
+                }
             }
         },
         {
@@ -1322,27 +1337,6 @@
                 "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
                 "headers": {
                     "Host": "LIGHTNING6-joinbede.filj.top"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @MsV2ray | 14",
-            "type": "vless",
-            "server": "Back.MsV2ray.online",
-            "server_port": 2095,
-            "uuid": "MsV2ray-MsV2ray-MsV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray",
-                "headers": {
-                    "Host": "Back.MsV2ray.online"
                 }
             }
         },
@@ -2011,7 +2005,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
