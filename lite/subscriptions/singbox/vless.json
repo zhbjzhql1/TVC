@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -164,7 +164,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -233,7 +233,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
@@ -1107,11 +1107,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
+            "server": "172.64.229.28",
+            "server_port": 8443,
+            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1119,11 +1119,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.shift.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "dns68.shift.cloudns.org"
                 }
             }
         },
@@ -1781,7 +1791,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
