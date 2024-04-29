@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 130",
+                "🇳🇱NL | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @Capoit | 16",
+                "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @flyv2ray | 24",
                 "🇬🇧GB | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 8",
@@ -176,7 +176,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 32",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -232,7 +232,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 130",
+                "🇳🇱NL | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
@@ -246,7 +246,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @Capoit | 16",
+                "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @flyv2ray | 24",
                 "🇬🇧GB | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 8",
@@ -258,7 +258,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 32",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -1373,23 +1373,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 130",
+            "tag": "🇳🇱NL | vless | @DailyV2RY | 130",
             "type": "vless",
-            "server": "104.17.233.221",
-            "server_port": 80,
-            "uuid": "02dfc7eb-2dd6-475b-991c-b302ea593708",
-            "flow": "",
+            "server": "88.210.10.249",
+            "server_port": 443,
+            "uuid": "08f85c8d-c6a8-4edc-9c7b-60b30e6f3098",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
-                "headers": {
-                    "Host": "104.17.233.221"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.duckduckgo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mIuaccYWTvGaWVOWC0WA8WX_uvqY7vCtZw0TuDQMezs",
+                    "short_id": "d3adf9380a0cceca"
                 }
             }
         },
@@ -1719,9 +1727,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 16",
+            "tag": "🇸🇪SE | vless | @Capoit | 17",
             "type": "vless",
-            "server": "V2rayGodVip--mci1.V2rayGod.Site",
+            "server": "V2rayGodVip--allh1.V2rayGod.Site",
             "server_port": 80,
             "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
             "flow": "",
@@ -1735,7 +1743,7 @@
                 "type": "ws",
                 "path": "\/@V2rayGodVip=Telegram\/",
                 "headers": {
-                    "Host": "V2rayGodVip--mci1.V2rayGod.Site"
+                    "Host": "V2rayGodVip--allh1.V2rayGod.Site"
                 }
             }
         },
@@ -2021,7 +2029,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
