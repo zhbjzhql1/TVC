@@ -11,15 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | ss | @azadi_az_inja_migzare | 6 = ss, 89.185.84.30, 20228, encrypt-method = chacha20-ietf-poly1305, password = ia5LxWdirrz8X6n9b784Ff
-🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 18.171.102.228, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | trojan | @DirectVPN | 19 = trojan, 35.176.46.136, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
+🇺🇸US | ss | @azadi_az_inja_migzare | 5 = ss, 23.154.136.37, 8118, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
+🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 18.135.85.237, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 19 = trojan, 3.11.114.159, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @azadi_az_inja_migzare | 6,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇬🇧GB | ss | @azadi_az_inja_migzare | 6,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇬🇧GB | ss | @azadi_az_inja_migzare | 6,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+URL-TEST = url-test,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+FALLBACK = fallback,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
