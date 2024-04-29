@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -154,7 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 0",
-                "🇸🇪SE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇸🇪SE | vless | @proxy_mtm | 2",
@@ -165,7 +165,7 @@
                 "🇸🇪SE | vless | @IBv2ray | 2",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 7"
             ]
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -222,7 +222,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 0",
-                "🇸🇪SE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇸🇪SE | vless | @proxy_mtm | 2",
@@ -233,7 +233,7 @@
                 "🇸🇪SE | vless | @IBv2ray | 2",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 7"
             ],
@@ -1095,11 +1095,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
+            "server": "172.66.44.169",
+            "server_port": 443,
+            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1107,11 +1107,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
                 }
             }
         },
@@ -1481,11 +1491,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "join-VPNCUSTOMIZE.V2ray.motorcycles.",
-            "server_port": 2095,
-            "uuid": "4a4494eb-0340-40c4-ba4e-7a07c16a0a59",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "9348a023-9a1e-434b-93f5-fe4fd1d06e0c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1493,11 +1503,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "drossawethkingdom.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=1024",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "join-VPNCUSTOMIZE.V2ray.motorcycles."
+                    "Host": "drossawethkingdom.pages.dev"
                 }
             }
         },
@@ -1773,7 +1793,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
