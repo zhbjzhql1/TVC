@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🏳️XX | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @proxyymeliii | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 17",
+                "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -122,10 +123,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🏳️XX | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @proxyymeliii | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 17",
+                "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -191,7 +193,41 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "icook.hk",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "subhk.osafari599.WOrkERs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "headers": {
+                    "Host": "subhk.osafari599.WOrkERs.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "2a01:4f8:242:1d0e::1461:40",
             "server_port": 24444,
@@ -273,11 +309,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 17",
+            "tag": "🏳️XX | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "109.107.181.130",
-            "server_port": 30127,
-            "uuid": "891494ae-5bcd-44bc-dbf4-c7132a909930",
+            "server": "vw.vwvwvw.xyz",
+            "server_port": 8443,
+            "uuid": "dd350843-2ff2-cda7-e5b0-575448c5b370",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -288,11 +324,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vw.vwvwvw.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/osqlvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "vw.vwvwvw.xyz"
                 }
             }
         },
