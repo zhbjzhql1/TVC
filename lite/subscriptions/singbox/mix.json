@@ -125,16 +125,16 @@
                 "🇮🇷IR | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -171,7 +171,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 6",
+                "🇨🇦CA | vless | @kingofilter | 7",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -206,16 +206,16 @@
                 "🇮🇷IR | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -252,7 +252,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 6",
+                "🇨🇦CA | vless | @kingofilter | 7",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -380,7 +380,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "16.171.191.99",
+            "server": "16.16.125.244",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -749,11 +749,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "DIGIV2RAY-",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "fd64e3de-552d-4f77-a7a2-09c1b6117b81",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -761,11 +761,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-estoni.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "telegram-falcunargo-estoni.falcunar.asso.eu.org"
                 }
             }
         },
@@ -859,7 +869,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "51.20.162.36",
+            "server": "13.51.7.7",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -879,9 +889,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.49.157.250",
+            "server": "18.157.54.220",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -942,11 +952,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "2a12:9080:1:4c::a",
-            "server_port": 24444,
-            "uuid": "f362d0b5-34d8-4f33-8ead-90a5fe6921b8",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -957,11 +967,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/5e60be5f\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
@@ -1874,11 +1894,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 6",
+            "tag": "🇨🇦CA | vless | @kingofilter | 7",
             "type": "vless",
-            "server": "Iran.poloo.ir",
-            "server_port": 2052,
-            "uuid": "c1ce4c07-4e02-4475-82ad-944c474d7519",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1886,11 +1906,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "d6f1D970.OxneT-ir-xzu871.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/6x1vHrFFEstGLN5i?ed=2560",
                 "headers": {
-                    "Host": "Iran.poloo.ir"
+                    "Host": "d6f1D970.OxneT-ir-xzu871.paGES.DEV"
                 }
             }
         },
