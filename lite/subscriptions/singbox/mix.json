@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇫🇷FR | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 25",
-                "🇸🇪SE | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @ServerNett | 19",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇮🇷IR | vless | @VmessProtocol | 17",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇫🇷FR | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 25",
-                "🇸🇪SE | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @ServerNett | 19",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇮🇷IR | vless | @VmessProtocol | 17",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
@@ -822,24 +822,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 2",
+            "tag": "🏳️XX | vless | @ProxyForOpeta | 3",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "-DIGIV2RAY--",
+            "server": "[2a01:4f9:c011:1622::1]",
+            "server_port": 12535,
+            "uuid": "Parsashonam-1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray-",
-                "headers": {
-                    "Host": "www.Speedtest.Net"
-                }
             }
         },
         {
@@ -1111,11 +1104,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 11",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 2095,
-            "uuid": "88ac5208-06c3-4438-a6cf-bb2d312f15f9",
+            "server": "172.66.44.202",
+            "server_port": 443,
+            "uuid": "f35ee8d8-6ef1-49d5-a138-12b3d514e873",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1123,11 +1116,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg6.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "pardazeshvpn-tg6.pages.dev"
                 }
             }
         },
@@ -1351,17 +1354,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @VmessProtocol | 17",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
             "type": "vless",
-            "server": "213.176.2.178",
-            "server_port": 38266,
-            "uuid": "416e5016-2df4-4a3c-beca-fa8f3546776f",
+            "server": "avval.ir",
+            "server_port": 2096,
+            "uuid": "041f929a-63f6-4af1-a492-8cbff5797b8a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-emiratess.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo-emiratess.falcunar.asso.eu.org"
+                }
             }
         },
         {
