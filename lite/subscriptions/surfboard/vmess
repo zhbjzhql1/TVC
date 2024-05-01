@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸US | vmess | @DeamNet_Proxy | 19 = vmess, oracle1.mysupp.com, 25943, username = 520c82fe-3e74-43b9-9dfb-87cae71e8cc0, ws = true, tls = 1, vmess-aead = false, ws-path = /canada, ws-headers = Host:"oracle1.mysupp.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 19
+URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 19
+FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
