@@ -143,7 +143,7 @@
                 "🇺🇸US | vless | @proxyymeliii | 29",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
@@ -213,7 +213,7 @@
                 "🇺🇸US | vless | @proxyymeliii | 29",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
@@ -1198,11 +1198,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 11",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "72bc9e29-ad9c-4cb6-ee96-efce19f67080",
+            "server": "104.18.12.130",
+            "server_port": 443,
+            "uuid": "%50%61%72%73%61%73%68%6f%6e%61%6d%2d%35%37",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1210,11 +1210,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6 TEL  @LIGHTNING6 TEL  @LIGHTNING6 TEL  @LIGHTNING6 JOIN @LIGHTNING6 TEL  @LIGHTNING6 JOIN @LIGHTNING6 TEL  @LIGHTNING6 TEL  @LIGHTNING6 JOIN @LIGHTNING6 TEL  @LIGHTNING6 @LiV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.94"
+                    "Host": "mail.offch.blog"
                 }
             }
         },
