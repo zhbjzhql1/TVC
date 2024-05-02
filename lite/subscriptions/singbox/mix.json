@@ -110,6 +110,7 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 10",
                 "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🏳️XX | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 57",
@@ -144,7 +145,7 @@
                 "🇬🇧GB | vless | @proxyymeliii | 33",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
@@ -169,7 +170,7 @@
                 "🇨🇦CA | vless | @kingofilter | 8",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -185,6 +186,7 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 10",
                 "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🏳️XX | vless | @melov2ray | 11",
                 "🇸🇪SE | vless | @V2pedia | 57",
@@ -219,7 +221,7 @@
                 "🇬🇧GB | vless | @proxyymeliii | 33",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 7",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
@@ -244,7 +246,7 @@
                 "🇨🇦CA | vless | @kingofilter | 8",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -372,6 +374,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 19",
+            "type": "vless",
+            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "TMCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },
@@ -507,9 +530,9 @@
         {
             "tag": "🇨🇦CA | vless | @Lockey_vpn | 15",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 443,
-            "uuid": "cb211e44-7725-4ddc-b52e-6a0059162fde",
+            "server": "104.24.0.28",
+            "server_port": 2053,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -519,7 +542,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "moZ.soft98.deDYn.io",
+                "server_name": "guq22.oxnetwORKs.LiNK",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -529,9 +552,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws",
                 "headers": {
-                    "Host": "moZ.soft98.deDYn.io"
+                    "Host": "guq22.oxnetwORKs.LiNK"
                 }
             }
         },
@@ -1183,11 +1206,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "104.18.12.130",
-            "server_port": 443,
-            "uuid": "Parsashonam-57",
+            "server": "185.146.173.185",
+            "server_port": 2095,
+            "uuid": "1436ec94-4d33-4931-8a18-ed43a2a7d11d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1195,21 +1218,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
                 "headers": {
-                    "Host": "mail.offch.blog"
+                    "Host": "185.146.173.185"
                 }
             }
         },
@@ -1793,7 +1806,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
