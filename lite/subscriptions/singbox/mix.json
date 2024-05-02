@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -168,10 +168,10 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🏳️XX | vless | @kingofilter | 7",
+                "🇨🇦CA | vless | @kingofilter | 5",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -245,10 +245,10 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🏳️XX | vless | @kingofilter | 7",
+                "🇨🇦CA | vless | @kingofilter | 5",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -720,7 +720,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ProxyForOpeta | 4",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1809,11 +1809,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kingofilter | 7",
+            "tag": "🇨🇦CA | vless | @kingofilter | 5",
             "type": "vless",
-            "server": "Iran.poloo.ir",
-            "server_port": 2052,
-            "uuid": "c1ce4c07-4e02-4475-82ad-944c474d7519",
+            "server": "divide.footballlovernews.com",
+            "server_port": 443,
+            "uuid": "d15f5947-f95c-4cc4-b8e0-20219e4bc2d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1821,11 +1821,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "divide.footballlovernews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/divide",
                 "headers": {
-                    "Host": "Iran.poloo.ir"
+                    "Host": "divide.footballlovernews.com"
                 }
             }
         },
@@ -1880,7 +1890,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
