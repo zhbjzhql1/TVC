@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -302,11 +302,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "45.77.146.58",
-            "server_port": 22131,
-            "uuid": "ad42d586-dcd1-4629-d49b-a6f2d821ad39",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -316,6 +316,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
             }
         },
         {
