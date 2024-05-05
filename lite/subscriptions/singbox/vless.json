@@ -144,7 +144,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇸🇪SE | vless | @DailyV2RY | 143",
+                "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇨🇦CA | vless | @lrnbymaa | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
@@ -214,7 +214,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇸🇪SE | vless | @DailyV2RY | 143",
+                "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇨🇦CA | vless | @lrnbymaa | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
@@ -1192,11 +1192,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 143",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 144",
             "type": "vless",
-            "server": "join-zedmodeon.kanal-asli-zedmodeon.shop.",
-            "server_port": 2095,
-            "uuid": "64b2f336-f8bd-4c8b-9744-5699da10f025",
+            "server": "104.21.18.64",
+            "server_port": 443,
+            "uuid": "c085eef1-b5f1-44ed-b7f1-a0b28279af34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1204,11 +1204,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1vless.vpnhack.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "join-zedmodeon.kanal-asli-zedmodeon.shop."
+                    "Host": "de1vless.vpnhack.xyz"
                 }
             }
         },
