@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -122,7 +122,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -169,11 +169,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇭🇰HK | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "104.21.224.221",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "185.244.208.61",
+            "server_port": 8080,
+            "uuid": "bdd22841-c4d2-4aa8-acf2-95aa9125f159",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -184,11 +184,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk-17.trollfunny.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "hk-17.trollfunny.net"
                 }
             }
         },
