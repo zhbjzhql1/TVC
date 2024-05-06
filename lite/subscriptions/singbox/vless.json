@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
@@ -171,6 +172,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
@@ -252,6 +254,27 @@
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 9",
+            "type": "vless",
+            "server": "104.21.45.183",
+            "server_port": 80,
+            "uuid": "Telegram-ELiV2Ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Eli.V2ray.motorcycles",
+                "headers": {
+                    "Host": "104.21.45.183"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @Parsashonam | 17",
             "type": "vless",
             "server": "www.visa.com",
@@ -327,7 +350,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "16.170.101.27",
+            "server": "13.50.159.113",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1085,22 +1108,15 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 2095,
-            "uuid": "VPN%43UST%4fMiZ%45",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "87a%37379%30-97%311-4%6236-%38f11%2dd26%34173%3896a%62",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.146"
-                }
             }
         },
         {

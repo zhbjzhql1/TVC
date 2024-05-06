@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
@@ -128,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
@@ -153,7 +154,7 @@
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 10",
@@ -184,6 +185,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
@@ -206,7 +208,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
@@ -231,7 +233,7 @@
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 10",
@@ -276,6 +278,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 9",
+            "type": "vless",
+            "server": "104.21.45.183",
+            "server_port": 80,
+            "uuid": "Telegram-ELiV2Ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Eli.V2ray.motorcycles",
+                "headers": {
+                    "Host": "104.21.45.183"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 17",
@@ -353,7 +376,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "16.170.101.27",
+            "server": "13.50.159.113",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -802,7 +825,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.49.196.72",
+            "server": "13.53.247.143",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -822,9 +845,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "16.171.180.105",
+            "server": "18.197.119.26",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1264,22 +1287,15 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 2095,
-            "uuid": "VPNCUSTOMiZE",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "87a73790-9711-4b36-8f11-d264173896ab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.146"
-                }
             }
         },
         {
@@ -1403,7 +1419,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2082,
