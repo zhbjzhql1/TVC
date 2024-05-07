@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | vmess | @DeamNet_Proxy | 17 = vmess, 66.241.124.229, 443, username = ea4909ef-7ca6-4b46-bf2e-6c07896ef338, ws = true, tls = 1, vmess-aead = false, ws-path = /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, ws-headers = Host:"cold-dawn-9246.fly.dev", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.26.6.65, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 104.21.4.6, 443, username = 1052f24e-7b09-45eb-b0c5-d858eb124192, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
