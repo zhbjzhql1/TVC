@@ -120,12 +120,12 @@
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 18",
-                "🇨🇦CA | vless | @free_v2rayyy | 11",
+                "🇨🇦CA | vless | @free_v2rayyy | 12",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 19",
+                "🇨🇦CA | vless | @DigiV2ray | 18",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -154,8 +154,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 12",
-                "🇸🇪SE | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @Capoit | 12",
+                "🇸🇪SE | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -189,12 +189,12 @@
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 18",
-                "🇨🇦CA | vless | @free_v2rayyy | 11",
+                "🇨🇦CA | vless | @free_v2rayyy | 12",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 19",
+                "🇨🇦CA | vless | @DigiV2ray | 18",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -223,8 +223,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 12",
-                "🇸🇪SE | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @Capoit | 12",
+                "🇸🇪SE | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -614,7 +614,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 11",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 12",
             "type": "vless",
             "server": "172.66.213.5",
             "server_port": 2086,
@@ -685,7 +685,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -747,11 +747,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DigiV2ray | 19",
+            "tag": "🇨🇦CA | vless | @DigiV2ray | 18",
             "type": "vless",
             "server": "www.Speedtest.Net",
             "server_port": 80,
-            "uuid": "-DIGIV2RAY-",
+            "uuid": "-DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1221,15 +1221,22 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "c5b%6216c%35-9c%61a-4%32e1-%380b8%2d260%32271%39509%63",
+            "server": "185.146.173.185",
+            "server_port": 2095,
+            "uuid": "b27%33d2e%33-7b%360-4%6341-%613e4%2d33b%31dc6%65523%33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.185"
+                }
             }
         },
         {
@@ -1490,7 +1497,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 12",
+            "tag": "🇨🇦CA | vless | @Capoit | 12",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,
@@ -1521,7 +1528,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @FreakConfig | 5",
+            "tag": "🇸🇪SE | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 443,
