@@ -122,7 +122,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 18",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -139,7 +139,6 @@
                 "🇨🇦CA | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
-                "🇨🇦CA | vless | @proxyymeliii | 33",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -158,6 +157,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @kingofilter | 4",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -189,7 +189,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 18",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -206,7 +206,6 @@
                 "🇨🇦CA | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
-                "🇨🇦CA | vless | @proxyymeliii | 33",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -225,6 +224,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @kingofilter | 4",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -352,7 +352,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "51.21.102.255",
+            "server": "13.51.245.220",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -660,7 +660,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1093,37 +1093,6 @@
                 "path": "\/powerdbyWyvern?ed=2560",
                 "headers": {
                     "Host": "9e83eca1.wyvernfree.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 33",
-            "type": "vless",
-            "server": "172.66.44.139",
-            "server_port": 443,
-            "uuid": "de70c2ab-3b16-44c2-8579-9b05fedc3b36",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg3.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazeshvpn-tg3.pages.dev"
                 }
             }
         },
@@ -1614,6 +1583,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @kingofilter | 4",
+            "type": "vless",
+            "server": "172.66.44.139",
+            "server_port": 443,
+            "uuid": "de70c2ab-3b16-44c2-8579-9b05fedc3b36",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg3.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazeshvpn-tg3.pages.dev"
+                }
             }
         },
         {
