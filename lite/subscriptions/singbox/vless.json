@@ -125,10 +125,12 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
+                "🇳🇱NL | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
+                "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 193",
                 "🇸🇪SE | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
@@ -144,6 +146,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇳🇱NL | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -154,7 +157,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 19",
+                "🇨🇦CA | vless | @Capoit | 19",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -193,10 +196,12 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
+                "🇳🇱NL | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
+                "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 193",
                 "🇸🇪SE | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
@@ -212,6 +217,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇳🇱NL | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -222,7 +228,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 19",
+                "🇨🇦CA | vless | @Capoit | 19",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -725,6 +731,37 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @v2logy | 15",
             "type": "vless",
             "server": "blockchain-explorer.win7bitcasino1.com.",
@@ -805,6 +842,37 @@
                 "path": "\/V2rayCUSTOMIZE?ed=1024",
                 "headers": {
                     "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 16",
+            "type": "vless",
+            "server": "104.26.15.16",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JAR0HGBT6mwTVcbf?ed=2560",
+                "headers": {
+                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
                 }
             }
         },
@@ -1204,6 +1272,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 14",
+            "type": "vless",
+            "server": "nitriding.appreviewcenter.com",
+            "server_port": 443,
+            "uuid": "f5a78514-1a94-486e-92a7-3bc9817095a6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nitriding.appreviewcenter.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nimws",
+                "headers": {
+                    "Host": "nitriding.appreviewcenter.com"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @DailyV2RY | 162",
             "type": "vless",
             "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
@@ -1472,7 +1571,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 19",
+            "tag": "🇨🇦CA | vless | @Capoit | 19",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,
