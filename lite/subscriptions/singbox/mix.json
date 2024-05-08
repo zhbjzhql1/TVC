@@ -122,7 +122,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @lightning6 | 14",
                 "🇩🇪DE | vless | @V2rayNGmat | 3",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
                 "🇳🇱NL | vless | @proxy_kafee | 0",
@@ -161,7 +161,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -172,11 +172,12 @@
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vmess | @kingofilter | 3",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -204,7 +205,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @lightning6 | 14",
                 "🇩🇪DE | vless | @V2rayNGmat | 3",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
                 "🇳🇱NL | vless | @proxy_kafee | 0",
@@ -243,7 +244,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -254,11 +255,12 @@
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vmess | @kingofilter | 3",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -680,7 +682,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -965,9 +967,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "172.67.199.185",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -978,21 +980,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": ""
                 }
             }
         },
@@ -1661,7 +1653,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 12",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "104.16.160.137",
             "server_port": 443,
@@ -1972,6 +1964,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @kingofilter | 3",
+            "type": "vmess",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @GozargahVPN | 16",
             "type": "vless",
             "server": "my.GozargahVPN.top",
@@ -2074,7 +2100,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
