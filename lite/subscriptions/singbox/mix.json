@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
-                "🇨🇦CA | vless | @vmessorg | 15",
+                "🇨🇦CA | vless | @vmessorg | 17",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 23",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 19",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇳CN | vless | @mehrosaboran | 6",
+                "🇨🇳CN | vless | @mehrosaboran | 7",
                 "inbox&type=tcp&headerType=none#🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -177,7 +177,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
-                "🇨🇦CA | vless | @vmessorg | 15",
+                "🇨🇦CA | vless | @vmessorg | 17",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 23",
@@ -251,7 +251,7 @@
                 "🇨🇦CA | vless | @Capoit | 19",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇳CN | vless | @mehrosaboran | 6",
+                "🇨🇳CN | vless | @mehrosaboran | 7",
                 "inbox&type=tcp&headerType=none#🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -260,7 +260,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -912,7 +912,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "52.13.224.134",
+            "server": "18.224.157.66",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1111,7 +1111,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 15",
+            "tag": "🇨🇦CA | vless | @vmessorg | 17",
             "type": "vless",
             "server": "104.17.250.237",
             "server_port": 80,
@@ -1362,15 +1362,22 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "40ec3ce8-d761-4222-a9c0-3b01e596e04d",
+            "server": "185.146.173.185",
+            "server_port": 2095,
+            "uuid": "57d2d778-ff20-4db1-810e-e367a9b75365",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.185"
+                }
             }
         },
         {
@@ -1862,7 +1869,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 6",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "103.184.44.104",
             "server_port": 8880,
@@ -2118,7 +2125,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
