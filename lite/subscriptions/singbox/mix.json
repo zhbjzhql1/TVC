@@ -139,7 +139,9 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | vless | @ServerNett | 23",
+                "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
@@ -220,7 +222,9 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | vless | @ServerNett | 23",
+                "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
@@ -804,7 +808,7 @@
             "type": "vless",
             "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
             "server_port": 2095,
-            "uuid": "TMCUSTOMIZE",
+            "uuid": "ad88ec60-27b9-46b8-8604-be686577fe5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1117,6 +1121,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+            "type": "vmess",
+            "server": "hms24.ivideos.sbs",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ivideos.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "ivideos.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ServerNett | 23",
             "type": "vless",
             "server": "check-host.net",
@@ -1144,6 +1182,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "haha.servernet.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Proxy_PJ | 0",
+            "type": "vless",
+            "server": "104.16.54.150",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BIa-pAIN-bAche.PagEs.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/pMvX7CjCUbfPC1X1?ed=2560",
+                "headers": {
+                    "Host": "BIa-pAIN-bAche.PagEs.DeV"
                 }
             }
         },
