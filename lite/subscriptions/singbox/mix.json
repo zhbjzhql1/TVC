@@ -131,7 +131,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -167,7 +167,7 @@
                 "🇵🇱PL | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇸🇪SE | vless | @flyv2ray | 16",
+                "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 4",
@@ -215,7 +215,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -251,7 +251,7 @@
                 "🇵🇱PL | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇸🇪SE | vless | @flyv2ray | 16",
+                "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 4",
@@ -467,7 +467,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 18",
             "type": "vless",
-            "server": "185.146.173.237",
+            "server": "185.146.173.58",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -481,7 +481,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -888,11 +888,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "2a05:541:110:43::1",
-            "server_port": 2098,
-            "uuid": "83876222-64a4-4912-aa18-b7d9d34959de",
+            "server": "103.113.68.233",
+            "server_port": 8880,
+            "uuid": "fddb3781-7e15-4731-a933-94db110b4bbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -902,6 +902,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1573,9 +1580,9 @@
         {
             "tag": "🇮🇷IR | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "85.9.100.140",
-            "server_port": 8933,
-            "uuid": "4b0eb979-ff34-43eb-a0ff-6f24e3431075",
+            "server": "31.47.45.146",
+            "server_port": 500,
+            "uuid": "5628d2e2-ab43-45e6-adc3-ad0b9af7a71e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1585,6 +1592,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1821,7 +1835,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 16",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 17",
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 2095,
