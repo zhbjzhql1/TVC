@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 23",
+                "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -206,7 +206,7 @@
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 23",
+                "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -1038,11 +1038,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 23",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 24",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "-----DIGIV2RAY---",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "3ed3d9f2-5159-43e4-bc71-afa39c2dbe01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1050,11 +1050,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "1a7c8bd0.wyvernfree.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/Telegram:@Wyvernvpn?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "1a7c8bd0.wyvernfree.pages.dev"
                 }
             }
         },
@@ -1530,9 +1540,9 @@
         {
             "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "efd542cd-6b60-43db-a115-9bf0b825f38b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1542,7 +1552,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
+                "server_name": "kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1552,9 +1562,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
+                    "Host": "kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev"
                 }
             }
         },
