@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 11",
+                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🇩🇪DE | vless | @V2rayNGmat | 5",
-                "🇩🇪DE | vless | @prrofile_purple | 185",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -118,9 +117,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 11",
+                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🇩🇪DE | vless | @V2rayNGmat | 5",
-                "🇩🇪DE | vless | @prrofile_purple | 185",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -146,7 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 11",
+            "tag": "🇫🇷FR | vless | @EliV2ray | 12",
             "type": "vless",
             "server": "86.104.74.224",
             "server_port": 8443,
@@ -205,42 +203,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram,@V2rayNgMat،Telegram,@V2rayNgMat ,Telegram,@V2rayNgMat         ,@V2rayNgMat",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 185",
-            "type": "vless",
-            "server": "49.13.49.245",
-            "server_port": 443,
-            "uuid": "dcb1cfd4-beb5-4df5-ba6a-bfe608050741",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "a6uaSCPbKRD4GIKkL0E2a0aHqoqK71jrIDKd-H2vnCk",
-                    "short_id": "be008385"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
