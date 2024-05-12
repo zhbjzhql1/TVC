@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 17",
-                "🇨🇦CA | vless | @Parsashonam | 14",
+                "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇳🇱NL | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 13",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 7",
@@ -192,7 +192,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 17",
-                "🇨🇦CA | vless | @Parsashonam | 14",
+                "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇳🇱NL | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 13",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 7",
@@ -313,11 +313,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 14",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 17",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 8080,
-            "uuid": "Parsashonam-64",
+            "uuid": "Parsashonam-63",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1581,11 +1581,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "185.164.163.178",
-            "server_port": 52861,
-            "uuid": "fbfd35d3-3d58-48a2-bdda-a0ae708e3f39",
+            "server": "15.156.226.178",
+            "server_port": 25996,
+            "uuid": "786c0e71-c2d4-4bdc-913f-5c75dd54721f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1595,6 +1595,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "15.156.226.178"
+                }
             }
         },
         {
