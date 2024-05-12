@@ -133,7 +133,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -171,7 +171,7 @@
                 "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇳🇱NL | vless | @flyv2ray | 16",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
-                "🇨🇳CN | vless | @mehrosaboran | 9",
+                "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -180,10 +180,10 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ]
         },
@@ -218,7 +218,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -256,7 +256,7 @@
                 "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇳🇱NL | vless | @flyv2ray | 16",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
-                "🇨🇳CN | vless | @mehrosaboran | 9",
+                "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -265,10 +265,10 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -904,11 +904,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "172.99.190.12",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "local.cdn-img.cquality.ir",
+            "server_port": 443,
+            "uuid": "3a5d7ace-5490-4c42-8b2d-f890661e16f5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -918,6 +918,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "local.cdn-img.cquality.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/3a5d7ace-5490-4c42-8b2d-f890661e16f5-vm",
+                "headers": {
+                    "Host": "local.cdn-img.cquality.ir"
+                }
             }
         },
         {
@@ -1850,7 +1867,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 9",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "103.184.44.104",
             "server_port": 8880,
@@ -2091,7 +2108,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -2153,7 +2170,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
