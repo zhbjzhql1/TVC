@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇳🇱NL | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
@@ -183,7 +183,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ]
         },
@@ -237,7 +237,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇳🇱NL | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
@@ -268,7 +268,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1405,7 +1405,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 19",
+            "tag": "🇳🇱NL | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,
@@ -1587,9 +1587,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "15.156.226.178",
-            "server_port": 25996,
-            "uuid": "786c0e71-c2d4-4bdc-913f-5c75dd54721f",
+            "server": "104.21.25.243",
+            "server_port": 8443,
+            "uuid": "63e54742-a244-4bb0-c9cb-17a545f4ca3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1600,11 +1600,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "atlasnet1.myatlasnet.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "15.156.226.178"
+                    "Host": "atlasnet1.myatlasnet.ir"
                 }
             }
         },
@@ -2177,7 +2187,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
