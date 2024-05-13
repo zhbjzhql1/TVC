@@ -108,7 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇨🇦CA | vmess | @proxyymeliii | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -123,7 +125,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇨🇦CA | vmess | @proxyymeliii | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
@@ -186,6 +190,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "type": "vmess",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 11",
             "type": "vmess",
             "server": "hms24.ivideos.sbs",
@@ -216,6 +254,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "ivideos.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @proxyymeliii | 28",
+            "type": "vmess",
+            "server": "moji1.stablestates.ir",
+            "server_port": 2096,
+            "uuid": "93a4f202-2f5a-48b2-b989-ed9e032db368",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "moji1.stablestates.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "moji1.stablestates.ir"
                 }
             }
         },
