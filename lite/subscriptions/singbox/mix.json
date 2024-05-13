@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @EliV2ray | 20",
+                "🇺🇸US | vless | @EliV2ray | 20",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -158,9 +158,9 @@
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇮🇷IR | vmess | @Hope_Net | 17",
                 "🇸🇪SE | vless | @polproxy | 15",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇮🇷IR | vless | @Outlinev2rayNG | 14",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -189,7 +189,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @EliV2ray | 20",
+                "🇺🇸US | vless | @EliV2ray | 20",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -241,9 +241,9 @@
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇮🇷IR | vmess | @Hope_Net | 17",
                 "🇸🇪SE | vless | @polproxy | 15",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇮🇷IR | vless | @Outlinev2rayNG | 14",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -288,7 +288,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 20",
+            "tag": "🇺🇸US | vless | @EliV2ray | 20",
             "type": "vless",
             "server": "188.114.98.56",
             "server_port": 80,
@@ -1536,11 +1536,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "205.234.231.35",
-            "server_port": 31433,
-            "uuid": "50e82581-bd14-4527-f7d6-e7824cd26f57",
+            "server": "31.47.45.146",
+            "server_port": 500,
+            "uuid": "5628d2e2-ab43-45e6-adc3-ad0b9af7a71e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1550,6 +1550,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1574,34 +1581,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "172.67.204.39",
+            "server": "l1.darklord.life",
             "server_port": 443,
-            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+            "uuid": "95773733-4ab2-0185-7006-4adcfd614c2b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "turkmenistan.armanibash.Shop.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "turkmenistan.armanibash.Shop."
-                }
             }
         },
         {
