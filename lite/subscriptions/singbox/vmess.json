@@ -110,9 +110,10 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vmess | @proxyymeliii | 28",
+                "🇮🇷IR | vmess | @proxyymeliii | 27",
+                "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 15",
+                "🇺🇸US | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
@@ -127,9 +128,10 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vmess | @proxyymeliii | 28",
+                "🇮🇷IR | vmess | @proxyymeliii | 27",
+                "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 15",
+                "🇺🇸US | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
@@ -258,11 +260,35 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @proxyymeliii | 28",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 27",
             "type": "vmess",
-            "server": "moji1.stablestates.ir",
-            "server_port": 2096,
-            "uuid": "93a4f202-2f5a-48b2-b989-ed9e032db368",
+            "server": "svt203.topnetvip.com",
+            "server_port": 1194,
+            "uuid": "3450510b-6398-47a9-b003-2ad917bdaa43",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 5",
+            "type": "vmess",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,7 +301,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "moji1.stablestates.ir",
+                "server_name": "xmivideo.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -285,9 +311,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "moji1.stablestates.ir"
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
@@ -326,11 +352,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 15",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cbaabac-cbaa-cbaa-abdc-ccabbacabcab",
+            "server": "195.123.240.45",
+            "server_port": 12947,
+            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -340,6 +366,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "57.lwdh.us",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "57.lwdh.us"
+                }
             }
         },
         {
