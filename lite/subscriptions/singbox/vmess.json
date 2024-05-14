@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇵🇱PL | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vmess | @proxyymeliii | 28",
+                "🇮🇷IR | vmess | @proxyymeliii | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 11",
@@ -125,8 +126,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇵🇱PL | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vmess | @proxyymeliii | 28",
+                "🇮🇷IR | vmess | @proxyymeliii | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 11",
@@ -190,6 +192,23 @@
             }
         },
         {
+            "tag": "🇵🇱PL | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "146.59.17.58",
+            "server_port": 12960,
+            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 11",
             "type": "vmess",
             "server": "hms24.ivideos.sbs",
@@ -224,11 +243,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @proxyymeliii | 28",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 29",
             "type": "vmess",
-            "server": "moji1.stablestates.ir",
-            "server_port": 2096,
-            "uuid": "93a4f202-2f5a-48b2-b989-ed9e032db368",
+            "server": "svt203.topnetvip.com",
+            "server_port": 1194,
+            "uuid": "3450510b-6398-47a9-b003-2ad917bdaa43",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,21 +258,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "moji1.stablestates.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "moji1.stablestates.ir"
+                    "Host": ""
                 }
             }
         },
