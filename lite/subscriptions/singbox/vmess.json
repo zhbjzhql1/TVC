@@ -109,7 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇮🇷IR | vmess | @proxyymeliii | 27",
+                "🇨🇦CA | vmess | @proxyymeliii | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 11",
@@ -126,7 +126,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇮🇷IR | vmess | @proxyymeliii | 27",
+                "🇨🇦CA | vmess | @proxyymeliii | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 11",
@@ -224,11 +224,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @proxyymeliii | 27",
+            "tag": "🇨🇦CA | vmess | @proxyymeliii | 28",
             "type": "vmess",
-            "server": "svt203.topnetvip.com",
-            "server_port": 1194,
-            "uuid": "3450510b-6398-47a9-b003-2ad917bdaa43",
+            "server": "moji1.stablestates.ir",
+            "server_port": 2096,
+            "uuid": "93a4f202-2f5a-48b2-b989-ed9e032db368",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,11 +239,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "moji1.stablestates.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "moji1.stablestates.ir"
                 }
             }
         },
@@ -284,9 +294,9 @@
         {
             "tag": "🇮🇷IR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "213.176.2.83",
-            "server_port": 55222,
-            "uuid": "55f62edd-ca88-47f9-81e1-bc9816ea7f9a",
+            "server": "212.33.206.95",
+            "server_port": 6361,
+            "uuid": "deb69173-9a51-4ecf-8da2-c8c440da5edc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
