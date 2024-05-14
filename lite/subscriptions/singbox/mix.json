@@ -115,7 +115,7 @@
                 "🇮🇷IR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 21",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 14",
+                "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
@@ -195,7 +195,7 @@
                 "🇮🇷IR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 21",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 14",
+                "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
@@ -474,11 +474,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 14",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 17",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -486,11 +486,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/xmrdark",
+                "path": "\/?ed=2047",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
