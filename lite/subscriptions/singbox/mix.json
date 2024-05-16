@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -157,6 +157,7 @@
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 16",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -194,7 +195,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -238,6 +239,7 @@
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 16",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -444,7 +446,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 9",
+            "tag": "🇺🇸US | vless | @melov2ray | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1504,6 +1506,37 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "ba5a2441-04cb-4de5-93af-b2bc85d2e2a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1ng.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2ray1_ng,@V2ray1_ng,@V2ray1_ng",
+                "headers": {
+                    "Host": "v2ray1ng.pages.dev"
                 }
             }
         },
