@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 20",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
@@ -186,7 +185,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 20",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
@@ -282,27 +280,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 14",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "49bf08c5-1c1a-4ddd-886f-a36e41394e6e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus?ed=8080",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @Parsashonam | 20",
             "type": "vless",
             "server": "185.146.173.58",
@@ -340,7 +317,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.171.50.129",
+            "server": "13.43.38.43",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -732,7 +709,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.42.161.120",
+            "server": "13.42.92.41",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1468,7 +1445,7 @@
             "tag": "🇸🇪SE | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "se1.vpnjantit.com",
-            "server_port": 10000,
+            "server_port": 10001,
             "uuid": "68737d4a-12d6-11ef-b1df-00163c623140",
             "security": "auto",
             "alter_id": 0,
@@ -1479,6 +1456,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
