@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -125,7 +125,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
@@ -182,7 +182,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -194,7 +194,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
@@ -420,7 +420,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 9",
+            "tag": "🇺🇸US | vless | @melov2ray | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -676,7 +676,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1334,9 +1334,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1344,11 +1344,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/Telegram-MARAMBASHI\/?ed",
                 "headers": {
-                    "Host": "172.67.217.107"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
