@@ -110,10 +110,10 @@
                 "🇸🇪SE | vless | @Parsashonam | 23",
                 "🇨🇦CA | vless | @v2_team | 1",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇨🇦CA | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 47",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 6",
@@ -180,10 +180,10 @@
                 "🇸🇪SE | vless | @Parsashonam | 23",
                 "🇨🇦CA | vless | @v2_team | 1",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇨🇦CA | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 47",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 6",
@@ -349,9 +349,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "15.222.180.6",
+            "server": "51.44.2.136",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -422,7 +422,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 9",
+            "tag": "🇺🇸US | vless | @melov2ray | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -499,7 +499,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
@@ -1509,11 +1509,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 7",
+            "tag": "🇺🇸US | vless | @Capoit | 7",
             "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
+            "server": "104.21.66.93",
+            "server_port": 443,
+            "uuid": "f0f67b84-2770-4413-8b26-cfb302fac247",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1521,11 +1521,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2fly.milik-fukada.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@NETMelliAnti",
                 "headers": {
-                    "Host": "172.67.217.107"
+                    "Host": "v2fly.milik-fukada.eu.org"
                 }
             }
         },
