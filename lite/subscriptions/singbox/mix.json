@@ -133,11 +133,11 @@
                 "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 198",
+                "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇸🇪SE | vless | @customv2ray | 11",
-                "🇨🇦CA | vless | @UnlimitedDev | 11",
+                "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
@@ -217,11 +217,11 @@
                 "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 198",
+                "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇸🇪SE | vless | @customv2ray | 11",
-                "🇨🇦CA | vless | @UnlimitedDev | 11",
+                "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
@@ -877,11 +877,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "185.146.173.237",
-            "server_port": 2052,
-            "uuid": "0c67786d-985e-4c67-a0dc-67827f37f050",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -892,11 +892,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@mehrosaboran",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -932,11 +942,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 198",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 188",
             "type": "vless",
-            "server": "172.66.47.88",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "v2raygodvip--allh1.v2raygod.site",
+            "server_port": 80,
+            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -944,21 +954,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@V2rayGodVip=Telegram\/",
                 "headers": {
-                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
+                    "Host": "v2raygodvip--allh1.v2raygod.site"
                 }
             }
         },
@@ -984,11 +984,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 11",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 9",
             "type": "vless",
             "server": "104.17.169.114",
             "server_port": 80,
-            "uuid": "0fa0b341-a1a1-4e7d-b605-e76b93844b2c",
+            "uuid": "dd3fc0bb-80db-4880-90d0-060b33dfeada",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
