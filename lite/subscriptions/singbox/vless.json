@@ -129,7 +129,7 @@
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 33",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇸🇪SE | vless | @prrofile_purple | 196",
+                "🇨🇦CA | vless | @prrofile_purple | 196",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -197,7 +197,7 @@
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 33",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇸🇪SE | vless | @prrofile_purple | 196",
+                "🇨🇦CA | vless | @prrofile_purple | 196",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -478,7 +478,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "185.146.173.77"
                 }
@@ -604,7 +604,7 @@
             "type": "vless",
             "server": "185.146.173.32",
             "server_port": 2095,
-            "uuid": "---DIGIV2RAY---",
+            "uuid": "----DIGIV2RAY---",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -767,11 +767,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 196",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 196",
             "type": "vless",
-            "server": "v2raygodvip--allh1.v2raygod.site",
-            "server_port": 80,
-            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -779,11 +779,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2rayGodVip=Telegram\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "v2raygodvip--allh1.v2raygod.site"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
