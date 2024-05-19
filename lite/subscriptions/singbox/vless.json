@@ -122,7 +122,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 33",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇮🇷IR | vless | @v2rayngvpn | 12",
+                "🇸🇪SE | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -141,10 +141,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @SafeNet_Server | 0",
+                "🇺🇸US | vless | @SafeNet_Server | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 14",
@@ -185,7 +184,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 33",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
@@ -194,7 +193,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇮🇷IR | vless | @v2rayngvpn | 12",
+                "🇸🇪SE | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -204,10 +203,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @SafeNet_Server | 0",
+                "🇺🇸US | vless | @SafeNet_Server | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 14",
@@ -617,7 +615,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -836,17 +834,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 12",
+            "tag": "🇸🇪SE | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "45.140.31.105",
-            "server_port": 48480,
-            "uuid": "01d474bf-2378-4953-dda1-5b666d989606",
+            "server": "185.146.173.24",
+            "server_port": 8080,
+            "uuid": "fa061ac8-0091-49ef-ba14-fc9d0ade44fb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@Daily_Configs-Telegram:@Daily_Configs-Telegram:@Daily_Configs-Telegram:@Daily_Configs-Telegram:@Daily_Configs",
+                "headers": {
+                    "Host": "185.146.173.24"
+                }
             }
         },
         {
@@ -1109,37 +1114,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
-            "type": "vless",
-            "server": "pardazeshvpn-tg18.pages.dev",
-            "server_port": 443,
-            "uuid": "bf7e1009-1574-44f7-86df-6cbecd338477",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg18.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "pardazeshvpn-tg18.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 143",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1202,7 +1176,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SafeNet_Server | 0",
+            "tag": "🇺🇸US | vless | @SafeNet_Server | 0",
             "type": "vless",
             "server": "172.67.204.39",
             "server_port": 443,
@@ -1308,9 +1282,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "104.18.26.94",
+            "server": "198.41.198.76",
             "server_port": 443,
-            "uuid": "9e66f471-b508-4747-963b-74573bfc9869",
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1320,7 +1294,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "esetsecuritylicense.cotoda9625.workers.dev",
+                "server_name": "jd.wxgqlfx.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1330,9 +1304,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "esetsecuritylicense.cotoda9625.workers.dev"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
