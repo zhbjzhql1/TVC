@@ -129,6 +129,7 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 20",
@@ -136,7 +137,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 17",
                 "🇸🇪SE | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
-                "🇺🇸US | vless | @vless_vmess | 14",
+                "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
@@ -190,6 +191,7 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 20",
@@ -197,7 +199,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 17",
                 "🇸🇪SE | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
-                "🇺🇸US | vless | @vless_vmess | 14",
+                "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
@@ -770,6 +772,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Tel-@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 10",
             "type": "vless",
             "server": "104.26.7.95",
@@ -957,7 +990,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vless_vmess | 14",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
