@@ -120,7 +120,7 @@
                 "🇸🇪SE | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇺🇸US | vless | @v2logy | 16",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
@@ -131,7 +131,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 196",
+                "🇸🇪SE | vmess | @prrofile_purple | 186",
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -197,7 +197,7 @@
                 "🇸🇪SE | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇺🇸US | vless | @v2logy | 16",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
@@ -208,7 +208,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 196",
+                "🇸🇪SE | vmess | @prrofile_purple | 186",
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -593,7 +593,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "104.18.202.232",
             "server_port": 443,
@@ -851,34 +851,20 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 196",
-            "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇪SE | vmess | @prrofile_purple | 186",
+            "type": "vmess",
+            "server": "5.42.72.16",
+            "server_port": 80,
+            "uuid": "9ac95766-d9c4-48da-b773-65789f4efc64",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
-                }
             }
         },
         {
