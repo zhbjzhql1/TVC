@@ -130,7 +130,7 @@ proxies:
   - {"name":"🏳️XX | vmess | @Hope_Net | 6","type":"vmess","server":"hk11-vm5.entry.ikuuu.casa","port":"459","cipher":"auto","uuid":"b3bc07e6-452a-36fd-8476-bd7aac00f265","alterId":"1","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"hk11-vm5.entry.ikuuu.casa"}}}
   - {"name":"🇬🇧GB | vmess | @v2Line | 8","type":"vmess","server":"172.99.190.12","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 1","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
-  - {"name":"🇨🇦CA | trojan | @kingofilter | 0","type":"trojan","server":"198.41.220.10","port":443,"udp":false,"password":"2cba4104747d49d18319e5ade1b93ab5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforstudent.com"}
+  - {"name":"🇺🇸US | trojan | @kingofilter | 0","type":"trojan","server":"198.41.220.10","port":443,"udp":false,"password":"2cba4104747d49d18319e5ade1b93ab5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforstudent.com"}
   - {"name":"🏳️XX | vmess | @ROMAX_VPN | 2","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -150,7 +150,7 @@ proxy-groups:
       - '🏳️XX | vmess | @Hope_Net | 6'
       - '🇬🇧GB | vmess | @v2Line | 8'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
-      - '🇨🇦CA | trojan | @kingofilter | 0'
+      - '🇺🇸US | trojan | @kingofilter | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 2'
   - name: URL-TEST
     type: url-test
@@ -170,7 +170,7 @@ proxy-groups:
       - '🏳️XX | vmess | @Hope_Net | 6'
       - '🇬🇧GB | vmess | @v2Line | 8'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
-      - '🇨🇦CA | trojan | @kingofilter | 0'
+      - '🇺🇸US | trojan | @kingofilter | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 2'
   - name: FALLBACK
     type: fallback
@@ -189,7 +189,7 @@ proxy-groups:
       - '🏳️XX | vmess | @Hope_Net | 6'
       - '🇬🇧GB | vmess | @v2Line | 8'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
-      - '🇨🇦CA | trojan | @kingofilter | 0'
+      - '🇺🇸US | trojan | @kingofilter | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
