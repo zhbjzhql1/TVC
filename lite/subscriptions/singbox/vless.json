@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇩🇪DE | vless | @v2ray_swhil | 11",
+                "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
-                "🇸🇪SE | vless | @lrnbymaa | 11",
+                "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 12",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇩🇪DE | vless | @v2ray_swhil | 11",
+                "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
-                "🇸🇪SE | vless | @lrnbymaa | 11",
+                "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 12",
@@ -956,12 +956,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 11",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 7",
             "type": "vless",
-            "server": "141.95.75.212",
-            "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.118.209",
+            "server_port": 2053,
+            "uuid": "4045c6b7-1d53-4574-98cd-df21db40b0dc",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -970,17 +970,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "analytics.google.com",
+                "server_name": "itcenteriran.blog",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/p=19",
+                "headers": {
+                    "Host": "itcenteriran.blog"
                 }
             }
         },
@@ -1172,7 +1174,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 11",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 10",
             "type": "vless",
             "server": "185.146.173.32",
             "server_port": 2095,
