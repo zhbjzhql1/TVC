@@ -136,17 +136,17 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 5",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 15",
+                "🇨🇦CA | ss | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
@@ -214,17 +214,17 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 5",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 15",
+                "🇨🇦CA | ss | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
@@ -951,37 +951,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-            "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Tel-proxy_mtm\/?ed=2560",
-                "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @v2rayngvpn | 10",
             "type": "vless",
             "server": "104.21.69.44",
@@ -1113,11 +1082,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 7",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 5",
             "type": "vless",
-            "server": "172.67.118.209",
-            "server_port": 2053,
-            "uuid": "4045c6b7-1d53-4574-98cd-df21db40b0dc",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "9160ea29-3378-464a-a1e4-8e8c5591c1a9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1127,7 +1096,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "itcenteriran.blog",
+                "server_name": "v2ray1ng.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1137,9 +1106,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/p=19",
+                "path": "\/@V2ray1_ng,@V2ray1_ng,@V2ray1_ng",
                 "headers": {
-                    "Host": "itcenteriran.blog"
+                    "Host": "v2ray1ng.pages.dev"
                 }
             }
         },
@@ -1236,6 +1205,16 @@
                     "Host": "185.146.173.122"
                 }
             }
+        },
+        {
+            "tag": "🇨🇦CA | ss | @VmessProtocol | 15",
+            "type": "shadowsocks",
+            "server": "23.162.200.189",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "pKEW8JPByTVTLtM",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 130",
