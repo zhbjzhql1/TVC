@@ -167,6 +167,7 @@
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 7",
+                "🇨🇦CA | vless | @Capoit | 14",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
@@ -249,6 +250,7 @@
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 7",
+                "🇨🇦CA | vless | @Capoit | 14",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
@@ -1721,6 +1723,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Capoit | 14",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "a2f001eb-632b-4e05-b962-580b050ea46c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ariAmEhr-447.PaGes.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@Capoit-telegram-@Capoit-telegram-@Capoit?ed=2560",
+                "headers": {
+                    "Host": "ariAmEhr-447.PaGes.dEV"
+                }
             }
         },
         {
