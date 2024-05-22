@@ -117,12 +117,12 @@
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 14",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇹🇷TR | vless | @DarkTeam_VPN | 0",
-                "🇸🇪SE | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇳🇱NL | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -164,7 +164,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
@@ -195,12 +195,12 @@
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 14",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇹🇷TR | vless | @DarkTeam_VPN | 0",
-                "🇸🇪SE | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇳🇱NL | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -242,7 +242,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
@@ -522,6 +522,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @rxv2ray | 14",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "3d98d3b1-be43-49ba-a660-e9ed4ca6a383",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rxv2ray-rxv2ray-rxv2ray-rxv2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @free_v2rayyy | 13",
             "type": "vless",
             "server": "185.146.173.58",
@@ -606,25 +627,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @DarkTeam_VPN | 0",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
             "type": "vless",
-            "server": "195.244.41.40",
-            "server_port": 48866,
-            "uuid": "c796636e-7681-4b28-a253-e8fe49797fba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 1",
-            "type": "vless",
-            "server": "185.146.173.94",
+            "server": "104.16.54.150",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "a81b314c-3ab7-48d3-b8c0-584c89e5f616",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -634,9 +641,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/Telegram@NETMelliAnti",
                 "headers": {
-                    "Host": "185.146.173.94"
+                    "Host": "104.16.54.150"
                 }
             }
         },
@@ -1470,11 +1477,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "nl2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "cb1178a1-ed8b-46d9-a173-7e6c1de73399",
+            "server": "hk.wish.ml",
+            "server_port": 2052,
+            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1485,21 +1492,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/",
                 "headers": {
-                    "Host": "nl2-full.privateip.net"
+                    "Host": ""
                 }
             }
         },
@@ -1695,7 +1692,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "tag": "🇺🇸US | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "104.26.6.95",
             "server_port": 80,
