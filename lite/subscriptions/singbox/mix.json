@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
-                "🇸🇪SE | vless | @lightning6 | 15",
+                "🇸🇪SE | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
-                "🇸🇪SE | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
@@ -169,7 +169,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 9",
+                "🇨🇦CA | vless | @proxy_mtm | 10",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
-                "🇸🇪SE | vless | @lightning6 | 15",
+                "🇸🇪SE | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
-                "🇸🇪SE | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
@@ -246,7 +246,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 9",
+                "🇨🇦CA | vless | @proxy_mtm | 10",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -541,7 +541,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 15",
+            "tag": "🇸🇪SE | vless | @lightning6 | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
@@ -970,11 +970,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 8080,
-            "uuid": "5ef7c8f8-d892-4e0d-9e58-fea410e247c8",
+            "server": "104.19.28.15",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -982,11 +982,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-V2ray_420,telegram-V2ray_420,telegram-V2ray_420,V2ray_420-V2ray_420-telegram-mehran-v2ray?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.146"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1216,9 +1226,9 @@
         {
             "tag": "🇨🇦CA | vless | @VmessProtocol | 13",
             "type": "vless",
-            "server": "pardazeshvpn-tg20.pages.dev",
+            "server": "auto.minusober.com",
             "server_port": 443,
-            "uuid": "826e43d2-dbe9-41a6-bbf8-3aed2f93f5d4",
+            "uuid": "2c091d43-9eca-4677-b04a-f56c9d7b606b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1228,7 +1238,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg20.pages.dev",
+                "server_name": "auto.minusober.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1238,9 +1248,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/auto",
                 "headers": {
-                    "Host": "pardazeshvpn-tg20.pages.dev"
+                    "Host": "auto.minusober.com"
                 }
             }
         },
@@ -1775,7 +1785,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 9",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 10",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 80,
