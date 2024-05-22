@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 17",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
@@ -140,11 +141,11 @@
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇺🇸US | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇸🇪SE | vless | @lrnbymaa | 16",
+                "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -169,6 +170,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 17",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
@@ -203,11 +205,11 @@
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇺🇸US | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇸🇪SE | vless | @lrnbymaa | 16",
+                "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -246,6 +248,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 11",
+            "type": "vless",
+            "server": "185.146.173.1",
+            "server_port": 80,
+            "uuid": "-Telegram-id-ELiV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
+                "headers": {
+                    "Host": "185.146.173.1"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 17",
@@ -674,7 +697,7 @@
             "type": "vless",
             "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
             "server_port": 2095,
-            "uuid": "-VPNCUSTOMIZE-",
+            "uuid": "4d140b43-05cc-4317-b77b-7006c17feeba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1063,11 +1086,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "Tel%65gra%6d-ip%562Ra%79-tr%65",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "c18%6111f%36-72%36b-4%3372-%614e0%2dde9%6271b%32f4d%63",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1077,9 +1100,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "185.146.173.94"
                 }
             }
         },
@@ -1167,7 +1190,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 16",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 19",
             "type": "vless",
             "server": "Join--VPNCUSTOMIZE.V2ray.re",
             "server_port": 8080,
