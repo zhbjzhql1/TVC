@@ -148,12 +148,12 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 12",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇺🇸US | vless | @flyv2ray | 16",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 5",
@@ -212,12 +212,12 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 12",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇺🇸US | vless | @flyv2ray | 16",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 5",
@@ -1256,17 +1256,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 12",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "free.ne1.gard.lol",
-            "server_port": 8443,
-            "uuid": "62a4f6f8-dd93-4103-81ea-a50355fdfd68",
+            "server": "185.146.173.94",
+            "server_port": 8080,
+            "uuid": "e66a52d8-e7b4-416c-a014-b51e797c614b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.94"
+                }
             }
         },
         {
@@ -1372,7 +1379,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
+            "tag": "🇺🇸US | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,
