@@ -156,6 +156,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -233,6 +234,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -1471,6 +1473,30 @@
                 "path": "\/@V2ray1_ng,@V2ray1_ng,@V2ray1_ng",
                 "headers": {
                     "Host": "v2ray1ng.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "hk.wish.ml",
+            "server_port": 2052,
+            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
