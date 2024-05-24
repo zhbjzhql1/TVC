@@ -139,15 +139,16 @@
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇹🇷TR | vmess | @ShadowProxy66 | 5",
+                "🇹🇷TR | vmess | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
-                "🇺🇸US | vmess | @vless_vmess | 7",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇺🇸US | vmess | @vless_vmess | 8",
+                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
@@ -214,15 +215,16 @@
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇹🇷TR | vmess | @ShadowProxy66 | 5",
+                "🇹🇷TR | vmess | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
-                "🇺🇸US | vmess | @vless_vmess | 7",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇺🇸US | vmess | @vless_vmess | 8",
+                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
@@ -1012,7 +1014,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @ShadowProxy66 | 5",
+            "tag": "🇹🇷TR | vmess | @ShadowProxy66 | 13",
             "type": "vmess",
             "server": "45.8.21.93",
             "server_port": 3563,
@@ -1175,7 +1177,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 7",
+            "tag": "🇺🇸US | vmess | @vless_vmess | 8",
             "type": "vmess",
             "server": "141.98.168.113",
             "server_port": 8081,
@@ -1192,11 +1194,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.158",
-            "server_port": 80,
-            "uuid": "2b7d10ca-01d9-4176-84ad-650f4333cdc1",
+            "server": "104.20.205.66",
+            "server_port": 8443,
+            "uuid": "2d9fbe4c-2a28-4676-a439-c330609cfa4d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1204,11 +1206,52 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.158"
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 13",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "1a94747b-8901-4812-ba23-7eb44cc1162f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kingOfIRaN.Pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
+                "headers": {
+                    "Host": "kingOfIRaN.Pages.DEV"
                 }
             }
         },
