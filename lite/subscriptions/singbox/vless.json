@@ -145,13 +145,13 @@
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇳CN | vless | @mehrosaboran | 3",
-                "🏳️XX | vless | @kiava | 7",
+                "🏳️XX | vless | @kiava | 8",
                 "🇨🇦CA | vless | @proxy_mtm | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
@@ -205,13 +205,13 @@
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇳CN | vless | @mehrosaboran | 3",
-                "🏳️XX | vless | @kiava | 7",
+                "🏳️XX | vless | @kiava | 8",
                 "🇨🇦CA | vless | @proxy_mtm | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
@@ -1124,11 +1124,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-koe",
+            "server": "104.16.54.14",
+            "server_port": 443,
+            "uuid": "3cdbc462-6272-4c2a-9a2d-1525a81c7dfa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1136,11 +1136,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xeeqi.kevani8800.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray?ed%3D2048",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "xeeqi.kevani8800.workers.dev"
                 }
             }
         },
@@ -1268,7 +1278,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kiava | 7",
+            "tag": "🏳️XX | vless | @kiava | 8",
             "type": "vless",
             "server": "cloud.kiava.fun",
             "server_port": 443,
