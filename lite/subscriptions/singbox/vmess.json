@@ -175,11 +175,11 @@
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "120.238.122.243",
-            "server_port": 40259,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -187,6 +187,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
