@@ -108,14 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 7",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 4",
-                "🇺🇸US | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
+                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 2"
             ]
         },
@@ -125,14 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 7",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 4",
-                "🇺🇸US | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
+                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,11 +197,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "9055a074-a533-4e90-840b-3004a92ae9c0",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,11 +212,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/link",
                 "headers": {
-                    "Host": ""
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
@@ -255,7 +265,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -313,7 +323,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 4",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
@@ -347,7 +357,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "104.21.15.212",
             "server_port": 443,
@@ -381,7 +391,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
