@@ -138,6 +138,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇸🇪SE | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -145,7 +146,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
@@ -197,6 +198,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇸🇪SE | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -204,7 +206,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇺🇸US | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
@@ -1005,6 +1007,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @vless_vmess | 9",
+            "type": "vless",
+            "server": "185.146.173.32",
+            "server_port": 80,
+            "uuid": "b0afa5de-9e49-4b59-b757-dde265b98046",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.32"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.94",
@@ -1162,11 +1185,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "198.41.198.76",
             "server_port": 443,
-            "uuid": "83aa2634-96a7-4ee6-aac1-07fd96f1c6c0",
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1176,7 +1199,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV",
+                "server_name": "jd.wxgqlfx.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1186,9 +1209,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/?ed=2560",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
