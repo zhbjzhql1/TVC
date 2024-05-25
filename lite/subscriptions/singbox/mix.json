@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @vless_vmess | 9",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
@@ -153,7 +153,7 @@
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇬🇧GB | vless | @Outlinev2rayNG | 18",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 7",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇸🇪SE | vless | @vless_vmess | 9",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
@@ -223,7 +223,7 @@
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇬🇧GB | vless | @Outlinev2rayNG | 18",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 7",
@@ -771,9 +771,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "172.67.71.160",
+            "server": "visa.com",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "f5f123f8-123e-40bf-b1c1-1c9f0c3dcfbd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -786,7 +786,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "de3.v2vmess.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -796,9 +796,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "de3.v2vmess.site"
                 }
             }
         },
@@ -1157,11 +1157,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-pyt",
+            "uuid": "Telegram-ipV2Ray-nuy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1382,11 +1382,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @Outlinev2rayNG | 18",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "18.135.107.9",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "Join--VPNCUSTOMIZE.V2ray.re",
+            "server_port": 8080,
+            "uuid": "telegram-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1394,21 +1394,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
