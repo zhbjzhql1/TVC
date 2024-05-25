@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 6",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇫🇷FR | vless | @VlessConfig | 15",
+                "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 9",
@@ -136,7 +137,7 @@
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -146,7 +147,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
@@ -168,9 +169,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 6",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇫🇷FR | vless | @VlessConfig | 15",
+                "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 9",
@@ -198,7 +200,7 @@
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -208,7 +210,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
@@ -246,6 +248,27 @@
             "type": "dns"
         },
         {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 6",
+            "type": "vless",
+            "server": "185.146.173.1",
+            "server_port": 80,
+            "uuid": "ee5ad974-4489-4c1b-8dd2-edce2061c3ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
+                "headers": {
+                    "Host": "185.146.173.1"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @Parsashonam | 13",
             "type": "vless",
             "server": "185.146.173.58",
@@ -281,9 +304,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 15",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "15.236.1.76",
+            "server": "18.175.72.187",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -959,7 +982,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 7",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 9",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 80,
@@ -1035,8 +1058,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "e69%36c15%62-ac%66d-4%662c-%39ae7%2dde0%648f5%36b58%62",
+            "server_port": 80,
+            "uuid": "0b7%646c1%61-cf%367-4%668c-%61a1a%2dcbf%64441%35a50%65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1046,7 +1069,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
                     "Host": "185.146.173.94"
                 }
@@ -1189,7 +1212,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "104.18.27.94",
             "server_port": 80,
