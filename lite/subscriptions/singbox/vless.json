@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @Parsashonam | 16",
+                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
@@ -127,7 +127,7 @@
                 "🇩🇪DE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 35",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -141,6 +141,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇫🇮FI | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
@@ -169,7 +170,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @Parsashonam | 16",
+                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
@@ -190,7 +191,7 @@
                 "🇩🇪DE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 35",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -204,6 +205,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇫🇮FI | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
@@ -248,11 +250,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 16",
+            "tag": "🇸🇪SE | vless | @Parsashonam | 13",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "Parsashonam-73",
+            "uuid": "Parsashonam-75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -722,11 +724,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 191",
             "type": "vless",
-            "server": "108.162.192.79",
-            "server_port": 443,
-            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
+            "server": "172.66.213.5",
+            "server_port": 8080,
+            "uuid": "2e3f29f2-8a9b-48a6-81be-6725742145d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -734,21 +736,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-chf.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "bpb-worker-panel-chf.pages.dev"
+                    "Host": "172.66.213.5"
                 }
             }
         },
@@ -1093,6 +1085,20 @@
                 "headers": {
                     "Host": "188.114.98.224"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @VmessProtocol | 17",
+            "type": "vless",
+            "server": "65.109.195.204",
+            "server_port": 443,
+            "uuid": "3a37b151-c4e9-48e5-8373-5d05f5eac003",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
