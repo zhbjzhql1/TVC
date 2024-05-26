@@ -150,15 +150,17 @@
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 8",
                 "🇨🇦CA | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -214,15 +216,17 @@
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 8",
                 "🇨🇦CA | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -308,7 +312,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.158.216.18",
+            "server": "52.58.71.130",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1285,7 +1289,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capital_NET | 45",
+            "tag": "🇺🇸US | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -1394,6 +1398,20 @@
                 "headers": {
                     "Host": "185.146.173.58"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @FAKEOFTVC | 0",
+            "type": "vless",
+            "server": "185.212.194.86",
+            "server_port": 2087,
+            "uuid": "54397ba5-55fd-4c16-a02e-44e4c9173064",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1515,6 +1533,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @Good_V2rayy | 1",
+            "type": "vless",
+            "server": "89.44.112.229",
+            "server_port": 2053,
+            "uuid": "edd7f66d-74dc-45a0-8270-5df829cf1aa8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
+                    "short_id": "291ef87c"
+                }
             }
         },
         {
