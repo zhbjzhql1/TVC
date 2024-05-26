@@ -142,13 +142,13 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇳🇱NL | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 132",
+                "🇺🇸US | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
@@ -207,13 +207,13 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇳🇱NL | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 132",
+                "🇺🇸US | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
@@ -310,7 +310,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.36.139.3",
+            "server": "15.237.164.239",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1109,11 +1109,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 132",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 132",
             "type": "vless",
-            "server": "104.26.6.95",
-            "server_port": 80,
-            "uuid": "1f98b5cc-140f-46b4-987f-6936da9f2238",
+            "server": "zula.ir",
+            "server_port": 8443,
+            "uuid": "4f0efec2-9a6e-4122-9bcc-a8ab1c83c298",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1121,11 +1121,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-ukrine.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.26.6.95"
+                    "Host": "telegram-falcunargo-ukrine.falcunar.asso.eu.org"
                 }
             }
         },
@@ -1245,7 +1255,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
