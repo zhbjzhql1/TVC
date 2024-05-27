@@ -109,6 +109,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇸🇪SE | vless | @V2pedia | 8",
@@ -147,9 +148,9 @@
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 12",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 14",
+                "🇺🇸US | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
@@ -172,6 +173,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇸🇪SE | vless | @V2pedia | 8",
@@ -210,9 +212,9 @@
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 12",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 14",
+                "🇺🇸US | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
@@ -285,7 +287,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.43.40.153",
+            "server": "13.42.197.54",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -310,6 +312,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 23",
+            "type": "vless",
+            "server": "Join--VPNCUSTOMIZE.V2ray.re",
+            "server_port": 8080,
+            "uuid": "Join-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
@@ -1195,7 +1218,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 12",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "telegram-VPNCUSTOMIZE.V2ray.re",
             "server_port": 8080,
@@ -1245,11 +1268,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 14",
+            "tag": "🇺🇸US | vless | @Capoit | 10",
             "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 2082,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "join.EliV2ray.io",
+            "server_port": 8080,
+            "uuid": "4e8aa209-4ee3-4774-8bfc-97f8d8dd8310",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1259,9 +1282,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--ELiV2Ray.El.V2ray.community",
                 "headers": {
-                    "Host": "104.21.74.214"
+                    "Host": "join.EliV2ray.io"
                 }
             }
         },
