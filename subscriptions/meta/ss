@@ -120,9 +120,9 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧GB | ss | @VmessProtocol | 6","type":"ss","server":"series-a2.varzesh360.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @VmessProtocol | 11","type":"ss","server":"51.145.101.254","port":19054,"password":"mGUCxJURD8yHfXexvivQhJ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @VmessProtocol | 14","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @VmessProtocol | 7","type":"ss","server":"series-a2.varzesh360.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @VmessProtocol | 12","type":"ss","server":"51.145.101.254","port":19054,"password":"mGUCxJURD8yHfXexvivQhJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @VmessProtocol | 15","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 2","type":"ss","server":"51.68.206.229","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 3","type":"ss","server":"149.202.82.172","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 4","type":"ss","server":"217.182.198.219","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
@@ -138,16 +138,16 @@ proxies:
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 14","type":"ss","server":"23.162.200.181","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 15","type":"ss","server":"38.75.137.71","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
   - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 16","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @proxy_mtm | 0","type":"ss","server":"51.112.118.115","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | @proxy_mtm | 1","type":"ss","server":"51.112.118.115","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | ss | @VmessProtocol | 6'
-      - '🇬🇧GB | ss | @VmessProtocol | 11'
-      - '🇬🇧GB | ss | @VmessProtocol | 14'
+      - '🇬🇧GB | ss | @VmessProtocol | 7'
+      - '🇬🇧GB | ss | @VmessProtocol | 12'
+      - '🇬🇧GB | ss | @VmessProtocol | 15'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 2'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 3'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 4'
@@ -163,16 +163,16 @@ proxy-groups:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 15'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 16'
-      - '🇦🇪AE | ss | @proxy_mtm | 0'
+      - '🇦🇪AE | ss | @proxy_mtm | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | ss | @VmessProtocol | 6'
-      - '🇬🇧GB | ss | @VmessProtocol | 11'
-      - '🇬🇧GB | ss | @VmessProtocol | 14'
+      - '🇬🇧GB | ss | @VmessProtocol | 7'
+      - '🇬🇧GB | ss | @VmessProtocol | 12'
+      - '🇬🇧GB | ss | @VmessProtocol | 15'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 2'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 3'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 4'
@@ -188,15 +188,15 @@ proxy-groups:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 15'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 16'
-      - '🇦🇪AE | ss | @proxy_mtm | 0'
+      - '🇦🇪AE | ss | @proxy_mtm | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | ss | @VmessProtocol | 6'
-      - '🇬🇧GB | ss | @VmessProtocol | 11'
-      - '🇬🇧GB | ss | @VmessProtocol | 14'
+      - '🇬🇧GB | ss | @VmessProtocol | 7'
+      - '🇬🇧GB | ss | @VmessProtocol | 12'
+      - '🇬🇧GB | ss | @VmessProtocol | 15'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 2'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 3'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 4'
@@ -212,7 +212,7 @@ proxy-groups:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 15'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 16'
-      - '🇦🇪AE | ss | @proxy_mtm | 0'
+      - '🇦🇪AE | ss | @proxy_mtm | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
