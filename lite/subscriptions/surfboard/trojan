@@ -11,13 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 18 = trojan, 54.78.252.248, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 18 = trojan, 13.51.18.103, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @PrivateVPNs | 17 = trojan, 52.29.52.235, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @DirectVPN | 17 = trojan, 3.78.31.110, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | trojan | @oneclickvpnkeys | 6 = trojan, ip.sb, 2053, password = NISHIKUITAN222, udp-delay = true, skip-cert-verify = false, sni = t306.ylks.link, ws = false
+🇸🇬SG | trojan | @VmessProtocol | 19 = trojan, 8.219.83.201, 2083, password = NISHIKUITAN222, udp-delay = true, skip-cert-verify = false, sni = t226.ylks.link, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @oneclickvpnkeys | 6
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @oneclickvpnkeys | 6
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @oneclickvpnkeys | 6
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 6,🇸🇬SG | trojan | @VmessProtocol | 19
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 6,🇸🇬SG | trojan | @VmessProtocol | 19
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 6,🇸🇬SG | trojan | @VmessProtocol | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
