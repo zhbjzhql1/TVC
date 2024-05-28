@@ -781,7 +781,7 @@
             "type": "vless",
             "server": "104.17.169.114",
             "server_port": 80,
-            "uuid": "008ba5df-c4d8-4bd5-8516-0b1c9e07961e",
+            "uuid": "af48a4e4-2961-4d31-b587-bf6896fdbb7a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1329,9 +1329,9 @@
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 8",
             "type": "vless",
-            "server": "104.16.54.150",
-            "server_port": 80,
-            "uuid": "a81b314c-3ab7-48d3-b8c0-584c89e5f616",
+            "server": "zula.ir",
+            "server_port": 8443,
+            "uuid": "4f0efec2-9a6e-4122-9bcc-a8ab1c83c298",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1339,11 +1339,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-ukrine.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.54.150"
+                    "Host": "telegram-falcunargo-ukrine.falcunar.asso.eu.org"
                 }
             }
         },
