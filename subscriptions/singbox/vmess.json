@@ -114,18 +114,20 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 3",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 7",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 15",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
-                "🇺🇸US | vmess | @prrofile_purple | 179",
-                "🇺🇸US | vmess | @v2ray1_ng | 4",
-                "🇸🇪SE | vmess | @v2ray1_ng | 5",
+                "🇺🇸US | vmess | @prrofile_purple | 189",
+                "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -158,18 +160,20 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 3",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 7",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 15",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
-                "🇺🇸US | vmess | @prrofile_purple | 179",
-                "🇺🇸US | vmess | @v2ray1_ng | 4",
-                "🇸🇪SE | vmess | @v2ray1_ng | 5",
+                "🇺🇸US | vmess | @prrofile_purple | 189",
+                "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -359,6 +363,74 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 3",
             "type": "vmess",
+            "server": "104.21.48.70",
+            "server_port": 443,
+            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy4s2c1.cpionline.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "WgCmp8p80KDzo64uHE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+            "type": "vmess",
+            "server": "173.245.58.11",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnsupportfast.vpnsuortfast.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.sbs\/linkws",
+                "headers": {
+                    "Host": "vpnsupportfast.vpnsuortfast.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 6",
+            "type": "vmess",
             "server": "172.67.185.161",
             "server_port": 8080,
             "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
@@ -381,7 +453,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 7",
             "type": "vmess",
             "server": "104.19.172.136",
             "server_port": 8080,
@@ -405,7 +477,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 12",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 15",
             "type": "vmess",
             "server": "discord.com",
             "server_port": 443,
@@ -439,7 +511,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
             "server": "104.21.1.28",
             "server_port": 8880,
@@ -623,7 +695,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @prrofile_purple | 179",
+            "tag": "🇺🇸US | vmess | @prrofile_purple | 189",
             "type": "vmess",
             "server": "172.66.213.80",
             "server_port": 2086,
@@ -647,7 +719,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 4",
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 5",
             "type": "vmess",
             "server": "104.26.7.65",
             "server_port": 443,
@@ -681,7 +753,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 5",
+            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "185.146.173.94",
             "server_port": 80,
