@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
-                "🇸🇪SE | vmess | @v2ray1_ng | 6",
+                "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
                 "🇺🇸US | vless | @VmessProtocol | 19",
@@ -156,6 +156,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
@@ -222,7 +223,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
-                "🇸🇪SE | vmess | @v2ray1_ng | 6",
+                "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
                 "🇺🇸US | vless | @VmessProtocol | 19",
@@ -232,6 +233,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
@@ -1182,11 +1184,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 6",
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 5",
             "type": "vmess",
-            "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "35ca576f-75f7-4e03-9ecc-ccbf5253e881",
+            "server": "104.26.7.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1197,11 +1199,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@mehrosaboran",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -1407,6 +1419,23 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "129.226.95.251",
+            "server_port": 27354,
+            "uuid": "dfd10b52-d4fd-4711-9df2-7ec4204024a3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
