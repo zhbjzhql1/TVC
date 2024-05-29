@@ -170,11 +170,11 @@
                 "🇸🇪SE | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 8",
-                "🇨🇦CA | vless | @V2pedia | 0",
+                "🇺🇸US | vless | @V2pedia | 0",
                 "🇸🇪SE | vless | @V2pedia | 1",
                 "🇸🇪SE | vless | @V2pedia | 4",
-                "🇺🇸US | vless | @V2pedia | 6",
-                "🇺🇸US | vless | @V2pedia | 8",
+                "🇨🇦CA | vless | @V2pedia | 6",
+                "🇨🇦CA | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @V2pedia | 10",
                 "🇮🇷IR | vless | @frev2ray | 0",
                 "🇺🇸US | vless | @ARv2ray | 5",
@@ -354,6 +354,8 @@
                 "🇺🇸US | vless | @UnlimitedDev | 8",
                 "🇺🇸US | vless | @UnlimitedDev | 10",
                 "🇺🇸US | vless | @UnlimitedDev | 12",
+                "🇺🇸US | vless | @UnlimitedDev | 13",
+                "🇺🇸US | vless | @UnlimitedDev | 14",
                 "🇺🇸US | vless | @vmessorg | 0",
                 "🇺🇸US | vless | @vmessorg | 2",
                 "🇺🇸US | vless | @vmessorg | 4",
@@ -645,11 +647,11 @@
                 "🇸🇪SE | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 8",
-                "🇨🇦CA | vless | @V2pedia | 0",
+                "🇺🇸US | vless | @V2pedia | 0",
                 "🇸🇪SE | vless | @V2pedia | 1",
                 "🇸🇪SE | vless | @V2pedia | 4",
-                "🇺🇸US | vless | @V2pedia | 6",
-                "🇺🇸US | vless | @V2pedia | 8",
+                "🇨🇦CA | vless | @V2pedia | 6",
+                "🇨🇦CA | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @V2pedia | 10",
                 "🇮🇷IR | vless | @frev2ray | 0",
                 "🇺🇸US | vless | @ARv2ray | 5",
@@ -829,6 +831,8 @@
                 "🇺🇸US | vless | @UnlimitedDev | 8",
                 "🇺🇸US | vless | @UnlimitedDev | 10",
                 "🇺🇸US | vless | @UnlimitedDev | 12",
+                "🇺🇸US | vless | @UnlimitedDev | 13",
+                "🇺🇸US | vless | @UnlimitedDev | 14",
                 "🇺🇸US | vless | @vmessorg | 0",
                 "🇺🇸US | vless | @vmessorg | 2",
                 "🇺🇸US | vless | @vmessorg | 4",
@@ -2599,7 +2603,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 0",
+            "tag": "🇺🇸US | vless | @V2pedia | 0",
             "type": "vless",
             "server": "all.msv2ray.online",
             "server_port": 443,
@@ -2672,7 +2676,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 6",
+            "tag": "🇨🇦CA | vless | @V2pedia | 6",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 80,
@@ -2693,7 +2697,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 8",
+            "tag": "🇨🇦CA | vless | @V2pedia | 8",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 80,
@@ -6800,6 +6804,58 @@
             "server": "104.17.169.114",
             "server_port": 80,
             "uuid": "008ba5df-c4d8-4bd5-8516-0b1c9e07961e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.17.169.114"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @UnlimitedDev | 13",
+            "type": "vless",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8443,
+            "uuid": "2d9fbe4c-2a28-4676-a439-c330609cfa4d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @UnlimitedDev | 14",
+            "type": "vless",
+            "server": "104.17.169.114",
+            "server_port": 80,
+            "uuid": "aebca481-d343-4ae8-a641-c598d253f0f1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
