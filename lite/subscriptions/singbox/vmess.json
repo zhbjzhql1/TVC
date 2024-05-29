@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
@@ -301,11 +301,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "104.18.14.19",
-            "server_port": 80,
-            "uuid": "4e63f0da-80ff-4b1e-8f68-80158ad0ff2a",
+            "server": "173.245.58.11",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -316,11 +316,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnsupportfast.vpnsuortfast.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/4e63f0da",
+                "path": "\/glweidf.sbs\/linkws",
                 "headers": {
-                    "Host": "104.18.14.19"
+                    "Host": "vpnsupportfast.vpnsuortfast.workers.dev"
                 }
             }
         },
