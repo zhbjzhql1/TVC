@@ -117,13 +117,14 @@
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 32",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 3",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @ProxyForOpeta | 3",
+                "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 191",
@@ -177,13 +178,14 @@
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 32",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 3",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @ProxyForOpeta | 3",
+                "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 191",
@@ -486,6 +488,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @rxv2ray | 3",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "77c7892d-5440-4ba3-87d5-ef39a73f10bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rxv2ray-rxv2ray-rxv2ray-rxv2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @lightning6 | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
@@ -622,11 +645,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 3",
+            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 2",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2095,
-            "uuid": "dc2fd4cc-0d8a-4410-bdcd-1a41b3bbde85",
+            "server": "telegram-VPNCUSTOMIZE.kellekcollection.com",
+            "server_port": 8080,
+            "uuid": "bbf2f191-fd7c-4a2a-ad09-ca5daa745b21",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -636,9 +659,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "telegram-VPNCUSTOMIZE.kellekcollection.com"
                 }
             }
         },
