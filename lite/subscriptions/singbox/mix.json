@@ -142,10 +142,10 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
-                "🇸🇪SE | vless | @proxyymeliii | 21",
+                "🇸🇪SE | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 8",
-                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇨🇦CA | vless | @V2RayTz | 13",
                 "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇮🇷IR | vless | @sinabigo | 4",
@@ -217,10 +217,10 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
-                "🇸🇪SE | vless | @proxyymeliii | 21",
+                "🇸🇪SE | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 8",
-                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇨🇦CA | vless | @V2RayTz | 13",
                 "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇮🇷IR | vless | @sinabigo | 4",
@@ -1093,11 +1093,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 21",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 22",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "e68304b5-1b6f-4de5-97b0-0b478aefe1d6",
+            "uuid": "8c635a09-6061-4e35-a718-ee31746cfd81",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1107,7 +1107,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
                     "Host": "LIGHTNING6-joinbed.filj.top"
                 }
@@ -1166,11 +1166,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 13",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 2095,
-            "uuid": "9f8a3144-acf1-489f-b180-d6f36efd7e04",
+            "server": "104.19.54.50",
+            "server_port": 443,
+            "uuid": "a2abf295-0638-48fd-b854-b989bf438c61",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1178,11 +1178,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "V2RAYSHHPROXY.snaapfood.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "V2RAYSHHPROXY.snaapfood.org"
                 }
             }
         },
