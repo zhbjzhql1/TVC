@@ -106,6 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | ss | @DeamNet_Proxy | 2",
+                "🇺🇸US | ss | @DeamNet_Proxy | 5",
                 "🇬🇧GB | ss | @VmessProtocol | 7",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 5",
@@ -129,6 +131,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | ss | @DeamNet_Proxy | 2",
+                "🇺🇸US | ss | @DeamNet_Proxy | 5",
                 "🇬🇧GB | ss | @VmessProtocol | 7",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 5",
@@ -166,6 +170,26 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 2",
+            "type": "shadowsocks",
+            "server": "154.3.8.151",
+            "server_port": 30067,
+            "method": "aes-256-gcm",
+            "password": "iUB0923RBA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 5",
+            "type": "shadowsocks",
+            "server": "15.204.87.225",
+            "server_port": 8000,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @VmessProtocol | 7",
