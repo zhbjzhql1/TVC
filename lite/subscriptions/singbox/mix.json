@@ -146,14 +146,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 46",
-                "🇨🇷CR | vless | @V2RayTz | 17",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 65",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 29",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇸🇪SE | vmess | @Hope_Net | 3",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -221,14 +221,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 46",
-                "🇨🇷CR | vless | @V2RayTz | 17",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 65",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 29",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇸🇪SE | vmess | @Hope_Net | 3",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -1194,11 +1194,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 17",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 2083,
-            "uuid": "Telegram-ipV2Ray-vte",
+            "server": "89.116.46.1",
+            "server_port": 8080,
+            "uuid": "-_VPNCUSTOMIZE_-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1206,22 +1206,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "de1.irantech.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "89.116.46.1"
+                }
             }
         },
         {
@@ -1373,11 +1363,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "172.64.229.85",
-            "server_port": 2052,
-            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
+            "server": "185.146.173.92",
+            "server_port": 80,
+            "uuid": "3a71b42c-66d2-44ad-8a80-668d4f4339ea",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1390,9 +1380,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
-                    "Host": "172.64.229.85"
+                    "Host": ""
                 }
             }
         },
