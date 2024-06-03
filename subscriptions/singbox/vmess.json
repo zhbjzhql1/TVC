@@ -120,10 +120,8 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 7",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @customv2ray | 1",
                 "🇺🇸US | vmess | @customv2ray | 13",
-                "🇺🇸US | vmess | @vless_vmess | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -132,7 +130,6 @@
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
-                "🇮🇷IR | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
@@ -144,6 +141,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @FreakConfig | 7",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -169,10 +167,8 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 7",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @customv2ray | 1",
                 "🇺🇸US | vmess | @customv2ray | 13",
-                "🇺🇸US | vmess | @vless_vmess | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -181,7 +177,6 @@
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
-                "🇮🇷IR | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
@@ -193,6 +188,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @FreakConfig | 7",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -585,23 +581,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
-            "type": "vmess",
-            "server": "213.142.149.116",
-            "server_port": 41858,
-            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @customv2ray | 1",
             "type": "vmess",
             "server": "178.239.150.171",
@@ -639,40 +618,6 @@
                 "path": "\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 10",
-            "type": "vmess",
-            "server": "188.114.99.183",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -908,30 +853,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "79.175.177.157",
-            "server_port": 43174,
-            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
@@ -1279,6 +1200,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @FreakConfig | 7",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
