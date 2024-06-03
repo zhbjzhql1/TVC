@@ -257,10 +257,10 @@
                 "🇺🇸US | vless | @V2rayNGmat | 4",
                 "🇺🇸US | vless | @V2rayNGmat | 5",
                 "🇺🇸US | vless | @vpn_xw | 0",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 0",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 3",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 5",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 6",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 0",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 3",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 5",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 6",
                 "🇺🇸US | vless | @CUSTOMVPNSERVER | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
@@ -430,6 +430,7 @@
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇺🇸US | vless | @MsV2ray | 10",
                 "🇺🇸US | vless | @v2ray1_ng | 0",
+                "🇺🇸US | vless | @v2ray1_ng | 1",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
@@ -781,10 +782,10 @@
                 "🇺🇸US | vless | @V2rayNGmat | 4",
                 "🇺🇸US | vless | @V2rayNGmat | 5",
                 "🇺🇸US | vless | @vpn_xw | 0",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 0",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 3",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 5",
-                "🇮🇷IR | vless | @CUSTOMVPNSERVER | 6",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 0",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 3",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 5",
+                "🇨🇷CR | vless | @CUSTOMVPNSERVER | 6",
                 "🇺🇸US | vless | @CUSTOMVPNSERVER | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
@@ -954,6 +955,7 @@
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇺🇸US | vless | @MsV2ray | 10",
                 "🇺🇸US | vless | @v2ray1_ng | 0",
+                "🇺🇸US | vless | @v2ray1_ng | 1",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
@@ -4734,7 +4736,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @CUSTOMVPNSERVER | 0",
+            "tag": "🇨🇷CR | vless | @CUSTOMVPNSERVER | 0",
             "type": "vless",
             "server": "ALL-CUSTOMVPNSERVER.IPSTOREIRAN.COM",
             "server_port": 80,
@@ -4755,7 +4757,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @CUSTOMVPNSERVER | 3",
+            "tag": "🇨🇷CR | vless | @CUSTOMVPNSERVER | 3",
             "type": "vless",
             "server": "ALL-CUSTOMVPNSERVER.IPSTOREIRAN.COM",
             "server_port": 80,
@@ -4776,7 +4778,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @CUSTOMVPNSERVER | 5",
+            "tag": "🇨🇷CR | vless | @CUSTOMVPNSERVER | 5",
             "type": "vless",
             "server": "ALL-CUSTOMVPNSERVER.IPSTOREIRAN.COM",
             "server_port": 80,
@@ -4797,7 +4799,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @CUSTOMVPNSERVER | 6",
+            "tag": "🇨🇷CR | vless | @CUSTOMVPNSERVER | 6",
             "type": "vless",
             "server": "ALL-CUSTOMVPNSERVER.IPSTOREIRAN.COM",
             "server_port": 80,
@@ -8956,6 +8958,37 @@
         },
         {
             "tag": "🇺🇸US | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "104.20.116.133",
+            "server_port": 443,
+            "uuid": "9e12bd42-0f65-4467-b9fb-b9bca2b9013b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "TODdsaNtOS.PAGes.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LnXosxOzRSEuGg9y?ed=2560",
+                "headers": {
+                    "Host": "TODdsaNtOS.PAGes.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 1",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
