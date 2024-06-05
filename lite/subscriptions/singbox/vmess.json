@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇷CR | vmess | @vless_vmess | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 6",
+                "🇬🇧GB | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -123,10 +124,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇷CR | vmess | @vless_vmess | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 6",
+                "🇬🇧GB | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -189,6 +191,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v149-dskds65",
+                "headers": {
+                    "Host": "104.18.202.232"
                 }
             }
         },
@@ -285,7 +311,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 6",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "46.226.163.143",
             "server_port": 56148,
