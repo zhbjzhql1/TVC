@@ -114,7 +114,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 17",
+                "🇺🇸US | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
@@ -130,6 +130,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -162,7 +163,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vless | @FreakConfig | 14",
-                "🇸🇪SE | vless | @flyv2ray | 18",
+                "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 1",
@@ -189,7 +190,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 17",
+                "🇺🇸US | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
@@ -205,6 +206,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -237,7 +239,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vless | @FreakConfig | 14",
-                "🇸🇪SE | vless | @flyv2ray | 18",
+                "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 1",
@@ -443,7 +445,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 17",
+            "tag": "🇺🇸US | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 80,
@@ -789,6 +791,40 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "173.245.58.133",
+            "server_port": 8443,
+            "uuid": "202ff746-10dd-4a96-8193-052779157e60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnV2raydownload.egg-theory.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "games",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1610,11 +1646,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 17",
             "type": "vless",
-            "server": "185.146.173.9",
+            "server": "185.146.173.94",
             "server_port": 2095,
-            "uuid": "682835c2-7d97-4866-b94a-c0a7637c220c",
+            "uuid": "43df012e-07e1-440a-baa2-3da6b1143625",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1626,7 +1662,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "185.146.173.94"
                 }
             }
         },
