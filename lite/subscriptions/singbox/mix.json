@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇨🇦CA | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
@@ -132,6 +132,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
@@ -156,8 +157,8 @@
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -197,7 +198,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇨🇦CA | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
@@ -211,6 +212,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
@@ -235,8 +237,8 @@
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vless | @free1_vpn | 0",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -552,7 +554,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 1",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -845,6 +847,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 8443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "6ba6-sound-6ba6.siliy37818.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/obdii.cfd\/linkws",
+                "headers": {
+                    "Host": "6ba6-sound-6ba6.siliy37818.workers.dev"
                 }
             }
         },
@@ -1415,7 +1451,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1449,7 +1485,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "tag": "🇺🇸US | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
