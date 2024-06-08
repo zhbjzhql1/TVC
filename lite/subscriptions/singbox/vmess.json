@@ -110,8 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 15",
+                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -124,8 +125,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 15",
+                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -249,6 +251,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -283,13 +319,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 15",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "jplin005.xmrth-node.xyz",
-            "server_port": 15698,
-            "uuid": "ff51ca4a-6050-3e26-a037-88b0dd62d138",
+            "server": "104.19.47.46",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -300,9 +336,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/index",
+                "path": "\/&Telegram🇨🇳 @WangCai2",
                 "headers": {
-                    "Host": "jplin005.xmrth-node.xyz"
+                    "Host": ""
                 }
             }
         },
