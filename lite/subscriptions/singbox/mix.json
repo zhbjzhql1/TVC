@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -160,9 +160,9 @@
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇬🇧GB | vless | @Capoit | 15",
+                "🇲🇾MY | vless | @Capoit | 13",
                 "🇲🇾MY | vless | @FreakConfig | 8",
-                "🇮🇷IR | vless | @mehrosaboran | 4",
+                "🇸🇪SE | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇫🇷FR | vless | @proxy_mtm | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -187,7 +187,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -232,9 +232,9 @@
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇬🇧GB | vless | @Capoit | 15",
+                "🇲🇾MY | vless | @Capoit | 13",
                 "🇲🇾MY | vless | @FreakConfig | 8",
-                "🇮🇷IR | vless | @mehrosaboran | 4",
+                "🇸🇪SE | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇫🇷FR | vless | @proxy_mtm | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -485,7 +485,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -718,7 +718,7 @@
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "18.195.6.49",
+            "server": "3.76.55.233",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1274,11 +1274,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 80,
-            "uuid": "a35017af-d228-44bd-885c-e5951ce09df6",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1286,11 +1286,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed=80",
+                "path": "\/Telegram@SiNABiGO\/",
                 "headers": {
-                    "Host": "104.24.196.20"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
@@ -1592,39 +1602,24 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @Capoit | 15",
+            "tag": "🇲🇾MY | vless | @Capoit | 13",
             "type": "vless",
-            "server": "95.179.202.50",
-            "server_port": 2093,
-            "uuid": "7cfb0575-9759-4953-846e-f55127eea2d8",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
-                    "short_id": "d710e2b9"
-                }
-            },
             "transport": {
-                "type": "http",
-                "host": [
-                    "stackoverflow.com"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.66.44.135"
+                }
             }
         },
         {
@@ -1649,11 +1644,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @mehrosaboran | 4",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 3",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "unlimitedev——channel8192",
+            "server": "185.146.173.95",
+            "server_port": 8880,
+            "uuid": "03e4c822-8d4c-434b-b4e4-375550ce9e0b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1661,22 +1656,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
             }
         },
         {
