@@ -108,12 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
-                "🇺🇸US | vmess | @v2Line | 9"
+                "🇺🇸US | vmess | @v2Line | 8"
             ]
         },
         {
@@ -122,12 +121,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
-                "🇺🇸US | vmess | @v2Line | 9"
+                "🇺🇸US | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -187,30 +185,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "172.67.185.42",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.185.42"
                 }
             }
         },
@@ -341,11 +315,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 9",
+            "tag": "🇺🇸US | vmess | @v2Line | 8",
             "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "50.114.243.61",
+            "server_port": 43834,
+            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -355,23 +329,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
             }
         }
     ],
