@@ -109,8 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -122,8 +122,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -206,30 +206,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "9b485f57-c54b-40d0-bee7-13cee16f1e42",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -260,6 +236,40 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "104.16.60.8",
+            "server_port": 8443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "late-wave-1d0a.lesijo3430.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/jahfkjha.cfd\/linkws",
+                "headers": {
+                    "Host": "late-wave-1d0a.lesijo3430.workers.dev"
                 }
             }
         },
