@@ -108,11 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
-                "🇺🇸US | vmess | @v2Line | 8"
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
         },
         {
@@ -121,11 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
-                "🇺🇸US | vmess | @v2Line | 8"
+                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -182,6 +186,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "188.114.96.1",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
             "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "in06.dns2024.org",
@@ -233,7 +271,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "172.67.131.108",
             "server_port": 443,
@@ -331,6 +369,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "xmivideo.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         }
