@@ -124,6 +124,7 @@
                 "🇹🇷TR | vmess | @vless_vmess | 1",
                 "🇺🇸US | vmess | @vless_vmess | 9",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -179,6 +180,7 @@
                 "🇹🇷TR | vmess | @vless_vmess | 1",
                 "🇺🇸US | vmess | @vless_vmess | 9",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -668,6 +670,40 @@
                 "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "upload.ir",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
