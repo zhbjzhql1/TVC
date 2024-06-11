@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇳🇱NL | ss | @DeamNet_Proxy | 5","type":"ss","server":"beedoost.org","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 5","type":"ss","server":"51.145.96.134","port":18869,"password":"V8QywnpW9gaAwJfzkStkVp","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @OutlineVpnOfficial | 6","type":"ss","server":"[::ffff:185.231.205.80]","port":1443,"password":"YjA5YmMx","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 7","type":"ss","server":"185.174.137.72","port":57262,"password":"WrszSP43UAOcFljDkb8vAL","cipher":"chacha20-ietf-poly1305"}
@@ -138,6 +139,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇳🇱NL | ss | @DeamNet_Proxy | 5'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 5'
       - '🏳️XX | ss | @OutlineVpnOfficial | 6'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 7'
@@ -158,6 +160,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇳🇱NL | ss | @DeamNet_Proxy | 5'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 5'
       - '🏳️XX | ss | @OutlineVpnOfficial | 6'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 7'
@@ -177,6 +180,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇳🇱NL | ss | @DeamNet_Proxy | 5'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 5'
       - '🏳️XX | ss | @OutlineVpnOfficial | 6'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 7'

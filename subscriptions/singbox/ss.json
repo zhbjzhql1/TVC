@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 5",
                 "🏳️XX | ss | @OutlineVpnOfficial | 6",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 7",
@@ -126,6 +127,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱NL | ss | @DeamNet_Proxy | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 5",
                 "🏳️XX | ss | @OutlineVpnOfficial | 6",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 7",
@@ -160,6 +162,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 5",
+            "type": "shadowsocks",
+            "server": "beedoost.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 5",
