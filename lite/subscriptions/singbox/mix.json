@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇸🇪SE | vless | @EliV2ray | 8",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
@@ -152,12 +152,12 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇫🇷FR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
-                "🇺🇸US | vless | @fnet00 | 1",
+                "🏳️XX | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -181,7 +181,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇸🇪SE | vless | @EliV2ray | 8",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
@@ -227,12 +227,12 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇫🇷FR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
-                "🇺🇸US | vless | @fnet00 | 1",
+                "🏳️XX | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -272,11 +272,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 10",
+            "tag": "🇸🇪SE | vless | @EliV2ray | 8",
             "type": "vless",
-            "server": "join.eliv2ray.io.",
-            "server_port": 80,
-            "uuid": "-Channel--id--ELiV2ray-",
+            "server": "185.146.173.58",
+            "server_port": 2095,
+            "uuid": "d47bdadb-da18-499e-b72a-de1e913d142a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -286,9 +286,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
+                "path": "\/@EliV2ray-big.bang,@EliV2ray-big.bang,@EliV2ray-big.bang?ed=2095",
                 "headers": {
-                    "Host": "join.eliv2ray.io."
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1302,11 +1302,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "51.75.30.8",
-            "server_port": 80,
-            "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e",
+            "server": "172.66.45.32",
+            "server_port": 443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1314,11 +1314,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-netplus-4vx.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/http",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "51.75.30.8"
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
@@ -1402,11 +1412,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🏳️XX | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "104.21.15.212",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "v3.ssrsub.com",
+            "server_port": 18443,
+            "uuid": "f736834f-1fc8-4738-9884-9afe0eb0d818",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1419,7 +1429,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "v3.ssrsub.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1429,14 +1439,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/api\/v3\/download.getFile",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "v3.ssrsub.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 1",
+            "tag": "🇨🇦CA | vless | @fnet00 | 1",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
