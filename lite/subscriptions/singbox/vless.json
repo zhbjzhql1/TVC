@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @V2pedia | 23",
+                "🇺🇸US | vless | @V2pedia | 23",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 24",
@@ -146,7 +146,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -176,7 +176,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @V2pedia | 23",
+                "🇺🇸US | vless | @V2pedia | 23",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 24",
@@ -210,7 +210,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -386,7 +386,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 23",
+            "tag": "🇺🇸US | vless | @V2pedia | 23",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
@@ -1181,11 +1181,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "d7db8eb3-6ce3-440e-8e20-7c319f2bd754",
+            "server": "104.18.184.108",
+            "server_port": 443,
+            "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1193,11 +1193,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "juzibaipiao.5112233.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "juzibaipiao.5112233.xyz"
                 }
             }
         },
