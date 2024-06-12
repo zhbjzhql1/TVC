@@ -135,6 +135,8 @@
                 "🇹🇷TR | vmess | @vless_vmess | 6",
                 "🇺🇸US | vmess | @vless_vmess | 14",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
+                "🇫🇷FR | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -194,6 +196,8 @@
                 "🇹🇷TR | vmess | @vless_vmess | 6",
                 "🇺🇸US | vmess | @vless_vmess | 14",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
+                "🇫🇷FR | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -947,6 +951,47 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "162.19.25.207",
+            "server_port": 44513,
+            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "107.182.189.201",
+            "server_port": 55187,
+            "uuid": "26670a76-5fe2-4738-a84b-1229905e0354",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
