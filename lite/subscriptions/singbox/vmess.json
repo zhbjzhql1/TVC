@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 3",
+                "🇯🇵JP | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -121,8 +122,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 3",
+                "🇯🇵JP | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -189,6 +191,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "cf.best.lafuseessub.uk",
+            "server_port": 443,
+            "uuid": "5386a094-a447-4b3e-a2f5-adb932630e3a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "us.lafuseessub.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/lafusees",
+                "headers": {
+                    "Host": "us.lafuseessub.uk"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -223,7 +259,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 3",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "jp-full.privateip.net",
             "server_port": 443,
