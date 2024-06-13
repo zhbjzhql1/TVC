@@ -106,10 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 11",
-                "🇺🇸US | ss | @DeamNet_Proxy | 17",
-                "🇩🇪DE | ss | @VmessProtocol | 4",
-                "🇩🇪DE | ss | @VmessProtocol | 11",
+                "🇩🇪DE | ss | @VmessProtocol | 7",
+                "🇩🇪DE | ss | @VmessProtocol | 14",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 7",
@@ -123,18 +121,15 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇳🇱NL | ss | @proxy_mtm | 2"
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 18"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 11",
-                "🇺🇸US | ss | @DeamNet_Proxy | 17",
-                "🇩🇪DE | ss | @VmessProtocol | 4",
-                "🇩🇪DE | ss | @VmessProtocol | 11",
+                "🇩🇪DE | ss | @VmessProtocol | 7",
+                "🇩🇪DE | ss | @VmessProtocol | 14",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 7",
@@ -148,8 +143,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇳🇱NL | ss | @proxy_mtm | 2"
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -172,27 +166,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 11",
-            "type": "shadowsocks",
-            "server": "23.157.40.19",
-            "server_port": 2376,
-            "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 17",
-            "type": "shadowsocks",
-            "server": "15.204.87.225",
-            "server_port": 5003,
-            "method": "aes-256-gcm",
-            "password": "g5MeD6Ft3CWlJId",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 4",
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 7",
             "type": "shadowsocks",
             "server": "18.195.204.72",
             "server_port": 8080,
@@ -202,7 +176,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 11",
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 14",
             "type": "shadowsocks",
             "server": "18.156.137.107",
             "server_port": 8080,
@@ -348,16 +322,6 @@
             "server_port": 8080,
             "method": "aes-256-gcm",
             "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | ss | @proxy_mtm | 2",
-            "type": "shadowsocks",
-            "server": "45.158.171.141",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
             "plugin": "",
             "plugin_opts": ""
         }
