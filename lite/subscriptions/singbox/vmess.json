@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇯🇵JP | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇯🇵JP | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -189,7 +191,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "us4e-20240111.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v149-dskds65",
+                "headers": {
+                    "Host": "us4e-20240111.v2freevpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
