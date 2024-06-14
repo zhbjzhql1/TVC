@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 17 = trojan, 3.69.67.233, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | trojan | @DirectVPN | 17 = trojan, 15.223.89.183, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 16 = trojan, 34.246.56.208, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇺🇸US | trojan | @DirectVPN | 16 = trojan, 44.238.225.221, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇺🇸US | trojan | @VmessProtocol | 14 = trojan, 138.199.41.25, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = dngn.phooeyunfold.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇺🇸US | trojan | @VmessProtocol | 14
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇺🇸US | trojan | @VmessProtocol | 14
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇺🇸US | trojan | @VmessProtocol | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
