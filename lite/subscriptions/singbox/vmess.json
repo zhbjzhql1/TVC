@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -121,8 +122,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -182,6 +184,30 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 9",
+            "type": "vmess",
+            "server": "185.146.173.185",
+            "server_port": 8080,
+            "uuid": "6f9d29f7-8050-4f83-989a-4c66b59b967d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2ray.SeyyedMT",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -216,11 +242,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "server": "fake.id.workers.dev",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -231,11 +257,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mysan2.jaquay22.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/v118-fccxmxm35",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
                 "headers": {
-                    "Host": "104.16.67.38"
+                    "Host": "mysan2.jaquay22.workers.dev"
                 }
             }
         },
