@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 17",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -117,6 +117,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
+                "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
@@ -155,7 +156,6 @@
                 "🇸🇪SE | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TVCminer | 13"
+                "🇺🇸US | vless | @TVCminer | 10"
             ]
         },
         {
@@ -172,7 +172,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 17",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -181,6 +181,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
+                "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
@@ -219,7 +220,6 @@
                 "🇸🇪SE | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -227,7 +227,7 @@
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TVCminer | 13"
+                "🇺🇸US | vless | @TVCminer | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -292,9 +292,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "18.199.198.161",
+            "server": "13.36.145.72",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -497,6 +497,27 @@
                 "path": "\/xmrdark",
                 "headers": {
                     "Host": "104.18.202.232"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @free_v2rayyy | 11",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "70b7c2bf-010b-4140-ac6b-0c358b8f621d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1416,37 +1437,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FAKEOFTVC | 5",
-            "type": "vless",
-            "server": "icy-mountain-1847.hukinghumans.wOrkErS.deV",
-            "server_port": 8443,
-            "uuid": "8270f450-7143-548a-b311-4eeefe44f773",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "icy-mountain-1847.hukinghumans.wOrkErS.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "icy-mountain-1847.hukinghumans.wOrkErS.deV"
-                }
-            }
-        },
-        {
             "tag": "🇨🇳CN | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "103.184.44.104",
@@ -1602,11 +1592,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 13",
+            "tag": "🇺🇸US | vless | @TVCminer | 10",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8880,
-            "uuid": "f0e16573-e93d-417f-a32c-b9d6fbc7f97a",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "e1e7a81f-cdae-4aee-9221-1356d8bea7ee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1616,9 +1606,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2087",
+                "path": "\/join-ZEDMODEON-bia-ZEDMODEON-channel-ZEDMODEON-asli-ZEDMODEON",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         }
