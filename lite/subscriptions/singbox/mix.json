@@ -117,7 +117,6 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
-                "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
@@ -154,7 +153,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | trojan | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -196,7 +195,6 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
-                "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
@@ -233,7 +231,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | trojan | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -470,7 +468,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "185.146.173.25",
+            "server": "185.146.173.158",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -484,7 +482,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.25"
+                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -527,27 +525,6 @@
                 "path": "\/xmrdark",
                 "headers": {
                     "Host": "104.18.202.232"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 14",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2052,
-            "uuid": "70b7c2bf-010b-4140-ac6b-0c358b8f621d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -896,9 +873,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "p1.v2raybrasil.cloud",
-            "server_port": 2052,
-            "uuid": "60bcbd52-0c88-4da3-aee2-cc1f9d5ca224",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -909,11 +886,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -1367,23 +1354,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.16.252.134",
-            "server_port": 80,
-            "uuid": "7d96f544-c496-41cf-dd61-337f0aff062a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "121.127.46.131",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/abcde",
-                "headers": {
-                    "Host": "104.16.252.134"
+            "tls": {
+                "enabled": true,
+                "server_name": "tpmrt.phooeyunfold.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
