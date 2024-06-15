@@ -1175,9 +1175,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "server": "104.16.252.134",
+            "server_port": 80,
+            "uuid": "7d96f544-c496-41cf-dd61-337f0aff062a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1185,21 +1185,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/abcde",
                 "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                    "Host": "104.16.252.134"
                 }
             }
         },
