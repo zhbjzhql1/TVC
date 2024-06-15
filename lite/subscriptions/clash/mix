@@ -125,10 +125,9 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 7","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇺🇸US | trojan | @VmessProtocol | 14","type":"trojan","server":"138.199.41.25","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"dngn.phooeyunfold.com"}
   - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 18","type":"ss","server":"51.68.206.229","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇪SE | trojan | @ConfigsHUB | 18","type":"trojan","server":"121.127.46.131","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmrt.phooeyunfold.com"}
-  - {"name":"🇸🇪SE | vmess | @Hope_Net | 10","type":"vmess","server":"185.146.173.185","port":"80","cipher":"auto","uuid":"ae7d77c3-77bf-4f15-a1a1-4df168eb8447","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2ray.SeyyedMT","headers":{"host":"seyyedmt.digikala.com.seyyedmtaparat.com2.mooz.bloG"}}}
-  - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"104.21.44.106","port":"443","cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
-  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"🇸🇪SE | vmess | @Hope_Net | 11","type":"vmess","server":"185.146.173.185","port":"80","cipher":"auto","uuid":"ae7d77c3-77bf-4f15-a1a1-4df168eb8447","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2ray.SeyyedMT","headers":{"host":"seyyedmt.digikala.com.seyyedmtaparat.com2.mooz.bloG"}}}
+  - {"name":"🇨🇦CA | vmess | @v2Line | 9","type":"vmess","server":"104.21.44.106","port":"443","cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🇨🇦CA | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,10 +141,9 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
       - '🇺🇸US | trojan | @VmessProtocol | 14'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 18'
-      - '🇸🇪SE | trojan | @ConfigsHUB | 18'
-      - '🇸🇪SE | vmess | @Hope_Net | 10'
-      - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 5'
+      - '🇸🇪SE | vmess | @Hope_Net | 11'
+      - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,10 +157,9 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
       - '🇺🇸US | trojan | @VmessProtocol | 14'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 18'
-      - '🇸🇪SE | trojan | @ConfigsHUB | 18'
-      - '🇸🇪SE | vmess | @Hope_Net | 10'
-      - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 5'
+      - '🇸🇪SE | vmess | @Hope_Net | 11'
+      - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -175,10 +172,9 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
       - '🇺🇸US | trojan | @VmessProtocol | 14'
       - '🇬🇧GB | ss | @OutlineVpnOfficial | 18'
-      - '🇸🇪SE | trojan | @ConfigsHUB | 18'
-      - '🇸🇪SE | vmess | @Hope_Net | 10'
-      - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 5'
+      - '🇸🇪SE | vmess | @Hope_Net | 11'
+      - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
