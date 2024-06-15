@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 17",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇬🇧GB | vless | @VlessConfig | 16",
+                "🇮🇪IE | vless | @VlessConfig | 14",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 188",
+                "🇩🇪DE | vless | @prrofile_purple | 178",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
@@ -145,7 +145,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -172,7 +172,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 17",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇬🇧GB | vless | @VlessConfig | 16",
+                "🇮🇪IE | vless | @VlessConfig | 14",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 188",
+                "🇩🇪DE | vless | @prrofile_purple | 178",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
@@ -209,7 +209,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -292,9 +292,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "13.43.233.72",
+            "server": "34.246.66.73",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -742,17 +742,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 188",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 178",
             "type": "vless",
-            "server": "85.133.146.85",
-            "server_port": 2087,
-            "uuid": "c9b85c37-b3ec-4e8d-ef61-e8edde961338",
+            "server": "webmahyar.ir",
+            "server_port": 443,
+            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "TeSt-tESt-teSt-TeSt.PAGES.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/48QtUVkBchpH4B8d?ed=2560",
+                "headers": {
+                    "Host": "TeSt-tESt-teSt-TeSt.PAGES.DeV"
+                }
             }
         },
         {
@@ -1138,11 +1155,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "c44ecd98-353e-4d82-be52-b3a9d7fcd145",
+            "server": "172.67.216.94",
+            "server_port": 443,
+            "uuid": "c43cf30c-18f1-4e20-bd88-73b1288c5202",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1150,11 +1167,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-dry-breeze-60a0.chngyznwy.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "worker-dry-breeze-60a0.chngyznwy.workers.dev"
                 }
             }
         },
