@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | ss | @VmessProtocol | 10",
+                "🇨🇦CA | ss | @DeamNet_Proxy | 7",
+                "🇨🇦CA | ss | @VmessProtocol | 11",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 7",
@@ -128,7 +129,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | ss | @VmessProtocol | 10",
+                "🇨🇦CA | ss | @DeamNet_Proxy | 7",
+                "🇨🇦CA | ss | @VmessProtocol | 11",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 7",
@@ -166,7 +168,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | ss | @VmessProtocol | 10",
+            "tag": "🇨🇦CA | ss | @DeamNet_Proxy | 7",
+            "type": "shadowsocks",
+            "server": "134.195.196.178",
+            "server_port": 812,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | ss | @VmessProtocol | 11",
             "type": "shadowsocks",
             "server": "ca.yangon.club",
             "server_port": 443,
