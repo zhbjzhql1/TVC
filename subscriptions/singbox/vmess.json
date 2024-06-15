@@ -114,8 +114,7 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
@@ -124,7 +123,6 @@
                 "🇺🇸US | vmess | @prrofile_purple | 177",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray_swhil | 8",
-                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -163,8 +161,7 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
@@ -173,7 +170,6 @@
                 "🇺🇸US | vmess | @prrofile_purple | 177",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray_swhil | 8",
-                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -377,11 +373,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+            "tag": "🇭🇰HK | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "172.67.172.88",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "182.16.1.194",
+            "server_port": 80,
+            "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -394,43 +390,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/opt\/video\/images",
                 "headers": {
-                    "Host": "172.67.172.88"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 13",
-            "type": "vmess",
-            "server": "172.67.170.13",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "182.16.1.194"
                 }
             }
         },
@@ -684,23 +646,6 @@
                 "headers": {
                     "Host": "gwdef.sbs"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "mark.miracletaxbits.top",
-            "server_port": 2095,
-            "uuid": "c89ba6fc-d630-4b3d-8532-915e0aa7c3fd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
