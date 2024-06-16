@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 8",
-                "🇨🇦CA | vless | @v2ray_swhil | 12",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 17",
@@ -140,12 +140,12 @@
                 "🇸🇪SE | vless | @DailyV2RY | 80",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 19",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 8",
-                "🇨🇦CA | vless | @v2ray_swhil | 12",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 17",
@@ -200,12 +200,12 @@
                 "🇸🇪SE | vless | @DailyV2RY | 80",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 19",
@@ -286,7 +286,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.158.213.47",
+            "server": "3.74.139.8",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -838,11 +838,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 12",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 15",
             "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "server": "172.66.46.251",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -850,11 +850,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
                 "headers": {
-                    "Host": "172.66.44.135"
+                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
                 }
             }
         },
@@ -1036,11 +1046,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.16.230.219",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1048,21 +1058,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -1171,11 +1171,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "allsms.rozfa.com",
+            "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1185,7 +1185,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "TeST-TESt-tEst-tESt.PagES.DEV",
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1197,7 +1197,7 @@
                 "type": "ws",
                 "path": "\/telegram-@v2ray_alpha\/?ed=2560",
                 "headers": {
-                    "Host": "TeST-TESt-tEst-tESt.PagES.DEV"
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
                 }
             }
         },
