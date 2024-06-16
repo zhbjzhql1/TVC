@@ -120,43 +120,35 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 18","type":"trojan","server":"18.199.135.133","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 18","type":"trojan","server":"51.21.59.213","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 16","type":"trojan","server":"13.40.240.182","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @DirectVPN | 16","type":"trojan","server":"13.41.84.221","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇵🇱PL | trojan | @VmessProtocol | 15","type":"trojan","server":"151.115.83.178","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eimna.phooeyunfold.com"}
-  - {"name":"🇨🇦CA | trojan | @ConfigsHUB | 11","type":"trojan","server":"zula.ir","port":443,"udp":false,"password":"09d18070-17d7-11ef-aa2b-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"uk1.test3.net"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
-      - '🇸🇪SE | trojan | @DirectVPN | 18'
-      - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 16'
+      - '🇬🇧GB | trojan | @DirectVPN | 16'
       - '🇵🇱PL | trojan | @VmessProtocol | 15'
-      - '🇨🇦CA | trojan | @ConfigsHUB | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
-      - '🇸🇪SE | trojan | @DirectVPN | 18'
-      - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 16'
+      - '🇬🇧GB | trojan | @DirectVPN | 16'
       - '🇵🇱PL | trojan | @VmessProtocol | 15'
-      - '🇨🇦CA | trojan | @ConfigsHUB | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
-      - '🇸🇪SE | trojan | @DirectVPN | 18'
-      - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 16'
+      - '🇬🇧GB | trojan | @DirectVPN | 16'
       - '🇵🇱PL | trojan | @VmessProtocol | 15'
-      - '🇨🇦CA | trojan | @ConfigsHUB | 11'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
