@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
-                "🇸🇪SE | vless | @proxy_kafee | 2",
+                "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -139,13 +139,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
-                "🇸🇪SE | vless | @proxy_kafee | 2",
+                "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -203,13 +203,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -419,7 +419,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 11",
             "type": "vless",
-            "server": "185.146.173.158",
+            "server": "185.146.173.237",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -433,7 +433,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.158"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -585,7 +585,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 2",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "185.146.173.196",
             "server_port": 8880,
@@ -1026,11 +1026,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
+            "tag": "🇸🇪SE | vless | @vmess_vless_v2rayng | 10",
             "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "b8f596a4-ffef-41ab-8527-a8b410d7d4d0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1038,21 +1038,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1180,34 +1170,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 443,
-            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "4d3d6f00.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
-                "headers": {
-                    "Host": "4d3d6f00.garywelch.pages.dev"
-                }
             }
         },
         {
