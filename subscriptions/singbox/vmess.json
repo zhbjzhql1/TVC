@@ -118,14 +118,15 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 10",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @prrofile_purple | 180",
                 "🇺🇸US | vmess | @prrofile_purple | 185",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray_swhil | 8",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -168,14 +169,15 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 10",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @prrofile_purple | 180",
                 "🇺🇸US | vmess | @prrofile_purple | 185",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray_swhil | 8",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -485,7 +487,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -519,7 +521,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -553,7 +555,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "104.21.44.106",
             "server_port": 443,
@@ -587,7 +589,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -706,6 +708,40 @@
             "tag": "🇺🇸US | vmess | @v2ray_swhil | 8",
             "type": "vmess",
             "server": "104.21.55.234",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "172.67.244.191",
             "server_port": 443,
             "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
