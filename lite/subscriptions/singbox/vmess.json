@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -124,7 +124,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -252,11 +252,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "speed.cloudflare.com",
-            "server_port": 80,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "server": "crackthecode.ftp.sh",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -267,11 +267,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vcp3.dehel15354.woRKErS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/hms02.fxiaomi.sbs\/link",
+                "path": "\/gwdef.sbs:443\/linkws",
                 "headers": {
-                    "Host": "speed.cloudflare.com"
+                    "Host": "vcp3.dehel15354.woRKErS.Dev"
                 }
             }
         },
