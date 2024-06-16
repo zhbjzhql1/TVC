@@ -145,6 +145,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -157,7 +158,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 1",
+                "🇸🇪SE | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -208,6 +209,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -220,7 +222,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 1",
+                "🇸🇪SE | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -1178,6 +1180,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "4d3d6f00.garywelch.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 4",
             "type": "vless",
             "server": "188.114.98.224",
@@ -1478,11 +1511,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 1",
+            "tag": "🇸🇪SE | vless | @proxy_mtm | 0",
             "type": "vless",
-            "server": "188.114.97.141",
+            "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "03857570-3dbe-4f08-ad22-d0d8d2e70418",
+            "uuid": "bia-telegram-proxy_mtm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1492,9 +1525,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
+                "path": "\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
                 "headers": {
-                    "Host": "188.114.97.141"
+                    "Host": "185.146.173.58"
                 }
             }
         },

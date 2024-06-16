@@ -12,14 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 5 = vmess, 172.67.71.160, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
-🇸🇪SE | vmess | @ConfigsHUB | 18 = vmess, 185.146.173.237, 2082, username = d2c7b321-5e48-4d28-80e2-f64c6ddfad96, ws = true, tls = , vmess-aead = true, ws-path = /dashboard?ed=2048, ws-headers = Host:"telewebion.com.www.speedtest.net.google.com.speed.cloudflare.com.bmw.com.zula.ir.xbox.com.ßOTShop.irł😂☠️.2.mobilekiani.ir", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @Hope_Net | 5 = vmess, 38.33.34.20, 38001, username = b65da4af-a12a-4a59-9316-4549e12ba62c, ws = true, tls = 1, vmess-aead = false, ws-path = /path/191019072927, ws-headers = Host:"www.78274451.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 9 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 5 = vmess, zula.ir, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"jahfkjha.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 5,🇸🇪SE | vmess | @ConfigsHUB | 18,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 5,🇸🇪SE | vmess | @ConfigsHUB | 18,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 5,🇸🇪SE | vmess | @ConfigsHUB | 18,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 5,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 5,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 5,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
