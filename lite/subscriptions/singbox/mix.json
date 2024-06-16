@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇰SK | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇰SK | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -1205,17 +1205,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "49.13.82.2",
-            "server_port": 8080,
-            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇰SK | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "libertyzone.xyz",
+            "server_port": 443,
+            "password": "fyy75RVvaT",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "libertyzone.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/43574\/@persvpn",
+                "headers": {
+                    "Host": "libertyzone.xyz"
+                }
             }
         },
         {
