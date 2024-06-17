@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 10",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇨🇦CA | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 8",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 175",
+                "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 9",
@@ -141,6 +141,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
@@ -170,7 +171,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 10",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇨🇦CA | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
@@ -190,7 +191,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 8",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 175",
+                "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 9",
@@ -203,6 +204,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
@@ -288,9 +290,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "99.79.152.102",
+            "server": "15.188.13.124",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -758,11 +760,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 175",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 184",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "19c08c07-a3b7-4c26-bcee-d7270f6d3422",
+            "server": "Next.salarvand.org",
+            "server_port": 2087,
+            "uuid": "86ed8559-9f58-4a10-9cc1-59bfe8db7f09",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -770,11 +772,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Gr-next.cgnm.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                    "Host": "Gr-next.cgnm.ir"
                 }
             }
         },
@@ -1074,6 +1086,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
+            "type": "vless",
+            "server": "172.64.146.118",
+            "server_port": 8443,
+            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg24.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazeshvpn-tg24.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 41",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1149,9 +1192,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.64.146.118",
-            "server_port": 8443,
-            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "53ee0a98-2022-4842-8592-a95648fe4e2b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1161,7 +1204,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg24.pages.dev",
+                "server_name": "v2ray1ng.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1171,9 +1214,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
                 "headers": {
-                    "Host": "pardazeshvpn-tg24.pages.dev"
+                    "Host": "v2ray1ng.pages.dev"
                 }
             }
         },
