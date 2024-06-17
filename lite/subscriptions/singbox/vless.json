@@ -133,7 +133,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
-                "🇨🇦CA | vless | @ShadowProxy66 | 4",
+                "🇨🇦CA | vless | @ShadowProxy66 | 3",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -197,7 +197,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
-                "🇨🇦CA | vless | @ShadowProxy66 | 4",
+                "🇨🇦CA | vless | @ShadowProxy66 | 3",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -880,7 +880,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 4",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 3",
             "type": "vless",
             "server": "cdn.discordapp.com",
             "server_port": 8880,
@@ -1163,11 +1163,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.17.243.198",
-            "server_port": 8080,
-            "uuid": "a532a0ba-30b8-429c-8b64-ee5329151297",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1175,11 +1175,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "104.17.243.198"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
