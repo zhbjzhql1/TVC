@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 10",
-                "🇺🇸US | vless | @VlessConfig | 17",
+                "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -126,12 +126,13 @@
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇨🇦CA | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
-                "🇨🇦CA | vless | @vmessorg | 10",
+                "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
                 "🇸🇪SE | vless | @ShadowProxy66 | 12",
                 "🇸🇪SE | vless | @ServerNett | 6",
@@ -168,7 +169,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 10",
-                "🇺🇸US | vless | @VlessConfig | 17",
+                "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -187,12 +188,13 @@
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇨🇦CA | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
-                "🇨🇦CA | vless | @vmessorg | 10",
+                "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
                 "🇸🇪SE | vless | @ShadowProxy66 | 12",
                 "🇸🇪SE | vless | @ServerNett | 6",
@@ -265,9 +267,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VlessConfig | 17",
+            "tag": "🇨🇦CA | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "54.175.237.175",
+            "server": "15.157.16.249",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -677,6 +679,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
+            "type": "vless",
+            "server": "emifree2.bestgameir2.ir",
+            "server_port": 2083,
+            "uuid": "eaa8cb8a-fa6d-4ecf-a53e-822711014c50",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "emifree2.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed=2560",
+                "headers": {
+                    "Host": "emifree2.bestgameir2.ir"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
@@ -698,11 +731,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "Www.zula.ir",
-            "server_port": 80,
-            "uuid": "67c70708-049b-40d4-8606-e777d8ac980e",
+            "server": "104.21.69.44",
+            "server_port": 443,
+            "uuid": "b8d718c6-7516-4259-b4e6-253e280bc6b6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -710,11 +743,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "channel-ma-vip-programs.hsjsak.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2ray.motorcycles?ed=80",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "Www.zula.ir"
+                    "Host": "channel-ma-vip-programs.hsjsak.ir"
                 }
             }
         },
@@ -782,7 +825,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 10",
+            "tag": "🇨🇦CA | vless | @vmessorg | 11",
             "type": "vless",
             "server": "104.18.228.32",
             "server_port": 8080,
@@ -1075,9 +1118,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.46.214",
-            "server_port": 2053,
-            "uuid": "8545c44f-b1b4-4295-ae98-f0b6301a537f",
+            "server": "104.21.78.161",
+            "server_port": 8080,
+            "uuid": "f08f8ced-6fa5-4f1b-8e54-4dab0978fdf6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1085,21 +1128,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ios-azadnet.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "ios-azadnet.pages.dev"
+                    "Host": "104.21.78.161"
                 }
             }
         },
