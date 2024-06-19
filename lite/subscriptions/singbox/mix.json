@@ -149,11 +149,11 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇬SG | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇦UA | vmess | @Hope_Net | 10",
-                "🇺🇸US | vless | @fnet00 | 6",
+                "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
@@ -220,11 +220,11 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇬SG | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇦UA | vmess | @Hope_Net | 10",
-                "🇺🇸US | vless | @fnet00 | 6",
+                "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
@@ -1229,11 +1229,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 8080,
-            "uuid": "a7c67b12-dfb2-42cf-a8fd-9d12aebf15c4",
+            "server": "47.236.145.85",
+            "server_port": 2083,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1241,11 +1241,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zdy999.kpcloud.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray",
+                "path": "\/blue",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "zdy999.kpcloud.eu.org"
                 }
             }
         },
@@ -1322,7 +1332,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 6",
+            "tag": "🇨🇦CA | vless | @fnet00 | 6",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
