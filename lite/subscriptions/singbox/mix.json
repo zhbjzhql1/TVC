@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -1272,11 +1272,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "viphamester.wolfmoon.ir",
-            "server_port": 443,
-            "uuid": "5da27733-3527-479e-bb81-4c5a9c75d83f",
+            "server": "185.146.173.92",
+            "server_port": 2095,
+            "uuid": "c2b1da45-1e6f-4bed-b1c5-04e996785ad9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1284,22 +1284,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "viphamester.wolfmoon.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "okala.com",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.92"
+                }
             }
         },
         {
