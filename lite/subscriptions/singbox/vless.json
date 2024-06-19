@@ -142,7 +142,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -151,6 +151,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
+                "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -201,7 +202,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -210,6 +211,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
+                "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1042,11 +1044,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "57.129.22.33",
-            "server_port": 443,
-            "uuid": "5da27733-3527-479e-bb81-4c5a9c75d83f",
+            "server": "185.146.173.237",
+            "server_port": 8080,
+            "uuid": "a7c67b12-dfb2-42cf-a8fd-9d12aebf15c4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1054,22 +1056,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "viphamester.wolfmoon.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "okala.com",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
             }
         },
         {
@@ -1285,6 +1277,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "DisVpn.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @flyv2ray | 13",
+            "type": "vless",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "ce9cd4b1-b97f-49bc-bd3e-76f3a297c3ba",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.95"
                 }
             }
         },
