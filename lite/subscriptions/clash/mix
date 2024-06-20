@@ -125,6 +125,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 4","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
   - {"name":"🇺🇸US | vmess | @DailyV2RY | 117","type":"vmess","server":"155.138.200.150","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 18","type":"ss","server":"51.77.53.200","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
 proxy-groups:
   - name: MANUAL
@@ -139,6 +140,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 4'
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
+      - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: URL-TEST
     type: url-test
@@ -153,6 +155,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 4'
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
+      - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: FALLBACK
     type: fallback
@@ -166,6 +169,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 4'
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
+      - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
