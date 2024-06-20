@@ -143,9 +143,10 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vless | @fnet00 | 5",
+                "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
@@ -204,9 +205,10 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vless | @fnet00 | 5",
+                "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
@@ -1104,6 +1106,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.21.69.44",
+            "server_port": 8443,
+            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ggho.pages.dev.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "ggho.pages.dev."
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "188.114.98.224",
@@ -1156,7 +1189,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 5",
+            "tag": "🇺🇸US | vless | @fnet00 | 5",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -1529,9 +1562,9 @@
         {
             "tag": "🇸🇪SE | vless | @TVCminer | 15",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "185.146.173.95",
             "server_port": 2095,
-            "uuid": "DIGIV2ray",
+            "uuid": "3025fc89-8993-49c9-b4ad-659624a3152a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1541,9 +1574,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "185.146.173.95"
                 }
             }
         }
