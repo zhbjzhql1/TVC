@@ -152,6 +152,7 @@ proxies:
   - {"name":"🇳🇱NL | trojan | @VmessProtocol | 0","type":"trojan","server":"51.158.217.195","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wnbtg.phooeyunfold.com"}
   - {"name":"🇵🇱PL | trojan | @VmessProtocol | 1","type":"trojan","server":"151.115.83.178","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eimna.phooeyunfold.com"}
   - {"name":"🇺🇸US | trojan | @VmessProtocol | 2","type":"trojan","server":"185.180.13.70","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"earya.phooeyunfold.com"}
+  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 14","type":"trojan","server":"35.181.37.222","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -192,6 +193,7 @@ proxy-groups:
       - '🇳🇱NL | trojan | @VmessProtocol | 0'
       - '🇵🇱PL | trojan | @VmessProtocol | 1'
       - '🇺🇸US | trojan | @VmessProtocol | 2'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -232,6 +234,7 @@ proxy-groups:
       - '🇳🇱NL | trojan | @VmessProtocol | 0'
       - '🇵🇱PL | trojan | @VmessProtocol | 1'
       - '🇺🇸US | trojan | @VmessProtocol | 2'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -271,6 +274,7 @@ proxy-groups:
       - '🇳🇱NL | trojan | @VmessProtocol | 0'
       - '🇵🇱PL | trojan | @VmessProtocol | 1'
       - '🇺🇸US | trojan | @VmessProtocol | 2'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
