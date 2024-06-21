@@ -143,14 +143,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
-                "🇨🇦CA | vless | @vmess_vless_v2rayng | 5",
+                "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇫🇷FR | trojan | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -215,14 +215,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
-                "🇨🇦CA | vless | @vmess_vless_v2rayng | 5",
+                "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇫🇷FR | trojan | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -1116,13 +1116,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmess_vless_v2rayng | 5",
-            "type": "vless",
-            "server": "104.31.16.125",
+            "tag": "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
+            "type": "vmess",
+            "server": "172.64.103.211",
             "server_port": 443,
-            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1130,7 +1133,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lmn1715683972331.lmn15534.info",
+                "server_name": "glweidf.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1140,9 +1143,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/srvacc1",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "lmn1715683972331.lmn15534.info"
+                    "Host": "glweidf.cfd"
                 }
             }
         },
@@ -1272,24 +1275,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "51.158.217.197",
-            "server_port": 43118,
-            "password": "ypDt8RkT7J",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "6e120725-a945-49c9-a645-7be05fa2fbdb",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "riyyy.phooeyunfold.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
                 }
             }
         },
