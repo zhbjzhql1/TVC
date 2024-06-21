@@ -152,11 +152,6 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.49.161.63","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
   - {"name":"🇸🇬SG | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"8.219.111.147","port":443,"udp":false,"password":"NISHIKUITAN222","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t600.ylks.link"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 4","type":"trojan","server":"213.186.36.123","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wylbe.phooeyunfold.com"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 5","type":"trojan","server":"51.159.102.179","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpzmg.phooeyunfold.com"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 6","type":"trojan","server":"62.210.83.57","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ruvil.phooeyunfold.com"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 7","type":"trojan","server":"62.210.82.54","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wuxgk.phooeyunfold.com"}
-  - {"name":"🇨🇿CZ | trojan | @ConfigsHUB | 8","type":"trojan","server":"89.187.189.88","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmrr.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -195,11 +190,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 0'
       - '🇸🇬SG | trojan | @oneclickvpnkeys | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 5'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 6'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 7'
-      - '🇨🇿CZ | trojan | @ConfigsHUB | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -238,11 +228,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 0'
       - '🇸🇬SG | trojan | @oneclickvpnkeys | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 5'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 6'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 7'
-      - '🇨🇿CZ | trojan | @ConfigsHUB | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -280,11 +265,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 0'
       - '🇸🇬SG | trojan | @oneclickvpnkeys | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 5'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 6'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 7'
-      - '🇨🇿CZ | trojan | @ConfigsHUB | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
