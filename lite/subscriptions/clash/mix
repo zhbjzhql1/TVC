@@ -125,8 +125,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 4","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
   - {"name":"🇺🇸US | vmess | @DailyV2RY | 117","type":"vmess","server":"155.138.200.150","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 18","type":"ss","server":"51.77.53.200","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US | trojan | @ConfigsHUB | 17","type":"trojan","server":"us.eaxeg.be","port":443,"udp":false,"password":"ab602e02-624b-44f0-a51b-25ed53f70048","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"us.eaxeg.be"}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 4","type":"vmess","server":"104.16.149.244","port":"2086","cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/29eebb60-b27b-4a9d-bba5-947763d9205e-vm","headers":{"host":"ip002.dtku47.xyz"}}}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 2","type":"vmess","server":"zula.ir","port":"80","cipher":"none","uuid":"da62a137-3611-4dd7-8523-b5266afe6fe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"Uk2.vmess.site."}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
 proxy-groups:
   - name: MANUAL
@@ -141,8 +140,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 4'
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
-      - '🇺🇸US | trojan | @ConfigsHUB | 17'
-      - '🇨🇦CA | vmess | @Hope_Net | 4'
+      - '🇨🇦CA | vmess | @Hope_Net | 2'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: URL-TEST
     type: url-test
@@ -157,8 +155,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 4'
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
-      - '🇺🇸US | trojan | @ConfigsHUB | 17'
-      - '🇨🇦CA | vmess | @Hope_Net | 4'
+      - '🇨🇦CA | vmess | @Hope_Net | 2'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: FALLBACK
     type: fallback
@@ -172,8 +169,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 4'
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
-      - '🇺🇸US | trojan | @ConfigsHUB | 17'
-      - '🇨🇦CA | vmess | @Hope_Net | 4'
+      - '🇨🇦CA | vmess | @Hope_Net | 2'
       - '🇺🇸US | vmess | @v2Line | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

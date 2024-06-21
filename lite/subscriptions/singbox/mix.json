@@ -149,11 +149,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | trojan | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -220,11 +220,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | trojan | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -1245,31 +1245,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | trojan | @ConfigsHUB | 17",
-            "type": "trojan",
-            "server": "us.eaxeg.be",
-            "server_port": 443,
-            "password": "ab602e02-624b-44f0-a51b-25ed53f70048",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "6e120725-a945-49c9-a645-7be05fa2fbdb",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "us.eaxeg.be",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/q7ugFVneYzh1SQ9N70H4Y2aW",
+                "path": "\/",
                 "headers": {
-                    "Host": "us.eaxeg.be"
+                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1360,11 +1352,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.16.149.244",
-            "server_port": 2086,
-            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1377,9 +1369,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/29eebb60-b27b-4a9d-bba5-947763d9205e-vm",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "104.16.149.244"
+                    "Host": ""
                 }
             }
         },
