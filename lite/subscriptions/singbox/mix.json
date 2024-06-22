@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 2",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 2",
@@ -1296,11 +1296,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "8adfaf43-8e3a-4eec-94c9-e7c8d81e8add",
+            "server": "104.16.61.8",
+            "server_port": 80,
+            "uuid": "378ac207-38d3-4401-ba96-3a7931968bc5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1310,9 +1310,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/http",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "104.16.61.8"
                 }
             }
         },
@@ -1387,9 +1387,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "zula.ir",
+            "server": "162.159.136.98",
             "server_port": 80,
-            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
+            "uuid": "f1b6bc05-40dd-4180-ca18-b05288fd33bb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1402,7 +1402,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
