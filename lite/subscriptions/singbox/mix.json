@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 23",
+                "🇸🇪SE | vless | @EliV2ray | 21",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -151,10 +151,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -181,7 +181,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 23",
+                "🇸🇪SE | vless | @EliV2ray | 21",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -226,10 +226,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -272,11 +272,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 23",
+            "tag": "🇸🇪SE | vless | @EliV2ray | 21",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "-Join-Channel-ELiV2ray--",
+            "uuid": "--Join-Channel-ELiV2ray--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1286,11 +1286,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8080,
-            "uuid": "289506fb-fa2a-4562-b325-a864011ec675",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "25360cda-e65d-4ec6-8a71-46dc50f3d8a1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1300,9 +1300,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "LIGHTNING6-joinbed.filj.top"
                 }
             }
         },
@@ -1375,11 +1375,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1389,6 +1389,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
