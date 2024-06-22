@@ -116,6 +116,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
+                "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇫🇷FR | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
@@ -149,13 +150,13 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇨🇦CA | vless | @polproxy | 7",
+                "🇺🇸US | vless | @polproxy | 7",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -189,6 +190,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
+                "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇫🇷FR | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
@@ -222,13 +224,13 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇨🇦CA | vless | @polproxy | 7",
+                "🇺🇸US | vless | @polproxy | 7",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -484,6 +486,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.18.121.44"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @free_v2rayyy | 9",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "befecb38-8e7a-47c4-9201-7e7b8cc30d30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1243,13 +1266,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "188.114.96.3",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1257,7 +1283,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vhkbycyv.pages.dev",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1267,9 +1293,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "vhkbycyv.pages.dev"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -1428,7 +1454,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 7",
+            "tag": "🇺🇸US | vless | @polproxy | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
