@@ -138,7 +138,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 7",
-                "🇸🇪SE | vless | @v2ray_swhil | 8",
+                "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 39",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -146,16 +146,15 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇳🇱NL | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -212,7 +211,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 7",
-                "🇸🇪SE | vless | @v2ray_swhil | 8",
+                "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 39",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -220,16 +219,15 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇳🇱NL | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -992,24 +990,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 8",
+            "tag": "🇮🇷IR | vless | @v2ray_swhil | 7",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2086,
-            "uuid": "9a279347-749d-4478-8ff6-abd151b23e34",
+            "server": "185.46.0.192",
+            "server_port": 2053,
+            "uuid": "2ec5db96-c091-4401-9528-35c1ec513de1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/AAWED",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
             }
         },
         {
@@ -1200,37 +1191,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 163",
-            "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇬🇧GB | vless | @sinabigo | 4",
             "type": "vless",
             "server": "46.226.163.253",
@@ -1276,20 +1236,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "2001:41d0:304:200::3b57",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "428e8379-826d-4077-9c3b-94d38f94328d",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tap30.pinobin.ir.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/PPkdeHhAODvrGXR0",
+                "headers": {
+                    "Host": "tap30.pinobin.ir."
+                }
             }
         },
         {
@@ -1413,7 +1387,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 7",
+            "tag": "🇨🇦CA | vless | @polproxy | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
