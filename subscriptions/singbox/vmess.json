@@ -113,7 +113,6 @@
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇺🇸US | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 7",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 1",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 2",
@@ -124,7 +123,6 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @vless_vmess | 4",
                 "🇺🇸US | vmess | @DailyV2RY | 167",
-                "🇮🇷IR | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @proxystore11 | 2",
                 "🇺🇸US | vmess | @proxystore11 | 3",
                 "🇹🇷TR | vmess | @proxystore11 | 7",
@@ -169,7 +167,6 @@
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇺🇸US | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 7",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 1",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 2",
@@ -180,7 +177,6 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @vless_vmess | 4",
                 "🇺🇸US | vmess | @DailyV2RY | 167",
-                "🇮🇷IR | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @proxystore11 | 2",
                 "🇺🇸US | vmess | @proxystore11 | 3",
                 "🇹🇷TR | vmess | @proxystore11 | 7",
@@ -371,40 +367,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 7",
-            "type": "vmess",
-            "server": "afrhms16v.bestxray.buzz",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
             }
         },
         {
@@ -647,23 +609,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "nethtu.totfarangi.lol",
-            "server_port": 2099,
-            "uuid": "40491b91-e520-4fb0-ae69-ed23cac563a8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
