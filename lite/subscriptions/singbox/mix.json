@@ -135,6 +135,7 @@
                 "🇸🇪SE | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 8",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 7",
@@ -209,6 +210,7 @@
                 "🇸🇪SE | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 8",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 7",
@@ -887,6 +889,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
+            "type": "vless",
+            "server": "104.19.7.174",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 8",
             "type": "vless",
             "server": "172.67.198.111",
@@ -1212,9 +1245,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "172.66.45.32",
             "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1224,7 +1257,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "server_name": "t-netplus-4vx.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1234,9 +1267,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
