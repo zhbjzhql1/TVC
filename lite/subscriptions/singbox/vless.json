@@ -130,7 +130,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇮🇷IR | vless | @v2ray_swhil | 7",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇮🇷IR | vless | @v2ray_swhil | 7",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -785,11 +785,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
             "type": "vless",
-            "server": "104.26.6.95",
-            "server_port": 2052,
-            "uuid": "a61c4761-5848-43da-a632-309a7d18d393",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -797,11 +797,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/TELEGRAM-proxy_mtm\/",
                 "headers": {
-                    "Host": "104.26.6.95"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
@@ -1096,9 +1106,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "f03b5a48-ebd7-46aa-b306-b797cd40d7c2",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "13ba9154-0ace-443b-b38a-5349031d4e1d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1106,11 +1116,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1167,7 +1187,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 7",
+            "tag": "🇨🇦CA | vless | @polproxy | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
