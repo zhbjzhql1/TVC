@@ -124,12 +124,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @vless_vmess | 3",
-                "🇺🇸US | vmess | @DailyV2RY | 165",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @DailyV2RY | 160",
+                "🇺🇸US | vmess | @ConfigsHUB | 11",
                 "🇹🇷TR | vmess | @proxystore11 | 4",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -184,12 +180,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @vless_vmess | 3",
-                "🇺🇸US | vmess | @DailyV2RY | 165",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @DailyV2RY | 160",
+                "🇺🇸US | vmess | @ConfigsHUB | 11",
                 "🇹🇷TR | vmess | @proxystore11 | 4",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -682,11 +674,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 165",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 160",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -696,155 +688,12 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 11",
             "type": "vmess",
-            "server": "172.67.164.164",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "172.67.170.13",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "172.67.131.108",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "104.21.4.6",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "188.114.97.79",
+            "server": "188.114.99.183",
             "server_port": 443,
             "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
