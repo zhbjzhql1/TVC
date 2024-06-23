@@ -135,19 +135,17 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇮🇷IR | vless | @v2ray_swhil | 7",
-                "🇸🇪SE | vless | @proxyymeliii | 39",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇳🇱NL | vless | @VmessProtocol | 6",
-                "🇨🇦CA | vless | @DailyV2RY | 178",
+                "🇨🇦CA | vless | @DailyV2RY | 170",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -199,19 +197,17 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇮🇷IR | vless | @v2ray_swhil | 7",
-                "🇸🇪SE | vless | @proxyymeliii | 39",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇳🇱NL | vless | @VmessProtocol | 6",
-                "🇨🇦CA | vless | @DailyV2RY | 178",
+                "🇨🇦CA | vless | @DailyV2RY | 170",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -898,27 +894,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 39",
-            "type": "vless",
-            "server": "185.146.173.29",
-            "server_port": 2052,
-            "uuid": "40b2626a-aa93-4f05-8391-737291d0182c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2053",
-                "headers": {
-                    "Host": "185.146.173.29"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @vless_vmess | 15",
             "type": "vless",
             "server": "172.64.87.176",
@@ -1033,11 +1008,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @VmessProtocol | 6",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 170",
             "type": "vless",
-            "server": "158.101.193.127",
-            "server_port": 443,
-            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1047,7 +1022,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dns68.putata.eu.org",
+                "server_name": "nda1.fitpasta71.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1059,38 +1034,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "dns68.putata.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 178",
-            "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "nda1.fitpasta71.site"
                 }
             }
         },
@@ -1130,11 +1074,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 8880,
-            "uuid": "%38%61%30%35%35%37%30%30%2d%35%32%34%65%2d%34%34%32%65%2d%62%32%38%37%2d%64%65%36%66%65%65%65%34%31%36%37%37",
+            "server": "eagle.Hafezdivan.Online.",
+            "server_port": 443,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1142,11 +1086,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "eagle.Hafezdivan.Online.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "eagle.Hafezdivan.Online."
                 }
             }
         },
@@ -1203,7 +1157,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 7",
+            "tag": "🇨🇦CA | vless | @polproxy | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
