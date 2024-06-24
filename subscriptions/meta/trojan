@@ -155,8 +155,7 @@ proxies:
   - {"name":"🇺🇸US | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"35.245.125.80","port":443,"udp":false,"password":"NISHIKUITAN222","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t667.ylks.link"}
   - {"name":"🇷🇺RU | trojan | @v2ray_swhil | 0","type":"trojan","server":"31.172.67.242","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmwh.phooeyunfold.com"}
   - {"name":"🇺🇸US | trojan | @VmessProtocol | 4","type":"trojan","server":"w3.org","port":443,"udp":false,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"msnghdfy4c2.cpiforpersia.uk"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 6","type":"trojan","server":"35.181.91.31","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @ConfigsHUB | 7","type":"trojan","server":"3.142.33.36","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @ConfigsHUB | 13","type":"trojan","server":"us.eaxeg.be","port":443,"udp":false,"password":"ab602e02-624b-44f0-a51b-25ed53f70048","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"us.eaxeg.be"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -198,8 +197,7 @@ proxy-groups:
       - '🇺🇸US | trojan | @oneclickvpnkeys | 5'
       - '🇷🇺RU | trojan | @v2ray_swhil | 0'
       - '🇺🇸US | trojan | @VmessProtocol | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 6'
-      - '🇺🇸US | trojan | @ConfigsHUB | 7'
+      - '🇺🇸US | trojan | @ConfigsHUB | 13'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -241,8 +239,7 @@ proxy-groups:
       - '🇺🇸US | trojan | @oneclickvpnkeys | 5'
       - '🇷🇺RU | trojan | @v2ray_swhil | 0'
       - '🇺🇸US | trojan | @VmessProtocol | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 6'
-      - '🇺🇸US | trojan | @ConfigsHUB | 7'
+      - '🇺🇸US | trojan | @ConfigsHUB | 13'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -283,8 +280,7 @@ proxy-groups:
       - '🇺🇸US | trojan | @oneclickvpnkeys | 5'
       - '🇷🇺RU | trojan | @v2ray_swhil | 0'
       - '🇺🇸US | trojan | @VmessProtocol | 4'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 6'
-      - '🇺🇸US | trojan | @ConfigsHUB | 7'
+      - '🇺🇸US | trojan | @ConfigsHUB | 13'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
