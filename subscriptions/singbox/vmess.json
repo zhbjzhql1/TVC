@@ -127,6 +127,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 166",
+                "🇹🇼TW | vmess | @ConfigsHUB | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 2",
                 "🇹🇷TR | vmess | @proxystore11 | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -184,6 +185,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 166",
+                "🇹🇼TW | vmess | @ConfigsHUB | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 2",
                 "🇹🇷TR | vmess | @proxystore11 | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -748,6 +750,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 9",
+            "type": "vmess",
+            "server": "103.159.206.35",
+            "server_port": 31945,
+            "uuid": "e2e511b0-7def-4e1b-d238-6cb5391b2e3f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
