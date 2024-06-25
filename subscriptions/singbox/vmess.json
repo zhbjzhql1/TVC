@@ -124,9 +124,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 7",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🇺🇸US | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
-                "🇺🇸US | vmess | @ConfigsHUB | 14",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇳🇱NL | vmess | @proxystore11 | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 11",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -181,9 +180,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 7",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🇺🇸US | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
-                "🇺🇸US | vmess | @ConfigsHUB | 14",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇳🇱NL | vmess | @proxystore11 | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 11",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -713,7 +711,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
             "type": "vmess",
             "server": "38.75.137.27",
             "server_port": 22324,
@@ -727,74 +759,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "104.17.213.57",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "173.245.58.5",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
-                "headers": {
-                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
-                }
             }
         },
         {
