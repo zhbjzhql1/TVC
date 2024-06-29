@@ -111,11 +111,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🏳️XX | vless | @prrofile_purple | 170",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 21",
                 "🇸🇪SE | vless | @VmessProtocol | 1",
                 "🇳🇴NO | vless | @VmessProtocol | 2",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 4",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 6",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 8",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -128,8 +129,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FAKEOFTVC | 5",
-                "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -157,11 +156,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🏳️XX | vless | @prrofile_purple | 170",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 21",
                 "🇸🇪SE | vless | @VmessProtocol | 1",
                 "🇳🇴NO | vless | @VmessProtocol | 2",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 4",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 6",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 8",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -174,8 +174,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @FAKEOFTVC | 5",
-                "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🏳️XX | vless | @vpn_go67 | 7",
                 "🏳️XX | vless | @vpn_go67 | 8",
                 "🏳️XX | vless | @vpn_go67 | 9",
@@ -366,6 +364,35 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @prrofile_purple | 170",
+            "type": "vless",
+            "server": "[::ffff:808c:1d06]",
+            "server_port": 2083,
+            "uuid": "c25c9ea8-07c6-452c-ad59-dea3502a3bb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amd.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dNe4OxcGciB37rwo1LC93YxvhJ8rsFrlzHevw474j1c",
+                    "short_id": "2b56e6ff"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 21",
             "type": "vless",
             "server": "212.113.102.146",
@@ -467,7 +494,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 4",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "141.95.75.212",
             "server_port": 443,
@@ -496,7 +523,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 6",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "176.96.137.139",
             "server_port": 2083,
@@ -883,64 +910,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 5",
-            "type": "vless",
-            "server": "159.69.114.213",
-            "server_port": 8443,
-            "uuid": "f9ce83cc-d862-4233-abc8-b58cd8b5f546",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 6",
-            "type": "vless",
-            "server": "49.13.142.254",
-            "server_port": 8443,
-            "uuid": "f9ce83cc-d862-4233-abc8-b58cd8b5f546",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
                 }
             }
         },
