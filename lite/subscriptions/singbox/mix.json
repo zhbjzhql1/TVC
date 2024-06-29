@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1261,11 +1261,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2",
+            "server": "162.159.152.152",
+            "server_port": 443,
+            "uuid": "bd577383-a1ec-4fd5-8ce3-17d9c834bca6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1273,11 +1273,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-v2rey.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
