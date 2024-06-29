@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -117,6 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -167,6 +169,35 @@
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "176.96.137.139",
+            "server_port": 2083,
+            "uuid": "c7af5083-b86c-4edd-8a97-01ddaba17a4f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21Wy4raA5577OR54aGehA9q8wuFLV38XCbUr39e0SV0",
+                    "short_id": "c3949bd4"
                 }
             }
         },
