@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 5",
-                "🇸🇪SE | vless | @Parsashonam | 2",
+                "🇸🇪SE | vless | @Parsashonam | 3",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -129,7 +129,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
+                "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -179,7 +179,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 5",
-                "🇸🇪SE | vless | @Parsashonam | 2",
+                "🇸🇪SE | vless | @Parsashonam | 3",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -201,7 +201,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
+                "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -287,11 +287,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 2",
+            "tag": "🇸🇪SE | vless | @Parsashonam | 3",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8080,
-            "uuid": "Parsashonam-99",
+            "uuid": "Parsashonam-98",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -801,11 +801,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "38.147.188.239",
-            "server_port": 14979,
-            "uuid": "2919ef6f-b8d3-49ea-a32d-2f95d346e4cb",
+            "server": "fgzlwxmo1829.dopraxrocks.com",
+            "server_port": 8880,
+            "uuid": "4605f656-5a3d-4221-a9ef-ed775e82e430",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -815,6 +815,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.madariran.filegear-sg.me",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1197,17 +1204,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.231.182.119",
-            "server_port": 6060,
-            "uuid": "16d04352-d0b7-4036-934a-b4254547da17",
+            "server": "104.18.84.115",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@v2rayngzendegimamad\/?ed=2560",
+                "headers": {
+                    "Host": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV"
+                }
             }
         },
         {
