@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 15",
-                "🇸🇪SE | vless | @ARv2ray | 19",
+                "🏳️XX | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
@@ -130,7 +130,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇮🇷IR | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🏳️XX | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -183,7 +183,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 15",
-                "🇸🇪SE | vless | @ARv2ray | 19",
+                "🏳️XX | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
@@ -200,7 +200,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇮🇷IR | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🏳️XX | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -419,10 +419,10 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 19",
+            "tag": "🏳️XX | vless | @ARv2ray | 19",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
+            "server": "xn--9iqtb0z3kmg.bahrane.IR.",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -431,12 +431,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.237"
+            "tls": {
+                "enabled": true,
+                "server_name": "KI.bahrane.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -804,24 +814,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "tag": "🇮🇷IR | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "172.64.86.128",
-            "server_port": 80,
-            "uuid": "186c6afe-7234-4911-839f-77086e9b7278",
+            "server": "89.235.118.236",
+            "server_port": 2053,
+            "uuid": "4219373a-412d-4347-80b3-85e7b5a38728",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.64.86.128"
-                }
             }
         },
         {
@@ -1111,7 +1114,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "b5b3919f-4798-4eaf-b429-479d2dfcb25c",
+            "uuid": "67aaeabb-cb78-44b0-913c-2afb628811fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1204,11 +1207,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.64.87.52",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "185.146.173.237",
+            "server_port": 8080,
+            "uuid": "99cb5815-9f3b-4245-ab5c-b697652cacfc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1216,21 +1219,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "185.146.173.237"
                 }
             }
         },
