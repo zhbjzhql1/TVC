@@ -108,14 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 5",
-                "🇭🇰HK | vmess | @mftizi | 6",
+                "🇨🇳CN | vmess | @mftizi | 6",
                 "🇨🇳CN | vmess | @mftizi | 7",
                 "🇺🇸US | vmess | @mftizi | 12",
                 "🇺🇸US | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
                 "🇰🇷KR | vmess | @oneclickvpnkeys | 2",
@@ -130,9 +130,9 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
-                "🇺🇸US | vmess | @v2ray1_ng | 0",
+                "🇺🇸US | vmess | @v2ray1_ng | 1",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 110",
+                "🇺🇸US | vmess | @DailyV2RY | 101",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -168,14 +168,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 5",
-                "🇭🇰HK | vmess | @mftizi | 6",
+                "🇨🇳CN | vmess | @mftizi | 6",
                 "🇨🇳CN | vmess | @mftizi | 7",
                 "🇺🇸US | vmess | @mftizi | 12",
                 "🇺🇸US | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇱🇺LU | vmess | @DeamNet_Proxy | 16",
                 "🇰🇷KR | vmess | @oneclickvpnkeys | 2",
@@ -190,9 +190,9 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
-                "🇺🇸US | vmess | @v2ray1_ng | 0",
+                "🇺🇸US | vmess | @v2ray1_ng | 1",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 110",
+                "🇺🇸US | vmess | @DailyV2RY | 101",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -283,7 +283,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @mftizi | 6",
+            "tag": "🇨🇳CN | vmess | @mftizi | 6",
             "type": "vmess",
             "server": "alm1.the-galgo.top",
             "server_port": 32011,
@@ -423,7 +423,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @DeamNet_Proxy | 11",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -792,7 +792,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 0",
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 1",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -843,11 +843,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 110",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 101",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -857,6 +857,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
             }
         },
         {
