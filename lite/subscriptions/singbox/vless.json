@@ -129,7 +129,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇨🇦CA | vless | @ShadowProxy66 | 15",
                 "🇸🇪SE | vless | @ServerNett | 14",
@@ -141,7 +141,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -151,7 +150,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -189,7 +188,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇨🇦CA | vless | @ShadowProxy66 | 15",
                 "🇸🇪SE | vless | @ServerNett | 14",
@@ -201,7 +200,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -211,7 +209,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -783,11 +781,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 11",
+            "tag": "🇨🇦CA | vless | @vmessorg | 12",
             "type": "vless",
             "server": "104.21.78.161",
             "server_port": 8080,
-            "uuid": "2c86340b-16fe-4096-be8c-acd8870b2c91",
+            "uuid": "55c10711-9e11-4904-b8cc-5da669781f99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1065,20 +1063,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "ir.hexanvpn.shop",
-            "server_port": 14786,
-            "uuid": "77a752f5-2405-40ab-9d04-b15bc269b79c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "162.159.133.233",
@@ -1324,11 +1308,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 12",
+            "tag": "🇺🇸US | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "Bia_to_VPNCUSTOMIZE",
+            "server": "xpnteam-mci-soed-hajiali.parsafoom.ir",
+            "server_port": 2087,
+            "uuid": "HEMAYAT-XPNTEAM-TELEGRAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1336,12 +1320,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "xpnteam-mci-soed-hajiali.parsafoom.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
