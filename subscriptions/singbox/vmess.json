@@ -136,6 +136,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 1",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 124",
+                "🇺🇸US | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -199,6 +200,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 1",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 124",
+                "🇺🇸US | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -945,6 +947,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
+            "type": "vmess",
+            "server": "www.teletrans.ro",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nezuko.raidenshogun.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws\/obdii.cfd",
+                "headers": {
+                    "Host": "nezuko.raidenshogun.cloudns.org"
+                }
             }
         },
         {
