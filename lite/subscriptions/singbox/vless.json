@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 15",
-                "🇸🇬SG | vless | @ARv2ray | 19",
+                "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇨🇦CA | vless | @ShadowProxy66 | 25",
-                "🇸🇪SE | vless | @ServerNett | 16",
+                "🇸🇪SE | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇺🇸US | vless | @ConfigsHUB | 13",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -171,7 +171,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 15",
-                "🇸🇬SG | vless | @ARv2ray | 19",
+                "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇨🇦CA | vless | @ShadowProxy66 | 25",
-                "🇸🇪SE | vless | @ServerNett | 16",
+                "🇸🇪SE | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇺🇸US | vless | @ConfigsHUB | 13",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -376,10 +376,10 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @ARv2ray | 19",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 19",
             "type": "vless",
-            "server": "ArV2ray.mEhpow.IR.",
-            "server_port": 443,
+            "server": "185.146.173.237",
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -388,22 +388,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "IM.mehpow.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
             }
         },
         {
@@ -853,11 +843,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 16",
+            "tag": "🇸🇪SE | vless | @ServerNett | 14",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "ddf1e10e-20bf-474e-8124-99e8e53b5c18",
+            "uuid": "be31aa92-f0bf-4394-bc6d-95e27fe12eca",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1083,9 +1073,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.64.143.172",
+            "server": "172.64.111.69",
             "server_port": 443,
             "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
