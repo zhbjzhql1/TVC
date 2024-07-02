@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -158,7 +158,7 @@
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVCfdrwphopav",
+                "TVCrarwtqvnts",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇯🇵JP | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 3",
@@ -168,7 +168,7 @@
                 "🇩🇪DE | vless | @kiava | 9",
                 "🏳️XX | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇸🇪SE | vless | @kingofilter | 3",
+                "🇸🇪SE | vless | @kingofilter | 4",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -223,7 +223,7 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -231,7 +231,7 @@
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVCfdrwphopav",
+                "TVCrarwtqvnts",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇯🇵JP | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 3",
@@ -241,7 +241,7 @@
                 "🇩🇪DE | vless | @kiava | 9",
                 "🏳️XX | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇸🇪SE | vless | @kingofilter | 3",
+                "🇸🇪SE | vless | @kingofilter | 4",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1293,23 +1293,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "387f4dcd-f43a-4b2c-b2ec-eefd39c99af4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 2083,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "6ba6-sound-6ba6.siliy37818.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/obdii.cfd\/linkws",
                 "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
+                    "Host": "6ba6-sound-6ba6.siliy37818.workers.dev"
                 }
             }
         },
@@ -1497,7 +1510,7 @@
             }
         },
         {
-            "tag": "TVCfdrwphopav",
+            "tag": "TVCrarwtqvnts",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1746,7 +1759,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kingofilter | 3",
+            "tag": "🇸🇪SE | vless | @kingofilter | 4",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
