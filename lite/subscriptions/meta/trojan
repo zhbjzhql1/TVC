@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.74.113.138","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @DirectVPN | 14","type":"trojan","server":"13.39.154.61","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"51.20.150.111","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"34.254.122.51","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
-      - '🇫🇷FR | trojan | @DirectVPN | 14'
+      - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇮🇪IE | trojan | @oneclickvpnkeys | 3'
   - name: URL-TEST
     type: url-test
@@ -139,7 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
-      - '🇫🇷FR | trojan | @DirectVPN | 14'
+      - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇮🇪IE | trojan | @oneclickvpnkeys | 3'
   - name: FALLBACK
     type: fallback
@@ -147,7 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
-      - '🇫🇷FR | trojan | @DirectVPN | 14'
+      - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇮🇪IE | trojan | @oneclickvpnkeys | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
