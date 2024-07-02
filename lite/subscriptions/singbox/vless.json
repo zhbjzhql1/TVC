@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇱🇹LT | vless | @ARv2ray | 14",
+                "🇸🇪SE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
@@ -132,7 +132,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 50",
@@ -150,7 +149,7 @@
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
-                "TVCdrhpvsszmh",
+                "TVChdsnbvuanj",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 8",
@@ -178,7 +177,7 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇱🇹LT | vless | @ARv2ray | 14",
+                "🇸🇪SE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
@@ -195,7 +194,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 50",
@@ -213,7 +211,7 @@
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
-                "TVCdrhpvsszmh",
+                "TVChdsnbvuanj",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇸🇪SE | vless | @FreakConfig | 8",
@@ -447,10 +445,10 @@
             }
         },
         {
-            "tag": "🇱🇹LT | vless | @ARv2ray | 14",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 14",
             "type": "vless",
-            "server": "ArV2ray.bahrane.IR",
-            "server_port": 443,
+            "server": "185.146.173.237",
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -459,22 +457,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "UW.bahrane.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
             }
         },
         {
@@ -852,37 +840,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 23",
-            "type": "vless",
-            "server": "172.66.47.91",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Eb043CC5.mKhAlIli.pAGes.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/GWJNSQdfI8oHCARM",
-                "headers": {
-                    "Host": "Eb043CC5.mKhAlIli.pAGes.dEv"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @ServerNett | 13",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1156,22 +1113,15 @@
         {
             "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "2b3b4920-e712-4613-b0df-75a80b403f49",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "1593eb99-5a84-4da0-80f4-32b3210127f0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/servernet",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
             }
         },
         {
@@ -1290,7 +1240,7 @@
             }
         },
         {
-            "tag": "TVCdrhpvsszmh",
+            "tag": "TVChdsnbvuanj",
             "type": "vless",
             "server": "",
             "server_port": 0,
