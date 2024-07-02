@@ -115,8 +115,8 @@
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 16",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 11",
@@ -130,7 +130,7 @@
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 84",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -173,8 +173,8 @@
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 16",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇭🇰HK | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 11",
@@ -188,7 +188,7 @@
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 84",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -419,7 +419,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "156.251.217.3",
             "server_port": 23870,
@@ -436,7 +436,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -784,11 +784,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 84",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 12",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "172.67.164.164",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -798,6 +798,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms07.xfixedfloat.cfd"
+                }
             }
         },
         {
