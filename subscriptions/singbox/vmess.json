@@ -132,6 +132,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 98",
+                "🇧🇬BG | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -190,6 +191,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🏳️XX | vmess | @DailyV2RY | 98",
+                "🇧🇬BG | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -822,6 +824,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇬BG | vmess | @ConfigsHUB | 6",
+            "type": "vmess",
+            "server": "147.78.140.231",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "llow-disk-4b7b.bigapax481.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "llow-disk-4b7b.bigapax481.workers.dev"
+                }
             }
         },
         {
