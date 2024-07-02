@@ -122,9 +122,10 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @customv2ray | 17","type":"vmess","server":"104.16.219.108","port":"80","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram/XV2ray","headers":{"host":"rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aparat.com.V2ray.com.shw2.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net."}}}
-  - {"name":"🏳️XX | vmess | @ConfigsHUB | 19","type":"vmess","server":"::ffff:0e66:e42b","port":"443","cipher":"chacha20-poly1305","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram/XV2ray","headers":{"host":"germany-linkws.pages.dev"}}}
+  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 19","type":"vmess","server":"104.19.47.23","port":"8443","cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"russia.com","port":"2095","cipher":"auto","uuid":"b7c56170-edb4-4c4a-bb64-ed5ef40b8739","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
-  - {"name":"🇯🇵JP | vmess | @v2Line | 7","type":"vmess","server":"jp-full.privateip.net","port":"443","cipher":"auto","uuid":"124fe4ff-0ee4-4189-bd99-ed1a317b42dd","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
+  - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
+  - {"name":"🏳️XX | vmess | @nofiltering2 | 2","type":"vmess","server":"[::ffff:3981:337d]","port":"19534","cipher":"auto","uuid":"9500739f-0299-47ec-9d3d-2cfec6d5cde1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -134,9 +135,10 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @customv2ray | 17'
-      - '🏳️XX | vmess | @ConfigsHUB | 19'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 19'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
-      - '🇯🇵JP | vmess | @v2Line | 7'
+      - '🇺🇸US | vmess | @v2Line | 6'
+      - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
   - name: URL-TEST
     type: url-test
@@ -146,9 +148,10 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @customv2ray | 17'
-      - '🏳️XX | vmess | @ConfigsHUB | 19'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 19'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
-      - '🇯🇵JP | vmess | @v2Line | 7'
+      - '🇺🇸US | vmess | @v2Line | 6'
+      - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
   - name: FALLBACK
     type: fallback
@@ -157,9 +160,10 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @customv2ray | 17'
-      - '🏳️XX | vmess | @ConfigsHUB | 19'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 19'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
-      - '🇯🇵JP | vmess | @v2Line | 7'
+      - '🇺🇸US | vmess | @v2Line | 6'
+      - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
