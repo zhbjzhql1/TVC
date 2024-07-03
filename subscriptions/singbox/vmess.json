@@ -114,6 +114,7 @@
                 "🇨🇳CN | vmess | @mftizi | 9",
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇺🇸US | vmess | @mftizi | 16",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -174,6 +175,7 @@
                 "🇨🇳CN | vmess | @mftizi | 9",
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇺🇸US | vmess | @mftizi | 16",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -402,6 +404,40 @@
                 "path": "\/video\/Zo98PYfE",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 14",
+            "type": "vmess",
+            "server": "hms07.xfixedfloat.cfd",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "hms07.xfixedfloat.cfd"
                 }
             }
         },
