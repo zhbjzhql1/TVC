@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @FreakConfig | 10",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @FreakConfig | 10",
@@ -1055,9 +1055,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.83.58",
-            "server_port": 8080,
-            "uuid": "--V2RAXX",
+            "server": "104.24.20.71",
+            "server_port": 443,
+            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1065,11 +1065,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1-moryvpnbot.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.17.83.58"
+                    "Host": "de1-moryvpnbot.pages.dev"
                 }
             }
         },
@@ -1147,7 +1157,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,

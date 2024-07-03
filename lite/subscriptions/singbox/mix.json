@@ -157,7 +157,7 @@
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇹🇷TR | vmess | @v2Line | 7",
@@ -232,7 +232,7 @@
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇹🇷TR | vmess | @v2Line | 7",
@@ -793,11 +793,11 @@
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.199.61",
-            "server_port": 15607,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "183.238.202.173",
+            "server_port": 51193,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1248,9 +1248,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.83.58",
-            "server_port": 8080,
-            "uuid": "--V2RAXX",
+            "server": "104.24.20.71",
+            "server_port": 443,
+            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1258,11 +1258,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1-moryvpnbot.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.17.83.58"
+                    "Host": "de1-moryvpnbot.pages.dev"
                 }
             }
         },
@@ -1420,7 +1430,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
