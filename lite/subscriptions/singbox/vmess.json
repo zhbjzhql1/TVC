@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 22",
+                "🇺🇸US | vmess | @DailyV2RY | 86",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇹🇷TR | vmess | @v2Line | 7",
@@ -125,9 +126,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 22",
+                "🇺🇸US | vmess | @DailyV2RY | 86",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇹🇷TR | vmess | @v2Line | 7",
@@ -190,11 +192,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "bemnburalardaizos.serhatbeyler.info",
-            "server_port": 8081,
-            "uuid": "e23faebe-3f9a-4d4c-9392-ca39fb78866b",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -204,6 +206,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
@@ -236,6 +255,23 @@
             "server": "45.89.52.114",
             "server_port": 13701,
             "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 86",
+            "type": "vmess",
+            "server": "45.32.201.78",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
