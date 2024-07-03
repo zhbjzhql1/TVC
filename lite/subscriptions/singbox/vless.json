@@ -127,7 +127,7 @@
                 "🇮🇷IR | vless | @Outline_Vpn | 19",
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 12",
+                "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
@@ -139,6 +139,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -147,7 +148,7 @@
                 "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
-                "🇸🇪SE | vless | @mehrosaboran | 4",
+                "🇨🇷CR | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇸🇪SE | vless | @kingofilter | 8",
@@ -181,7 +182,7 @@
                 "🇮🇷IR | vless | @Outline_Vpn | 19",
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 12",
+                "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
@@ -193,6 +194,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -201,7 +203,7 @@
                 "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
-                "🇸🇪SE | vless | @mehrosaboran | 4",
+                "🇨🇷CR | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇸🇪SE | vless | @kingofilter | 8",
@@ -692,7 +694,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 12",
+            "tag": "🇨🇦CA | vless | @vmessorg | 13",
             "type": "vless",
             "server": "104.21.78.161",
             "server_port": 8080,
@@ -974,6 +976,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "108.162.192.79",
+            "server_port": 443,
+            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-chf.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-chf.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @fnet00 | 8",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1160,11 +1193,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 4",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 4",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 8080,
-            "uuid": "6c55ee30-f23e-42f4-bbcc-a19f04c63ae4",
+            "server": "l.yuewfgfg.site",
+            "server_port": 2087,
+            "uuid": "f1ba0e56-ff21-4810-82b6-e2a8faffcf96",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1172,11 +1205,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fd.lightningu.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "fd.lightningu.ir"
                 }
             }
         },
