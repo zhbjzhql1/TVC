@@ -113,12 +113,12 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇸🇪SE | vless | @ARv2ray | 18",
+                "🇸🇬SG | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇸🇪SE | vless | @proxy_kafee | 4",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -137,7 +137,7 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
                 "🇮🇷IR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -167,12 +167,12 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇸🇪SE | vless | @ARv2ray | 18",
+                "🇸🇬SG | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇸🇪SE | vless | @proxy_kafee | 4",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -191,7 +191,7 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
                 "🇮🇷IR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -387,10 +387,10 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 18",
+            "tag": "🇸🇬SG | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
+            "server": "ArV2ray.mehpow.IR.",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -399,12 +399,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.237"
+            "tls": {
+                "enabled": true,
+                "server_name": "KI.Mehpow.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -492,11 +502,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 4",
+            "tag": "🇨🇷CR | vless | @proxy_kafee | 5",
             "type": "vless",
-            "server": "185.146.173.58",
+            "server": "190.93.247.155",
             "server_port": 80,
-            "uuid": "d0036c44-ce66-4c3b-aeff-d9fc962bba74",
+            "uuid": "biain--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -506,9 +516,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON @ZeV2ray",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "190.93.247.155"
                 }
             }
         },
@@ -949,11 +959,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "speedtest.org",
-            "server_port": 443,
-            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
+            "server": "104.21.33.129",
+            "server_port": 2096,
+            "uuid": "56f27884-6e52-4c2d-9dbe-01c9ec240f03",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -963,7 +973,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jusnx.ffsonni.buzz",
+                "server_name": "J0in-Telegram-EiiiM.danesh-bonyan.Store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -973,9 +983,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/paradise",
+                "path": "\/join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.",
                 "headers": {
-                    "Host": "jusnx.ffsonni.buzz"
+                    "Host": "J0in-Telegram-EiiiM.danesh-bonyan.Store"
                 }
             }
         },
