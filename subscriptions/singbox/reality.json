@@ -117,6 +117,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 6",
                 "🇸🇪SE | vless | @VmessProtocol | 5",
                 "🇳🇴NO | vless | @VmessProtocol | 6",
+                "🇫🇮FI | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -144,7 +145,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 1",
+                "🏳️XX | vless | @kingofilter | 2",
                 "🏳️XX | vless | @GozargahVPN | 9"
             ]
         },
@@ -163,6 +164,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 6",
                 "🇸🇪SE | vless | @VmessProtocol | 5",
                 "🇳🇴NO | vless | @VmessProtocol | 6",
+                "🇫🇮FI | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -190,7 +192,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 1",
+                "🏳️XX | vless | @kingofilter | 2",
                 "🏳️XX | vless | @GozargahVPN | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -558,6 +560,42 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "realgod.gamebestir.ir",
+            "server_port": 2093,
+            "uuid": "953a7b6e-d5bb-472c-843b-4c73514e1b15",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
+                    "short_id": "d710e2b9"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "stackoverflow.com"
+                ],
+                "path": "\/"
             }
         },
         {
@@ -1463,7 +1501,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kingofilter | 1",
+            "tag": "🏳️XX | vless | @kingofilter | 2",
             "type": "vless",
             "server": "kingo6.hightechservice.ir",
             "server_port": 2052,
