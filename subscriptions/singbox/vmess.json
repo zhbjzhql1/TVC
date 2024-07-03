@@ -132,7 +132,7 @@
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 61",
                 "🏳️XX | vmess | @DailyV2RY | 62",
-                "🇲🇾MY | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -193,7 +193,7 @@
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 61",
                 "🏳️XX | vmess | @DailyV2RY | 62",
-                "🇲🇾MY | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -824,11 +824,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vmess | @ConfigsHUB | 4",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 6",
             "type": "vmess",
-            "server": "38.54.125.216",
-            "server_port": 3262,
-            "uuid": "0b56d70e-dfd6-4623-b469-9942ff7a5c08",
+            "server": "hms19.best-tizi.top",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -839,11 +839,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms19.best-tizi.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/arki",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "hms19.best-tizi.top"
                 }
             }
         },
