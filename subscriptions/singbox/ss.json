@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | ss | @DeamNet_Proxy | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 9",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 4",
                 "🇵🇹PT | ss | @OutlineVpnOfficial | 5",
@@ -120,7 +121,7 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 16",
                 "🇪🇸ES | ss | @OutlineVpnOfficial | 17",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | ss | @FAKEOFTVC | 0",
+                "🇺🇸US | ss | @FAKEOFTVC | 1",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🇬🇧GB | ss | @proxy_mtm | 1"
             ]
@@ -129,6 +130,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | ss | @DeamNet_Proxy | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 9",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 4",
                 "🇵🇹PT | ss | @OutlineVpnOfficial | 5",
@@ -143,7 +145,7 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 16",
                 "🇪🇸ES | ss | @OutlineVpnOfficial | 17",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | ss | @FAKEOFTVC | 0",
+                "🇺🇸US | ss | @FAKEOFTVC | 1",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🇬🇧GB | ss | @proxy_mtm | 1"
             ],
@@ -166,6 +168,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 11",
+            "type": "shadowsocks",
+            "server": "15.204.87.225",
+            "server_port": 5499,
+            "method": "aes-256-gcm",
+            "password": "lGqs95QkFHo2NV",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | ss | @VmessProtocol | 9",
@@ -308,7 +320,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @FAKEOFTVC | 0",
+            "tag": "🇺🇸US | ss | @FAKEOFTVC | 1",
             "type": "shadowsocks",
             "server": "205.134.180.139",
             "server_port": 443,
