@@ -129,6 +129,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
+                "🇨🇦CA | vless | @ShadowProxy66 | 11",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @v2ray_swhil | 14",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
@@ -140,7 +141,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 99",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -185,6 +186,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
+                "🇨🇦CA | vless | @ShadowProxy66 | 11",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @v2ray_swhil | 14",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
@@ -196,7 +198,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 99",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -257,7 +259,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.127.0.186",
+            "server": "18.153.152.68",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -775,6 +777,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 11",
+            "type": "vless",
+            "server": "allsms.rozfa.com",
+            "server_port": 443,
+            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "TeST-TESt-tEst-tESt.PagES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DXapKozkFI9aiqC7?ed=2560",
+                "headers": {
+                    "Host": "TeST-TESt-tEst-tESt.PagES.DEV"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @ServerNett | 11",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1036,11 +1069,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
+            "server": "172.67.171.59",
+            "server_port": 80,
+            "uuid": "03a6f521-cba5-4cf5-92e8-196df9c11ae0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1048,21 +1081,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "7f905f51.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "7f905f51.garywelch.pages.dev"
+                    "Host": "172.67.171.59"
                 }
             }
         },
