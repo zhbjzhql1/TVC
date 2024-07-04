@@ -110,10 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇹🇷TR | vmess | @ShadowProxy66 | 23",
                 "🇮🇷IR | vmess | @vless_vmess | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 2",
@@ -128,10 +127,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇹🇷TR | vmess | @ShadowProxy66 | 23",
                 "🇮🇷IR | vmess | @vless_vmess | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 2",
@@ -233,23 +231,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @ShadowProxy66 | 23",
-            "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @vless_vmess | 9",
             "type": "vmess",
             "server": "95.38.248.217",
@@ -301,11 +282,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🏳️XX | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "russia.com",
-            "server_port": 2095,
-            "uuid": "b7c56170-edb4-4c4a-bb64-ed5ef40b8739",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "d2b191ce-58b4-4950-b847-3eda9a1f64f7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -316,11 +297,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/api\/v3\/download.getFile",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "russia.com"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
