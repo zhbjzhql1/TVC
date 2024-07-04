@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇸🇪SE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 41",
-                "🇸🇪SE | vless | @ipV2Ray | 14",
+                "🇸🇪SE | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 1",
@@ -140,7 +140,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 99",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -165,7 +165,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇸🇪SE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 41",
-                "🇸🇪SE | vless | @ipV2Ray | 14",
+                "🇸🇪SE | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 1",
@@ -196,7 +196,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 99",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -257,7 +257,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "16.171.86.219",
+            "server": "13.60.129.111",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -307,11 +307,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ipV2Ray | 14",
+            "tag": "🇸🇪SE | vless | @ipV2Ray | 12",
             "type": "vless",
             "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "Telegram-ipV2Ray-jiu",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-xiu",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -923,7 +923,7 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "188.114.98.223",
             "server_port": 2095,
             "uuid": "%63%66%62%36%64%39%61%64%2d%37%61%31%34%2d%34%30%36%31%2d%62%31%35%39%2d%38%39%30%32%66%64%37%33%62%62%35%37",
             "flow": "",
@@ -937,7 +937,7 @@
                 "type": "ws",
                 "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "188.114.98.223"
                 }
             }
         },
@@ -1036,11 +1036,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1048,11 +1048,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "7f905f51.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/TELEGRAM\/?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "7f905f51.garywelch.pages.dev"
                 }
             }
         },
