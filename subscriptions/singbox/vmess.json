@@ -133,7 +133,9 @@
                 "🇹🇷TR | vmess | @ShadowProxy66 | 23",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🇮🇷IR | vmess | @vless_vmess | 9",
-                "🏳️XX | vmess | @DailyV2RY | 85",
+                "🇺🇸US | vmess | @DailyV2RY | 83",
+                "🏳️XX | vmess | @DailyV2RY | 84",
+                "🇮🇷IR | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -146,7 +148,6 @@
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇳🇱NL | vmess | @Hope_Net | 6",
                 "🏳️XX | vmess | @Hope_Net | 7",
-                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -154,7 +155,6 @@
                 "🇬🇧GB | vmess | @v2Line | 3",
                 "🇳🇱NL | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
@@ -194,7 +194,9 @@
                 "🇹🇷TR | vmess | @ShadowProxy66 | 23",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🇮🇷IR | vmess | @vless_vmess | 9",
-                "🏳️XX | vmess | @DailyV2RY | 85",
+                "🇺🇸US | vmess | @DailyV2RY | 83",
+                "🏳️XX | vmess | @DailyV2RY | 84",
+                "🇮🇷IR | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -207,7 +209,6 @@
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇳🇱NL | vmess | @Hope_Net | 6",
                 "🏳️XX | vmess | @Hope_Net | 7",
-                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -215,7 +216,6 @@
                 "🇬🇧GB | vmess | @v2Line | 3",
                 "🇳🇱NL | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @v2Line | 6",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
@@ -858,7 +858,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 85",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 83",
+            "type": "vmess",
+            "server": "216.128.136.23",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @DailyV2RY | 84",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -872,6 +889,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 6",
+            "type": "vmess",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": "pages.dev"
+                }
             }
         },
         {
@@ -1219,30 +1270,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "russia.com",
-            "server_port": 2095,
-            "uuid": "b7c56170-edb4-4c4a-bb64-ed5ef40b8739",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/v3\/download.getFile",
-                "headers": {
-                    "Host": "russia.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 0",
             "type": "vmess",
             "server": "188.114.97.3",
@@ -1450,40 +1477,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2Line | 6",
-            "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
