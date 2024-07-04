@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 3",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 14",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 16",
@@ -148,8 +148,8 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
-                "🇸🇪SE | vless | @proxystore11 | 8",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @proxystore11 | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
@@ -182,7 +182,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 3",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 14",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 16",
@@ -220,8 +220,8 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
-                "🇸🇪SE | vless | @proxystore11 | 8",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @proxystore11 | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
@@ -360,7 +360,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1183,35 +1183,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "172.67.171.56",
-            "server_port": 80,
-            "uuid": "27d46493-8693-4dc0-af97-0776591ad1a7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @proxystore11 | 8",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "telegram-id-PcV2ray",
+            "server": "185.146.173.43",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb56",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1221,9 +1197,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-PcV2ray",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.43"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxystore11 | 7",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "585746d7-57c0-43b0-aab1-12311343f332",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
                 }
             }
         },
