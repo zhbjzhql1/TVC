@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 41",
@@ -150,18 +151,19 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vmess | @v2Line | 5",
+                "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 8",
-                "🇸🇪SE | vless | @mehrosaboran | 3",
+                "🇸🇪SE | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vmess | @nofiltering2 | 2",
-                "🇸🇪SE | vless | @proxy_mtm | 1",
+                "🇸🇪SE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 8",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -175,6 +177,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 41",
@@ -219,18 +222,19 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vmess | @v2Line | 5",
+                "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 8",
-                "🇸🇪SE | vless | @mehrosaboran | 3",
+                "🇸🇪SE | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vmess | @nofiltering2 | 2",
-                "🇸🇪SE | vless | @proxy_mtm | 1",
+                "🇸🇪SE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 8",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -258,6 +262,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 11",
+            "type": "vless",
+            "server": "tg.ELiV2ray.io.",
+            "server_port": 80,
+            "uuid": "-JOIN--ELiV2RAY-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ELiV2ray-@ELiV2ray-ELi.elmahstyle.ir?ed=80",
+                "headers": {
+                    "Host": "tg.ELiV2ray.io."
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 6",
@@ -1176,9 +1201,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.20.19.168",
-            "server_port": 8080,
-            "uuid": "e1f8f779-bd78-46a0-b196-707d169f4061",
+            "server": "104.18.5.2",
+            "server_port": 2096,
+            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1186,11 +1211,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=1024\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/5fz4m1ggihzpkyya?ed=2560",
                 "headers": {
-                    "Host": "104.20.19.168"
+                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
                 }
             }
         },
@@ -1250,6 +1285,40 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "3f197280-7b21-4f39-b763-4bb004e8021f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @polproxy | 7",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1271,11 +1340,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "185.146.173.20",
-            "server_port": 2082,
-            "uuid": "24347e96-912c-4f53-9c67-9cc895fc6fdf",
+            "server": "172.67.171.43",
+            "server_port": 80,
+            "uuid": "b14647af-9936-41dd-b9fb-d108d7e3e405",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1285,9 +1354,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "185.146.173.20"
+                    "Host": "172.67.171.43"
                 }
             }
         },
@@ -1335,7 +1404,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -1442,7 +1511,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 3",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 2",
             "type": "vless",
             "server": "185.146.173.200",
             "server_port": 2087,
@@ -1511,7 +1580,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_mtm | 1",
+            "tag": "🇸🇪SE | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
