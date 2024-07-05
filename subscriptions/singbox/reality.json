@@ -109,7 +109,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 0",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 1",
+                "🇩🇪DE | vless | @ARv2ray | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -122,7 +123,7 @@
                 "🇸🇪SE | vless | @VmessProtocol | 9",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 3",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -161,7 +162,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 0",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 1",
+                "🇩🇪DE | vless | @ARv2ray | 4",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -174,7 +176,7 @@
                 "🇸🇪SE | vless | @VmessProtocol | 9",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 3",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -334,7 +336,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
+            "type": "vless",
+            "server": "188.245.34.226",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ad2-N0bBOT1XOpH0GbCNsw2tMBxGAXXO_58D2-__xDI",
+                    "short_id": "b5c5a943"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 4",
             "type": "vless",
             "server": "188.245.32.88",
             "server_port": 443,
@@ -753,7 +791,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 3",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "panel.karunvps.shop",
             "server_port": 1633,
