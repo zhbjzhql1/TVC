@@ -108,17 +108,19 @@
                 "URL-TEST",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @ARv2ray | 2",
+                "🇩🇪DE | vless | @ARv2ray | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇹🇷TR | vless | @Outline_Vpn | 11",
+                "🇸🇪SE | vless | @prrofile_purple | 159",
+                "🇩🇪DE | vless | @V2RayTz | 0",
                 "🇸🇪SE | vless | @VmessProtocol | 1",
                 "🇸🇪SE | vless | @VmessProtocol | 9",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 2",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -146,7 +148,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 8",
+                "🏳️XX | vless | @kingofilter | 12",
                 "🏳️XX | vless | @GozargahVPN | 9",
                 "🏳️XX | vless | @freeconfigv2 | 0"
             ]
@@ -157,17 +159,19 @@
             "outbounds": [
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @ARv2ray | 2",
+                "🇩🇪DE | vless | @ARv2ray | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇹🇷TR | vless | @Outline_Vpn | 11",
+                "🇸🇪SE | vless | @prrofile_purple | 159",
+                "🇩🇪DE | vless | @V2RayTz | 0",
                 "🇸🇪SE | vless | @VmessProtocol | 1",
                 "🇸🇪SE | vless | @VmessProtocol | 9",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 2",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -195,7 +199,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 8",
+                "🏳️XX | vless | @kingofilter | 12",
                 "🏳️XX | vless | @GozargahVPN | 9",
                 "🏳️XX | vless | @freeconfigv2 | 0"
             ],
@@ -292,7 +296,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
             "type": "vless",
             "server": "188.245.32.88",
             "server_port": 443,
@@ -473,6 +477,78 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 159",
+            "type": "vless",
+            "server": "109.120.133.41",
+            "server_port": 443,
+            "uuid": "bcffb76a-c1f6-4c03-a761-7cd8d3bc35c9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "j-0JPDGrNcRx_1Vts1EQw3b_TtJqYTsrScZDWIhAsk4",
+                    "short_id": "7222b64f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@set_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 0",
+            "type": "vless",
+            "server": "188.245.34.226",
+            "server_port": 443,
+            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ad2-N0bBOT1XOpH0GbCNsw2tMBxGAXXO_58D2-__xDI",
+                    "short_id": "b5c5a943"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @VmessProtocol | 1",
             "type": "vless",
             "server": "77.221.143.183",
@@ -603,7 +679,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 2",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "panel.karunvps.shop",
             "server_port": 1633,
@@ -1534,7 +1610,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kingofilter | 8",
+            "tag": "🏳️XX | vless | @kingofilter | 12",
             "type": "vless",
             "server": "kingo6.hightechservice.ir",
             "server_port": 2052,
