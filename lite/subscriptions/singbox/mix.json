@@ -148,12 +148,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇲🇾MY | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇳🇱NL | vmess | @v2Line | 4",
@@ -219,12 +219,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇲🇾MY | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇳🇱NL | vmess | @v2Line | 4",
@@ -1236,37 +1236,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.24.185.137",
+            "server_port": 8080,
+            "uuid": "Parsashonam-6",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1380,7 +1367,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
+            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "172.66.44.165",
             "server_port": 2096,
