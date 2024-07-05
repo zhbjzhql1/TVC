@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -146,7 +146,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇮🇹IT | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | trojan | @ConfigsHUB | 3",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -176,7 +176,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -216,7 +216,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇮🇹IT | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | trojan | @ConfigsHUB | 3",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -262,11 +262,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 6",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 7",
             "type": "vless",
-            "server": "tg.ELiV2ray.io.",
-            "server_port": 80,
-            "uuid": "7eed1819-7f95-4fc7-b4c5-1cb5c4f737d6",
+            "server": "172.66.46.224",
+            "server_port": 443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -274,11 +274,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-netplus-4vx.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "tg.ELiV2ray.io."
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
@@ -1179,13 +1189,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇬🇧GB | trojan | @ConfigsHUB | 3",
+            "type": "trojan",
+            "server": "23.106.35.90",
+            "server_port": 28331,
+            "password": "FcYCR32n8lEy3aaXTSAYzl3DNXTSAYzl3DNqZ58SDgFBOxeC6Cw47uSZy3Aje0xeC6Cw4",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1193,19 +1201,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "server_name": "hovland.golfland.club",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI",
-                "headers": {
-                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
                 }
             }
         },
