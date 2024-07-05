@@ -132,12 +132,15 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
                 "🇸🇪SE | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 8",
+                "🇨🇦CA | vless | @v2ray_swhil | 11",
+                "🇸🇪SE | vless | @proxyymeliii | 41",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -186,12 +189,15 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
                 "🇸🇪SE | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 8",
+                "🇨🇦CA | vless | @v2ray_swhil | 11",
+                "🇸🇪SE | vless | @proxyymeliii | 41",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -854,6 +860,58 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 11",
+            "type": "vless",
+            "server": "172.66.46.251",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 41",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "Bia_to_VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @vless_vmess | 12",
             "type": "vless",
             "server": "31.14.115.163",
@@ -987,6 +1045,37 @@
                 "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
                     "Host": "www.Speedtest.Net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI",
+                "headers": {
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
                 }
             }
         },
