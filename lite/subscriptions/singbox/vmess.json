@@ -111,10 +111,9 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇩🇪DE | vmess | @v2Line | 3",
-                "🏳️XX | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ]
         },
@@ -127,10 +126,9 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇩🇪DE | vmess | @v2Line | 3",
-                "🏳️XX | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -263,11 +261,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "server": "sg-full.privateip.net",
             "server_port": 443,
-            "uuid": "3f197280-7b21-4f39-b763-4bb004e8021f",
+            "uuid": "ecb90d6e-1bbf-42ec-a742-822fad6936da",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -280,7 +278,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "sg-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -290,9 +288,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "sg-full.privateip.net"
                 }
             }
         },
@@ -352,23 +350,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @nofiltering2 | 1",
-            "type": "vmess",
-            "server": "[::ffff:3981:337d]",
-            "server_port": 19534,
-            "uuid": "9500739f-0299-47ec-9d3d-2cfec6d5cde1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
