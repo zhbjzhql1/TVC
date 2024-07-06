@@ -116,7 +116,6 @@
                 "🇸🇪SE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -146,14 +145,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 13",
@@ -186,7 +185,6 @@
                 "🇸🇪SE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -216,14 +214,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 13",
@@ -488,27 +486,6 @@
                 "path": "\/@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-@LOCKEY_VPN-V2",
                 "headers": {
                     "Host": "198.41.206.124"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 4",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "80dd674e-5fd1-44f6-9244-3995828cdde5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1200,11 +1177,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "us.eaxeg.be",
-            "server_port": 80,
-            "uuid": "ab602e02-624b-44f0-a51b-25ed53f70048",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "262e9f21-aef4-47ab-8a81-c16f9ee9bbe1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1212,11 +1189,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VIOlEtKaUfman.PAGes.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/03k3EF1qSBBZ3SSQ9N70H4Y2aW",
+                "path": "\/Telegram-@proxy_mtm\/?ed=2560",
                 "headers": {
-                    "Host": "us.eaxeg.be"
+                    "Host": "VIOlEtKaUfman.PAGes.dev"
                 }
             }
         },
@@ -1383,7 +1370,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
