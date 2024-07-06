@@ -140,7 +140,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -197,7 +197,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -1039,17 +1039,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "62.60.161.184",
-            "server_port": 46777,
-            "uuid": "58caf666-e6cc-4a4e-bfac-5ee04bde8f8c",
+            "server": "172.66.44.165",
+            "server_port": 2096,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eB043Cc5.mKHaLili.PAgEs.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "eB043Cc5.mKHaLili.PAgEs.DEv"
+                }
             }
         },
         {
