@@ -138,8 +138,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
+                "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -194,8 +195,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
+                "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -995,6 +997,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 105",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 80,
+            "uuid": "1759dd49-3e82-4abb-a9ea-0b097037e09d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "www.Speedtest.Net",
@@ -1016,12 +1039,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.64.111.69",
+            "server": "188.245.69.77",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
+            "uuid": "Telegram-ipV2Ray-xio",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1030,20 +1053,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
+                    "short_id": "b1c8e3fa"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
