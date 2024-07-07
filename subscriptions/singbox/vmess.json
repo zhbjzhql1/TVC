@@ -137,8 +137,9 @@
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇸🇪SE | vmess | @FreakConfig | 3",
                 "🇺🇸US | vmess | @kingofilter | 1",
-                "🇺🇸US | vmess | @kingofilter | 2",
+                "🇺🇸US | vmess | @kingofilter | 3",
                 "🇺🇸US | vmess | @kingofilter | 4",
+                "🇺🇸US | vmess | @kingofilter | 6",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -180,8 +181,9 @@
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇸🇪SE | vmess | @FreakConfig | 3",
                 "🇺🇸US | vmess | @kingofilter | 1",
-                "🇺🇸US | vmess | @kingofilter | 2",
+                "🇺🇸US | vmess | @kingofilter | 3",
                 "🇺🇸US | vmess | @kingofilter | 4",
+                "🇺🇸US | vmess | @kingofilter | 6",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -953,6 +955,30 @@
         {
             "tag": "🇺🇸US | vmess | @kingofilter | 1",
             "type": "vmess",
+            "server": "188.114.96.221",
+            "server_port": 80,
+            "uuid": "310fabb7-2abc-4301-b302-22aa49c954fb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @kingofilter | 3",
+            "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
             "uuid": "0ea36531-40ec-4390-8104-7698eac9eb57",
@@ -985,7 +1011,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 2",
+            "tag": "🇺🇸US | vmess | @kingofilter | 4",
             "type": "vmess",
             "server": "198.41.193.181",
             "server_port": 80,
@@ -1009,7 +1035,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 4",
+            "tag": "🇺🇸US | vmess | @kingofilter | 6",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
