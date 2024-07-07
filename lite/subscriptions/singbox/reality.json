@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇫🇷FR | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -118,7 +117,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇫🇷FR | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -170,42 +168,6 @@
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "15.236.34.57",
-            "server_port": 123,
-            "uuid": "cad9e325-44ea-442d-b292-0436dfcf25f9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mosifantastic.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3A9fyH_8UIX11F1WL_ZahX8KSXZfl-IsjciwJNE8MyA",
-                    "short_id": "a2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@zabuza_shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
