@@ -1200,9 +1200,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 80,
-            "uuid": "98e241f4-9c11-426d-b006-0ab43592fe60",
+            "server": "fb.fortestt.ir",
+            "server_port": 2087,
+            "uuid": "56c9ff6f-a210-4791-a35d-54e550d0382e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1210,11 +1210,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fb.fortestt.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2052",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+                    "Host": "fb.fortestt.ir"
                 }
             }
         },
