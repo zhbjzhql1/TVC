@@ -106,9 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇪🇪EE | vless | @ConfigsHUB | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 9",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -118,9 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇪🇪EE | vless | @ConfigsHUB | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 9",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -144,42 +140,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
-            "type": "vless",
-            "server": "188.245.34.226",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ad2-N0bBOT1XOpH0GbCNsw2tMBxGAXXO_58D2-__xDI",
-                    "short_id": "b5c5a943"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇰🇷KR | vless | @Watashi_VPN | 0",
@@ -207,35 +167,6 @@
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇪EE | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "95.164.8.185",
-            "server_port": 8080,
-            "uuid": "8da3432a-d4da-4f43-801f-342cda5eae9f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MKfDEJAAbEk2S49G67c1m49oFc8BLwd-0jgfiygcOFg",
-                    "short_id": "7554c6ea"
                 }
             }
         },
