@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇭🇰HK | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 9",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -118,7 +117,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇭🇰HK | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 9",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -169,35 +167,6 @@
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "18.163.198.56",
-            "server_port": 9211,
-            "uuid": "506c67cb-0c75-4c60-9d49-b13e73b4c9aa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OLnFjq-qdnDg8HWW11xAS_jz-QoefiVa0IoizMtfgyw",
-                    "short_id": "63671540"
                 }
             }
         },
