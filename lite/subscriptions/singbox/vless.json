@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
@@ -1112,11 +1112,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "7810fc1e-44e6-4e3d-8494-908aa1a8427d",
+            "server": "172.64.87.52",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1124,11 +1124,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
