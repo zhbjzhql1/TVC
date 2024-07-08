@@ -109,7 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇸🇪SE | vless | @VlessConfig | 15",
+                "🇩🇪DE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 10",
@@ -140,9 +140,10 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -165,7 +166,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇸🇪SE | vless | @VlessConfig | 15",
+                "🇩🇪DE | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 10",
@@ -196,9 +197,10 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -297,9 +299,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 15",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "16.16.37.231",
+            "server": "18.159.83.214",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1066,6 +1068,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.17.83.58",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1118,7 +1151,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "185.146.173.68",
             "server_port": 2095,
