@@ -123,11 +123,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
                 "🇺🇸US | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
-                "🇺🇸US | vmess | @ConfigsHUB | 3",
-                "🇺🇸US | vmess | @ConfigsHUB | 4",
-                "🇧🇿BZ | vmess | @ConfigsHUB | 6",
-                "🇺🇸US | vmess | @ConfigsHUB | 9",
-                "🇮🇷IR | vmess | @ConfigsHUB | 12",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -144,6 +140,7 @@
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇸🇪SE | vmess | @FreakConfig | 4",
                 "🇺🇸US | vmess | @kingofilter | 1",
+                "🇧🇿BZ | vmess | @kingofilter | 2",
                 "🇺🇸US | vmess | @kingofilter | 5",
                 "🇺🇸US | vmess | @kingofilter | 7",
                 "🇺🇸US | vmess | @kingofilter | 9",
@@ -176,11 +173,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
                 "🇺🇸US | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @v2ray1_ng | 3",
-                "🇺🇸US | vmess | @ConfigsHUB | 3",
-                "🇺🇸US | vmess | @ConfigsHUB | 4",
-                "🇧🇿BZ | vmess | @ConfigsHUB | 6",
-                "🇺🇸US | vmess | @ConfigsHUB | 9",
-                "🇮🇷IR | vmess | @ConfigsHUB | 12",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -197,6 +190,7 @@
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇸🇪SE | vmess | @FreakConfig | 4",
                 "🇺🇸US | vmess | @kingofilter | 1",
+                "🇧🇿BZ | vmess | @kingofilter | 2",
                 "🇺🇸US | vmess | @kingofilter | 5",
                 "🇺🇸US | vmess | @kingofilter | 7",
                 "🇺🇸US | vmess | @kingofilter | 9",
@@ -617,11 +611,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
             "type": "vmess",
-            "server": "162.159.129.17",
-            "server_port": 80,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "server": "104.19.47.18",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -632,101 +626,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 4",
-            "type": "vmess",
-            "server": "108.162.192.188",
-            "server_port": 80,
-            "uuid": "2ac4e269-1576-4f41-8c0d-6242e3c5fd8c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "hk01.linkitnow.net"
                 }
-            }
-        },
-        {
-            "tag": "🇧🇿BZ | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "45.131.208.228",
-            "server_port": 80,
-            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 9",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 80,
-            "uuid": "b79a6959-6feb-43ba-b3c7-f1afae9ea32c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": "194.5.54.164",
-            "server_port": 123,
-            "uuid": "4b815f44-a062-4d9d-9fe6-1b01304485c0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1189,6 +1104,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": "kingo.hightechservice.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇿BZ | vmess | @kingofilter | 2",
+            "type": "vmess",
+            "server": "45.131.208.228",
+            "server_port": 80,
+            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
