@@ -125,9 +125,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 2",
                 "🏳️XX | vmess | @DailyV2RY | 136",
                 "🇺🇸US | vmess | @DailyV2RY | 142",
-                "🇷🇺RU | vmess | @ConfigsHUB | 11",
-                "🇹🇷TR | vmess | @ConfigsHUB | 12",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -177,9 +175,7 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 2",
                 "🏳️XX | vmess | @DailyV2RY | 136",
                 "🇺🇸US | vmess | @DailyV2RY | 142",
-                "🇷🇺RU | vmess | @ConfigsHUB | 11",
-                "🇹🇷TR | vmess | @ConfigsHUB | 12",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -683,11 +679,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @ConfigsHUB | 11",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 5",
             "type": "vmess",
-            "server": "46.17.45.155",
-            "server_port": 36596,
-            "uuid": "c8ad0996-b2ff-460e-bc11-75fa83dd0608",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -697,40 +693,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "[2001:41d0:245:d400::3cfd:a1a0]",
-            "server_port": 12908,
-            "uuid": "9e3ddda4-8f80-4ee5-a2f6-28ef7fff5c2a",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
