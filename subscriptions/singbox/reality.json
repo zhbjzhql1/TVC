@@ -117,9 +117,11 @@
                 "🇩🇪DE | vless | @v2logy | 2",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇹🇷TR | vless | @Outline_Vpn | 16",
-                "🏳️XX | vless | @ShadowProxy66 | 23",
-                "🏳️XX | vless | @ShadowProxy66 | 27",
+                "🏳️XX | vless | @ShadowProxy66 | 25",
+                "🏳️XX | vless | @ShadowProxy66 | 29",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -164,9 +166,11 @@
                 "🇩🇪DE | vless | @v2logy | 2",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇹🇷TR | vless | @Outline_Vpn | 16",
-                "🏳️XX | vless | @ShadowProxy66 | 23",
-                "🏳️XX | vless | @ShadowProxy66 | 27",
+                "🏳️XX | vless | @ShadowProxy66 | 25",
+                "🏳️XX | vless | @ShadowProxy66 | 29",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -577,7 +581,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ShadowProxy66 | 23",
+            "tag": "🏳️XX | vless | @ShadowProxy66 | 25",
             "type": "vless",
             "server": "[2a0b:4140:659a:4::4]",
             "server_port": 33000,
@@ -613,7 +617,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ShadowProxy66 | 27",
+            "tag": "🏳️XX | vless | @ShadowProxy66 | 29",
             "type": "vless",
             "server": "[2a0e:8f02:f04f:1027::4a7f:af58]",
             "server_port": 7784,
@@ -666,6 +670,64 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "45.76.87.131",
+            "server_port": 443,
+            "uuid": "ed3cc67a-7a29-4dda-9e2e-86454c07eefe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.humblebundle.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KKdWpg-ZA9wc-j7zUYzR7kGcByPCgEksZ1vPbov8Yyg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "80.240.19.79",
+            "server_port": 443,
+            "uuid": "0ec7e817-befe-4353-fad6-876b22dce524",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.humblebundle.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wjJkl9bgTm_3hv9wYA-8s5DGN9hyF1lQu5IIe-1G2HM",
                     "short_id": ""
                 }
             }
