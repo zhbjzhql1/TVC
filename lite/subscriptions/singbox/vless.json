@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇬SG | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 8",
+                "🇩🇪DE | vless | @free_v2rayyy | 8",
                 "🇨🇦CA | vless | @lightning6 | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -139,17 +139,17 @@
                 "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 11",
+                "🇸🇪SE | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇺🇸US | vless | @flyv2ray | 11",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
@@ -175,7 +175,7 @@
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇬SG | vless | @ARv2ray | 17",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇸🇪SE | vless | @free_v2rayyy | 8",
+                "🇩🇪DE | vless | @free_v2rayyy | 8",
                 "🇨🇦CA | vless | @lightning6 | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -198,17 +198,17 @@
                 "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 11",
+                "🇸🇪SE | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇺🇸US | vless | @flyv2ray | 11",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
@@ -305,7 +305,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.36.227.139",
+            "server": "35.181.38.59",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -470,24 +470,39 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 8",
+            "tag": "🇩🇪DE | vless | @free_v2rayyy | 8",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "80dd674e-5fd1-44f6-9244-3995828cdde5",
-            "flow": "",
+            "server": "49.13.80.84",
+            "server_port": 443,
+            "uuid": "b97971c7-2246-4e93-ba30-9e9973af2e2e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-                "headers": {
-                    "Host": "185.146.173.58"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S0x4tR4foVwdPzl6jwf_Sa_Q_iqqzbmNCa1vrM3VPRw",
+                    "short_id": "d7ae240c"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-free_v2rayy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1034,12 +1049,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 11",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 2096,
-            "uuid": "f3dc958a-1f2c-4d10-b781-b2deeaabecce",
-            "flow": "",
+            "server": "77.221.143.183",
+            "server_port": 33000,
+            "uuid": "d5e775de-0530-4062-a654-25dd2ba648d2",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1048,20 +1063,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free1.fylink.tech",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0",
+                    "short_id": "be7f13dd"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "free1.fylink.tech"
-                }
+                "type": "grpc",
+                "service_name": "b",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1125,11 +1145,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "266e833e-119d-430b-a708-d50b417f3bbd",
+            "server_port": 2095,
+            "uuid": "TeleGram-ExpressVPN_420",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1139,7 +1159,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024",
+                "path": "\/telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -1300,7 +1320,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 10",
+            "tag": "🇺🇸US | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "proxyforopetaa.bestgameir.ir",
             "server_port": 2083,
@@ -1386,7 +1406,7 @@
             "tag": "🇺🇸US | vless | @kiava | 7",
             "type": "vless",
             "server": "serverpars.com",
-            "server_port": 8880,
+            "server_port": 2052,
             "uuid": "a9c0613e-7b12-4c89-cb8b-6fb83c41ed33",
             "flow": "",
             "packet_encoding": "xudp",
