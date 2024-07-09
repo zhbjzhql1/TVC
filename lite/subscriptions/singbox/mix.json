@@ -150,15 +150,15 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 7",
@@ -224,15 +224,15 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 7",
@@ -335,7 +335,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.48.236.20",
+            "server": "16.170.75.15",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -771,7 +771,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "51.21.46.180",
+            "server": "16.170.89.49",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -793,7 +793,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.50.7.81",
+            "server": "13.51.16.21",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -960,9 +960,9 @@
         {
             "tag": "🇨🇦CA | vless | @vmessorg | 11",
             "type": "vless",
-            "server": "104.16.4.103",
+            "server": "104.16.229.250",
             "server_port": 8080,
-            "uuid": "3b87643f-359c-4acd-8ecf-1fea247b50bc",
+            "uuid": "1b3c9373-5013-4409-b5e7-b10a1a076f21",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -974,7 +974,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "104.16.4.103"
+                    "Host": "104.16.229.250"
                 }
             }
         },
@@ -1287,11 +1287,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2095,
-            "uuid": "68a415dc-450c-4e3f-bc40-7ac7f52563df",
+            "server": "172.66.46.251",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1299,11 +1299,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
                 }
             }
         },
@@ -1463,7 +1473,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
             "type": "vless",
             "server": "Zula.ir.",
             "server_port": 80,
@@ -1484,7 +1494,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
