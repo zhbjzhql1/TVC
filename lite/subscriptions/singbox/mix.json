@@ -118,7 +118,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 19",
@@ -147,8 +147,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -158,7 +158,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 8",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇸🇪SE | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
@@ -188,7 +188,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 19",
@@ -217,8 +217,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -228,7 +228,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vless | @FreakConfig | 8",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇸🇪SE | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
@@ -524,7 +524,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -1244,33 +1244,46 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "38.86.135.31",
-            "server_port": 7001,
+            "server": "38.111.114.133",
+            "server_port": 8118,
             "method": "aes-256-gcm",
-            "password": "RexnBgU7EV5ADxG",
+            "password": "cdBIDV42DCwnfIN",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY---",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 6",
+            "type": "vmess",
+            "server": "104.21.94.64",
+            "server_port": 443,
+            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linja05.hwcar.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "linja05.hwcar.sbs"
                 }
             }
         },
@@ -1531,11 +1544,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 10",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 10",
             "type": "vless",
-            "server": "ch1.melobigg.site",
-            "server_port": 8443,
-            "uuid": "cf7a7a1f-8cfb-439c-ab68-fab77c851797",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "7810fc1e-44e6-4e3d-8494-908aa1a8427d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1543,21 +1556,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ch1.melobigg.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/melov2ray",
+                "path": "\/servernet",
                 "headers": {
-                    "Host": "ch1.melobigg.site"
+                    "Host": "185.146.173.58"
                 }
             }
         },

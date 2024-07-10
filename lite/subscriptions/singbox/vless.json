@@ -118,7 +118,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 19",
@@ -142,14 +142,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇸🇪SE | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
@@ -177,7 +176,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 28",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 19",
@@ -201,14 +200,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇸🇪SE | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
@@ -502,7 +500,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -1110,27 +1108,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY---",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.68"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1285,11 +1262,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 10",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 10",
             "type": "vless",
-            "server": "ch1.melobigg.site",
-            "server_port": 8443,
-            "uuid": "cf7a7a1f-8cfb-439c-ab68-fab77c851797",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "7810fc1e-44e6-4e3d-8494-908aa1a8427d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1297,21 +1274,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ch1.melobigg.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/melov2ray",
+                "path": "\/servernet",
                 "headers": {
-                    "Host": "ch1.melobigg.site"
+                    "Host": "185.146.173.58"
                 }
             }
         },
