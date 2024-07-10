@@ -149,7 +149,7 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 0",
@@ -221,7 +221,7 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 0",
@@ -1259,11 +1259,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE",
+            "server": "162.159.1.94",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1271,11 +1271,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-csc.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "path": "\/@vpnAndroid2\/",
                 "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "edtunnel-csc.pages.dev"
                 }
             }
         },
