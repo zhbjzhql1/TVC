@@ -108,13 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @ShadowProxy66 | 27",
                 "🇺🇸US | vmess | @DailyV2RY | 176",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @kingofilter | 16",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2"
@@ -126,13 +125,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @ShadowProxy66 | 27",
                 "🇺🇸US | vmess | @DailyV2RY | 176",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @kingofilter | 16",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2"
@@ -192,7 +190,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "23.162.152.6",
             "server_port": 22324,
@@ -243,40 +241,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "104.19.48.48",
-            "server_port": 8443,
-            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk01.linkitnow.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hk01.linkitnow.net"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -311,11 +275,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "104.20.239.88",
-            "server_port": 80,
-            "uuid": "9ac947aa-de86-41c3-9a60-4c061c7c95f0",
+            "server": "a.baradiha.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -326,16 +290,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "a.baradiha.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "a.baradiha.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 3",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
