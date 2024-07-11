@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -1040,11 +1040,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "-----DIGIV2RAY----",
+            "server": "188.114.97.146",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1052,11 +1052,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4b097C46.griZzlYvPN.PAgES.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/vvebfg5xe2bs8yup?ed",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "4b097C46.griZzlYvPN.PAgES.deV"
                 }
             }
         },
