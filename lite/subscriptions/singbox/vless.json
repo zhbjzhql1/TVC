@@ -131,6 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
+                "🇸🇪SE | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 9",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
                 "🇮🇷IR | vless | @v2ray1_ng | 11",
@@ -140,7 +141,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -187,6 +188,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
+                "🇸🇪SE | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 9",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
                 "🇮🇷IR | vless | @v2ray1_ng | 11",
@@ -196,7 +198,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -278,7 +280,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.37.119.207",
+            "server": "13.37.165.94",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -818,6 +820,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @ShadowProxy66 | 18",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 8880,
+            "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPN_PROXY66.VPN_PROXY66",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @ServerNett | 9",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1038,11 +1061,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "Tgju.org",
-            "server_port": 80,
-            "uuid": "4ba0d0d1-1acd-4fa3-a2ec-c5ee0b58ff66",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1050,11 +1073,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh-tgws.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN",
+                "path": "\/Tel-proxy_mtm\/?ed=2560",
                 "headers": {
-                    "Host": "Tgju.org"
+                    "Host": "pardazesh-tgws.pages.dev"
                 }
             }
         },
