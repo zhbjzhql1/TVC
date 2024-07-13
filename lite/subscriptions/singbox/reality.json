@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ARv2ray | 16",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇷🇺RU | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -118,6 +119,7 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ARv2ray | 16",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇷🇺RU | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -203,6 +205,35 @@
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "45.67.32.147",
+            "server_port": 14875,
+            "uuid": "07de6293-b8e6-457d-9e99-54e8964e293a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2mte9DEeo0OwNppy36bIfMqAXL4yLiFbhDqOGXu8XVI",
+                    "short_id": "e34371db"
                 }
             }
         },
