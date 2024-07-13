@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🏳️XX | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 4",
-                "🇺🇸US | vmess | @kingofilter | 14",
+                "🇧🇿BZ | vmess | @kingofilter | 13",
                 "🇺🇸US | vmess | @ROMAX_VPN | 1"
             ]
         },
@@ -123,12 +123,12 @@
             "outbounds": [
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🏳️XX | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 4",
-                "🇺🇸US | vmess | @kingofilter | 14",
+                "🇧🇿BZ | vmess | @kingofilter | 13",
                 "🇺🇸US | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -186,7 +186,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🏳️XX | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfd.ipa.monster",
             "server_port": 8080,
@@ -336,11 +336,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 14",
+            "tag": "🇧🇿BZ | vmess | @kingofilter | 13",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "2f86e97a-1ea0-4221-96cc-12210730e0c9",
+            "server": "45.131.208.228",
+            "server_port": 80,
+            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -351,21 +351,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kingo.hightechservice.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "kingo.hightechservice.ir"
+                    "Host": ""
                 }
             }
         },
