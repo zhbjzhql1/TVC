@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 1",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 3",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 5",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 7",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇨🇦CA | vless | @ipV2Ray | 0",
                 "🇨🇦CA | vless | @ipV2Ray | 1",
@@ -521,12 +521,12 @@
                 "🇰🇿KZ | ss | @OutlineVpnOfficial | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 4",
                 "🇺🇸US | vless | @ConfigsHUB | 5",
                 "🇫🇮FI | vless | @ConfigsHUB | 6",
-                "🇺🇸US | vmess | @ConfigsHUB | 8",
+                "🇺🇸US | vless | @ConfigsHUB | 8",
                 "🇺🇸US | vless | @ConfigsHUB | 9",
                 "🇺🇸US | vless | @ConfigsHUB | 10",
+                "🇸🇪SE | vless | @ConfigsHUB | 11",
                 "🇺🇸US | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @proxystore11 | 2",
@@ -693,7 +693,7 @@
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 1",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 3",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 5",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 7",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇨🇦CA | vless | @ipV2Ray | 0",
                 "🇨🇦CA | vless | @ipV2Ray | 1",
@@ -1072,12 +1072,12 @@
                 "🇰🇿KZ | ss | @OutlineVpnOfficial | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 4",
                 "🇺🇸US | vless | @ConfigsHUB | 5",
                 "🇫🇮FI | vless | @ConfigsHUB | 6",
-                "🇺🇸US | vmess | @ConfigsHUB | 8",
+                "🇺🇸US | vless | @ConfigsHUB | 8",
                 "🇺🇸US | vless | @ConfigsHUB | 9",
                 "🇺🇸US | vless | @ConfigsHUB | 10",
+                "🇸🇪SE | vless | @ConfigsHUB | 11",
                 "🇺🇸US | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @proxystore11 | 2",
@@ -2130,7 +2130,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -11176,27 +11176,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "DIGIV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.68"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @ConfigsHUB | 5",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -11247,16 +11226,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 8",
+            "type": "vless",
             "server": "162.159.129.17",
             "server_port": 80,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -11264,9 +11240,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=256",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "162.159.129.17"
                 }
             }
         },
@@ -11309,6 +11285,27 @@
                 "path": "\/DigiconnecT?ed=1024",
                 "headers": {
                     "Host": "www.Speedtest.Net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "DIGIV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.68"
                 }
             }
         },
