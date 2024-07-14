@@ -112,12 +112,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
-                "🇨🇦CA | vless | @frev2ray | 1",
+                "🇨🇦CA | vless | @frev2ray | 0",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇦CA | vless | @lightning6 | 17",
+                "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 10",
@@ -147,7 +147,7 @@
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 13",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @FreakConfig | 9",
@@ -174,12 +174,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
-                "🇨🇦CA | vless | @frev2ray | 1",
+                "🇨🇦CA | vless | @frev2ray | 0",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇦CA | vless | @lightning6 | 17",
+                "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 10",
@@ -209,7 +209,7 @@
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 13",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @FreakConfig | 9",
@@ -390,7 +390,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @frev2ray | 1",
+            "tag": "🇨🇦CA | vless | @frev2ray | 0",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -495,7 +495,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lightning6 | 17",
+            "tag": "🇨🇦CA | vless | @lightning6 | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1069,9 +1069,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "59484dc0-17f2-47bd-a951-c2e938ab67af",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1079,11 +1079,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SHHPROXY?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
@@ -1213,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 13",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
             "type": "vless",
             "server": "104.17.83.58",
             "server_port": 443,
