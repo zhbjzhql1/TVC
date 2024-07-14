@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
@@ -123,9 +123,9 @@
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollector | 14",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇱🇹LT | vless | @Outline_Vpn | 17",
-                "🇱🇹LT | vless | @prrofile_purple | 170",
+                "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
@@ -138,7 +138,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -165,7 +165,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
@@ -182,9 +182,9 @@
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollector | 14",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇱🇹LT | vless | @Outline_Vpn | 17",
-                "🇱🇹LT | vless | @prrofile_purple | 170",
+                "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -240,9 +240,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "15.157.125.218",
+            "server": "13.36.35.134",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -618,7 +618,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "proxyforopeta.bestgameir2.ir",
             "server_port": 2083,
@@ -670,11 +670,11 @@
             }
         },
         {
-            "tag": "🇱🇹LT | vless | @prrofile_purple | 170",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 179",
             "type": "vless",
-            "server": "eagle.Hafezdivan.Online.",
-            "server_port": 80,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "server": "proxyforopeta.liongame1.ir",
+            "server_port": 2083,
+            "uuid": "229f58f4-b75d-44d6-9d79-997115ece4da",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -682,11 +682,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "proxyforopeta.liongame1.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed",
                 "headers": {
-                    "Host": "eagle.Hafezdivan.Online."
+                    "Host": "proxyforopeta.liongame1.ir"
                 }
             }
         },
@@ -983,11 +993,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.44.158",
+            "server": "104.16.181.38",
             "server_port": 443,
-            "uuid": "e825d9e4-b513-4ede-b8a6-966292f2b753",
+            "uuid": "7f035a95-4b51-4e0b-8995-59864a9cde22",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -997,7 +1007,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "file-manager-pro.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com",
+                "server_name": "MSdOnoR.pagEs.dEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1007,9 +1017,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/56274\/TrTechro",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "file-manager-pro.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com"
+                    "Host": "MSdOnoR.pagEs.dEV"
                 }
             }
         },
