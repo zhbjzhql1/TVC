@@ -451,7 +451,6 @@
                 "🇺🇸US | vless | @MTConfig | 9",
                 "🇺🇸US | vless | @MTConfig | 10",
                 "🇺🇸US | vless | @MTConfig | 11",
-                "🇺🇸US | vless | @V2RayTz | 4",
                 "🇸🇪SE | vless | @V2RayTz | 5",
                 "🇺🇸US | vless | @V2RayTz | 6",
                 "🇺🇸US | vless | @V2RayTz | 7",
@@ -466,6 +465,7 @@
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @V2RayTz | 18",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
                 "🇺🇸US | vless | @VmessProtocol | 3",
                 "🇺🇸US | vless | @VmessProtocol | 4",
@@ -562,7 +562,6 @@
                 "🇺🇸US | vless | @mehrosaboran | 0",
                 "🇺🇸US | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @mehrosaboran | 4",
-                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 0",
                 "🇺🇸US | vless | @kiava | 1",
                 "🇺🇸US | vless | @kiava | 2",
@@ -979,7 +978,6 @@
                 "🇺🇸US | vless | @MTConfig | 9",
                 "🇺🇸US | vless | @MTConfig | 10",
                 "🇺🇸US | vless | @MTConfig | 11",
-                "🇺🇸US | vless | @V2RayTz | 4",
                 "🇸🇪SE | vless | @V2RayTz | 5",
                 "🇺🇸US | vless | @V2RayTz | 6",
                 "🇺🇸US | vless | @V2RayTz | 7",
@@ -994,6 +992,7 @@
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @V2RayTz | 18",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
                 "🇺🇸US | vless | @VmessProtocol | 3",
                 "🇺🇸US | vless | @VmessProtocol | 4",
@@ -1090,7 +1089,6 @@
                 "🇺🇸US | vless | @mehrosaboran | 0",
                 "🇺🇸US | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @mehrosaboran | 4",
-                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 0",
                 "🇺🇸US | vless | @kiava | 1",
                 "🇺🇸US | vless | @kiava | 2",
@@ -8027,7 +8025,7 @@
             "type": "vless",
             "server": "104.18.101.41",
             "server_port": 8080,
-            "uuid": "927eb03d-f806-4f21-88ea-de23d0f755ec",
+            "uuid": "4186aa74-caee-418f-b562-c1f446e1ac99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8048,7 +8046,7 @@
             "type": "vless",
             "server": "104.18.101.41",
             "server_port": 8080,
-            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
+            "uuid": "927eb03d-f806-4f21-88ea-de23d0f755ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8066,6 +8064,27 @@
         },
         {
             "tag": "🇺🇸US | vless | @vmessorg | 3",
+            "type": "vless",
+            "server": "104.18.101.41",
+            "server_port": 8080,
+            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.18.101.41"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @vmessorg | 4",
             "type": "vless",
             "server": "104.18.86.70",
             "server_port": 8080,
@@ -8086,7 +8105,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 4",
+            "tag": "🇺🇸US | vless | @vmessorg | 5",
             "type": "vless",
             "server": "104.18.86.70",
             "server_port": 8080,
@@ -8107,7 +8126,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 5",
+            "tag": "🇺🇸US | vless | @vmessorg | 6",
             "type": "vless",
             "server": "104.18.86.70",
             "server_port": 8080,
@@ -8128,7 +8147,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 6",
+            "tag": "🇺🇸US | vless | @vmessorg | 7",
             "type": "vless",
             "server": "104.16.129.18",
             "server_port": 8080,
@@ -8149,7 +8168,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 7",
+            "tag": "🇺🇸US | vless | @vmessorg | 8",
             "type": "vless",
             "server": "104.16.129.18",
             "server_port": 8080,
@@ -8170,7 +8189,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | vless | @vmessorg | 9",
             "type": "vless",
             "server": "104.18.193.31",
             "server_port": 8080,
@@ -8191,7 +8210,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 9",
+            "tag": "🇺🇸US | vless | @vmessorg | 10",
             "type": "vless",
             "server": "104.18.193.31",
             "server_port": 8080,
@@ -8208,27 +8227,6 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "104.18.193.31"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @vmessorg | 10",
-            "type": "vless",
-            "server": "104.20.25.32",
-            "server_port": 8080,
-            "uuid": "f50e0469-3e74-4583-96bc-b6baa355093d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
-                "headers": {
-                    "Host": "104.20.25.32"
                 }
             }
         },
@@ -9484,27 +9482,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 4",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2095,
-            "uuid": "DIGIV2rAy",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @V2RayTz | 5",
             "type": "vless",
             "server": "185.146.173.93",
@@ -9815,6 +9792,27 @@
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "172.67.138.69"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @V2RayTz | 19",
+            "type": "vless",
+            "server": "104.21.69.44",
+            "server_port": 8080,
+            "uuid": "13e3944d-2c37-4d6d-b3d0-c493f73d4984",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "104.21.69.44"
                 }
             }
         },
@@ -12192,27 +12190,6 @@
             "server": "198.41.202.5",
             "server_port": 8880,
             "uuid": "b766b662-2c8a-4de6-99e0-dfd120a74975",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
-                "headers": {
-                    "Host": "198.41.202.5"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
-            "type": "vless",
-            "server": "198.41.202.5",
-            "server_port": 8880,
-            "uuid": "57ac8853-e24b-43c6-9c01-bba5b5d968e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
