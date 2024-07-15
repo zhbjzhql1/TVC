@@ -118,16 +118,17 @@
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🏳️XX | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 8",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @v2ray_swhil | 0",
-                "🇺🇸US | vmess | @DailyV2RY | 86",
-                "🇺🇸US | vmess | @DailyV2RY | 87",
-                "🇺🇸US | vmess | @DailyV2RY | 95",
+                "🇺🇸US | vmess | @DailyV2RY | 97",
+                "🇺🇸US | vmess | @DailyV2RY | 98",
+                "🇺🇸US | vmess | @DailyV2RY | 106",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -164,16 +165,17 @@
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🏳️XX | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 8",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @v2ray_swhil | 0",
-                "🇺🇸US | vmess | @DailyV2RY | 86",
-                "🇺🇸US | vmess | @DailyV2RY | 87",
-                "🇺🇸US | vmess | @DailyV2RY | 95",
+                "🇺🇸US | vmess | @DailyV2RY | 97",
+                "🇺🇸US | vmess | @DailyV2RY | 98",
+                "🇺🇸US | vmess | @DailyV2RY | 106",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -438,6 +440,40 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 5",
             "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 8",
+            "type": "vmess",
             "server": "s1c.v2.v001sss.xyz",
             "server_port": 2082,
             "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
@@ -518,7 +554,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "104.26.0.56",
             "server_port": 2086,
@@ -668,7 +704,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 86",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 97",
             "type": "vmess",
             "server": "107.191.44.194",
             "server_port": 8881,
@@ -685,7 +721,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 87",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 98",
             "type": "vmess",
             "server": "104.19.47.20",
             "server_port": 8443,
@@ -719,7 +755,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 95",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 106",
             "type": "vmess",
             "server": "45.76.232.143",
             "server_port": 8881,
