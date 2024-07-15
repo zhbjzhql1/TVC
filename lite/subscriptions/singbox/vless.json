@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 9",
-                "🇺🇸US | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
@@ -156,6 +156,7 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🇬🇧GB | vless | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 22",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -169,7 +170,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 9",
-                "🇺🇸US | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
@@ -218,6 +219,7 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🇬🇧GB | vless | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 22",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -267,9 +269,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VlessConfig | 15",
+            "tag": "🇨🇦CA | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "52.204.118.12",
+            "server": "35.183.60.106",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1475,6 +1477,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @kingofilter | 11",
+            "type": "vless",
+            "server": "51.68.220.178",
+            "server_port": 80,
+            "uuid": "cb760ee3-de13-11ee-95c9-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "51.68.220.178"
+                }
             }
         },
         {
