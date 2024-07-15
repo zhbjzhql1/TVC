@@ -130,7 +130,7 @@
                 "🇸🇪SE | trojan | @PrivateVPNs | 11",
                 "🇨🇦CA | trojan | @DirectVPN | 11",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇱🇹LT | vless | @prrofile_purple | 179",
@@ -156,7 +156,7 @@
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -204,7 +204,7 @@
                 "🇸🇪SE | trojan | @PrivateVPNs | 11",
                 "🇨🇦CA | trojan | @DirectVPN | 11",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇱🇹LT | vless | @prrofile_purple | 179",
@@ -230,7 +230,7 @@
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -824,13 +824,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "cfd.ipa.monster",
-            "server_port": 8080,
-            "uuid": "e608f1bb-e26d-4bc2-8f68-ac0e8a073c7f",
+            "server": "183.238.202.173",
+            "server_port": 51193,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -838,13 +838,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/itdog?ed=2560",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1474,11 +1467,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
-            "server": "172.66.45.32",
+            "server": "eagle.hafezdivan.online.",
             "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1488,7 +1481,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
+                "server_name": "eagle.hafezdivan.online.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1500,7 +1493,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "eagle.hafezdivan.online."
                 }
             }
         },
