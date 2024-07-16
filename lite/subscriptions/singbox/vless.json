@@ -107,12 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 16",
-                "🇫🇷FR | vless | @VlessConfig | 15",
+                "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -171,12 +171,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 16",
-                "🇫🇷FR | vless | @VlessConfig | 15",
+                "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 14",
+                "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -271,9 +271,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 15",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.38.226.182",
+            "server": "18.130.81.84",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -379,7 +379,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 14",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1204,12 +1204,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "avval.ir",
-            "server_port": 2053,
-            "uuid": "cd8002d9-e8fd-4411-8bb6-fc80310ff81d",
-            "flow": "",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1218,19 +1218,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip1-romax-tiktok.hsjsak.ir",
+                "server_name": "analytics.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/?ed",
-                "headers": {
-                    "Host": "vip1-romax-tiktok.hsjsak.ir"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
                 }
             }
         },
