@@ -118,15 +118,13 @@
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🏳️XX | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 30",
                 "🇺🇸US | vmess | @v2ray_swhil | 0",
-                "🇺🇸US | vmess | @DailyV2RY | 98",
-                "🇺🇸US | vmess | @DailyV2RY | 106",
+                "🇺🇸US | vmess | @DailyV2RY | 114",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -143,8 +141,7 @@
                 "🇺🇸US | vmess | @kingofilter | 5",
                 "🇺🇸US | vmess | @kingofilter | 7",
                 "🇺🇸US | vmess | @kingofilter | 8",
-                "🇺🇸US | vmess | @kingofilter | 10",
-                "🇺🇸US | vmess | @ROMAX_VPN | 2"
+                "🇺🇸US | vmess | @kingofilter | 10"
             ]
         },
         {
@@ -163,15 +160,13 @@
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🏳️XX | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 30",
                 "🇺🇸US | vmess | @v2ray_swhil | 0",
-                "🇺🇸US | vmess | @DailyV2RY | 98",
-                "🇺🇸US | vmess | @DailyV2RY | 106",
+                "🇺🇸US | vmess | @DailyV2RY | 114",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -188,8 +183,7 @@
                 "🇺🇸US | vmess | @kingofilter | 5",
                 "🇺🇸US | vmess | @kingofilter | 7",
                 "🇺🇸US | vmess | @kingofilter | 8",
-                "🇺🇸US | vmess | @kingofilter | 10",
-                "🇺🇸US | vmess | @ROMAX_VPN | 2"
+                "🇺🇸US | vmess | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -436,6 +430,57 @@
         {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 1",
+            "type": "vmess",
+            "server": "catel.yangon.club",
+            "server_port": 444,
+            "uuid": "43d16822-8ffa-45b6-9d1d-f5a1186d8aa1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "catel.yangon.club",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+            "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -468,7 +513,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -502,31 +547,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "104.26.0.56",
             "server_port": 2086,
@@ -546,74 +567,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-            "type": "vmess",
-            "server": "pandor.boats",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aveiror.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "aveiror.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -676,7 +629,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 98",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 114",
             "type": "vmess",
             "server": "104.19.47.20",
             "server_port": 8443,
@@ -707,23 +660,6 @@
                 "headers": {
                     "Host": "hk01.linkitnow.net"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 106",
-            "type": "vmess",
-            "server": "107.191.44.194",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1244,40 +1180,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "kingo.hightechservice.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 2",
-            "type": "vmess",
-            "server": "nodejs.org",
-            "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy1c1.cpiforpersia.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
-                "headers": {
-                    "Host": "hdfy1c1.cpiforpersia.uk"
                 }
             }
         }
