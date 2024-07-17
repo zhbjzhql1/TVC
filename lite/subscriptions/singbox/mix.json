@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -156,7 +155,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -181,7 +180,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -231,7 +229,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -270,27 +268,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "--Channel--ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ELENA--repo.steampowered.com?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
@@ -1437,7 +1414,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 12",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
