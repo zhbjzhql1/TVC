@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
-                "🇸🇪SE | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 15",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 16",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇺🇸US | vmess | @DailyV2RY | 134",
+                "🇨🇦CA | vless | @DailyV2RY | 152",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -184,7 +184,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
-                "🇸🇪SE | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 15",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 16",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇺🇸US | vmess | @DailyV2RY | 134",
+                "🇨🇦CA | vless | @DailyV2RY | 152",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 12",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -345,17 +345,24 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @melov2ray | 6",
+            "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "d27b9994-8277-4bc9-84e7-75ce45a2c4dd",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "704f487c-89b7-4d03-b700-e57ecbbf78de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/is\/needed",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1185,20 +1192,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 134",
-            "type": "vmess",
-            "server": "107.191.44.194",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 152",
+            "type": "vless",
+            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+            "server_port": 443,
+            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
+                }
             }
         },
         {
@@ -1416,7 +1437,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 12",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
