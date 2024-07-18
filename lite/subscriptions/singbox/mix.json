@@ -149,13 +149,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇱🇻LV | vless | @DailyV2RY | 209",
-                "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @polproxy | 5",
+                "🇺🇸US | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -223,13 +223,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇱🇻LV | vless | @DailyV2RY | 209",
-                "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @polproxy | 5",
+                "🇺🇸US | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -335,7 +335,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.37.16.185",
+            "server": "52.47.88.180",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1223,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 9",
+            "tag": "🇨🇦CA | vless | @sinabigo | 10",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -1340,40 +1340,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "107.167.20.184",
-            "server_port": 30000,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/191019072927",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @polproxy | 5",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1391,6 +1357,27 @@
                 "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "ab178d57-d18c-4658-8362-f06599777cae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/AfV2ray",
+                "headers": {
+                    "Host": "zula.ir"
                 }
             }
         },
