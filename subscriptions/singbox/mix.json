@@ -337,7 +337,6 @@
                 "🇨🇳CN | vmess | @mftizi | 14",
                 "🏳️XX | vmess | @mftizi | 15",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 10",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 15",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -505,6 +504,7 @@
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 7",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 8",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 9",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 11",
@@ -578,6 +578,7 @@
                 "🇺🇸US | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @mehrosaboran | 3",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 0",
                 "🇺🇸US | vless | @kiava | 1",
                 "🇺🇸US | vless | @kiava | 2",
@@ -879,7 +880,6 @@
                 "🇨🇳CN | vmess | @mftizi | 14",
                 "🏳️XX | vmess | @mftizi | 15",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 10",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 15",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -1047,6 +1047,7 @@
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 7",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 8",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 9",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 11",
@@ -1120,6 +1121,7 @@
                 "🇺🇸US | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @mehrosaboran | 3",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 0",
                 "🇺🇸US | vless | @kiava | 1",
                 "🇺🇸US | vless | @kiava | 2",
@@ -6522,9 +6524,9 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 10",
             "type": "vmess",
-            "server": "104.19.47.248",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "speed.cloudflare.com",
+            "server_port": 8443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -6535,23 +6537,23 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "path": "\/glweidf.sbs\/linkws",
                 "headers": {
-                    "Host": "104.19.47.248"
+                    "Host": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 15",
-            "type": "shadowsocks",
-            "server": "45.158.171.148",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 0",
@@ -10475,6 +10477,16 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 8",
+            "type": "shadowsocks",
+            "server": "45.158.171.148",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 9",
             "type": "shadowsocks",
             "server": "78.153.139.30",
@@ -12304,6 +12316,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "62f87825-d93f-448a-9b40-7c991f661dfa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "zula.ir"
                 }
