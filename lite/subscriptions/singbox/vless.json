@@ -109,7 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇬SG | vless | @v2logy | 11",
                 "🇰🇷KR | vless | @Watashi_VPN | 2",
                 "🇺🇸US | vless | @servermomo | 1",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 5",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -170,7 +170,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -182,7 +182,7 @@
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇬SG | vless | @v2logy | 11",
                 "🇰🇷KR | vless | @Watashi_VPN | 2",
                 "🇺🇸US | vless | @servermomo | 1",
@@ -206,7 +206,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 5",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -307,9 +307,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "15.188.30.96",
+            "server": "18.203.113.46",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -569,7 +569,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -1021,9 +1021,9 @@
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 187",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "5779d821-693b-4573-b71d-d332199ead38",
+            "server": "172.66.40.175",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1031,11 +1031,14 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zula.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "tr2.tradex2080.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1134,11 +1137,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 6",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 5",
             "type": "vless",
-            "server": "104.26.14.16",
-            "server_port": 2053,
-            "uuid": "cd8002d9-e8fd-4411-8bb6-fc80310ff81d",
+            "server": "151.101.130.133",
+            "server_port": 443,
+            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1148,7 +1151,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip1-romax-tiktok.hsjsak.ir",
+                "server_name": "www.Arizona.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1160,7 +1163,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vip1-romax-tiktok.hsjsak.ir"
+                    "Host": "www.Arizona.edu"
                 }
             }
         },
