@@ -112,9 +112,9 @@
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 35",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @v2Line | 1",
-                "🇺🇸US | vmess | @kingofilter | 9"
+                "🇸🇪SE | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @v2Line | 1",
+                "🇨🇦CA | vmess | @kingofilter | 9"
             ]
         },
         {
@@ -127,9 +127,9 @@
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 35",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @v2Line | 1",
-                "🇺🇸US | vmess | @kingofilter | 9"
+                "🇸🇪SE | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @v2Line | 1",
+                "🇨🇦CA | vmess | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -271,11 +271,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 5",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "128.199.151.232",
-            "server_port": 54217,
-            "uuid": "ff03a4d5-1b50-40d2-8dd6-2ca0223d8eea",
+            "server": "185.146.173.64",
+            "server_port": 443,
+            "uuid": "7723ee31-039b-48d0-bfd8-d591ca4baf4e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -285,10 +285,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1.vmess.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "nl1.vmess.site"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 1",
+            "tag": "🇨🇦CA | vmess | @v2Line | 1",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -322,7 +339,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 9",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 9",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
