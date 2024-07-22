@@ -126,12 +126,10 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 1",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | vmess | @prrofile_purple | 156",
-                "🇮🇷IR | vmess | @prrofile_purple | 158",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 5",
                 "🇺🇸US | vmess | @vless_vmess | 0",
@@ -147,7 +145,9 @@
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇮🇷IR | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇫🇷FR | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -186,12 +186,10 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 1",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | vmess | @prrofile_purple | 156",
-                "🇮🇷IR | vmess | @prrofile_purple | 158",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 5",
                 "🇺🇸US | vmess | @vless_vmess | 0",
@@ -207,7 +205,9 @@
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇮🇷IR | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇫🇷FR | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -682,11 +682,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
-            "server": "188.245.87.178",
-            "server_port": 2086,
-            "uuid": "1bdc1b8f-0a20-4dc8-8f73-e008f64da65e",
+            "server": "104.21.82.17",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -696,6 +696,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
@@ -788,47 +805,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @prrofile_purple | 156",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @prrofile_purple | 158",
-            "type": "vmess",
-            "server": "45.147.77.110",
-            "server_port": 13736,
-            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1204,6 +1180,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "pandor.boats",
@@ -1235,6 +1235,23 @@
                 "headers": {
                     "Host": "aveiror.com"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "45.147.77.110",
+            "server_port": 13736,
+            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
