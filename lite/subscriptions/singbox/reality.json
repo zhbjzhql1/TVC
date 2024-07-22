@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @DailyV2RY | 194",
+                "🇩🇪DE | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 15",
@@ -117,7 +117,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @DailyV2RY | 194",
+                "🇩🇪DE | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 15",
@@ -144,11 +144,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 194",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 14",
             "type": "vless",
-            "server": "157.245.84.255",
-            "server_port": 12345,
-            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -158,7 +158,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "analytics.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -167,16 +167,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
-                    "short_id": "c57d2373"
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
                 }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "refersion.com"
-                ],
-                "path": "\/"
             }
         },
         {
