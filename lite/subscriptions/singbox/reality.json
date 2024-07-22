@@ -106,22 +106,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @DailyV2RY | 203",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 15",
-                "🏳️XX | vless | @SvnTeam | 8"
+                "🇩🇪DE | vless | @SvnTeam | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @DailyV2RY | 203",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 15",
-                "🏳️XX | vless | @SvnTeam | 8"
+                "🇩🇪DE | vless | @SvnTeam | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -144,43 +142,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 203",
-            "type": "vless",
-            "server": "134.122.21.204",
-            "server_port": 12345,
-            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
-                    "short_id": "c57d2373"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "refersion.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @Capital_NET | 45",
+            "tag": "🇺🇸US | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -274,7 +236,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @SvnTeam | 8",
+            "tag": "🇩🇪DE | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "xn--tr8h.snappfoodi.com.",
             "server_port": 8081,
