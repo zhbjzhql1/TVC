@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @VmessProtocol | 19",
-                "🇺🇸US | vless | @Capital_NET | 45",
+                "🇳🇴NO | vless | @VmessProtocol | 23",
+                "🏳️XX | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 15"
             ]
@@ -116,8 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @VmessProtocol | 19",
-                "🇺🇸US | vless | @Capital_NET | 45",
+                "🇳🇴NO | vless | @VmessProtocol | 23",
+                "🏳️XX | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🏳️XX | vless | @GozargahVPN | 15"
             ],
@@ -142,11 +142,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 19",
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 23",
             "type": "vless",
-            "server": "141.95.75.212",
+            "server": "185.125.171.13",
             "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -156,7 +156,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "analytics.google.com",
+                "server_name": "partner.g2.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -165,13 +165,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capital_NET | 45",
+            "tag": "🏳️XX | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
