@@ -136,7 +136,7 @@
                 "🇺🇸US | vmess | @vless_vmess | 8",
                 "🇺🇸US | vmess | @vless_vmess | 9",
                 "🇩🇪DE | vmess | @vless_vmess | 11",
-                "🏳️XX | vmess | @DailyV2RY | 169",
+                "🏳️XX | vmess | @DailyV2RY | 187",
                 "🇮🇷IR | vmess | @proxystore11 | 1",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -147,9 +147,10 @@
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
-                "🇫🇷FR | vmess | @v2Line | 1",
-                "🇺🇸US | vmess | @v2Line | 3",
-                "🇺🇸US | vmess | @v2Line | 5",
+                "🇺🇸US | vmess | @v2Line | 1",
+                "🇫🇷FR | vmess | @v2Line | 2",
+                "🇺🇸US | vmess | @v2Line | 4",
+                "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @FreakConfig | 2",
                 "🇺🇸US | vmess | @kingofilter | 1",
                 "🇺🇸US | vmess | @kingofilter | 3",
@@ -191,7 +192,7 @@
                 "🇺🇸US | vmess | @vless_vmess | 8",
                 "🇺🇸US | vmess | @vless_vmess | 9",
                 "🇩🇪DE | vmess | @vless_vmess | 11",
-                "🏳️XX | vmess | @DailyV2RY | 169",
+                "🏳️XX | vmess | @DailyV2RY | 187",
                 "🇮🇷IR | vmess | @proxystore11 | 1",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -202,9 +203,10 @@
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
-                "🇫🇷FR | vmess | @v2Line | 1",
-                "🇺🇸US | vmess | @v2Line | 3",
-                "🇺🇸US | vmess | @v2Line | 5",
+                "🇺🇸US | vmess | @v2Line | 1",
+                "🇫🇷FR | vmess | @v2Line | 2",
+                "🇺🇸US | vmess | @v2Line | 4",
+                "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @FreakConfig | 2",
                 "🇺🇸US | vmess | @kingofilter | 1",
                 "🇺🇸US | vmess | @kingofilter | 3",
@@ -928,7 +930,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 169",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 187",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1206,6 +1208,40 @@
         {
             "tag": "🇺🇸US | vmess | @v2Line | 0",
             "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2Line | 1",
+            "type": "vmess",
             "server": "172.67.156.22",
             "server_port": 443,
             "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
@@ -1238,7 +1274,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @v2Line | 1",
+            "tag": "🇫🇷FR | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "172.232.43.29",
             "server_port": 443,
@@ -1272,7 +1308,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 3",
+            "tag": "🇺🇸US | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "172.67.219.194",
             "server_port": 443,
@@ -1306,7 +1342,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "pandor.boats",
             "server_port": 443,
