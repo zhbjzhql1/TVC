@@ -118,16 +118,16 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | trojan | @Watashi_VPN | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
+  - {"name":"🇺🇸US | trojan | @Watashi_VPN | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇩🇪DE | vmess | @azadi_az_inja_migzare | 1","type":"vmess","server":"188.245.73.139","port":"41858","cipher":"auto","uuid":"acbc72c9-5b2b-4be2-8ffd-262cda898a3a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 17","type":"trojan","server":"18.171.7.127","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @DirectVPN | 17","type":"trojan","server":"13.42.134.41","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 17","type":"trojan","server":"54.217.54.95","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 17","type":"trojan","server":"34.252.208.246","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🏳️XX | vmess | @mftizi | 19","type":"vmess","server":"alm1.the-galgo.top","port":"32011","cipher":"auto","uuid":"db3c11d8-ae65-40ff-a256-babee94056f6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"188.114.99.205","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
-  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"104.21.82.17","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
-  - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 18","type":"ss","server":"23.157.40.47","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 2","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"🇺🇸US | vmess | @oneclickvpnkeys | 6","type":"vmess","server":"104.21.82.17","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 16","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 2","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
   - {"name":"🇺🇸US | vmess | @kingofilter | 9","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"6647660f-9cfb-4ba3-8ca3-6214cfcdb8f0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
 proxy-groups:
   - name: MANUAL
@@ -135,16 +135,16 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | trojan | @Watashi_VPN | 1'
+      - '🇺🇸US | trojan | @Watashi_VPN | 1'
       - '🇩🇪DE | vmess | @azadi_az_inja_migzare | 1'
-      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
-      - '🇬🇧GB | trojan | @DirectVPN | 17'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 17'
+      - '🇮🇪IE | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🏳️XX | vmess | @mftizi | 19'
       - '🇺🇸US | vmess | @DeamNet_Proxy | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
-      - '🇨🇦CA | vmess | @Hope_Net | 2'
+      - '🇺🇸US | vmess | @oneclickvpnkeys | 6'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 16'
+      - '🇺🇸US | vmess | @Hope_Net | 2'
       - '🇺🇸US | vmess | @kingofilter | 9'
   - name: URL-TEST
     type: url-test
@@ -152,32 +152,32 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | trojan | @Watashi_VPN | 1'
+      - '🇺🇸US | trojan | @Watashi_VPN | 1'
       - '🇩🇪DE | vmess | @azadi_az_inja_migzare | 1'
-      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
-      - '🇬🇧GB | trojan | @DirectVPN | 17'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 17'
+      - '🇮🇪IE | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🏳️XX | vmess | @mftizi | 19'
       - '🇺🇸US | vmess | @DeamNet_Proxy | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
-      - '🇨🇦CA | vmess | @Hope_Net | 2'
+      - '🇺🇸US | vmess | @oneclickvpnkeys | 6'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 16'
+      - '🇺🇸US | vmess | @Hope_Net | 2'
       - '🇺🇸US | vmess | @kingofilter | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | trojan | @Watashi_VPN | 1'
+      - '🇺🇸US | trojan | @Watashi_VPN | 1'
       - '🇩🇪DE | vmess | @azadi_az_inja_migzare | 1'
-      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
-      - '🇬🇧GB | trojan | @DirectVPN | 17'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 17'
+      - '🇮🇪IE | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🏳️XX | vmess | @mftizi | 19'
       - '🇺🇸US | vmess | @DeamNet_Proxy | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
-      - '🇨🇦CA | vmess | @Hope_Net | 2'
+      - '🇺🇸US | vmess | @oneclickvpnkeys | 6'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 16'
+      - '🇺🇸US | vmess | @Hope_Net | 2'
       - '🇺🇸US | vmess | @kingofilter | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
