@@ -109,11 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @vless_vmess | 11",
+                "🇨🇦CA | vmess | @vless_vmess | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @kingofilter | 9"
+                "🇨🇦CA | vmess | @kingofilter | 9"
             ]
         },
         {
@@ -123,11 +123,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @vless_vmess | 11",
+                "🇨🇦CA | vmess | @vless_vmess | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @kingofilter | 9"
+                "🇨🇦CA | vmess | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -193,9 +193,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "172.67.169.189",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,16 +206,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "172.67.169.189"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 11",
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 11",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -341,7 +351,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 9",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 9",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
