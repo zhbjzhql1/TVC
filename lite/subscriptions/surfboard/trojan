@@ -11,14 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | trojan | @Watashi_VPN | 1 = trojan, www.visa.com.sg, 8443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
-🇮🇪IE | trojan | @PrivateVPNs | 17 = trojan, 34.252.174.112, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇺🇸US | trojan | @Watashi_VPN | 1 = trojan, www.visa.com.sg, 8443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 17 = trojan, 34.251.133.46, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @DirectVPN | 17 = trojan, 34.200.107.30, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | trojan | @oneclickvpnkeys | 6 = trojan, 51.158.217.57, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = tojzy.phooeyunfold.com, ws = false
+🇳🇱NL | trojan | @oneclickvpnkeys | 6 = trojan, 51.158.217.57, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = tojzy.phooeyunfold.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇫🇷FR | trojan | @oneclickvpnkeys | 6
-URL-TEST = url-test,🇨🇦CA | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇫🇷FR | trojan | @oneclickvpnkeys | 6
-FALLBACK = fallback,🇨🇦CA | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇫🇷FR | trojan | @oneclickvpnkeys | 6
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇳🇱NL | trojan | @oneclickvpnkeys | 6
+URL-TEST = url-test,🇺🇸US | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇳🇱NL | trojan | @oneclickvpnkeys | 6
+FALLBACK = fallback,🇺🇸US | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇳🇱NL | trojan | @oneclickvpnkeys | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
