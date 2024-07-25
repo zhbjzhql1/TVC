@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @vless_vmess | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ]
         },
@@ -121,10 +122,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @vless_vmess | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -185,6 +187,30 @@
                 "path": "\/v2ray",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "104.19.47.228",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "headers": {
+                    "Host": "104.19.47.228"
                 }
             }
         },
@@ -281,7 +307,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "pandor.boats",
             "server_port": 443,
