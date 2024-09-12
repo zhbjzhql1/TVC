@@ -113,11 +113,11 @@
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
             ]
         },
         {
@@ -131,11 +131,11 @@
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -315,7 +315,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -353,6 +353,23 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
+            "uuid": "acbacab-abca-acba-bcad-cbbbccaaacab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 1080,
             "uuid": "babccaa-abca-aabc-bdca-bcbbacabccaa",
             "security": "auto",
             "alter_id": 0,
@@ -366,41 +383,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "45.67.32.147",
-            "server_port": 40413,
-            "uuid": "6a24c8a8-ac38-4dcc-bfe7-006beefc1dbe",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "free.hardtofind.42web.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/makeacall",
-                "headers": {
-                    "Host": "free.hardtofind.42web.io"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "172.67.221.19",
             "server_port": 80,
@@ -424,7 +407,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "172.64.155.209",
             "server_port": 80,
