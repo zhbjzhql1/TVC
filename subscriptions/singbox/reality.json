@@ -119,8 +119,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "❔XX | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 1",
+                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 0",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -180,8 +181,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "❔XX | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 1",
+                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 0",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -596,7 +598,36 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Outlinev2rayNG | 0",
+            "tag": "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "45.129.228.177",
+            "server_port": 50623,
+            "uuid": "47a7ff3b-6ffb-48d1-d15b-59e830726af5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "shoping-ailg.igshopingai.biz.tr",
             "server_port": 443,
@@ -632,7 +663,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "91.132.50.143",
             "server_port": 8443,
