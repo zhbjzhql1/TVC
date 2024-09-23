@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
@@ -151,7 +153,7 @@
             "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "183.236.51.23",
-            "server_port": 54104,
+            "server_port": 45020,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -168,7 +170,7 @@
             "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "183.236.51.23",
-            "server_port": 45020,
+            "server_port": 54104,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -182,7 +184,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 3",
+            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
             "server": "172.67.244.191",
             "server_port": 443,
@@ -212,6 +214,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
