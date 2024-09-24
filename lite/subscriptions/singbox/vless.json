@@ -152,8 +152,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 323",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 325",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -228,8 +228,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 323",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 325",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1445,7 +1445,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 323",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
@@ -1476,10 +1476,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 325",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "8baccd09-9b09-4fe4-b0e7-c1c4a5688e03",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1488,21 +1488,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "SpeedTest.net"
                 }
             }
         },
