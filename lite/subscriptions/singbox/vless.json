@@ -175,8 +175,8 @@
                 "❔XX | 🔴 | vless | @V2FETCH | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 5",
                 "❔XX | 🔴 | vless | @VpnSkyy | 6",
-                "🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0",
-                "🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0"
+                "🇨🇦CA | 🔴 | vless | @ROMAX_VPN | 0",
+                "🇨🇦CA | 🔴 | vless | @TIKTOK_PROXY | 0"
             ]
         },
         {
@@ -252,8 +252,8 @@
                 "❔XX | 🔴 | vless | @V2FETCH | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 5",
                 "❔XX | 🔴 | vless | @VpnSkyy | 6",
-                "🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0",
-                "🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0"
+                "🇨🇦CA | 🔴 | vless | @ROMAX_VPN | 0",
+                "🇨🇦CA | 🔴 | vless | @TIKTOK_PROXY | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -465,6 +465,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
             "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
+            "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -490,27 +511,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1539,6 +1539,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
+            "server": "104.21.90.210",
+            "server_port": 8443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tnetplus-1wc.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "tnetplus-1wc.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+            "type": "vless",
             "server": "104.21.58.123",
             "server_port": 443,
             "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
@@ -1564,37 +1595,6 @@
                 "path": "\/XuoEiCbBBa78vRAT?ed=2560",
                 "headers": {
                     "Host": "pPal03.OSWIn-jErIKA.WOrKERs.dEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "119f3a0b.chikiy123w.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "119f3a0b.chikiy123w.pages.dev"
                 }
             }
         },
@@ -2051,7 +2051,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @ROMAX_VPN | 0",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -2082,7 +2082,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "medium.com",
             "server_port": 443,
