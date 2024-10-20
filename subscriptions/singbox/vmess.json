@@ -124,7 +124,6 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 12",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 6",
@@ -134,6 +133,7 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 30",
                 "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 31",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 33",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39",
@@ -152,7 +152,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
@@ -183,7 +182,6 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 12",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 6",
@@ -193,6 +191,7 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 30",
                 "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 31",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 33",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39",
@@ -211,7 +210,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
@@ -605,40 +603,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 12",
-            "type": "vmess",
-            "server": "v.valkinin.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v.valkinin.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "v.valkinin.org"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @ShadowProxy66 | 4",
             "type": "vmess",
             "server": null,
@@ -924,6 +888,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "103.215.218.222"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 30",
+            "type": "vmess",
+            "server": "v.valkinin.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v.valkinin.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "v.valkinin.org"
                 }
             }
         },
@@ -1385,30 +1383,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "104.26.13.31",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.26.13.31"
-                }
             }
         },
         {
