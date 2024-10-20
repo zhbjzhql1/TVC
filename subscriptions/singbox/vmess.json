@@ -124,6 +124,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 12",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 6",
@@ -133,7 +134,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 30",
                 "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 31",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 33",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39",
@@ -183,6 +183,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 12",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 6",
@@ -192,7 +193,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 30",
                 "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 31",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 33",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39",
@@ -605,6 +605,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 12",
+            "type": "vmess",
+            "server": "v.valkinin.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v.valkinin.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "v.valkinin.org"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @ShadowProxy66 | 4",
             "type": "vmess",
             "server": null,
@@ -890,40 +924,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "103.215.218.222"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 30",
-            "type": "vmess",
-            "server": "v.valkinin.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v.valkinin.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "v.valkinin.org"
                 }
             }
         },
