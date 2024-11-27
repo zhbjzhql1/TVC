@@ -107,8 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @customv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -118,8 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @customv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -173,40 +171,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
+            "tag": "❔XX | 🔴 | vless | @customv2ray | 5",
             "type": "vless",
-            "server": "ec76.kiava.fun",
-            "server_port": 8443,
-            "uuid": "783164cb-6410-4a96-e432-832489e4848c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wQGZ3Ppa4ajV1HrQUYdpZF9D6yejNt84iWv2fV3kVHc",
-                    "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-            "type": "vless",
-            "server": "four.felinetest.site",
+            "server": "[2a01:4f8:1c1b:7df::1]",
             "server_port": 443,
-            "uuid": "fbe02c0b-775f-4431-8615-a9497255c876",
+            "uuid": "6588de35-8f6c-4c1f-8371-33c04376fca9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -216,7 +185,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "none.felinetest.site",
+                "server_name": "gsmarena.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -225,9 +194,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
-                    "short_id": "6f9deca7"
+                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
+                    "short_id": "32d7a82d"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
