@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -118,7 +117,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -169,35 +167,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "51.158.241.51",
-            "server_port": 443,
-            "uuid": "0f952643-6643-4de6-9cf7-d3a424d01f8b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RaNQIPwfe3N1-BhJ7WKLO90aYcu46xeCJZiFYAbyFWs",
-                    "short_id": "42"
                 }
             }
         },
