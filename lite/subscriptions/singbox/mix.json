@@ -153,11 +153,12 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -227,11 +228,12 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -1421,31 +1423,44 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "172.233.187.44",
+            "server": "unlimiteddev.fastly80-3.hosting-ip.com",
             "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
+            "uuid": "ba6fa866-d85f-454d-ac3f-b707da55ab06",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.233.187.44",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "headers": {
+                    "Host": "unlimiteddev.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "vmessorg.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "a409464b-a13a-4070-96fa-07d916d6bb2e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "headers": {
+                    "Host": "vmessorg.fastly80-3.hosting-ip.com"
                 }
             }
         },
@@ -1508,7 +1523,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "142.0.134.243",
             "server_port": 45017,
@@ -1525,7 +1540,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "188.68.240.160",
             "server_port": 38737,
