@@ -106,24 +106,24 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14"
+                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @mftizi | 18",
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14"
+                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @mftizi | 18",
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -146,7 +146,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "183.236.48.161",
             "server_port": 31878,
@@ -163,7 +163,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "z3.fragranceninja.com",
             "server_port": 12959,
@@ -197,7 +197,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -221,7 +221,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -255,11 +255,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "104.26.0.82",
-            "server_port": 2086,
-            "uuid": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
+            "server": "104.21.238.237",
+            "server_port": 8880,
+            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -274,16 +274,16 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.26.0.82"
+                    "Host": "104.21.238.237"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "104.21.238.166",
-            "server_port": 2086,
-            "uuid": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
+            "server": "si.1808.site",
+            "server_port": 30002,
+            "uuid": "d3d8b781-f30d-4902-8eb0-58b1ca936bec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -294,11 +294,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "si.1808.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/hgqqvws",
                 "headers": {
-                    "Host": "104.21.238.166"
+                    "Host": "si.1808.site"
                 }
             }
         }
