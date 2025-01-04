@@ -148,7 +148,8 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 72",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 73",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -209,7 +210,8 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 72",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 73",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -1223,12 +1225,12 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "65.109.199.233",
-            "server_port": 4050,
-            "uuid": "1df5e589-3301-427e-b0aa-0017ffde1555",
-            "flow": "xtls-rprx-vision",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "tel--ZEDMODEON",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1237,17 +1239,40 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mega.de",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oVRY8h7Njgw25j3CNhaJVMUys378tTvecrSRbrB3gyo",
-                    "short_id": "2ebd6e17dec6a5d9"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "151.101.158.204",
+            "server_port": 80,
+            "uuid": "3c500f0f-64ce-47c5-a0be-04341bebf9c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=64@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "151.101.158.204"
                 }
             }
         },
