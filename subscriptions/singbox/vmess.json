@@ -116,7 +116,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🇸🇨SC | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 144",
@@ -136,6 +136,8 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 32",
                 "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 38",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 11",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -170,7 +172,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🇸🇨SC | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 144",
@@ -190,6 +192,8 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 32",
                 "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 38",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 11",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -400,7 +404,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
             "type": "vmess",
             "server": "hms19.best-tizi.top",
             "server_port": 443,
@@ -944,6 +948,64 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "4b17b1a7-294a-49f7-a919-3ab85076bb32",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
+            "type": "vmess",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "4b17b1a7-294a-49f7-a919-3ab85076bb32",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mio.splashthat.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn",
+                "headers": {
+                    "Host": "mio.splashthat.com"
                 }
             }
         },
