@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -173,6 +175,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "login.fastgozar.xyz",
+            "server_port": 55848,
+            "uuid": "b7a03010-2481-4709-c0e8-a9d382f075d8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google-analytics.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM",
+                    "short_id": ""
+                }
             }
         },
         {
