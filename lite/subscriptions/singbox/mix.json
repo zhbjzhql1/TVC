@@ -155,8 +155,8 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
@@ -233,8 +233,8 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
@@ -1416,32 +1416,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "24c358e1-cba6-41b3-bc24-fe23f978d174",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "phx-plus-1ddns.faforex.eu.org",
-            "server_port": 23258,
-            "uuid": "73159dbd-e01e-4492-a234-e5d7c335b128",
+            "server": "174.138.13.224",
+            "server_port": 15891,
+            "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1451,17 +1430,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "microsoft.com",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BSEvpP7N7XNtOgzDrCFEgu6ejgdBHOYRug6S_lTf5GM",
-                    "short_id": "bfbc4c1f"
+                    "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
+                    "short_id": "10f1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "150.241.102.95",
+            "server_port": 10799,
+            "uuid": "8c319baa-7189-4be2-b8cb-174f1e555ca3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yw374OPQfpF0KpnFYX2zYnO8-NC7RkgGbbiMzmZYvDU",
+                    "short_id": "330602658f0ade"
                 }
             }
         },
