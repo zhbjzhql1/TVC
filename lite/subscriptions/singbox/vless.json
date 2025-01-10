@@ -147,6 +147,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -209,6 +211,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1267,6 +1271,73 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "ns6.esfahansiman.com",
+            "server_port": 2030,
+            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "7fe29733"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@@jet_config-@jet_config-@jet_config",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "ns4.esfahansiman.com",
+            "server_port": 443,
+            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.EsfahAnsimaN.infO.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "WWW.EsfahAnsimaN.infO."
                 }
             }
         },
