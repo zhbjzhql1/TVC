@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 10",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -118,8 +119,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 10",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -146,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @VmessProtocol | 10",
+            "tag": "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "91.184.241.49",
             "server_port": 1300,
@@ -182,7 +184,36 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "150.241.102.95",
+            "server_port": 10799,
+            "uuid": "79409b17-22e9-4cf6-8abb-7fb1cacebe38",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yw374OPQfpF0KpnFYX2zYnO8-NC7RkgGbbiMzmZYvDU",
+                    "short_id": "330602658f0ade"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
             "server": "178.128.236.252",
             "server_port": 443,
