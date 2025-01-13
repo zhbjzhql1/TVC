@@ -153,8 +153,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -230,8 +230,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -1398,33 +1398,11 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 17",
-            "type": "trojan",
-            "server": "54.72.188.173",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "cab4263d-5582-47be-aff9-406ddab106d0",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1432,21 +1410,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "65.21.153.186",
+            "server_port": 443,
+            "uuid": "95089f63-c732-4594-bfcb-c8180bd09a1c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "path": "\/",
                 "headers": {
-                    "Host": "hajlab.ucdavis.edu"
+                    "Host": "65.21.153.186"
                 }
             }
         },
