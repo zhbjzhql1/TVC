@@ -112,12 +112,12 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -150,6 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
+                "🇯🇵JP | 🔴 | vless | @DailyV2RY | 364",
                 "❔XX | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -179,12 +180,12 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -217,6 +218,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
+                "🇯🇵JP | 🔴 | vless | @DailyV2RY | 364",
                 "❔XX | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -398,7 +400,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -419,7 +421,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -503,7 +505,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1256,6 +1258,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "sni2.tohid3aeed.com"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🔴 | vless | @DailyV2RY | 364",
+            "type": "vless",
+            "server": "54.178.127.19",
+            "server_port": 35107,
+            "uuid": "36ac48d1-4242-4a94-ac8c-fe4c3ebd8317",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bing",
+                "headers": {
+                    "Host": "54.178.127.19"
                 }
             }
         },
