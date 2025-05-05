@@ -162,10 +162,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 11",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
@@ -244,10 +244,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 11",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
@@ -1555,7 +1555,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "jp6.g2.moonbase.life",
             "server_port": 35216,
@@ -1589,7 +1589,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "45.147.201.231",
             "server_port": 20023,
@@ -1634,7 +1634,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
+            "server": "45.131.6.160",
+            "server_port": 443,
+            "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "CxNiMjJz.cAfUnEaR.InFo",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "CxNiMjJz.cAfUnEaR.InFo"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "104.21.80.1",
             "server_port": 80,
@@ -1651,27 +1682,6 @@
                 "path": "\/Telegram-Telegram-mtmvpn---Telegram-mtmvpn",
                 "headers": {
                     "Host": "104.21.80.1"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512",
-                "headers": {
-                    "Host": "104.17.147.22"
                 }
             }
         },
