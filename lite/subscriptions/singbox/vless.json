@@ -122,7 +122,7 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-                "🇫🇮FI | 🔴 | vless | @vpn_xw | 1",
+                "🇩🇪DE | 🔴 | vless | @vpn_xw | 1",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -141,7 +141,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -187,7 +187,7 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-                "🇫🇮FI | 🔴 | vless | @vpn_xw | 1",
+                "🇩🇪DE | 🔴 | vless | @vpn_xw | 1",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -206,7 +206,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -641,7 +641,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @vpn_xw | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @vpn_xw | 1",
             "type": "vless",
             "server": "3982390233.torob.com.tr",
             "server_port": 2182,
@@ -1107,17 +1107,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
+            "tag": "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
             "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "e265d9b6-a091-45bb-896b-0b2b7c9a144c",
-            "flow": "",
+            "server": "54.80.121.136",
+            "server_port": 443,
+            "uuid": "7f93e196-1b2f-4a42-8051-5815554c05db",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg",
+                    "short_id": "7a2b"
+                }
             }
         },
         {
