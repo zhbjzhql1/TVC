@@ -107,10 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
+                "🇩🇪DE | 🔴 | vless | @customv2ray | 22",
                 "🇩🇪DE | 🟢 | vless | @vmessorg | 8",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 14",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 15",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇨🇿CZ | 🔴 | vless | @mehrosaboran | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -123,10 +121,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
+                "🇩🇪DE | 🔴 | vless | @customv2ray | 22",
                 "🇩🇪DE | 🟢 | vless | @vmessorg | 8",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 14",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 15",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇨🇿CZ | 🔴 | vless | @mehrosaboran | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -190,74 +186,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @vmessorg | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @customv2ray | 22",
             "type": "vless",
-            "server": "bmi.raheaiande.ir",
-            "server_port": 1001,
-            "uuid": "a94aed17-d42d-44eb-b93b-f9dae97b063e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ea.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
-                    "short_id": "c7bc4d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 14",
-            "type": "vless",
-            "server": "91.107.251.56",
-            "server_port": 22,
-            "uuid": "8f10f456-fbb0-492a-a71b-9b88cde3e5aa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "O1JNAhjldpMPvqA-GCbjVlm1gvVQSYAtXULtfC-9z1w",
-                    "short_id": "d757f949ab85"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "کانال‌تلگرام @ev2rayy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 15",
-            "type": "vless",
-            "server": "5.75.197.120",
+            "server": "pouriacheat.fergalvpnmod.com",
             "server_port": 2025,
             "uuid": "54b4c039-7be6-448f-b704-820251b079db",
             "flow": "xtls-rprx-vision",
@@ -291,11 +222,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | @vmessorg | 8",
             "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "22477fe4-249e-4c18-8986-74b0f1f0657e",
+            "server": "bmi.raheaiande.ir",
+            "server_port": 1001,
+            "uuid": "a94aed17-d42d-44eb-b93b-f9dae97b063e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -305,17 +236,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vultr.com",
+                "server_name": "ea.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "edge"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
+                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
+                    "short_id": "c7bc4d"
                 }
             }
         },
