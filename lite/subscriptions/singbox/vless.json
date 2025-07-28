@@ -126,7 +126,7 @@
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | 🔴 | vless | @rxv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @rxv2ray | 17",
                 "🇫🇮FI | 🔴 | vless | @rxv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 4",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -162,7 +162,7 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 2",
-                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 3",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -173,6 +173,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 15",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 27",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 28",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 8",
@@ -216,7 +217,7 @@
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | 🔴 | vless | @rxv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @rxv2ray | 17",
                 "🇫🇮FI | 🔴 | vless | @rxv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 4",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -252,7 +253,7 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 2",
-                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 3",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -263,6 +264,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 15",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 27",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 28",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 8",
@@ -744,7 +746,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @rxv2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @rxv2ray | 17",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 80,
@@ -1564,7 +1566,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "104.16.69.162",
             "server_port": 8880,
@@ -1758,6 +1760,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+            "type": "vless",
+            "server": "crazy-identity.oneeat.co",
+            "server_port": 80,
+            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "crazy-identity.oneeat.co"
+                }
             }
         },
         {
