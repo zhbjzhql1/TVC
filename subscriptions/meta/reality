@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇩🇪DE | 🔴 | vless | @v2_team | 0","type":"vless","server":"gr.globalunlimitedinternet.xyz","port":1911,"udp":true,"uuid":"7eac3c03-5204-4d53-833a-a131639f1f5f","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.refersion.com","grpc-opts":{"grpc-service-name":"grpc.reality"},"reality-opts":{"public-key":"VCwUyNFL_IMTZfEKeIUYEuXbPfzCpuUBGNW1kAu2VW4","short-id":"32aaf12b"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @v2_team | 1","type":"vless","server":"gr.globalunlimitedinternet.xyz","port":1911,"udp":true,"uuid":"56ac4f3a-8cbf-4748-966e-0e723317e0af","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"refersion.com","grpc-opts":{"grpc-service-name":"grpc.reality"},"reality-opts":{"public-key":"VCwUyNFL_IMTZfEKeIUYEuXbPfzCpuUBGNW1kAu2VW4","short-id":"32aaf12b"}}
   - {"name":"🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 0","type":"vless","server":"uk1.configlinepanel.com","port":8443,"udp":true,"uuid":"cd307b67-8180-491c-ad97-5dfd74cb38de","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","reality-opts":{"public-key":"nn2Vf-5Q8DqxunZXrhIXUr329pkYvLyEb10zRVjpIxk"}}
   - {"name":"🇫🇮FI | 🔴 | vless | @melov2ray | 3","type":"vless","server":"65.109.221.186","port":2083,"udp":true,"uuid":"b131228a-b895-4237-ac4b-0edad7759468","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"khamenei.ir","grpc-opts":{"grpc-service-name":"melov2ray"},"reality-opts":{"public-key":"mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8","short-id":"54602915a7"}}
@@ -189,6 +190,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇩🇪DE | 🔴 | vless | @v2_team | 0'
       - '🇩🇪DE | 🔴 | vless | @v2_team | 1'
       - '🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 0'
       - '🇫🇮FI | 🔴 | vless | @melov2ray | 3'
@@ -258,6 +260,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇩🇪DE | 🔴 | vless | @v2_team | 0'
       - '🇩🇪DE | 🔴 | vless | @v2_team | 1'
       - '🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 0'
       - '🇫🇮FI | 🔴 | vless | @melov2ray | 3'
@@ -326,6 +329,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇩🇪DE | 🔴 | vless | @v2_team | 0'
       - '🇩🇪DE | 🔴 | vless | @v2_team | 1'
       - '🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 0'
       - '🇫🇮FI | 🔴 | vless | @melov2ray | 3'
