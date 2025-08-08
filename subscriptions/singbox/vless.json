@@ -377,8 +377,8 @@
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 8",
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 10",
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 14",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 0",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 2",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 0",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 2",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 4",
                 "🚩CF | 🔴 | vless | @vmessorg | 5",
                 "🚩CF | 🔴 | vless | @vmessorg | 7",
@@ -499,6 +499,10 @@
                 "🚩CF | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 3",
+                "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 2",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -903,8 +907,8 @@
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 8",
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 10",
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 14",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 0",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 2",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 0",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 2",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 4",
                 "🚩CF | 🔴 | vless | @vmessorg | 5",
                 "🚩CF | 🔴 | vless | @vmessorg | 7",
@@ -1025,6 +1029,10 @@
                 "🚩CF | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 3",
+                "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 2",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -7758,7 +7766,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 0",
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 80,
@@ -7779,7 +7787,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 2",
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 80,
@@ -10712,6 +10720,84 @@
                 "headers": {
                     "Host": "172.66.40.99"
                 }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "46.203.124.170",
+            "server_port": 44174,
+            "uuid": "27bf0617-9625-4977-a987-eb08e35c8bd6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zAZ7rKqhhCWOKTOMlyEvjFtkkuR1PsLbSU1Xp7QGlQ8",
+                    "short_id": "f64ef7b3"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "65.109.201.108",
+            "server_port": 443,
+            "uuid": "b17ec18e-99af-40af-962b-0ad1b987d740",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "144.24.78.162",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "382c44c1-0293-48e4-a85e-091d126480f1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
