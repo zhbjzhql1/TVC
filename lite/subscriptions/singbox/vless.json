@@ -152,8 +152,8 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 38",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 39",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 16",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 17",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
@@ -176,7 +176,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -249,8 +248,8 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 38",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 39",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 16",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 17",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
@@ -273,7 +272,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -1374,7 +1372,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 8080,
@@ -1395,7 +1393,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 8080,
@@ -1838,23 +1836,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.67.211.227",
-            "server_port": 2082,
-            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
+            "server": "104.21.32.1",
+            "server_port": 443,
+            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1862,11 +1846,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "FqJEDazA7b2VofJ9iHeMX319rmO41l7b.paGEs.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram@filter_breaker\/?ed=2560",
+                "path": "\/Join---planB_proxy---BIA---planB_proxy---BIA---planB_proxy---BIA---planB_proxy=?ed=2560",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "FqJEDazA7b2VofJ9iHeMX319rmO41l7b.paGEs.DeV"
                 }
             }
         },
